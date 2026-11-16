@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>卡牌修仙传 · 图鉴全攻略</title>
+<style>
+  :root {
+    --bg-outer: #1d1915;
+    --bg-ink: #27211b;
+    --parchment: #e9dec9;
+    --parchment-light: #f3ecdd;
+    --parchment-dark: #d9cab0;
+    --card-bg: #6f5d4b;
+    --card-header: #211d18;
+    --ink: #2d241b;
+    --ink-body: #584931;
+    --ink-muted: #7e6e56;
+    --accent-gold: #e7c86b;
+    --accent-gold-dark: #9d7827;
+    --accent-red: #a34838;
+    --accent-tab: #c69a88;
+    --border-dark: #1f1a15;
+    --border-soft: #c7b596;
+    --warn-bg: #fff3cd;
+    --warn-border: #d6a22a;
+    --ok-green: #386b42;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background:
+      radial-gradient(ellipse at 20% 0%, rgba(231, 200, 107, 0.08), transparent 55%),
+      radial-gradient(ellipse at 85% 100%, rgba(163, 72, 56, 0.10), transparent 55%),
+      var(--bg-outer);
+    color: var(--ink);
+    font-family: "STKaiti", "KaiTi", "FangSong", "Noto Serif SC", "PingFang SC", "Microsoft YaHei", serif;
+    min-height: 100vh;
+    line-height: 1.65;
+  }
+
+  .app-shell {
+    max-width: 1460px;
+    margin: 0 auto;
+    padding: 20px 18px 40px;
+  }
+
+  /* 顶部标题栏 */
+  .top-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    padding: 14px 22px;
+    background: linear-gradient(180deg, #322a22 0%, #241e18 100%);
+    border: 2px solid #0f0d0a;
+    border-bottom: 3px solid var(--accent-gold-dark);
+    border-radius: 6px 6px 0 0;
+    color: var(--parchment-light);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .brand-seal {
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+    background: var(--accent-red);
+    border: 2px solid #f2dec0;
+    color: #fff8eb;
+    display: grid;
+    place-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+    box-shadow: inset 0 0 0 2px rgba(0,0,0,0.2);
+    flex-shrink: 0;
+  }
+
+  .brand h1 {
+    font-size: 23px;
+    letter-spacing: 2px;
+    color: var(--accent-gold);
+    text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+  }
+
+  .brand-sub {
+    font-size: 13px;
+    color: #bfb199;
+    font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+
+  .header-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+
+  .btn {
+    cursor: pointer;
+    border: 1.5px solid #594b3b;
+    background: #3a3128;
+    color: var(--parchment-light);
+    padding: 7px 13px;
+    border-radius: 4px;
+    font-size: 13px;
+    transition: all 0.15s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: inherit;
+  }
+
+  .btn:hover { background: #4b3f33; border-color: var(--accent-gold); }
+  .btn.active {
+    background: var(--accent-gold);
+    color: #1f1912;
+    border-color: #fff1b8;
+    font-weight: 600;
+  }
+  .btn-light {
+    background: var(--parchment-light);
+    color: var(--ink);
+    border-color: #9e8b6e;
+  }
+  .btn-light:hover { background: #fffaf0; border-color: var(--accent-red); }
+  .btn-primary {
+    background: var(--accent-red);
+    color: #fff9ef;
+    border-color: #7d2e20;
+  }
+  .btn-primary:hover { background: #b85341; }
+
+  /* 分类页签 */
+  .category-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 10px 16px 0;
+    background: #2b241d;
+    border-left: 2px solid #0f0d0a;
+    border-right: 2px solid #0f0d0a;
+  }
+
+  .cat-tab {
+    cursor: pointer;
+    padding: 9px 18px;
+    background: #877860;
+    color: #f4ecdc;
+    border: 2px solid #181410;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 0.15s ease;
+  }
+  .cat-tab:hover { background: #9c8c71; }
+  .cat-tab.active {
+    background: linear-gradient(180deg, #f6e18b 0%, #dfc065 100%);
+    color: #261d12;
+  }
+  .cat-tab .count {
+    font-size: 12px;
+    opacity: 0.8;
+    margin-left: 5px;
+    font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+
+  /* 卷轴羊皮纸主框 */
+  .scroll-frame {
+    background: var(--parchment);
+    border: 3px solid var(--border-dark);
+    border-radius: 0 0 6px 6px;
+    box-shadow:
+      inset 0 0 40px rgba(120, 95, 60, 0.18),
+      0 14px 36px rgba(0, 0, 0, 0.5);
+    min-height: 680px;
+  }
+
+  /* 工具栏：搜索 & 筛选 */
+  .toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 14px 20px;
+    background: rgba(212, 196, 168, 0.55);
+    border-bottom: 1.5px solid var(--border-soft);
+    font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+
+  .search-wrap {
+    position: relative;
+    flex: 1 1 280px;
+    max-width: 440px;
+  }
+
+  .search-input {
+    width: 100%;
+    padding: 8px 34px 8px 14px;
+    border: 1.5px solid #9d8b6f;
+    border-radius: 4px;
+    background: var(--parchment-light);
+    color: var(--ink);
+    font-size: 14px;
+    outline: none;
+  }
+  .search-input:focus { border-color: var(--accent-red); background: #fffdf8; }
+
+  .search-clear {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    color: var(--ink-muted);
+    cursor: pointer;
+    font-size: 16px;
+    display: none;
+  }
+
+  .filter-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+  }
+
+  .chip {
+    cursor: pointer;
+    padding: 5px 12px;
+    border-radius: 3px;
+    border: 1px solid #ad9a7d;
+    background: #dfd2bc;
+    color: #4b3d2b;
+    font-size: 13px;
+    transition: all 0.12s;
+  }
+  .chip:hover { background: #e9decb; }
+  .chip.active {
+    background: var(--accent-red);
+    color: #fff8ee;
+    border-color: #7d3022;
+    font-weight: 600;
+  }
+
+  .stats-text {
+    color: var(--ink-muted);
+    font-size: 13px;
+  }
+
+  /* 视图1：仿游戏图鉴双栏布局 */
+  .codex-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.48fr) minmax(340px, 1fr);
+    min-height: 620px;
+  }
+
+  .card-grid-pane {
+    padding: 20px;
+    border-right: 1.5px solid var(--border-soft);
+    max-height: 76vh;
+    overflow-y: auto;
+  }
+
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 13px;
+  }
+
+  .card-tile {
+    cursor: pointer;
+    position: relative;
+    background: linear-gradient(180deg, #221d18 0%, #221d18 24%, #826e5a 24%, #6a5847 100%);
+    border: 2px solid #1b1713;
+    border-radius: 3px;
+    overflow: hidden;
+    aspect-ratio: 124 / 166;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.22);
+  }
+
+  .card-tile:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.32);
+  }
+
+  .card-tile.selected {
+    outline: 3px solid #ffffff;
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.85), 0 6px 16px rgba(0, 0, 0, 0.4);
+    z-index: 2;
+  }
+
+  .card-tile.locked img.full-card-img { filter: saturate(0.75); }
+
+  .lock-ribbon {
+    text-shadow: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 8px;
+    margin: 0 auto;
+    width: fit-content;
+    background: rgba(48, 38, 28, 0.86);
+    color: #f3e5c6;
+    border: 1px solid #c9a96a;
+    border-radius: 3px;
+    font-size: 11.5px;
+    padding: 1px 7px;
+    letter-spacing: 1px;
+    font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+    pointer-events: none;
+  }
+
+  .new-badge {
+    position: absolute;
+    top: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #c0392b;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 0 6px;
+    border-radius: 8px;
+    border: 1px solid #fff2d6;
+    font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+
+  .lock-banner {
+    background: #efe4cf;
+    border: 1.5px dashed #a88b5c;
+    color: #5a4529;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    margin-bottom: 12px;
+    line-height: 1.6;
+    font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+
+  .status-tag {
+    text-shadow: none;            /* 不继承标题的描边阴影，否则会出现“残影” */
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    display: inline-block;
+    font-size: 12px;
+    padding: 0 7px;
+    border-radius: 3px;
+    margin-left: 8px;
+    vertical-align: middle;
+    font-weight: 600;
+    font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+  .status-tag.locked { background: #d8c9ab; color: #5b4628; border: 1px solid #a88b5c; }
+  .status-tag.new { background: #c0392b; color: #fff; }
+
+  .card-tile img.full-card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .card-tile-fallback {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+
+  .card-tile-title {
+    background: #1f1b16;
+    color: #f4ebd8;
+    font-size: 13px;
+    text-align: center;
+    padding: 4px 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    letter-spacing: 0.5px;
+  }
+
+  .card-tile-body {
+    flex: 1;
+    display: grid;
+    place-items: center;
+    color: #efe3c8;
+    font-size: 22px;
+    padding: 6px;
+  }
+
+  .card-name-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(18, 14, 10, 0.85));
+    color: #f6eedc;
+    font-size: 12px;
+    text-align: center;
+    padding: 12px 3px 3px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+  .card-tile:hover .card-name-caption { opacity: 1; }
+  /* 未获得卡牌：卡面本身已有名字，隐藏悬停名称条，避免和“🔒 未获得”标签叠在一起 */
+  .card-tile.locked .card-name-caption { display: none; }
+
+  .review-dot {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #f0ad1f;
+    border: 1.5px solid #231b10;
+  }
+
+  .edited-dot {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #4caf50;
+    border: 1.5px solid #162817;
+  }
+
+  /* 右侧详情栏 */
+  .detail-pane {
+    padding: 22px 26px;
+    background: linear-gradient(180deg, rgba(243, 236, 221, 0.55) 0%, rgba(229, 217, 194, 0.55) 100%);
+    max-height: 76vh;
+    overflow-y: auto;
+  }
+
+  .detail-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+
+  .detail-icon {
+    max-width: 185px;
+    max-height: 165px;
+    border-radius: 6px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+  }
+
+  .detail-title-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 14px;
+    border-bottom: 2px solid #d5c3a5;
+  }
+
+  .detail-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #fffdf7;
+    letter-spacing: 2px;
+    text-shadow:
+      -1.5px -1.5px 0 #261e16,
+       1.5px -1.5px 0 #261e16,
+      -1.5px  1.5px 0 #261e16,
+       1.5px  1.5px 0 #261e16,
+       0 2px 4px rgba(0, 0, 0, 0.35);
+  }
+
+  .detail-meta {
+    font-size: 12px;
+    color: var(--ink-muted);
+    font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+
+  .detail-body p {
+    font-size: 18px;
+    color: var(--ink-body);
+    text-indent: 2em;
+    margin-bottom: 10px;
+    line-height: 1.78;
+  }
+
+  .detail-section-title {
+    font-size: 19px;
+    font-weight: 700;
+    color: #43341f;
+    margin: 16px 0 8px;
+    letter-spacing: 1px;
+  }
+
+  .detail-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 18px;
+    padding-top: 14px;
+    border-top: 1px dashed var(--border-soft);
+    font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+
+  .warn-banner {
+    background: var(--warn-bg);
+    border: 1px solid var(--warn-border);
+    color: #6b4e09;
+    padding: 7px 11px;
+    border-radius: 4px;
+    font-size: 12.5px;
+    margin-bottom: 12px;
+    font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+
+  /* 对照原图校对区 */
+  .proofread-box {
+    margin-top: 14px;
+    padding: 14px;
+    background: var(--parchment-light);
+    border: 1.5px solid #b59f7e;
+    border-radius: 5px;
+    font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+
+  .proofread-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .proofread-img-wrap {
+    border: 1px solid #c5b394;
+    border-radius: 4px;
+    overflow: auto;
+    max-height: 360px;
+    background: #e5d8bf;
+  }
+
+  .proofread-img-wrap img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .proofread-box label {
+    display: block;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: #5b4a34;
+    margin-bottom: 4px;
+  }
+
+  .proofread-box input,
+  .proofread-box textarea {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1.5px solid #ab9778;
+    border-radius: 4px;
+    background: #fffdf8;
+    color: var(--ink);
+    font-size: 14px;
+    line-height: 1.65;
+    font-family: inherit;
+    margin-bottom: 10px;
+  }
+
+  .proofread-box textarea {
+    min-height: 180px;
+    resize: vertical;
+  }
+
+  /* 视图2：全文列表模式（适合通读与查资料） */
+  .list-view {
+    padding: 20px 24px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(430px, 1fr));
+    gap: 16px;
+  }
+
+  .list-card {
+    background: var(--parchment-light);
+    border: 1.5px solid #bfa989;
+    border-radius: 5px;
+    padding: 16px 18px;
+    display: flex;
+    gap: 15px;
+    box-shadow: 0 2px 6px rgba(60, 45, 25, 0.08);
+  }
+
+  .list-card-thumb {
+    width: 78px;
+    flex-shrink: 0;
+  }
+
+  .list-card-thumb img {
+    width: 100%;
+    border-radius: 3px;
+    border: 1.5px solid #262019;
+    display: block;
+  }
+
+  .list-card-content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .list-card-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 8px;
+    border-bottom: 1px solid #d8c8ae;
+    padding-bottom: 5px;
+    margin-bottom: 8px;
+  }
+
+  .list-card-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2f2316;
+  }
+
+  .list-card-body p {
+    font-size: 15.5px;
+    color: var(--ink-body);
+    margin-bottom: 6px;
+    line-height: 1.65;
+  }
+
+  .list-card-sec {
+    font-size: 15.5px;
+    font-weight: 700;
+    color: var(--accent-red);
+    margin: 8px 0 4px;
+  }
+
+  mark {
+    background: #f8da6d;
+    color: #231a0d;
+    padding: 0 2px;
+    border-radius: 2px;
+  }
+
+  /* 空状态指引 */
+  .empty-state {
+    padding: 64px 28px;
+    text-align: center;
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  .empty-state h2 {
+    font-size: 26px;
+    color: #3a2d1e;
+    margin-bottom: 14px;
+  }
+
+  .empty-steps {
+    text-align: left;
+    background: var(--parchment-light);
+    border: 1.5px solid var(--border-soft);
+    border-radius: 6px;
+    padding: 20px 26px;
+    margin-top: 20px;
+    font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-size: 14.5px;
+    line-height: 1.9;
+  }
+
+  .empty-steps code {
+    background: #e5d7be;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-weight: 600;
+  }
+
+  .toast {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    background: #241e18;
+    color: #f8eedb;
+    border: 1.5px solid var(--accent-gold);
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-size: 13.5px;
+    font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.45);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(10px);
+    transition: all 0.2s ease;
+    z-index: 999;
+  }
+  .toast.show { opacity: 1; transform: translateY(0); }
+
+  footer {
+    text-align: center;
+    color: #8f816d;
+    font-size: 12.5px;
+    margin-top: 18px;
+    font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+
+  @media (max-width: 1080px) {
+    .codex-layout { grid-template-columns: 1fr; }
+    .card-grid-pane { border-right: none; border-bottom: 2px solid var(--border-soft); max-height: 48vh; }
+    .card-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  }
+  @media (max-width: 680px) {
+    .card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .list-view { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="app-shell">
+  <header class="top-header">
+    <div class="brand">
+      <div class="brand-seal">图鉴</div>
+      <div>
+        <h1>卡牌修仙传 · 图鉴攻略</h1>
+        <div class="brand-sub" id="headerSub">收录图鉴资料 · 支持全文检索与 GitHub Pages 部署</div>
+      </div>
+    </div>
+    <div class="header-actions">
+      <button class="btn active" id="btnViewCodex" onclick="setView('codex')">图鉴视图</button>
+      <button class="btn" id="btnViewList" onclick="setView('list')">全文列表</button>
+      <button class="btn" id="btnExportMd" onclick="downloadMarkdown()">导出 Markdown</button>
+      <button class="btn" id="btnExportJson" onclick="downloadEditedJson()" style="display:none;">下载修正 JSON</button>
+    </div>
+  </header>
+
+  <nav class="category-tabs" id="categoryTabs"></nav>
+
+  <main class="scroll-frame" id="mainFrame">
+    <div class="toolbar" id="toolbar" style="display:none;">
+      <div class="search-wrap">
+        <input type="text" class="search-input" id="searchInput" placeholder="搜索名称、效果描述、获取途径…" oninput="onSearchInput()">
+        <button class="search-clear" id="searchClear" onclick="clearSearch()" title="清空">×</button>
+      </div>
+      <div class="filter-group" id="filterChips"></div>
+      <div class="stats-text" id="statsText"></div>
+    </div>
+    <div id="contentRoot"></div>
+  </main>
+
+  <footer id="footerInfo">卡牌修仙传图鉴攻略 · 生成时间：2026-11-17 04:22</footer>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script id="guide-data" type="application/json">{"generated_at": "2026-11-17 04:22", "categories": [{"slug": "kapai_ganwu_xinfa", "category": "感悟&心法", "full_category": "卡牌 / 感悟&心法", "updated_at": "2026-11-17 03:21", "last_run_at": "2026-11-17T03:18:24", "ocr_engine": "PP-OCRv5 mobile", "items": [{"index": 0, "row": 0, "col": 0, "name": "思绪", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/000.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/000.png", "detail_image": "assets/kapai_ganwu_xinfa/details/000.jpg", "intro_paragraphs": ["修炼过程中有感而发的想法，不成文章。如若是整理整理思绪，或许能化作有用感悟。", "思绪是感悟卡中最基础的卡牌，它可以在修炼工作台中逐渐“升级”至更细化的感悟。"], "sections": [{"title": "获取途径", "paragraphs": ["主角/神识修炼时有10%概率获得；修炼时加入灵气，有15%概率获得，且累计一定修炼次数后必定获得；加入混沌灵气的修炼，有20%概率获得；", "加入兽血炼制神品内丹，累计一定炼制次数后定获得；", "炼制妖王内丹结束轮有25%根率获得；", "在碑地点中祭拜有25%概率家得；", "调查宁静之地时，最后奖励有50%概率获得。"]}], "full_text": "修炼过程中有感而发的想法，不成文章。如若是整理整理思绪，或许能化作有用感悟。\n思绪是感悟卡中最基础的卡牌，它可以在修炼工作台中逐渐“升级”至更细化的感悟。\n\n【获取途径】\n主角/神识修炼时有10%概率获得；修炼时加入灵气，有15%概率获得，且累计一定修炼次数后必定获得；加入混沌灵气的修炼，有20%概率获得；\n加入兽血炼制神品内丹，累计一定炼制次数后定获得；\n炼制妖王内丹结束轮有25%根率获得；\n在碑地点中祭拜有25%概率家得；\n调查宁静之地时，最后奖励有50%概率获得。", "avg_confidence": 0.9631, "needs_review": false, "status": "已获得", "captured_at": "2026-11-17T02:45:29"}, {"index": 1, "row": 0, "col": 1, "name": "悟道", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/001.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/001.png", "detail_image": "assets/kapai_ganwu_xinfa/details/001.jpg", "intro_paragraphs": ["偶有一丝想法缠绕在脑中花些许时间悟道，会得到心法。", "可以在修炼工作台悟道，从而获得心法。"], "sections": [{"title": "获取途径", "paragraphs": ["主角/神识在修炼时加入混沌灵气，累计一定次数后必定获得；", "思绪+任意感悟卡修炼后累计一定次数必定获得；", "思绪+心境修炼后必定获得；", "在碑地点中祭拜有10%概率获得：", "调查混沌之地时，直最后奖励有50%概率获得。"]}], "full_text": "偶有一丝想法缠绕在脑中花些许时间悟道，会得到心法。\n可以在修炼工作台悟道，从而获得心法。\n\n【获取途径】\n主角/神识在修炼时加入混沌灵气，累计一定次数后必定获得；\n思绪+任意感悟卡修炼后累计一定次数必定获得；\n思绪+心境修炼后必定获得；\n在碑地点中祭拜有10%概率获得：\n调查混沌之地时，直最后奖励有50%概率获得。", "avg_confidence": 0.9397, "needs_review": false, "status": "已获得", "captured_at": "2026-11-17T02:45:38"}, {"index": 2, "row": 0, "col": 2, "name": "心境", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/002.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/002.png", "detail_image": "assets/kapai_ganwu_xinfa/details/002.jpg", "intro_paragraphs": ["一种平静的状态，无喜无悲，无物无我。能够安抚心里的情绪，抵消心魔的侵扰。", "可以在恢复工作台消除心魔；和思绪卡结合成悟道；"], "sections": [{"title": "获取途径", "paragraphs": ["主角/神识修炼时加入灵气，有10%概率获得；加入混沌灵气修炼，有20%概率获得；", "在凝土墟掩埋骸骨后必定获得；", "在碑地点中祭拜有20%概率家得", "调查宁静之地时，最后奖励有50%概率获得"]}], "full_text": "一种平静的状态，无喜无悲，无物无我。能够安抚心里的情绪，抵消心魔的侵扰。\n可以在恢复工作台消除心魔；和思绪卡结合成悟道；\n\n【获取途径】\n主角/神识修炼时加入灵气，有10%概率获得；加入混沌灵气修炼，有20%概率获得；\n在凝土墟掩埋骸骨后必定获得；\n在碑地点中祭拜有20%概率家得\n调查宁静之地时，最后奖励有50%概率获得", "avg_confidence": 0.9482, "needs_review": false, "status": "已获得", "captured_at": "2026-11-17T02:45:45"}, {"index": 3, "row": 0, "col": 3, "name": "顿悟", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/003.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/003.png", "detail_image": "assets/kapai_ganwu_xinfa/details/003.jpg", "intro_paragraphs": ["坐忘三载，不如一瞬通明；", "顿悟是更高级的“悟道”，使用顿悟，可以获得品质更高的心法；"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，通过感悟合成心法累计一定次数后必定获得："]}], "full_text": "坐忘三载，不如一瞬通明；\n顿悟是更高级的“悟道”，使用顿悟，可以获得品质更高的心法；\n\n【获取途径】\n筑基期后，通过感悟合成心法累计一定次数后必定获得：", "avg_confidence": 0.9714, "needs_review": false, "status": "已获得", "captured_at": "2026-11-17T02:45:51"}, {"index": 4, "row": 0, "col": 4, "name": "剑意", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/004.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/004.png", "detail_image": "assets/kapai_ganwu_xinfa/details/004.jpg", "intro_paragraphs": ["我已疑聚剑意，可我的剑应该为何而使呢？也许，在某些地点，我才能真正领悟自己的剑道所向。"], "sections": [{"title": "获取途径", "paragraphs": ["修炼剑魂残魄后有50%概率家得；", "击败剑家中的剑灵后定掉落；", "在剑家中自己拔剑有10%概率获得；", "筑基期及以上的玄剑阁修士交易物有10%概率生成；", "筑基期后，修炼思绪+剑芒获得；", "结丹期后，修炼思绪+思绪可自选"]}], "full_text": "我已疑聚剑意，可我的剑应该为何而使呢？也许，在某些地点，我才能真正领悟自己的剑道所向。\n\n【获取途径】\n修炼剑魂残魄后有50%概率家得；\n击败剑家中的剑灵后定掉落；\n在剑家中自己拔剑有10%概率获得；\n筑基期及以上的玄剑阁修士交易物有10%概率生成；\n筑基期后，修炼思绪+剑芒获得；\n结丹期后，修炼思绪+思绪可自选", "avg_confidence": 0.9351, "needs_review": false, "status": "已获得", "captured_at": "2026-11-17T02:45:52"}, {"index": 5, "row": 0, "col": 5, "name": "招式", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/005.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/005.png", "detail_image": "assets/kapai_ganwu_xinfa/details/005.jpg", "intro_paragraphs": ["在日复一日的战斗中，我的战斗技巧已得到提升。可将技能卡提升一个境界；"], "sections": [{"title": "获取途径", "paragraphs": ["修炼金刚拳法（二），混元破障拳后获得", "筑基期后，思绪+身法修炼后必定获得：", "修炼顿悟后可自选：", "在金芒矿/凝土墟中修炼御物必定获得；", "在剑家拔剑有10%概率获得；", "击败剑冢中的绝品小妖剑定获得：", "结丹期后，修炼思绪+思绪可自选：修炼剑魂残魄后有50%概率获得。"]}], "full_text": "在日复一日的战斗中，我的战斗技巧已得到提升。可将技能卡提升一个境界；\n\n【获取途径】\n修炼金刚拳法（二），混元破障拳后获得\n筑基期后，思绪+身法修炼后必定获得：\n修炼顿悟后可自选：\n在金芒矿/凝土墟中修炼御物必定获得；\n在剑家拔剑有10%概率获得；\n击败剑冢中的绝品小妖剑定获得：\n结丹期后，修炼思绪+思绪可自选：修炼剑魂残魄后有50%概率获得。", "avg_confidence": 0.9458, "needs_review": false, "status": "已获得", "captured_at": "2026-11-17T02:45:59"}, {"index": 6, "row": 1, "col": 0, "name": "用术", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/006.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/006.png", "detail_image": "assets/kapai_ganwu_xinfa/details/006.jpg", "intro_paragraphs": ["使用口诀的次数多了，我对此有一些感悟。可将口诀卡提升一个境界"], "sections": [{"title": "获取途径", "paragraphs": ["修炼愈心诀（二），栖梧功（二），回春典（二）后可获得；", "筑基期后，修炼思绪+引水后必定获得：", "修炼顿悟后可自选：", "在青灵木/愈魂池修炼御灵义定获得：", "结丹期后，修炼思绪+思绪可自选"]}], "full_text": "使用口诀的次数多了，我对此有一些感悟。可将口诀卡提升一个境界\n\n【获取途径】\n修炼愈心诀（二），栖梧功（二），回春典（二）后可获得；\n筑基期后，修炼思绪+引水后必定获得：\n修炼顿悟后可自选：\n在青灵木/愈魂池修炼御灵义定获得：\n结丹期后，修炼思绪+思绪可自选", "avg_confidence": 0.9229, "needs_review": false, "status": "已获得", "captured_at": "2026-11-17T02:46:06"}, {"index": 7, "row": 1, "col": 1, "name": "五行吐纳术", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/007.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/007.png", "detail_image": "assets/kapai_ganwu_xinfa/details/007.jpg", "intro_paragraphs": ["五行相生相克，如果同时吸收五种灵气，便会互相湮灭；但在湮灭的一瞬间，会有产生一丝混沌灵气。"], "sections": [{"title": "获取途径", "paragraphs": ["仅在主线中获得："]}], "full_text": "五行相生相克，如果同时吸收五种灵气，便会互相湮灭；但在湮灭的一瞬间，会有产生一丝混沌灵气。\n\n【获取途径】\n仅在主线中获得：", "avg_confidence": 0.9769, "needs_review": false, "status": "已获得", "captured_at": "2026-11-17T02:46:11"}, {"index": 8, "row": 1, "col": 2, "name": "试金", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/008.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/008.png", "detail_image": "assets/kapai_ganwu_xinfa/details/008.jpg", "intro_paragraphs": ["金属坚硬且锋利，用作武器能攻击敌人，用做防具又能抵御攻击。"], "sections": [{"title": "获取途径", "paragraphs": ["仅练气期时，修炼思绪+思绪20%概率获得；", "在金芒矿（小）修炼思绪+思绪必定获得；", "仅练气&筑基期，培养提升回材料品质一定次数后定获得；", "筑基期后，修炼思绪(1个）可自选"]}], "full_text": "金属坚硬且锋利，用作武器能攻击敌人，用做防具又能抵御攻击。\n\n【获取途径】\n仅练气期时，修炼思绪+思绪20%概率获得；\n在金芒矿（小）修炼思绪+思绪必定获得；\n仅练气&筑基期，培养提升回材料品质一定次数后定获得；\n筑基期后，修炼思绪(1个）可自选", "avg_confidence": 0.9435, "needs_review": false, "status": "已获得", "captured_at": "2026-11-17T02:46:12"}, {"index": 9, "row": 1, "col": 3, "name": "采木", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/009.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/009.png", "detail_image": "assets/kapai_ganwu_xinfa/details/009.jpg", "intro_paragraphs": ["木是植物的统称，拔起采集之，看似失去生命，重新种植却又能存活。"], "sections": [{"title": "获取途径", "paragraphs": ["仅练气期时，修炼思绪+思绪20%概率获得；", "在青灵木（小）修炼思绪+思绪必定获得；", "仅练气&筑基期，培养提升材料品质一定次数后必定获得；", "筑基期后，修炼思绪(1个）可自选"]}], "full_text": "木是植物的统称，拔起采集之，看似失去生命，重新种植却又能存活。\n\n【获取途径】\n仅练气期时，修炼思绪+思绪20%概率获得；\n在青灵木（小）修炼思绪+思绪必定获得；\n仅练气&筑基期，培养提升材料品质一定次数后必定获得；\n筑基期后，修炼思绪(1个）可自选", "avg_confidence": 0.9415, "needs_review": false, "status": "已获得", "captured_at": "2026-11-17T02:46:15"}, {"index": 10, "row": 1, "col": 4, "name": "引水", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/010.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/010.png", "detail_image": "assets/kapai_ganwu_xinfa/details/010.jpg", "intro_paragraphs": ["水川流不息，虽无法拿起，但通过外物又能引导水的流向。"], "sections": [{"title": "获取途径", "paragraphs": ["仅练气期时，修炼思绪+思绪20%概率获得；", "在愈魂池（小）修炼思绪+思绪必定获得；", "仅练气&筑基期，培养提升材料品质一定次数后定获得；", "筑基期后修炼思绪(1个）可自"]}], "full_text": "水川流不息，虽无法拿起，但通过外物又能引导水的流向。\n\n【获取途径】\n仅练气期时，修炼思绪+思绪20%概率获得；\n在愈魂池（小）修炼思绪+思绪必定获得；\n仅练气&筑基期，培养提升材料品质一定次数后定获得；\n筑基期后修炼思绪(1个）可自", "avg_confidence": 0.948, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:46:17"}, {"index": 11, "row": 1, "col": 5, "name": "控火", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/011.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/011.png", "detail_image": "assets/kapai_ganwu_xinfa/details/011.jpg", "intro_paragraphs": ["火焰看似无序，仔细观察便能发现，火焰的燃烧离不开燃物。"], "sections": [{"title": "获取途径", "paragraphs": ["仅练气期时，修炼思绪+思绪20%概率获得；", "在火云树（小）修炼思绪+思绪必定获得；", "仅练气&筑基期，培养提升材料品质一定次数后定获得；", "筑基期后修炼思绪(1个）可自"]}], "full_text": "火焰看似无序，仔细观察便能发现，火焰的燃烧离不开燃物。\n\n【获取途径】\n仅练气期时，修炼思绪+思绪20%概率获得；\n在火云树（小）修炼思绪+思绪必定获得；\n仅练气&筑基期，培养提升材料品质一定次数后定获得；\n筑基期后修炼思绪(1个）可自", "avg_confidence": 0.9459, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:46:19"}, {"index": 12, "row": 2, "col": 0, "name": "御土", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/012.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/012.png", "detail_image": "assets/kapai_ganwu_xinfa/details/012.jpg", "intro_paragraphs": ["土是很容易就能驱使的物体只是无论如何改造，它都依然那么如一。"], "sections": [{"title": "获取途径", "paragraphs": ["仅练气期时，修炼思绪+思绪20%概率获得；", "在凝土墟（小）修炼思绪+思绪必定获得；", "仅练气&筑基期，培养提升材料品质一定次数后定获得；", "筑基期后修炼思绪(1个）可自"]}], "full_text": "土是很容易就能驱使的物体只是无论如何改造，它都依然那么如一。\n\n【获取途径】\n仅练气期时，修炼思绪+思绪20%概率获得；\n在凝土墟（小）修炼思绪+思绪必定获得；\n仅练气&筑基期，培养提升材料品质一定次数后定获得；\n筑基期后修炼思绪(1个）可自", "avg_confidence": 0.9453, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:46:22"}, {"index": 13, "row": 2, "col": 1, "name": "剑芒", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/013.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/013.png", "detail_image": "assets/kapai_ganwu_xinfa/details/013.jpg", "intro_paragraphs": ["似乎有一种拔剑的冲动。只是为何而拔剑？"], "sections": [{"title": "获取途径", "paragraphs": ["仅练气期时，修炼思绪+试金定获得剑芒：", "在金芒矿（小）修炼试金定获得剑芒：", "练气期的玄剑阁修士交易物有10%概率生成；", "仅练气&筑基期，每次使用剑法宝会积累获得概率：", "期后9修炼思绪（1个）可家得"]}], "full_text": "似乎有一种拔剑的冲动。只是为何而拔剑？\n\n【获取途径】\n仅练气期时，修炼思绪+试金定获得剑芒：\n在金芒矿（小）修炼试金定获得剑芒：\n练气期的玄剑阁修士交易物有10%概率生成；\n仅练气&筑基期，每次使用剑法宝会积累获得概率：\n期后9修炼思绪（1个）可家得", "avg_confidence": 0.9483, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:46:24"}, {"index": 14, "row": 2, "col": 2, "name": "身法", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/014.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/014.png", "detail_image": "assets/kapai_ganwu_xinfa/details/014.jpg", "intro_paragraphs": ["在战斗中躲避攻击慢慢形成身体本能。"], "sections": [{"title": "获取途径", "paragraphs": ["仅练气期时，修炼思绪+控火/御土定获得；", "在火云树（小）修炼控火定获得；", "在凝土墟（小）修炼御土定获得：", "每战斗一次，均会积累概率获得；", "期后9修炼思绪（1个）可家得"]}], "full_text": "在战斗中躲避攻击慢慢形成身体本能。\n\n【获取途径】\n仅练气期时，修炼思绪+控火/御土定获得；\n在火云树（小）修炼控火定获得；\n在凝土墟（小）修炼御土定获得：\n每战斗一次，均会积累概率获得；\n期后9修炼思绪（1个）可家得", "avg_confidence": 0.9126, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:46:31"}, {"index": 15, "row": 2, "col": 3, "name": "药理", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/015.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/015.png", "detail_image": "assets/kapai_ganwu_xinfa/details/015.jpg", "intro_paragraphs": ["世间的各种天材地宝，都需要理解其构造，才能以此炼药。"], "sections": [{"title": "获取途径", "paragraphs": ["仅练气期时，修炼思绪+采木/引水必定获得；", "在青灵木（小）修炼采木定获得；", "在愈魂池（小）修炼引水定获得；", "仅练气&筑基期时，每炼制一次丹药会积累获得概率；", "期后9修炼思绪（1个）可家得"]}], "full_text": "世间的各种天材地宝，都需要理解其构造，才能以此炼药。\n\n【获取途径】\n仅练气期时，修炼思绪+采木/引水必定获得；\n在青灵木（小）修炼采木定获得；\n在愈魂池（小）修炼引水定获得；\n仅练气&筑基期时，每炼制一次丹药会积累获得概率；\n期后9修炼思绪（1个）可家得", "avg_confidence": 0.9154, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:46:38"}, {"index": 16, "row": 2, "col": 4, "name": "御灵", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/016.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/016.png", "detail_image": "assets/kapai_ganwu_xinfa/details/016.jpg", "intro_paragraphs": ["或许可以将其与相似的感悟相结合，以探索更多样的道路亦可尝试与五行相合"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼思绪+思绪有25%概率获得", "修炼顿悟后可自选；", "仅结丹&元婴期时，培养提升材料品质一定次数后必定获得；", "在青灵木/愈魂池修炼思绪+思绪必定获得", "筑基期后，修炼思绪+采木定获得", "结丹期后，修炼思绪+思绪可白选"]}], "full_text": "或许可以将其与相似的感悟相结合，以探索更多样的道路亦可尝试与五行相合\n\n【获取途径】\n筑基期后，修炼思绪+思绪有25%概率获得\n修炼顿悟后可自选；\n仅结丹&元婴期时，培养提升材料品质一定次数后必定获得；\n在青灵木/愈魂池修炼思绪+思绪必定获得\n筑基期后，修炼思绪+采木定获得\n结丹期后，修炼思绪+思绪可白选", "avg_confidence": 0.964, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:46:44"}, {"index": 17, "row": 2, "col": 5, "name": "御物", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/017.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/017.png", "detail_image": "assets/kapai_ganwu_xinfa/details/017.jpg", "intro_paragraphs": ["或许可以将其与相似的感悟相结合，以探索更多样的道路亦可尝试与五行相合"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼思绪+思绪有25%概率获得", "修炼顿悟后可自选；", "仅结丹&元婴期时，培养提升回材料品质一定次数后定获得；", "在金芒矿/凝土墟修炼思绪+思绪必定获得", "筑基期后，修炼思绪+试金定获得：", "每一次放入法宝战斗，会积累获得概率；", "结丹期后，修炼思绪+思绪可白选。"]}], "full_text": "或许可以将其与相似的感悟相结合，以探索更多样的道路亦可尝试与五行相合\n\n【获取途径】\n筑基期后，修炼思绪+思绪有25%概率获得\n修炼顿悟后可自选；\n仅结丹&元婴期时，培养提升回材料品质一定次数后定获得；\n在金芒矿/凝土墟修炼思绪+思绪必定获得\n筑基期后，修炼思绪+试金定获得：\n每一次放入法宝战斗，会积累获得概率；\n结丹期后，修炼思绪+思绪可白选。", "avg_confidence": 0.9543, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:46:51"}, {"index": 18, "row": 3, "col": 0, "name": "杀意", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/018.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/018.png", "detail_image": "assets/kapai_ganwu_xinfa/details/018.jpg", "intro_paragraphs": ["心中似乎升起了一丝杀戮的念头。"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼思绪+思绪有25%概率获得；", "修炼顿悟后可自选：", "仅结丹&元婴期时，培养提升必材料品质一定次数后定获得；", "在火云树修炼思绪+思绪定获得；", "在剑家拔剑有10%概率获得：", "筑基期后，修炼思绪+控火定获得：", "筑基后，主角的死亡有概率获得：", "结丹期后修炼思绪+思绪可白选。"]}], "full_text": "心中似乎升起了一丝杀戮的念头。\n\n【获取途径】\n筑基期后，修炼思绪+思绪有25%概率获得；\n修炼顿悟后可自选：\n仅结丹&元婴期时，培养提升必材料品质一定次数后定获得；\n在火云树修炼思绪+思绪定获得；\n在剑家拔剑有10%概率获得：\n筑基期后，修炼思绪+控火定获得：\n筑基后，主角的死亡有概率获得：\n结丹期后修炼思绪+思绪可白选。", "avg_confidence": 0.9314, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:46:58"}, {"index": 19, "row": 3, "col": 1, "name": "丹道", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/019.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/019.png", "detail_image": "assets/kapai_ganwu_xinfa/details/019.jpg", "intro_paragraphs": ["以身为炉，以心为火，百脉归元，疑结黍米。"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼思绪＋思绪有25%概率获得；", "筑基期后，修炼思绪+药理必定获得；", "结丹&元婴期时，炼制丹药会积累获得概率；", "修炼顿悟后可自选：", "结丹期后，修炼思绪＋思绪可自选"]}], "full_text": "以身为炉，以心为火，百脉归元，疑结黍米。\n\n【获取途径】\n筑基期后，修炼思绪＋思绪有25%概率获得；\n筑基期后，修炼思绪+药理必定获得；\n结丹&元婴期时，炼制丹药会积累获得概率；\n修炼顿悟后可自选：\n结丹期后，修炼思绪＋思绪可自选", "avg_confidence": 0.9529, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:47:04"}, {"index": 20, "row": 3, "col": 2, "name": "凝聚", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/020.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/020.png", "detail_image": "assets/kapai_ganwu_xinfa/details/020.jpg", "intro_paragraphs": ["金可以层塑形态，或为兵器或为光芒；但都需历经疑聚的过程！"], "sections": [{"title": "获取途径", "paragraphs": ["结丹期后，修炼顿悟后可自选：", "在玄机阁结丹商品区有概率可购买：", "结丹期后，在月照之地修炼必定获得；", "结丹期后，修炼器道（红）必定获得", "结丹期后，修炼思绪+剑意定获得", "元婴期后，修炼思绪+思绪+思绪后可白选"]}], "full_text": "金可以层塑形态，或为兵器或为光芒；但都需历经疑聚的过程！\n\n【获取途径】\n结丹期后，修炼顿悟后可自选：\n在玄机阁结丹商品区有概率可购买：\n结丹期后，在月照之地修炼必定获得；\n结丹期后，修炼器道（红）必定获得\n结丹期后，修炼思绪+剑意定获得\n元婴期后，修炼思绪+思绪+思绪后可白选", "avg_confidence": 0.9379, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:47:06"}, {"index": 21, "row": 3, "col": 3, "name": "生长", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/021.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/021.png", "detail_image": "assets/kapai_ganwu_xinfa/details/021.jpg", "intro_paragraphs": ["木象证生命力：在生长的过程中，遇阻挡可穿透而行，也可绕开而过，能屈能伸"], "sections": [{"title": "获取途径", "paragraphs": ["结丹期后，修炼顿悟后可自选：", "在玄机阁结丹商品区有概率可购买：", "结丹期后，在古木幽森的副本里有概率捡到，在最深处的血红树修炼定获得；", "结丹期后，修炼丹道（红）定获得；", "结丹期后，修炼思绪+丹道必定获得；", "元婴期后，修炼思绪+思绪+思绪后可白选。"]}], "full_text": "木象证生命力：在生长的过程中，遇阻挡可穿透而行，也可绕开而过，能屈能伸\n\n【获取途径】\n结丹期后，修炼顿悟后可自选：\n在玄机阁结丹商品区有概率可购买：\n结丹期后，在古木幽森的副本里有概率捡到，在最深处的血红树修炼定获得；\n结丹期后，修炼丹道（红）定获得；\n结丹期后，修炼思绪+丹道必定获得；\n元婴期后，修炼思绪+思绪+思绪后可白选。", "avg_confidence": 0.9393, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:47:13"}, {"index": 22, "row": 3, "col": 4, "name": "包容", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/022.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/022.png", "detail_image": "assets/kapai_ganwu_xinfa/details/022.jpg", "intro_paragraphs": ["水乃无形之物，柔韧两性：可包容滋润万物，亦可蓄力穿石"], "sections": [{"title": "获取途径", "paragraphs": ["结丹期后，修炼顿悟后可自选：", "在玄机阁结丹商品区有概率可购买：", "结丹期后，在碧潭瀑布修炼定获得；", "结丹期后，修炼术道（红）必定获得；", "结丹期后修炼思绪+御灵定获得", "元婴期后。修炼思绪+思绪+思绪后可白选"]}], "full_text": "水乃无形之物，柔韧两性：可包容滋润万物，亦可蓄力穿石\n\n【获取途径】\n结丹期后，修炼顿悟后可自选：\n在玄机阁结丹商品区有概率可购买：\n结丹期后，在碧潭瀑布修炼定获得；\n结丹期后，修炼术道（红）必定获得；\n结丹期后修炼思绪+御灵定获得\n元婴期后。修炼思绪+思绪+思绪后可白选", "avg_confidence": 0.946, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:47:20"}, {"index": 23, "row": 3, "col": 5, "name": "释放", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/023.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/023.png", "detail_image": "assets/kapai_ganwu_xinfa/details/023.jpg", "intro_paragraphs": ["火的功能便是将万物升腾转化，将其能量释放而出"], "sections": [{"title": "获取途径", "paragraphs": ["结丹期后，修炼顿悟后可自选；", "在玄机阁结丹商品区有概率可购买；", "结丹期后，在地火深洞/天地熔炉修炼必定获得；", "结丹期后，修炼武道（红）必定获得；", "结丹期后修炼思绪+杀意定获得", "元婴期后。修炼思绪+思绪+思绪后可白选"]}], "full_text": "火的功能便是将万物升腾转化，将其能量释放而出\n\n【获取途径】\n结丹期后，修炼顿悟后可自选；\n在玄机阁结丹商品区有概率可购买；\n结丹期后，在地火深洞/天地熔炉修炼必定获得；\n结丹期后，修炼武道（红）必定获得；\n结丹期后修炼思绪+杀意定获得\n元婴期后。修炼思绪+思绪+思绪后可白选", "avg_confidence": 0.9553, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:47:27"}, {"index": 24, "row": 4, "col": 0, "name": "承载", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/024.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/024.png", "detail_image": "assets/kapai_ganwu_xinfa/details/024.jpg", "intro_paragraphs": ["土以稳固特性，一直承载着压力，并孕育着新事物。"], "sections": [{"title": "获取途径", "paragraphs": ["结丹期后，修炼顿悟后可自选；", "在玄机阁结丹商品区有概率可购买：", "结丹期后，在无字玉壁修炼火定获得；", "结丹期后，修炼兽道（红）必定获得；", "结丹期后修炼思绪+御物必定获得", "元婴期后。修炼思绪+思绪+思绪后可白选"]}], "full_text": "土以稳固特性，一直承载着压力，并孕育着新事物。\n\n【获取途径】\n结丹期后，修炼顿悟后可自选；\n在玄机阁结丹商品区有概率可购买：\n结丹期后，在无字玉壁修炼火定获得；\n结丹期后，修炼兽道（红）必定获得；\n结丹期后修炼思绪+御物必定获得\n元婴期后。修炼思绪+思绪+思绪后可白选", "avg_confidence": 0.9112, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:47:37"}, {"index": 25, "row": 4, "col": 1, "name": "归一", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/025.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/025.png", "detail_image": "assets/kapai_ganwu_xinfa/details/025.jpg", "intro_paragraphs": ["万法归宗，万象归元，终返混沌本一。"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "万法归宗，万象归元，终返混沌本一。\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9908, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:18:32", "first_seen": "2026-11-17T03:18:32"}, {"index": 26, "row": 4, "col": 2, "name": "贪", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/026.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/026.png", "detail_image": "assets/kapai_ganwu_xinfa/details/026.jpg", "intro_paragraphs": ["这种己无求有，己有求多的想法最初只是细微，剎那生灭的念头，一旦过度的追求变会陷入无休止的欲望循环。"], "sections": [{"title": "获取途径", "paragraphs": ["修炼时，如果不加入灵气/混沌灵气，有15%的概率获得；", "修炼心法累计一定次数后获得：", "在碑地点祭拜时有10%概率获得；", "调查混沌之地时，最后奖励有50%概率获得", "修炼噬魂秘法必定获得", "比武中触发犯规获得"]}], "full_text": "这种己无求有，己有求多的想法最初只是细微，剎那生灭的念头，一旦过度的追求变会陷入无休止的欲望循环。\n\n【获取途径】\n修炼时，如果不加入灵气/混沌灵气，有15%的概率获得；\n修炼心法累计一定次数后获得：\n在碑地点祭拜时有10%概率获得；\n调查混沌之地时，最后奖励有50%概率获得\n修炼噬魂秘法必定获得\n比武中触发犯规获得", "avg_confidence": 0.9522, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:47:44"}, {"index": 27, "row": 4, "col": 3, "name": "嗔", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/027.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/027.png", "detail_image": "assets/kapai_ganwu_xinfa/details/027.jpg", "intro_paragraphs": ["不如意事常八九，如果无法接受之，则会带来无尽的痛苦和不安。反之，则可实现内在的平和。"], "sections": [{"title": "获取途径", "paragraphs": ["修炼时，如果不加入灵气/混沌灵气，有15%的概率获得；", "修炼心法累计一定次数后获得：", "在碑地点祭拜时有10%概率获得；", "调查混沌之地时9最后励有50%橱率获得"]}], "full_text": "不如意事常八九，如果无法接受之，则会带来无尽的痛苦和不安。反之，则可实现内在的平和。\n\n【获取途径】\n修炼时，如果不加入灵气/混沌灵气，有15%的概率获得；\n修炼心法累计一定次数后获得：\n在碑地点祭拜时有10%概率获得；\n调查混沌之地时9最后励有50%橱率获得", "avg_confidence": 0.9388, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:47:51"}, {"index": 28, "row": 4, "col": 4, "name": "痴", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/028.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/028.png", "detail_image": "assets/kapai_ganwu_xinfa/details/028.jpg", "intro_paragraphs": ["越是追求修道，越是发现自己的无知。偶尔的无知无伤大雅，若是长久如此，恐怕会酿成大祸。"], "sections": [{"title": "获取途径", "paragraphs": ["修炼时，如果不加入灵气/混沌灵气，有15%的概率获得；", "修炼心法累计一定次数后获得；", "在碑地点祭拜时有10%概率获得；", "调查混沌之地时9最后励有50%橱率获得"]}], "full_text": "越是追求修道，越是发现自己的无知。偶尔的无知无伤大雅，若是长久如此，恐怕会酿成大祸。\n\n【获取途径】\n修炼时，如果不加入灵气/混沌灵气，有15%的概率获得；\n修炼心法累计一定次数后获得；\n在碑地点祭拜时有10%概率获得；\n调查混沌之地时9最后励有50%橱率获得", "avg_confidence": 0.9443, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:47:58"}, {"index": 29, "row": 4, "col": 5, "name": "恶", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/029.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/029.png", "detail_image": "assets/kapai_ganwu_xinfa/details/029.jpg", "intro_paragraphs": ["人的一生可以有许多选择，但如果主动造成他人不必要的伤害。那离邪恶也就不远了。"], "sections": [{"title": "获取途径", "paragraphs": ["修炼七杀经定获得：", "在碑/山脚下掩埋屍体有概率获得；", "主动击杀商人/凡人定获得；", "主动击杀修士有30%概率获得；"]}], "full_text": "人的一生可以有许多选择，但如果主动造成他人不必要的伤害。那离邪恶也就不远了。\n\n【获取途径】\n修炼七杀经定获得：\n在碑/山脚下掩埋屍体有概率获得；\n主动击杀商人/凡人定获得；\n主动击杀修士有30%概率获得；", "avg_confidence": 0.9343, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:48:03"}, {"index": 30, "row": 5, "col": 0, "name": "悲", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/030.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/030.png", "detail_image": "assets/kapai_ganwu_xinfa/details/030.jpg", "intro_paragraphs": ["通常由於外部事件引起的情感反应，它是一种消极的情绪任由悲伤发展，会让人感受到十分的折磨。"], "sections": [{"title": "获取途径", "paragraphs": ["在某些任务中获得：", "凡人被击杀时有30%概率获得：", "修炼时，如果不加入灵气/混沌灵气，有15%的概率获得；", "修炼心法累计一定次数后获得", "在碑地点祭拜时有10%概率获得"]}], "full_text": "通常由於外部事件引起的情感反应，它是一种消极的情绪任由悲伤发展，会让人感受到十分的折磨。\n\n【获取途径】\n在某些任务中获得：\n凡人被击杀时有30%概率获得：\n修炼时，如果不加入灵气/混沌灵气，有15%的概率获得；\n修炼心法累计一定次数后获得\n在碑地点祭拜时有10%概率获得", "avg_confidence": 0.9562, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:48:05"}, {"index": 31, "row": 5, "col": 1, "name": "色", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/031.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/031.png", "detail_image": "assets/kapai_ganwu_xinfa/details/031.jpg", "intro_paragraphs": ["色是人与生俱来的本能。对美好色相的追求，本是人性的自然流露。"], "sections": [{"title": "获取途径", "paragraphs": ["修炼阴姹玄功定获得："]}], "full_text": "色是人与生俱来的本能。对美好色相的追求，本是人性的自然流露。\n\n【获取途径】\n修炼阴姹玄功定获得：", "avg_confidence": 0.9717, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:48:11"}, {"index": 32, "row": 5, "col": 2, "name": "邪", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/032.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/032.png", "detail_image": "assets/kapai_ganwu_xinfa/details/032.jpg", "intro_paragraphs": ["品性与行为偏离了公理道义。注注以损害他人或天地秩序为代价获取力量，是为邪。"], "sections": [{"title": "获取途径", "paragraphs": ["修炼锁魂术必定获得：", "炼制骸骨傀儡必定获得：", "使用修士尸体培养灵药必定获得；"]}], "full_text": "品性与行为偏离了公理道义。注注以损害他人或天地秩序为代价获取力量，是为邪。\n\n【获取途径】\n修炼锁魂术必定获得：\n炼制骸骨傀儡必定获得：\n使用修士尸体培养灵药必定获得；", "avg_confidence": 0.9407, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:48:12"}, {"index": 33, "row": 5, "col": 3, "name": "吐纳之法", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/033.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/033.png", "detail_image": "assets/kapai_ganwu_xinfa/details/033.jpg", "intro_paragraphs": ["里面讲述了一种吐纳修炼的口诀，可将天地间的灵气通过呼吸存储于体内：", "静心守一调息绵长", "灵台清明", "引气归元", "气海温养", "呼浊纳清", "心神守中", "灵气化修"], "sections": [{"title": "获取途径", "paragraphs": ["仅在主线中获得"]}], "full_text": "里面讲述了一种吐纳修炼的口诀，可将天地间的灵气通过呼吸存储于体内：\n静心守一调息绵长\n灵台清明\n引气归元\n气海温养\n呼浊纳清\n心神守中\n灵气化修\n\n【获取途径】\n仅在主线中获得", "avg_confidence": 0.9827, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:48:13"}, {"index": 34, "row": 5, "col": 4, "name": "混元功", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/034.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/034.png", "detail_image": "assets/kapai_ganwu_xinfa/details/034.jpg", "intro_paragraphs": ["此功最是奇特，能兼容五行灵气，令修士于吐纳之间，同步吸纳金木水火土五气入体。", "隐约可见，所创者：广尘。修炼后可领悟天赋：灵力亲和"], "sections": [{"title": "获取途径", "paragraphs": ["仅在主线中获得："]}], "full_text": "此功最是奇特，能兼容五行灵气，令修士于吐纳之间，同步吸纳金木水火土五气入体。\n隐约可见，所创者：广尘。修炼后可领悟天赋：灵力亲和\n\n【获取途径】\n仅在主线中获得：", "avg_confidence": 0.9915, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:48:18"}, {"index": 35, "row": 5, "col": 5, "name": "机关术", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/035.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/035.png", "detail_image": "assets/kapai_ganwu_xinfa/details/035.jpg", "intro_paragraphs": ["此书并非是讲述修炼方法而是传授机关术的基础理论。各种傀儡的制作和改进方法；", "无法修炼此心法，但利用心法可将仙品傀儡培养至神品"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+御物+试金后领悟；", "在神秘人中有10%概率出现"]}], "full_text": "此书并非是讲述修炼方法而是传授机关术的基础理论。各种傀儡的制作和改进方法；\n无法修炼此心法，但利用心法可将仙品傀儡培养至神品\n\n【获取途径】\n筑基期后，修炼悟道+御物+试金后领悟；\n在神秘人中有10%概率出现", "avg_confidence": 0.9725, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:48:19"}, {"index": 36, "row": 6, "col": 0, "name": "金灵术", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/036.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/036.png", "detail_image": "assets/kapai_ganwu_xinfa/details/036.jpg", "intro_paragraphs": ["练气阶段金系心法。修炼之法重在凝气如金，淬炼经脉、稳固道基，虽无惊世威能，却能培元固本，令灵气凝而不散、锐而不躁。", "修炼后可领悟技能：天罡体"], "sections": [{"title": "获取途径", "paragraphs": ["修炼试金后领悟：", "在玄机阁中有概率刷出；", "无名村庄商人有概率出售；", "把试金赠送给打坐中的修士定把心境赠送给入质的修士有橱率获得"]}], "full_text": "练气阶段金系心法。修炼之法重在凝气如金，淬炼经脉、稳固道基，虽无惊世威能，却能培元固本，令灵气凝而不散、锐而不躁。\n修炼后可领悟技能：天罡体\n\n【获取途径】\n修炼试金后领悟：\n在玄机阁中有概率刷出；\n无名村庄商人有概率出售；\n把试金赠送给打坐中的修士定把心境赠送给入质的修士有橱率获得", "avg_confidence": 0.9625, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:48:23"}, {"index": 37, "row": 6, "col": 1, "name": "御剑术", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/037.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/037.png", "detail_image": "assets/kapai_ganwu_xinfa/details/037.jpg", "intro_paragraphs": ["御剑术修炼核心离不开金属性武器的依托，剑只是这类武器中最具代表性的一种形态。并非唯一选择。修炼后可领悟天赋：剑术精通"], "sections": [{"title": "获取途径", "paragraphs": ["修炼悟道+剑芒后领悟；", "在玄机阁中有概率刷出；", "无名村庄商人有概率出售；", "把剑芒赠送给打坐中的修士定把心境赠送给入质的修士有橱率获得"]}], "full_text": "御剑术修炼核心离不开金属性武器的依托，剑只是这类武器中最具代表性的一种形态。并非唯一选择。修炼后可领悟天赋：剑术精通\n\n【获取途径】\n修炼悟道+剑芒后领悟；\n在玄机阁中有概率刷出；\n无名村庄商人有概率出售；\n把剑芒赠送给打坐中的修士定把心境赠送给入质的修士有橱率获得", "avg_confidence": 0.9658, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:48:30"}, {"index": 38, "row": 6, "col": 2, "name": "千芒术", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/038.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/038.png", "detail_image": "assets/kapai_ganwu_xinfa/details/038.jpg", "intro_paragraphs": ["千芒，乃化光为刃的藏锋之道；以心念催发万千芒刃，隐如雾豹，现若雷蛇；", "修炼后可领悟口诀：金芒咒"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼后悟道+试金后领悟；", "把御物赠送给打坐中的修士有50%概率获得；把心境赠送给入魔的修士有概率获得；", "在玄机阁中有概率刷出；", "筑基期时使用机缘探索宗门遗迹有概率获得", "筑基期时修炼悟道有概率获得"]}], "full_text": "千芒，乃化光为刃的藏锋之道；以心念催发万千芒刃，隐如雾豹，现若雷蛇；\n修炼后可领悟口诀：金芒咒\n\n【获取途径】\n筑基期后，修炼后悟道+试金后领悟；\n把御物赠送给打坐中的修士有50%概率获得；把心境赠送给入魔的修士有概率获得；\n在玄机阁中有概率刷出；\n筑基期时使用机缘探索宗门遗迹有概率获得\n筑基期时修炼悟道有概率获得", "avg_confidence": 0.9641, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:48:37"}, {"index": 39, "row": 6, "col": 3, "name": "初尘剑谱", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/039.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/039.png", "detail_image": "assets/kapai_ganwu_xinfa/details/039.jpg", "intro_paragraphs": ["剑谱乃初尘道人所创，以“藏锋”“点露”“卷云”三式为根基串联而成的连携杀招。修炼后可领悟技能：初尘三式"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+剑意+剑芒后领悟；", "在玄机阁中有概率刷出；", "可在玄剑阁的藏经阁中兑换；", "把心境赠送给入魔的修士（筑基期）有概率获得", "筑基期时使用机缘探索宗门遗迹有橱率获得"]}], "full_text": "剑谱乃初尘道人所创，以“藏锋”“点露”“卷云”三式为根基串联而成的连携杀招。修炼后可领悟技能：初尘三式\n\n【获取途径】\n筑基期后，修炼悟道+剑意+剑芒后领悟；\n在玄机阁中有概率刷出；\n可在玄剑阁的藏经阁中兑换；\n把心境赠送给入魔的修士（筑基期）有概率获得\n筑基期时使用机缘探索宗门遗迹有橱率获得", "avg_confidence": 0.9703, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:48:44"}, {"index": 40, "row": 6, "col": 4, "name": "破煞剑谱", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/040.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/040.png", "detail_image": "assets/kapai_ganwu_xinfa/details/040.jpg", "intro_paragraphs": ["此剑谱的招式自始便疑练着磅礴杀伐之气。这股凛然杀意专为克制凶煞邪祟而生，剑锋所及之处，邪佞无所遁形、辟易退散。", "修炼后可领悟天赋：断邪斩"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+剑意+剑意后领悟；", "在玄机阁中有概率刷出；", "可在玄剑阁的藏经阁中兑换；", "把心境赠送给入魔的修士（筑基期）有概率获得", "筑基期时使用机缘探索宗门遗迹有橱率获得"]}], "full_text": "此剑谱的招式自始便疑练着磅礴杀伐之气。这股凛然杀意专为克制凶煞邪祟而生，剑锋所及之处，邪佞无所遁形、辟易退散。\n修炼后可领悟天赋：断邪斩\n\n【获取途径】\n筑基期后，修炼悟道+剑意+剑意后领悟；\n在玄机阁中有概率刷出；\n可在玄剑阁的藏经阁中兑换；\n把心境赠送给入魔的修士（筑基期）有概率获得\n筑基期时使用机缘探索宗门遗迹有橱率获得", "avg_confidence": 0.9668, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:48:51"}, {"index": 41, "row": 6, "col": 5, "name": "阴阳两仪剑", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/041.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/041.png", "detail_image": "assets/kapai_ganwu_xinfa/details/041.jpg", "intro_paragraphs": ["两仪生四象，阴阳定乾坤。纳天地阴阳二气入剑，刚则裂穹，柔则缠丝，阴阳相济时剑势无穷无尽。修炼后可领悟天赋：御剑无锋"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+剑意+试金后领悟：", "在玄机阁中有概率刷出；", "可在玄剑阁的藏经阁中兑换；", "把心境赠送给入魔的修士（筑基期）有概率获得", "筑基期时使用机缘探索宗门遗迹有橱率获得"]}], "full_text": "两仪生四象，阴阳定乾坤。纳天地阴阳二气入剑，刚则裂穹，柔则缠丝，阴阳相济时剑势无穷无尽。修炼后可领悟天赋：御剑无锋\n\n【获取途径】\n筑基期后，修炼悟道+剑意+试金后领悟：\n在玄机阁中有概率刷出；\n可在玄剑阁的藏经阁中兑换；\n把心境赠送给入魔的修士（筑基期）有概率获得\n筑基期时使用机缘探索宗门遗迹有橱率获得", "avg_confidence": 0.9716, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:48:58"}, {"index": 42, "row": 7, "col": 0, "name": "无相剑典", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/042.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/042.png", "detail_image": "assets/kapai_ganwu_xinfa/details/042.jpg", "intro_paragraphs": ["凡所有相，皆是虚妄！剑出无形无质，不执于招、不困于形。", "修炼后可领悟天赋：剑气四射"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+剑意+心境后领悟；", "在玄机阁中有概率刷出；", "可在玄剑阁的藏经阁中兑换；", "把心境赠送给入魔的修士（筑基期有概率获得", "筑基期时使用机缘探索宗门遗迹有橱率获得"]}], "full_text": "凡所有相，皆是虚妄！剑出无形无质，不执于招、不困于形。\n修炼后可领悟天赋：剑气四射\n\n【获取途径】\n筑基期后，修炼悟道+剑意+心境后领悟；\n在玄机阁中有概率刷出；\n可在玄剑阁的藏经阁中兑换；\n把心境赠送给入魔的修士（筑基期有概率获得\n筑基期时使用机缘探索宗门遗迹有橱率获得", "avg_confidence": 0.9763, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:49:05"}, {"index": 43, "row": 7, "col": 1, "name": "归流剑经", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/043.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/043.png", "detail_image": "assets/kapai_ganwu_xinfa/details/043.jpg", "intro_paragraphs": ["归形如川流入海，归气似云雾聚散，归神若星斗归垣；万流汇一，剑出星河！", "修炼后可领悟天赋：剑术精通"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+剑意+引水后领悟；", "在玄机阁中有概率刷出；", "可在玄剑阁的藏经阁中兑换；", "把心境赠送给入魔的修士（筑基期有概率获得", "筑基期时使用机缘探索宗门遗迹有橱率获得"]}], "full_text": "归形如川流入海，归气似云雾聚散，归神若星斗归垣；万流汇一，剑出星河！\n修炼后可领悟天赋：剑术精通\n\n【获取途径】\n筑基期后，修炼悟道+剑意+引水后领悟；\n在玄机阁中有概率刷出；\n可在玄剑阁的藏经阁中兑换；\n把心境赠送给入魔的修士（筑基期有概率获得\n筑基期时使用机缘探索宗门遗迹有橱率获得", "avg_confidence": 0.9693, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:49:12"}, {"index": 44, "row": 7, "col": 2, "name": "□剑奋诀", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/044.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/044.png", "detail_image": "assets/kapai_ganwu_xinfa/details/044.jpg", "intro_paragraphs": ["这本心法被人用秘法封印了，我无法解读里面内容，只能依稀可见玄剑二字。", "有谁能解开此封印吗？或者待我达到结丹期后，把此封印摧毁！"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "这本心法被人用秘法封印了，我无法解读里面内容，只能依稀可见玄剑二字。\n有谁能解开此封印吗？或者待我达到结丹期后，把此封印摧毁！\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9654, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:18:34", "first_seen": "2026-11-17T03:18:34"}, {"index": 45, "row": 7, "col": 3, "name": "血煞剑魄", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/045.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/045.png", "detail_image": "assets/kapai_ganwu_xinfa/details/045.jpg", "intro_paragraphs": ["血煞剑魄，此心法乃玄剑阁前辈领悟，但前辈修炼后入魔而亡！", "修炼后可领悟技能：瞬影双闪"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "血煞剑魄，此心法乃玄剑阁前辈领悟，但前辈修炼后入魔而亡！\n修炼后可领悟技能：瞬影双闪\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9697, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:18:35", "first_seen": "2026-11-17T03:18:35"}, {"index": 46, "row": 7, "col": 4, "name": "剑魄诀", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/046.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/046.png", "detail_image": "assets/kapai_ganwu_xinfa/details/046.jpg", "intro_paragraphs": ["玄剑阁筑基心法《剑魄诀》，以气养魄，以魄御剑。于丹田筑基之初疑练本命“剑魄”，是为一切无上剑道之根基。", "修炼后可领悟技能：玄机剑魄天赋：器心通明"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "玄剑阁筑基心法《剑魄诀》，以气养魄，以魄御剑。于丹田筑基之初疑练本命“剑魄”，是为一切无上剑道之根基。\n修炼后可领悟技能：玄机剑魄天赋：器心通明\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9707, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:18:37", "first_seen": "2026-11-17T03:18:37"}, {"index": 47, "row": 7, "col": 5, "name": "金锋谱", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/047.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/047.png", "detail_image": "assets/kapai_ganwu_xinfa/details/047.jpg", "intro_paragraphs": ["金气凝锋，锐不可当，锋芒一出如金戈裂空，破甲裂阵无坚不摧。", "修炼后可领悟天赋：金锋破"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "金气凝锋，锐不可当，锋芒一出如金戈裂空，破甲裂阵无坚不摧。\n修炼后可领悟天赋：金锋破\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9935, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:18:40", "first_seen": "2026-11-17T03:18:40"}, {"index": 48, "row": 8, "col": 0, "name": "心剑诀", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/048.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/048.png", "detail_image": "assets/kapai_ganwu_xinfa/details/048.jpg", "intro_paragraphs": ["心为万法源，剑为心之锋以心为炉炼剑魄，以念为引驭剑杰，修至深处可心剑离体。", "修炼后可领悟技能：凝剑术"], "sections": [{"title": "获取途径", "paragraphs": ["结丹期后，修炼悟道+凝聚+凝聚后领悟；", "可在玄剑阁的藏经阁中兑换：", "把心境赠送给入魔的修士（结丹期）有概率获得；", "结期时用机缘遗迹有橱率获得"]}], "full_text": "心为万法源，剑为心之锋以心为炉炼剑魄，以念为引驭剑杰，修至深处可心剑离体。\n修炼后可领悟技能：凝剑术\n\n【获取途径】\n结丹期后，修炼悟道+凝聚+凝聚后领悟；\n可在玄剑阁的藏经阁中兑换：\n把心境赠送给入魔的修士（结丹期）有概率获得；\n结期时用机缘遗迹有橱率获得", "avg_confidence": 0.9379, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:49:20"}, {"index": 49, "row": 8, "col": 1, "name": "神剑谱", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/049.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/049.png", "detail_image": "assets/kapai_ganwu_xinfa/details/049.jpg", "intro_paragraphs": ["这是一本收录了神兵利器的剑谱，上古仙人遍访九州名匠、踏遍三山五岳而辑成。所载诸刃或淬雷泽之精，削铁如泥；或沐月华之韵，吹毛可断。", "修炼后可领悟口诀：借剑诀"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "这是一本收录了神兵利器的剑谱，上古仙人遍访九州名匠、踏遍三山五岳而辑成。所载诸刃或淬雷泽之精，削铁如泥；或沐月华之韵，吹毛可断。\n修炼后可领悟口诀：借剑诀\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9857, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:18:42", "first_seen": "2026-11-17T03:18:42"}, {"index": 50, "row": 8, "col": 2, "name": "藏锋诀", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/050.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/050.png", "detail_image": "assets/kapai_ganwu_xinfa/details/050.jpg", "intro_paragraphs": ["锋芒内敛，藏巧于拙，藏锋于内则气脉沉厚，敛气于形则"], "sections": [{"title": "不露圭角。", "paragraphs": ["修炼后可领悟天赋：笑里藏锋"]}, {"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "锋芒内敛，藏巧于拙，藏锋于内则气脉沉厚，敛气于形则\n\n【不露圭角。】\n修炼后可领悟天赋：笑里藏锋\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9941, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:18:46", "first_seen": "2026-11-17T03:18:46"}, {"index": 51, "row": 8, "col": 3, "name": "凝光心法", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/051.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/051.png", "detail_image": "assets/kapai_ganwu_xinfa/details/051.jpg", "intro_paragraphs": ["以吐纳导引之法引天地清辉、日月精光入体，缓缓疑练丹田气海，修至深处可化灵气为疑光；修炼后可领悟技能：剑盾式"], "sections": [{"title": "获取途径", "paragraphs": ["结丹期后，修炼悟道＋疑聚+御灵后领悟；", "结丹期时使用机缘探索宗门遗迹有概率获得；"]}], "full_text": "以吐纳导引之法引天地清辉、日月精光入体，缓缓疑练丹田气海，修至深处可化灵气为疑光；修炼后可领悟技能：剑盾式\n\n【获取途径】\n结丹期后，修炼悟道＋疑聚+御灵后领悟；\n结丹期时使用机缘探索宗门遗迹有概率获得；", "avg_confidence": 0.9567, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:49:26"}, {"index": 52, "row": 8, "col": 4, "name": "分光剑法", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/052.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/052.png", "detail_image": "assets/kapai_ganwu_xinfa/details/052.jpg", "intro_paragraphs": ["需修炼剑魄诀后方可修炼：本命剑魄为根，分化剑光为用一剑斩出，虚实相生，万法难辨；修炼后可领悟技能：剑魄通明", "（如果你已拥有技能：剑魄通明，则修炼不在掉落）"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "需修炼剑魄诀后方可修炼：本命剑魄为根，分化剑光为用一剑斩出，虚实相生，万法难辨；修炼后可领悟技能：剑魄通明\n（如果你已拥有技能：剑魄通明，则修炼不在掉落）\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9853, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:18:47", "first_seen": "2026-11-17T03:18:47"}, {"index": 53, "row": 8, "col": 5, "name": "裂金诀", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/053.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/053.png", "detail_image": "assets/kapai_ganwu_xinfa/details/053.jpg", "intro_paragraphs": ["出招可附金行破甲之力，能裂金断石、直破护体罡气，尤擅增幅兵刃法宝的锋锐之性；", "修炼后可领悟技能：饮血剑"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "出招可附金行破甲之力，能裂金断石、直破护体罡气，尤擅增幅兵刃法宝的锋锐之性；\n修炼后可领悟技能：饮血剑\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9935, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:18:51", "first_seen": "2026-11-17T03:18:51"}, {"index": 54, "row": 9, "col": 0, "name": "金锋两仪诀", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/054.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/054.png", "detail_image": "assets/kapai_ganwu_xinfa/details/054.jpg", "intro_paragraphs": ["修至深处可阴阳轮转、金气生生不息，非但杀伐锋锐不输纯攻心法，更能补全金行修士守御薄弱之弊，是极为上乘的金行正统法门", "修炼后可领悟技能：凝刃技"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "修至深处可阴阳轮转、金气生生不息，非但杀伐锋锐不输纯攻心法，更能补全金行修士守御薄弱之弊，是极为上乘的金行正统法门\n修炼后可领悟技能：凝刃技\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9911, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:18:52", "first_seen": "2026-11-17T03:18:52"}, {"index": 55, "row": 9, "col": 1, "name": "木心术", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/055.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/055.png", "detail_image": "assets/kapai_ganwu_xinfa/details/055.jpg", "intro_paragraphs": ["练气阶段木系心法。功法浅显易懂、运转温和，循序渐进感悟木系灵力的滋养与运转之妙；修炼后可领悟口诀：唤木诀"], "sections": [{"title": "获取途径", "paragraphs": ["修炼采木后领悟：", "在玄机阁中有概率刷出；", "无名村庄商人有概率出售；", "把采木赠送给打坐中的修士定获得；把心境赠送给入魔的修士有概率获得"]}], "full_text": "练气阶段木系心法。功法浅显易懂、运转温和，循序渐进感悟木系灵力的滋养与运转之妙；修炼后可领悟口诀：唤木诀\n\n【获取途径】\n修炼采木后领悟：\n在玄机阁中有概率刷出；\n无名村庄商人有概率出售；\n把采木赠送给打坐中的修士定获得；把心境赠送给入魔的修士有概率获得", "avg_confidence": 0.9524, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:49:28"}, {"index": 56, "row": 9, "col": 2, "name": "百药谱", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/056.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/056.png", "detail_image": "assets/kapai_ganwu_xinfa/details/056.jpg", "intro_paragraphs": ["谱内详载各类常见草药，从性味归经、生长习性，到采集时机、炮制之法，皆记录得周全细致、条理分明。修炼后可领悟天赋：丹元催化"], "sections": [{"title": "获取途径", "paragraphs": ["筑基后，修炼悟道+药理有50%概率领悟：修炼悟道+丹追+药理后领悟；", "在玄机阁中有概率刷出；", "无名村庄商人有概率出售", "把药理赠送给打坐中的修士有50%概率获得：把心境赠送给入魔的修士有橱率获得"]}], "full_text": "谱内详载各类常见草药，从性味归经、生长习性，到采集时机、炮制之法，皆记录得周全细致、条理分明。修炼后可领悟天赋：丹元催化\n\n【获取途径】\n筑基后，修炼悟道+药理有50%概率领悟：修炼悟道+丹追+药理后领悟；\n在玄机阁中有概率刷出；\n无名村庄商人有概率出售\n把药理赠送给打坐中的修士有50%概率获得：把心境赠送给入魔的修士有橱率获得", "avg_confidence": 0.978, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:49:30"}, {"index": 57, "row": 9, "col": 3, "name": "长生录", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/057.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/057.png", "detail_image": "assets/kapai_ganwu_xinfa/details/057.jpg", "intro_paragraphs": ["古注今来，世人对长生之念深植于心、执念难消，这本《长生录》便是由此执念淬炼而生的木系长生法门。修炼后可领悟天赋：长生术"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+采木后领悟；", "把御灵赠送给打坐中的修士有50%概率获得；把心境赠送给入魔的修士（筑基期）有概率获得", "在玄机阁中有概率刷出", "筑基期时使用机缘探索宗门遗迹有橱率获得"]}], "full_text": "古注今来，世人对长生之念深植于心、执念难消，这本《长生录》便是由此执念淬炼而生的木系长生法门。修炼后可领悟天赋：长生术\n\n【获取途径】\n筑基期后，修炼悟道+采木后领悟；\n把御灵赠送给打坐中的修士有50%概率获得；把心境赠送给入魔的修士（筑基期）有概率获得\n在玄机阁中有概率刷出\n筑基期时使用机缘探索宗门遗迹有橱率获得", "avg_confidence": 0.9831, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:49:37"}, {"index": 58, "row": 9, "col": 4, "name": "百毒谱", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/058.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/058.png", "detail_image": "assets/kapai_ganwu_xinfa/details/058.jpg", "intro_paragraphs": ["迥异于《百药谱》济世救人、调和百草的宗旨，此心法专攻毒术一道，所载皆为世间各类剧毒之法。修炼后可领悟天赋：丹元催化"], "sections": [{"title": "获取途径", "paragraphs": ["修炼悟道+丹道+药理后领悟；", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期）有概率获得", "筑基期时使用机缘探索宗门遗迹有橱率获得"]}], "full_text": "迥异于《百药谱》济世救人、调和百草的宗旨，此心法专攻毒术一道，所载皆为世间各类剧毒之法。修炼后可领悟天赋：丹元催化\n\n【获取途径】\n修炼悟道+丹道+药理后领悟；\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期）有概率获得\n筑基期时使用机缘探索宗门遗迹有橱率获得", "avg_confidence": 0.9624, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:49:44"}, {"index": 59, "row": 9, "col": 5, "name": "幽兰录", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/059.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/059.png", "detail_image": "assets/kapai_ganwu_xinfa/details/059.jpg", "intro_paragraphs": ["幽兰性洁，隐于深谷而不争，蕴藉天地清灵之气，融贯自然之道与精神修行于一体沉心体悟草木与天地的共生之韵，于自然吐纳间契合万物节津。", "每次修炼均能随机获得一株筑基期灵草"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+丹道+丹道后领悟；", "在玄机阁中有概率刷出", "把心境赠送给入魔的修士（筑基期）有概率获得", "筑基期时使用机缘探索宗门遗迹有橱率获得"]}], "full_text": "幽兰性洁，隐于深谷而不争，蕴藉天地清灵之气，融贯自然之道与精神修行于一体沉心体悟草木与天地的共生之韵，于自然吐纳间契合万物节津。\n每次修炼均能随机获得一株筑基期灵草\n\n【获取途径】\n筑基期后，修炼悟道+丹道+丹道后领悟；\n在玄机阁中有概率刷出\n把心境赠送给入魔的修士（筑基期）有概率获得\n筑基期时使用机缘探索宗门遗迹有橱率获得", "avg_confidence": 0.9782, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:49:51"}, {"index": 60, "row": 10, "col": 0, "name": "断肠经", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/060.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/060.png", "detail_image": "assets/kapai_ganwu_xinfa/details/060.jpg", "intro_paragraphs": ["某药师观断肠草的毒性所创，开创以毒入道，生死轮转的修行体系。", "修炼后可领悟天赋：千幻毒手"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+御物+药理后领悟：", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期）有概率获得；", "筑期时用机缘遗迹有橱率获得"]}], "full_text": "某药师观断肠草的毒性所创，开创以毒入道，生死轮转的修行体系。\n修炼后可领悟天赋：千幻毒手\n\n【获取途径】\n筑基期后，修炼悟道+御物+药理后领悟：\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期）有概率获得；\n筑期时用机缘遗迹有橱率获得", "avg_confidence": 0.9737, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:50:00"}, {"index": 61, "row": 10, "col": 1, "name": "春蚕诀", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/061.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/061.png", "detail_image": "assets/kapai_ganwu_xinfa/details/061.jpg", "intro_paragraphs": ["通过吐纳与天地灵气交融春蚕破茧可成蝶，以此生灭循环，褪凡化灵的过程创造的一本心法；修炼后可领悟技能：荆棘和天赋：丹元催化"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+丹道+心境后领悟；", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期有概率获得", "筑基期时使用机缘探索宗门遗迹有橱率获得"]}], "full_text": "通过吐纳与天地灵气交融春蚕破茧可成蝶，以此生灭循环，褪凡化灵的过程创造的一本心法；修炼后可领悟技能：荆棘和天赋：丹元催化\n\n【获取途径】\n筑基期后，修炼悟道+丹道+心境后领悟；\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期有概率获得\n筑基期时使用机缘探索宗门遗迹有橱率获得", "avg_confidence": 0.9792, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:50:07"}, {"index": 62, "row": 10, "col": 2, "name": "栖梧功", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/062.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/062.png", "detail_image": "assets/kapai_ganwu_xinfa/details/062.jpg", "intro_paragraphs": ["修炼者需向凤凰涅槃般，栖息于灵树梧桐中，感受生生不息的天地灵气。", "修炼后可领悟口诀：唤灵诀"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+丹道+采木后领悟；", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期）有概率获得；", "筑基期时使用机缘探索宗门遗迹有概率获得"]}], "full_text": "修炼者需向凤凰涅槃般，栖息于灵树梧桐中，感受生生不息的天地灵气。\n修炼后可领悟口诀：唤灵诀\n\n【获取途径】\n筑基期后，修炼悟道+丹道+采木后领悟；\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期）有概率获得；\n筑基期时使用机缘探索宗门遗迹有概率获得", "avg_confidence": 0.9723, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:50:13"}, {"index": 63, "row": 10, "col": 3, "name": "花衍诀", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/063.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/063.png", "detail_image": "assets/kapai_ganwu_xinfa/details/063.jpg", "intro_paragraphs": ["以天地花木生息衍化之道为旨，引草木菁华灵气入体，如花开次第般缓缓衍化丹田气海；修炼后可领悟技能：唤灵"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+御灵+采木后领悟；", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期有概率获得；", "筑期时用机缘遗迹有橱率获得"]}], "full_text": "以天地花木生息衍化之道为旨，引草木菁华灵气入体，如花开次第般缓缓衍化丹田气海；修炼后可领悟技能：唤灵\n\n【获取途径】\n筑基期后，修炼悟道+御灵+采木后领悟；\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期有概率获得；\n筑期时用机缘遗迹有橱率获得", "avg_confidence": 0.9538, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:50:15"}, {"index": 64, "row": 10, "col": 4, "name": "落樱诀", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/064.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/064.png", "detail_image": "assets/kapai_ganwu_xinfa/details/064.jpg", "intro_paragraphs": ["以樱花荣枯循环之理入道借花木生生不息之道重聚灵元；", "修炼后可领悟技能：落花"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+杀意+采木后领悟；", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期）有概率获得；", "筑基期时使用机缘探索宗门遗迹有概率获得"]}], "full_text": "以樱花荣枯循环之理入道借花木生生不息之道重聚灵元；\n修炼后可领悟技能：落花\n\n【获取途径】\n筑基期后，修炼悟道+杀意+采木后领悟；\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期）有概率获得；\n筑基期时使用机缘探索宗门遗迹有概率获得", "avg_confidence": 0.9687, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:50:20"}, {"index": 65, "row": 10, "col": 5, "name": "毒心经", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/065.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/065.png", "detail_image": "assets/kapai_ganwu_xinfa/details/065.jpg", "intro_paragraphs": ["纳天下草木之毒，融于己身灵力之中，一念之间便可执掌生死：", "修炼后可领悟天赋：元殒毒术"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "纳天下草木之毒，融于己身灵力之中，一念之间便可执掌生死：\n修炼后可领悟天赋：元殒毒术\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9759, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:18:55", "first_seen": "2026-11-17T03:18:55"}, {"index": 66, "row": 11, "col": 0, "name": "蕴灵诀", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/066.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/066.png", "detail_image": "assets/kapai_ganwu_xinfa/details/066.jpg", "intro_paragraphs": ["承天地灵脉，蕴万物精元修炼者以身为鼎引天地灵气孕育灵物。", "修炼后可领悟天赋：灵植之心"], "sections": [{"title": "获取途径", "paragraphs": ["结丹期后，修炼悟道＋生长+生长后领悟；", "把心境赠送给入魔的修士（结丹期有概率获得；", "结丹期时使用机缘探索宗门遗迹有概率获得"]}], "full_text": "承天地灵脉，蕴万物精元修炼者以身为鼎引天地灵气孕育灵物。\n修炼后可领悟天赋：灵植之心\n\n【获取途径】\n结丹期后，修炼悟道＋生长+生长后领悟；\n把心境赠送给入魔的修士（结丹期有概率获得；\n结丹期时使用机缘探索宗门遗迹有概率获得", "avg_confidence": 0.9802, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:50:23"}, {"index": 67, "row": 11, "col": 1, "name": "青冥真解", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/067.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/067.png", "detail_image": "assets/kapai_ganwu_xinfa/details/067.jpg", "intro_paragraphs": ["此功法暗合自然生灭之道洞悉草木枯荣的本源法理，契合自然大道，能与世间草木生灵同频共振；修炼后可领悟天赋：青冥引"], "sections": [{"title": "获取途径", "paragraphs": ["结丹期后，修炼悟道＋生长+杀意后领悟：", "把心境赠送给入魔的修士（结丹期）有概率获得；", "结丹期时使用机缘探索宗门遗迹有概率获得"]}], "full_text": "此功法暗合自然生灭之道洞悉草木枯荣的本源法理，契合自然大道，能与世间草木生灵同频共振；修炼后可领悟天赋：青冥引\n\n【获取途径】\n结丹期后，修炼悟道＋生长+杀意后领悟：\n把心境赠送给入魔的修士（结丹期）有概率获得；\n结丹期时使用机缘探索宗门遗迹有概率获得", "avg_confidence": 0.9715, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:50:25"}, {"index": 68, "row": 11, "col": 2, "name": "黃庭內景", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/068.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/068.png", "detail_image": "assets/kapai_ganwu_xinfa/details/068.jpg", "intro_paragraphs": ["借心法妙韵滋养本命元机，调和气血、稳固灵根，令道基如磐石般不可撼动。为炼养脏腑无上内修心法；修炼后可领悟天赋：丹元催化"], "sections": [{"title": "获取途径", "paragraphs": ["结丹期后，修炼悟道+生长+丹道后领悟；", "把心境赠送给入魔的修士（结丹期有概率获得；", "结期时用机缘遗迹有橱率获得"]}], "full_text": "借心法妙韵滋养本命元机，调和气血、稳固灵根，令道基如磐石般不可撼动。为炼养脏腑无上内修心法；修炼后可领悟天赋：丹元催化\n\n【获取途径】\n结丹期后，修炼悟道+生长+丹道后领悟；\n把心境赠送给入魔的修士（结丹期有概率获得；\n结期时用机缘遗迹有橱率获得", "avg_confidence": 0.9707, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:50:27"}, {"index": 69, "row": 11, "col": 3, "name": "花棲木", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/069.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/069.png", "detail_image": "assets/kapai_ganwu_xinfa/details/069.jpg", "intro_paragraphs": ["行功时花木相生相养，疑灵韵作花魂栖于气海；", "修炼后可领悟天赋：花之魂"], "sections": [{"title": "获取途径", "paragraphs": ["结丹期后，修炼悟道+生长+御物后领悟：", "把心境赠送给入魔的修士（结丹期）有概率获得；", "结丹期时使用机缘探索宗门遗迹有概率获得；"]}], "full_text": "行功时花木相生相养，疑灵韵作花魂栖于气海；\n修炼后可领悟天赋：花之魂\n\n【获取途径】\n结丹期后，修炼悟道+生长+御物后领悟：\n把心境赠送给入魔的修士（结丹期）有概率获得；\n结丹期时使用机缘探索宗门遗迹有概率获得；", "avg_confidence": 0.9549, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:50:32"}, {"index": 70, "row": 11, "col": 4, "name": "归根护元法", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/070.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/070.png", "detail_image": "assets/kapai_ganwu_xinfa/details/070.jpg", "intro_paragraphs": ["以「落叶归根、元息守一」为道旨，行功时将周身散逸灵气敛归丹田本源，疑作护元罡气覆于心脉气海；修炼后可领悟天赋：落叶归根"], "sections": [{"title": "获取途径", "paragraphs": ["结丹期后，修炼悟道+生长+御灵后领悟；", "把心境赠送给入魔的修士（结丹期有概率获得；", "结期时用机缘遗迹有橱率获得"]}], "full_text": "以「落叶归根、元息守一」为道旨，行功时将周身散逸灵气敛归丹田本源，疑作护元罡气覆于心脉气海；修炼后可领悟天赋：落叶归根\n\n【获取途径】\n结丹期后，修炼悟道+生长+御灵后领悟；\n把心境赠送给入魔的修士（结丹期有概率获得；\n结期时用机缘遗迹有橱率获得", "avg_confidence": 0.9751, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:50:35"}, {"index": 71, "row": 11, "col": 5, "name": "万木归灵术", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/071.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/071.png", "detail_image": "assets/kapai_ganwu_xinfa/details/071.jpg", "intro_paragraphs": ["修炼者可借草木共鸣感知周遭生机，催动心法时经脉如古树盘根，生生不息；", "修炼后可领悟技能：葬花术"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "修炼者可借草木共鸣感知周遭生机，催动心法时经脉如古树盘根，生生不息；\n修炼后可领悟技能：葬花术\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9837, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:18:56", "first_seen": "2026-11-17T03:18:56"}, {"index": 72, "row": 12, "col": 0, "name": "血灵经", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/072.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/072.png", "detail_image": "assets/kapai_ganwu_xinfa/details/072.jpg", "intro_paragraphs": ["以自身血脉为壤，取精血饲木灵。", "修炼后可领悟技能：孕灵术"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "以自身血脉为壤，取精血饲木灵。\n修炼后可领悟技能：孕灵术\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9856, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:18:58", "first_seen": "2026-11-17T03:18:58"}, {"index": 73, "row": 12, "col": 1, "name": "涤尘术", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/073.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/073.png", "detail_image": "assets/kapai_ganwu_xinfa/details/073.jpg", "intro_paragraphs": ["练气阶段水系心法。以水系灵力洗练周身杂质、净化灵根，在吐纳间契合水性柔润之韵。修炼后可领悟技能：星图术"], "sections": [{"title": "获取途径", "paragraphs": ["修炼引水后领悟：", "在玄机阁中有概率刷出；", "无名村庄商人有概率出售；", "把引水赠送给打坐中的修士定获得；把心境赠送给入魔的修士有概率获得"]}], "full_text": "练气阶段水系心法。以水系灵力洗练周身杂质、净化灵根，在吐纳间契合水性柔润之韵。修炼后可领悟技能：星图术\n\n【获取途径】\n修炼引水后领悟：\n在玄机阁中有概率刷出；\n无名村庄商人有概率出售；\n把引水赠送给打坐中的修士定获得；把心境赠送给入魔的修士有概率获得", "avg_confidence": 0.9842, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:50:42"}, {"index": 74, "row": 12, "col": 2, "name": "愈心术", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/074.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/074.png", "detail_image": "assets/kapai_ganwu_xinfa/details/074.jpg", "intro_paragraphs": ["此心法专司济世救疗之途，内中收录了海量前人躬身实践的治疗心得，条理分明、底蕴深厚。修炼后可领悟口诀：治愈诀"], "sections": [{"title": "获取途径", "paragraphs": ["修炼悟道+药理有50%概率领悟；修炼悟道+药理+引水后领悟；", "在玄机阁中有概率刷出；", "无名村庄商人有概率出售；", "把药理赠送给打坐中的修士有50%概率获得把心境赠送给入魔的修士有橱率获得"]}], "full_text": "此心法专司济世救疗之途，内中收录了海量前人躬身实践的治疗心得，条理分明、底蕴深厚。修炼后可领悟口诀：治愈诀\n\n【获取途径】\n修炼悟道+药理有50%概率领悟；修炼悟道+药理+引水后领悟；\n在玄机阁中有概率刷出；\n无名村庄商人有概率出售；\n把药理赠送给打坐中的修士有50%概率获得把心境赠送给入魔的修士有橱率获得", "avg_confidence": 0.9464, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:50:44"}, {"index": 75, "row": 12, "col": 3, "name": "止水功", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/075.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/075.png", "detail_image": "assets/kapai_ganwu_xinfa/details/075.jpg", "intro_paragraphs": ["静渊无波，止水照神；", "修炼后可领悟技能：卸力"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+引水后领悟；", "把御灵赠送给打坐中的修士有50%概率获得：把心境赠送给入魔的修士有概率获得：", "在玄机阁中有概率刷出；", "筑基期时使用机缘探索宗门遗迹有概率获得；"]}], "full_text": "静渊无波，止水照神；\n修炼后可领悟技能：卸力\n\n【获取途径】\n筑基期后，修炼悟道+引水后领悟；\n把御灵赠送给打坐中的修士有50%概率获得：把心境赠送给入魔的修士有概率获得：\n在玄机阁中有概率刷出；\n筑基期时使用机缘探索宗门遗迹有概率获得；", "avg_confidence": 0.9744, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:50:49"}, {"index": 76, "row": 12, "col": 4, "name": "回春典", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/076.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/076.png", "detail_image": "assets/kapai_ganwu_xinfa/details/076.jpg", "intro_paragraphs": ["引天地间精纯生息入体，循功法玄奥脉络流转周身，将体內积淀的伤痕如融雪般逐一消融。修炼后可领悟口诀：疗愈阵"], "sections": [{"title": "获取途径", "paragraphs": ["修炼悟道+御灵+药理后领悟；", "把心境赠送给入魔的修士（筑基期有概率获得；"]}], "full_text": "引天地间精纯生息入体，循功法玄奥脉络流转周身，将体內积淀的伤痕如融雪般逐一消融。修炼后可领悟口诀：疗愈阵\n\n【获取途径】\n修炼悟道+御灵+药理后领悟；\n把心境赠送给入魔的修士（筑基期有概率获得；", "avg_confidence": 0.9713, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:50:52"}, {"index": 77, "row": 12, "col": 5, "name": "续脉经", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/077.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/077.png", "detail_image": "assets/kapai_ganwu_xinfa/details/077.jpg", "intro_paragraphs": ["唯有身临濒死之境，经脉欲断、生机将绝、命悬一线之际，方能引动功法内蕴的玄妙机理。修炼后可领悟技能：保命", "修炼后可领悟天赋：灵脉之躯"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "唯有身临濒死之境，经脉欲断、生机将绝、命悬一线之际，方能引动功法内蕴的玄妙机理。修炼后可领悟技能：保命\n修炼后可领悟天赋：灵脉之躯\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9925, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:18:59", "first_seen": "2026-11-17T03:18:59"}, {"index": 78, "row": 13, "col": 0, "name": "引气经", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/078.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/078.png", "detail_image": "assets/kapai_ganwu_xinfa/details/078.jpg", "intro_paragraphs": ["摒弃了基础吐纳的粗浅法门，以更玄奥的呼吸节律与灵力运转之法，每一次呼吸皆能牵引更磅礴的天地灵气入体。修炼后可领悟天赋：灵力亲和"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+御灵+心境后领悟；", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期）有概率获得"]}], "full_text": "摒弃了基础吐纳的粗浅法门，以更玄奥的呼吸节律与灵力运转之法，每一次呼吸皆能牵引更磅礴的天地灵气入体。修炼后可领悟天赋：灵力亲和\n\n【获取途径】\n筑基期后，修炼悟道+御灵+心境后领悟；\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期）有概率获得", "avg_confidence": 0.9815, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:50:54"}, {"index": 79, "row": 13, "col": 1, "name": "水元诀", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/079.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/079.png", "detail_image": "assets/kapai_ganwu_xinfa/details/079.jpg", "intro_paragraphs": ["学习江河不争之性，融月华至柔之韵，柔中藏韧，化浊气为清露；", "修炼后可领悟天赋：万法归流"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+御灵+身法后领悟；", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期有概率获得；"]}], "full_text": "学习江河不争之性，融月华至柔之韵，柔中藏韧，化浊气为清露；\n修炼后可领悟天赋：万法归流\n\n【获取途径】\n筑基期后，修炼悟道+御灵+身法后领悟；\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期有概率获得；", "avg_confidence": 0.9771, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:50:56"}, {"index": 80, "row": 13, "col": 2, "name": "引潮法", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/080.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/080.png", "detail_image": "assets/kapai_ganwu_xinfa/details/080.jpg", "intro_paragraphs": ["引潮法直指天人合一至理，将浩瀚海洋潮汐之力纳入方寸之躯", "修炼后可领悟天赋：万法归流"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+御灵+引水后领悟；", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期有概率获得；"]}], "full_text": "引潮法直指天人合一至理，将浩瀚海洋潮汐之力纳入方寸之躯\n修炼后可领悟天赋：万法归流\n\n【获取途径】\n筑基期后，修炼悟道+御灵+引水后领悟；\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期有概率获得；", "avg_confidence": 0.9801, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:50:59"}, {"index": 81, "row": 13, "col": 3, "name": "归藏术", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/081.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/081.png", "detail_image": "assets/kapai_ganwu_xinfa/details/081.jpg", "intro_paragraphs": ["气合太虚，行随造化，身若山河芥子", "修炼后可领悟天赋：法术精"], "sections": [{"title": "通", "paragraphs": []}, {"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+御灵+御土后领悟；", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期有概率获得；"]}], "full_text": "气合太虚，行随造化，身若山河芥子\n修炼后可领悟天赋：法术精\n\n【通】\n\n【获取途径】\n筑基期后，修炼悟道+御灵+御土后领悟；\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期有概率获得；", "avg_confidence": 0.9632, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:51:01"}, {"index": 82, "row": 13, "col": 4, "name": "润元心法", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/082.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/082.png", "detail_image": "assets/kapai_ganwu_xinfa/details/082.jpg", "intro_paragraphs": ["以灵水化气，缓缓浸润经脉丹田，温养本源、涤荡浊息。", "修炼后可领悟天赋：生生不息"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+丹道+引水后领悟；", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期有概率获得；"]}], "full_text": "以灵水化气，缓缓浸润经脉丹田，温养本源、涤荡浊息。\n修炼后可领悟天赋：生生不息\n\n【获取途径】\n筑基期后，修炼悟道+丹道+引水后领悟；\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期有概率获得；", "avg_confidence": 0.9778, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:51:03"}, {"index": 83, "row": 13, "col": 5, "name": "寒影追魂录", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/083.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/083.png", "detail_image": "assets/kapai_ganwu_xinfa/details/083.jpg", "intro_paragraphs": ["修者以寒淬脈，疑影藏形出手时化气为冰、影随念动。敌未觉而冰已侵骨。", "修炼后可领悟天赋：无形冰"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+御灵+剑芒后领悟；", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期有概率获得；"]}], "full_text": "修者以寒淬脈，疑影藏形出手时化气为冰、影随念动。敌未觉而冰已侵骨。\n修炼后可领悟天赋：无形冰\n\n【获取途径】\n筑基期后，修炼悟道+御灵+剑芒后领悟；\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期有概率获得；", "avg_confidence": 0.9656, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:51:05"}, {"index": 84, "row": 14, "col": 0, "name": "疑尘诀", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/084.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/084.png", "detail_image": "assets/kapai_ganwu_xinfa/details/084.jpg", "intro_paragraphs": ["以引天地微尘入脉，疑尘为气，于微末之间炼就道体。", "修炼后可领悟口诀：凝气诀"], "sections": [{"title": "获取途径", "paragraphs": ["结丹期后，修炼悟道+包容+顿悟后领悟；"]}], "full_text": "以引天地微尘入脉，疑尘为气，于微末之间炼就道体。\n修炼后可领悟口诀：凝气诀\n\n【获取途径】\n结丹期后，修炼悟道+包容+顿悟后领悟；", "avg_confidence": 0.9462, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:51:09"}, {"index": 85, "row": 14, "col": 1, "name": "沧溟诀", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/085.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/085.png", "detail_image": "assets/kapai_ganwu_xinfa/details/085.jpg", "intro_paragraphs": ["引天地水元之气入体，化为绵绵不绝的柔韧内力，如大海般浩瀚深邃。", "修炼后可领悟天赋：灵脉之躯"], "sections": [{"title": "获取途径", "paragraphs": ["结丹期后，修炼悟道+包容+心境后领悟；", "把心境赠送给入魔的修士（结丹期有概率获得；", "结丹期时使用机缘探索宗门遗迹有概率获得"]}], "full_text": "引天地水元之气入体，化为绵绵不绝的柔韧内力，如大海般浩瀚深邃。\n修炼后可领悟天赋：灵脉之躯\n\n【获取途径】\n结丹期后，修炼悟道+包容+心境后领悟；\n把心境赠送给入魔的修士（结丹期有概率获得；\n结丹期时使用机缘探索宗门遗迹有概率获得", "avg_confidence": 0.9771, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:51:10"}, {"index": 86, "row": 14, "col": 2, "name": "汐残照", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/086.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/086.png", "detail_image": "assets/kapai_ganwu_xinfa/details/086.jpg", "intro_paragraphs": ["残照之韵，落日熔金、霞染海天，于绚烂极致中藏尽决绝之势。", "修炼后可领悟天赋：落珠回春"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "残照之韵，落日熔金、霞染海天，于绚烂极致中藏尽决绝之势。\n修炼后可领悟天赋：落珠回春\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.989, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:19:05", "first_seen": "2026-11-17T03:19:05"}, {"index": 87, "row": 14, "col": 3, "name": "溟吸术", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/087.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/087.png", "detail_image": "assets/kapai_ganwu_xinfa/details/087.jpg", "intro_paragraphs": ["化灵力为无形吸力，可抽取他人修为、生机纳入己身；", "修炼后可领悟技能：斗转星移"], "sections": [{"title": "获取途径", "paragraphs": ["结丹期后，修炼悟道+包容+御物后领悟；", "把心境赠送给入魔的修士（结丹期有概率获得；", "结丹期时使用机缘探索宗门遗迹有概率获得；"]}], "full_text": "化灵力为无形吸力，可抽取他人修为、生机纳入己身；\n修炼后可领悟技能：斗转星移\n\n【获取途径】\n结丹期后，修炼悟道+包容+御物后领悟；\n把心境赠送给入魔的修士（结丹期有概率获得；\n结丹期时使用机缘探索宗门遗迹有概率获得；", "avg_confidence": 0.9659, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:51:13"}, {"index": 88, "row": 14, "col": 4, "name": "回光心诀", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/088.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/088.png", "detail_image": "assets/kapai_ganwu_xinfa/details/088.jpg", "intro_paragraphs": ["以水之澄静涤荡神识，令心神内照、观照己身，可稳道心、破迷障、清杂念。", "修炼后可领悟技能：神佑"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "以水之澄静涤荡神识，令心神内照、观照己身，可稳道心、破迷障、清杂念。\n修炼后可领悟技能：神佑\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9889, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:19:06", "first_seen": "2026-11-17T03:19:06"}, {"index": 89, "row": 14, "col": 5, "name": "同心典", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/089.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/089.png", "detail_image": "assets/kapai_ganwu_xinfa/details/089.jpg", "intro_paragraphs": ["修练者可借契约之桥，将自身生机灵力渡予契约灵兽；", "修炼后可领悟口诀：灵源咒"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "修练者可借契约之桥，将自身生机灵力渡予契约灵兽；\n修炼后可领悟口诀：灵源咒\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9701, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:19:07", "first_seen": "2026-11-17T03:19:07"}, {"index": 90, "row": 15, "col": 0, "name": "守一诀", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/090.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/090.png", "detail_image": "assets/kapai_ganwu_xinfa/details/090.jpg", "intro_paragraphs": ["只要守住那一点本源一息。万般强攻、邪扰都难以破开你的防线；", "修炼后可领悟技能：无量障"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "只要守住那一点本源一息。万般强攻、邪扰都难以破开你的防线；\n修炼后可领悟技能：无量障\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9581, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:19:08", "first_seen": "2026-11-17T03:19:08"}, {"index": 91, "row": 15, "col": 1, "name": "焚炎经", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/091.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/091.png", "detail_image": "assets/kapai_ganwu_xinfa/details/091.jpg", "intro_paragraphs": ["练气阶段火系心法。此法核心在于引动天地间散逸的火灵之气，点燃体内火源根基，在吐纳间体悟火系灵力的炽烈之威；", "修炼后可领悟口诀：唤火诀"], "sections": [{"title": "获取途径", "paragraphs": ["控火必定获得：", "在玄机阁中有概率刷出；", "无名村庄商人有概率出售；", "把控火赠送给打坐中的修士定把心境赠送给入质的修士有橱率获得"]}], "full_text": "练气阶段火系心法。此法核心在于引动天地间散逸的火灵之气，点燃体内火源根基，在吐纳间体悟火系灵力的炽烈之威；\n修炼后可领悟口诀：唤火诀\n\n【获取途径】\n控火必定获得：\n在玄机阁中有概率刷出；\n无名村庄商人有概率出售；\n把控火赠送给打坐中的修士定把心境赠送给入质的修士有橱率获得", "avg_confidence": 0.9539, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:51:15"}, {"index": 92, "row": 15, "col": 2, "name": "淬骨功", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/092.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/092.png", "detail_image": "assets/kapai_ganwu_xinfa/details/092.jpg", "intro_paragraphs": ["所载是一套以火焰淬炼筋骨的系统法门，以温和却持久的火焰之力烘烤骨骼、锻打筋肉，逐层褪去肉身杂质，强化骨骼坚韧度。", "修炼后可领悟天赋：百炼钢躯"], "sections": [{"title": "获取途径", "paragraphs": ["修炼悟道+身法有50%概率领悟；修炼悟道+身法+控火后领悟；", "在玄机阁中有概率刷出", "无名村庄商人有概率出售", "把身法赠送给打坐中的修士有50%概率获得；把心境赠送给入魔的修士有橱率获得"]}], "full_text": "所载是一套以火焰淬炼筋骨的系统法门，以温和却持久的火焰之力烘烤骨骼、锻打筋肉，逐层褪去肉身杂质，强化骨骼坚韧度。\n修炼后可领悟天赋：百炼钢躯\n\n【获取途径】\n修炼悟道+身法有50%概率领悟；修炼悟道+身法+控火后领悟；\n在玄机阁中有概率刷出\n无名村庄商人有概率出售\n把身法赠送给打坐中的修士有50%概率获得；把心境赠送给入魔的修士有橱率获得", "avg_confidence": 0.9785, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:51:22"}, {"index": 93, "row": 15, "col": 3, "name": "焚天诀", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/093.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/093.png", "detail_image": "assets/kapai_ganwu_xinfa/details/093.jpg", "intro_paragraphs": ["上古火修秘典，以火证道"], "sections": [{"title": "焚天煮海。", "paragraphs": ["修炼后可领悟口诀：聚火诀"]}, {"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+控火后领悟；", "把杀意赠送给打坐中的修士定获得：把心境赠送给入魔的修士（筑基期）有概率获得：", "在玄机阁中有概率刷出；", "筑基期时使用机缘探索宗门遗迹有概率获得"]}], "full_text": "上古火修秘典，以火证道\n\n【焚天煮海。】\n修炼后可领悟口诀：聚火诀\n\n【获取途径】\n筑基期后，修炼悟道+控火后领悟；\n把杀意赠送给打坐中的修士定获得：把心境赠送给入魔的修士（筑基期）有概率获得：\n在玄机阁中有概率刷出；\n筑基期时使用机缘探索宗门遗迹有概率获得", "avg_confidence": 0.9789, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:51:27"}, {"index": 94, "row": 15, "col": 4, "name": "玄火锻骨录", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/094.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/094.png", "detail_image": "assets/kapai_ganwu_xinfa/details/094.jpg", "intro_paragraphs": ["以秘法引玄阳真火入体，循功法脉络流转周身，让真火之力缓缓渗透骨骼脏腑；此心法需要在火属性地点修炼修炼后可领悟天赋：百炼钢躯"], "sections": [{"title": "获取途径", "paragraphs": ["修炼悟道+杀意+身法后领悟；", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期）有概率获得", "筑基期时使用机缘探索宗门遗迹有橱率获得"]}], "full_text": "以秘法引玄阳真火入体，循功法脉络流转周身，让真火之力缓缓渗透骨骼脏腑；此心法需要在火属性地点修炼修炼后可领悟天赋：百炼钢躯\n\n【获取途径】\n修炼悟道+杀意+身法后领悟；\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期）有概率获得\n筑基期时使用机缘探索宗门遗迹有橱率获得", "avg_confidence": 0.964, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:51:30"}, {"index": 95, "row": 15, "col": 5, "name": "血髓功", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/095.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/095.png", "detail_image": "assets/kapai_ganwu_xinfa/details/095.jpg", "intro_paragraphs": ["以自身精血为媒，冲破体内三十六处玄关隘口；此心法需要在火属性地点修炼", "修炼后可领悟天赋：神魂锻体"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "以自身精血为媒，冲破体内三十六处玄关隘口；此心法需要在火属性地点修炼\n修炼后可领悟天赋：神魂锻体\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9924, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:19:09", "first_seen": "2026-11-17T03:19:09"}, {"index": 96, "row": 16, "col": 0, "name": "焚心剑谱", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/096.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/096.png", "detail_image": "assets/kapai_ganwu_xinfa/details/096.jpg", "intro_paragraphs": ["引心火入剑，以剑焚心，斩断七情六欲；此心法需要在火属性地点修炼", "修炼后可领悟天赋：百炼钢驱和天赋：剑术精通"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+剑意+控火后领悟；", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期有概率获得；", "筑举期时用机缘遗迹有橱率获得"]}], "full_text": "引心火入剑，以剑焚心，斩断七情六欲；此心法需要在火属性地点修炼\n修炼后可领悟天赋：百炼钢驱和天赋：剑术精通\n\n【获取途径】\n筑基期后，修炼悟道+剑意+控火后领悟；\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期有概率获得；\n筑举期时用机缘遗迹有橱率获得", "avg_confidence": 0.9728, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:51:37"}, {"index": 97, "row": 16, "col": 1, "name": "焚脉法", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/097.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/097.png", "detail_image": "assets/kapai_ganwu_xinfa/details/097.jpg", "intro_paragraphs": ["以火为媒，引天地之火入体焚脉。此心法需要在火属性地点修炼", "修炼后可领悟天赋：百炼钢驱"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+杀意+控火后领悟；", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期）有概率获得；", "筑期时用机缘遗迹有橱率获得"]}], "full_text": "以火为媒，引天地之火入体焚脉。此心法需要在火属性地点修炼\n修炼后可领悟天赋：百炼钢驱\n\n【获取途径】\n筑基期后，修炼悟道+杀意+控火后领悟；\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期）有概率获得；\n筑期时用机缘遗迹有橱率获得", "avg_confidence": 0.9657, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:51:44"}, {"index": 98, "row": 16, "col": 2, "name": "燃血术", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/098.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/098.png", "detail_image": "assets/kapai_ganwu_xinfa/details/098.jpg", "intro_paragraphs": ["以血为薪，焚命为焰，燃周身之血以激发潜能。此心法需要在火属性地点修炼", "修炼后可领悟天赋：百炼钢驱"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+杀意+引水后领悟；", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期有概率获得；", "筑举期时用机缘遗迹有橱率获得"]}], "full_text": "以血为薪，焚命为焰，燃周身之血以激发潜能。此心法需要在火属性地点修炼\n修炼后可领悟天赋：百炼钢驱\n\n【获取途径】\n筑基期后，修炼悟道+杀意+引水后领悟；\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期有概率获得；\n筑举期时用机缘遗迹有橱率获得", "avg_confidence": 0.9639, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:51:51"}, {"index": 99, "row": 16, "col": 3, "name": "连锋诀", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/099.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/099.png", "detail_image": "assets/kapai_ganwu_xinfa/details/099.jpg", "intro_paragraphs": ["火脉战攻之法，以心火炼锋刃之意，融火势于刀兵之中。", "修炼后可领悟技能：乘胜"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+御物+控火后领悟；", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期有概率获得；", "筑基期时使用机缘探索宗门遗迹有概率获得；"]}], "full_text": "火脉战攻之法，以心火炼锋刃之意，融火势于刀兵之中。\n修炼后可领悟技能：乘胜\n\n【获取途径】\n筑基期后，修炼悟道+御物+控火后领悟；\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期有概率获得；\n筑基期时使用机缘探索宗门遗迹有概率获得；", "avg_confidence": 0.9764, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:51:56"}, {"index": 100, "row": 16, "col": 4, "name": "爆炎诀", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/100.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/100.png", "detail_image": "assets/kapai_ganwu_xinfa/details/100.jpg", "intro_paragraphs": ["将火属性灵力高度疑聚后骤然释放，形成炸裂般的毁灭性冲击。", "修炼后可领悟技能：爆袭"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+御灵+控火后领悟；", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期）有概率获得；", "筑基期时使用机缘探索宗门遗迹有概率获得"]}], "full_text": "将火属性灵力高度疑聚后骤然释放，形成炸裂般的毁灭性冲击。\n修炼后可领悟技能：爆袭\n\n【获取途径】\n筑基期后，修炼悟道+御灵+控火后领悟；\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期）有概率获得；\n筑基期时使用机缘探索宗门遗迹有概率获得", "avg_confidence": 0.9724, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:51:58"}, {"index": 101, "row": 16, "col": 5, "name": "焚霄诀", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/101.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/101.png", "detail_image": "assets/kapai_ganwu_xinfa/details/101.jpg", "intro_paragraphs": ["火系至刚至烈的顶尖攻伐心法，需引地火、融天火、炼心火，三火合一筑就根基。", "修炼后可领悟天赋：真炎道"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "火系至刚至烈的顶尖攻伐心法，需引地火、融天火、炼心火，三火合一筑就根基。\n修炼后可领悟天赋：真炎道\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9929, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:19:10", "first_seen": "2026-11-17T03:19:10"}, {"index": 102, "row": 17, "col": 0, "name": "燃神诀", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/102.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/102.png", "detail_image": "assets/kapai_ganwu_xinfa/details/102.jpg", "intro_paragraphs": ["火系禁忌心法，以神识为薪，是舍神识换力量的诡道火"], "sections": [{"title": "系心法。", "paragraphs": ["修炼后可领悟天赋：神魂锻体"]}, {"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "火系禁忌心法，以神识为薪，是舍神识换力量的诡道火\n\n【系心法。】\n修炼后可领悟天赋：神魂锻体\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9918, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:19:13", "first_seen": "2026-11-17T03:19:13"}, {"index": 103, "row": 17, "col": 1, "name": "燃魄诀", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/103.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/103.png", "detail_image": "assets/kapai_ganwu_xinfa/details/103.jpg", "intro_paragraphs": ["火系邪异心法，以寿元为薪，是舍身取力的的诡道火系心法。", "修炼后可领悟天赋：太素炼形"], "sections": [{"title": "获取途径", "paragraphs": ["结丹期后，修炼悟道＋释放+释放后领悟；", "把心境赠送给入魔的修士（结丹期有概率获得；", "结丹期时使用机缘探索宗门遗迹有概率获得"]}], "full_text": "火系邪异心法，以寿元为薪，是舍身取力的的诡道火系心法。\n修炼后可领悟天赋：太素炼形\n\n【获取途径】\n结丹期后，修炼悟道＋释放+释放后领悟；\n把心境赠送给入魔的修士（结丹期有概率获得；\n结丹期时使用机缘探索宗门遗迹有概率获得", "avg_confidence": 0.9731, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:52:02"}, {"index": 104, "row": 17, "col": 2, "name": "化龙功", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/104.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/104.png", "detail_image": "assets/kapai_ganwu_xinfa/details/104.jpg", "intro_paragraphs": ["以龙形火意淬炼经脉骨骼日积月累，肉身蜕变、气血如龙，举手投足皆有龙威；", "修炼后可领悟技能：炎龙之力"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "以龙形火意淬炼经脉骨骼日积月累，肉身蜕变、气血如龙，举手投足皆有龙威；\n修炼后可领悟技能：炎龙之力\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9886, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:19:14", "first_seen": "2026-11-17T03:19:14"}, {"index": 105, "row": 17, "col": 3, "name": "炎息心法", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/105.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/105.png", "detail_image": "assets/kapai_ganwu_xinfa/details/105.jpg", "intro_paragraphs": ["以吐纳调息为根基，令呼吸与火意相合，一呼一吸皆带炎气。", "修炼后可领悟天赋：浴火之躯"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "以吐纳调息为根基，令呼吸与火意相合，一呼一吸皆带炎气。\n修炼后可领悟天赋：浴火之躯\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9814, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:19:15", "first_seen": "2026-11-17T03:19:15"}, {"index": 106, "row": 17, "col": 4, "name": "九死功", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/106.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/106.png", "detail_image": "assets/kapai_ganwu_xinfa/details/106.jpg", "intro_paragraphs": ["需在生死边缘突破，以焚身之火淬体炼神，死一次，进一层。", "修炼后可领悟技能：浴火雷劫"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "需在生死边缘突破，以焚身之火淬体炼神，死一次，进一层。\n修炼后可领悟技能：浴火雷劫\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9761, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:19:16", "first_seen": "2026-11-17T03:19:16"}, {"index": 107, "row": 17, "col": 5, "name": "烬身诀", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/107.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/107.png", "detail_image": "assets/kapai_ganwu_xinfa/details/107.jpg", "intro_paragraphs": ["以自身气血精元为薪柴，换取远超常态的战力。", "修炼后可领悟技能：烬身三式"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "以自身气血精元为薪柴，换取远超常态的战力。\n修炼后可领悟技能：烬身三式\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9945, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:19:17", "first_seen": "2026-11-17T03:19:17"}, {"index": 108, "row": 18, "col": 0, "name": "岩息术", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/108.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/108.png", "detail_image": "assets/kapai_ganwu_xinfa/details/108.jpg", "intro_paragraphs": ["练气阶段土系心法。以吐纳之术吸纳天地间的土灵之气，夯实肉身与灵根根基，掌握土系灵力最基础的凝聚、运转之法。", "修炼后可领悟技能：岩肤体"], "sections": [{"title": "获取途径", "paragraphs": ["修炼御土后领悟；", "在玄机阁中有概率刷出；", "无名村庄商人有概率出售；", "把御土赠送给打坐中的修士定把心境赠送给入质的修士有橱率获得"]}], "full_text": "练气阶段土系心法。以吐纳之术吸纳天地间的土灵之气，夯实肉身与灵根根基，掌握土系灵力最基础的凝聚、运转之法。\n修炼后可领悟技能：岩肤体\n\n【获取途径】\n修炼御土后领悟；\n在玄机阁中有概率刷出；\n无名村庄商人有概率出售；\n把御土赠送给打坐中的修士定把心境赠送给入质的修士有橱率获得", "avg_confidence": 0.961, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:52:05"}, {"index": 109, "row": 18, "col": 1, "name": "金刚拳", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/109.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/109.png", "detail_image": "assets/kapai_ganwu_xinfa/details/109.jpg", "intro_paragraphs": ["记载了一套以守御为核心的拳法体系遇袭时如何借土系灵力的厚重之性卸力、抗冲击，剖析得细致入微。修炼后可领悟技能：反击式"], "sections": [{"title": "获取途径", "paragraphs": ["修炼悟道+身法有50%概率领悟；修炼悟道+身法+御土后领悟；", "在玄机阁中有概率刷出；", "无名村庄商人有概率出售；", "把身法赠送给打坐中的修士有50%概率获得把心境赠送给入魔的修士有概率获得"]}], "full_text": "记载了一套以守御为核心的拳法体系遇袭时如何借土系灵力的厚重之性卸力、抗冲击，剖析得细致入微。修炼后可领悟技能：反击式\n\n【获取途径】\n修炼悟道+身法有50%概率领悟；修炼悟道+身法+御土后领悟；\n在玄机阁中有概率刷出；\n无名村庄商人有概率出售；\n把身法赠送给打坐中的修士有50%概率获得把心境赠送给入魔的修士有概率获得", "avg_confidence": 0.9678, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:52:11"}, {"index": 110, "row": 18, "col": 2, "name": "镇岳诀", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/110.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/110.png", "detail_image": "assets/kapai_ganwu_xinfa/details/110.jpg", "intro_paragraphs": ["以山为魂，以岳为魄，纳天地浑厚之气，炼筋骨不动之基；", "修炼后可领悟技能：嘲讽体"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+御土后领悟：", "把御物赠送给打坐中的修士有50%概率获得；把心境赠送给入魔的修士（筑基期）有概率获得；", "在玄机阁中有概率刷出", "筑基期时使用机缘探索宗门遗迹有概率获得：", "筑基期时，修炼悟道有概率获得。"]}], "full_text": "以山为魂，以岳为魄，纳天地浑厚之气，炼筋骨不动之基；\n修炼后可领悟技能：嘲讽体\n\n【获取途径】\n筑基期后，修炼悟道+御土后领悟：\n把御物赠送给打坐中的修士有50%概率获得；把心境赠送给入魔的修士（筑基期）有概率获得；\n在玄机阁中有概率刷出\n筑基期时使用机缘探索宗门遗迹有概率获得：\n筑基期时，修炼悟道有概率获得。", "avg_confidence": 0.9702, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:52:18"}, {"index": 111, "row": 18, "col": 3, "name": "混元破障拳", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/111.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/111.png", "detail_image": "assets/kapai_ganwu_xinfa/details/111.jpg", "intro_paragraphs": ["混沌归一，阴阳交泰，融六合劲力于拳意，破万法桎梏于方寸。", "修炼后可领悟技能：反击式贰"], "sections": [{"title": "获取途径", "paragraphs": ["修炼悟道+御物+身法后领悟；", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期有概率获得；", "筑期时用机缘遗迹有橱率获得"]}], "full_text": "混沌归一，阴阳交泰，融六合劲力于拳意，破万法桎梏于方寸。\n修炼后可领悟技能：反击式贰\n\n【获取途径】\n修炼悟道+御物+身法后领悟；\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期有概率获得；\n筑期时用机缘遗迹有橱率获得", "avg_confidence": 0.9642, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:52:26"}, {"index": 112, "row": 18, "col": 4, "name": "不动经", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/112.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/112.png", "detail_image": "assets/kapai_ganwu_xinfa/details/112.jpg", "intro_paragraphs": ["以静制动，以守为攻；心不动则道不动，身不动则万法不侵；", "修炼后可领悟天赋：不动如山和口诀：玄甲咒"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "以静制动，以守为攻；心不动则道不动，身不动则万法不侵；\n修炼后可领悟天赋：不动如山和口诀：玄甲咒\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9718, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:19:18", "first_seen": "2026-11-17T03:19:18"}, {"index": 113, "row": 18, "col": 5, "name": "轮回经", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/113.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/113.png", "detail_image": "assets/kapai_ganwu_xinfa/details/113.jpg", "intro_paragraphs": ["渡轮回之劫，掌因果之秤；以轮回为道，破生死之桎梏；", "修炼后可领悟天赋：生死契约"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+御物+心境后领悟；", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期）有概率获得；", "筑基期时使用机缘探索宗门遗迹有概率获得"]}], "full_text": "渡轮回之劫，掌因果之秤；以轮回为道，破生死之桎梏；\n修炼后可领悟天赋：生死契约\n\n【获取途径】\n筑基期后，修炼悟道+御物+心境后领悟；\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期）有概率获得；\n筑基期时使用机缘探索宗门遗迹有概率获得", "avg_confidence": 0.9706, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:52:31"}, {"index": 114, "row": 19, "col": 0, "name": "驭兽决", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/114.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/114.png", "detail_image": "assets/kapai_ganwu_xinfa/details/114.jpg", "intro_paragraphs": ["观万兽习性、融兽灵真意；借万兽之力，证无上大道；", "修炼后可领悟天赋：驭兽之"], "sections": [{"title": "道", "paragraphs": []}, {"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+御物+御土后领悟；", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期）有概率获得；", "筑基期时使用机缘探索宗门遗迹有概率获得"]}], "full_text": "观万兽习性、融兽灵真意；借万兽之力，证无上大道；\n修炼后可领悟天赋：驭兽之\n\n【道】\n\n【获取途径】\n筑基期后，修炼悟道+御物+御土后领悟；\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期）有概率获得；\n筑基期时使用机缘探索宗门遗迹有概率获得", "avg_confidence": 0.9728, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:52:35"}, {"index": 115, "row": 19, "col": 1, "name": "鱼龙变", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/115.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/115.png", "detail_image": "assets/kapai_ganwu_xinfa/details/115.jpg", "intro_paragraphs": ["观鱼跃龙门之景、历千劫而化龙，破万法而成圣；", "修炼后可领悟天赋：生死契约"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+御物+引水后领悟；", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期）有概率获得；", "筑基期时使用机缘探索宗门遗迹有概率获得"]}], "full_text": "观鱼跃龙门之景、历千劫而化龙，破万法而成圣；\n修炼后可领悟天赋：生死契约\n\n【获取途径】\n筑基期后，修炼悟道+御物+引水后领悟；\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期）有概率获得；\n筑基期时使用机缘探索宗门遗迹有概率获得", "avg_confidence": 0.9663, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:52:37"}, {"index": 116, "row": 19, "col": 2, "name": "荒古诀", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/116.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/116.png", "detail_image": "assets/kapai_ganwu_xinfa/details/116.jpg", "intro_paragraphs": ["九尾天狐的一缕记忆，曾经记载着它从灵狐开始修炼的一些片段；", "修炼后可领悟天赋：远古血脉"], "sections": [{"title": "获取途径", "paragraphs": ["完成悦宣儿的四圣兽支线任务获得；"]}], "full_text": "九尾天狐的一缕记忆，曾经记载着它从灵狐开始修炼的一些片段；\n修炼后可领悟天赋：远古血脉\n\n【获取途径】\n完成悦宣儿的四圣兽支线任务获得；", "avg_confidence": 0.9616, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:52:39"}, {"index": 117, "row": 19, "col": 3, "name": "磐石功", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/117.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/117.png", "detail_image": "assets/kapai_ganwu_xinfa/details/117.jpg", "intro_paragraphs": ["以厚重土气淬炼筋骨皮肉。修者肉身坚如顽石，防御强横。", "修炼后可领悟天赋：磐石之躯"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+杀意+御土后领悟：", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期有概率获得；", "筑期时用机缘遗迹有橱率获得"]}], "full_text": "以厚重土气淬炼筋骨皮肉。修者肉身坚如顽石，防御强横。\n修炼后可领悟天赋：磐石之躯\n\n【获取途径】\n筑基期后，修炼悟道+杀意+御土后领悟：\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期有概率获得；\n筑期时用机缘遗迹有橱率获得", "avg_confidence": 0.9746, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:52:40"}, {"index": 118, "row": 19, "col": 4, "name": "契兽诀", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/118.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/118.png", "detail_image": "assets/kapai_ganwu_xinfa/details/118.jpg", "intro_paragraphs": ["以神识为引、灵力为媒，与妖兽缔结灵魂契约；", "修炼后可领悟天赋：与兽共舞"], "sections": [{"title": "获取途径", "paragraphs": ["筑基期后，修炼悟道+杀意+心境后领悟；", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期）有概率获得；", "筑基期时使用机缘探索宗门遗迹有概率获得"]}], "full_text": "以神识为引、灵力为媒，与妖兽缔结灵魂契约；\n修炼后可领悟天赋：与兽共舞\n\n【获取途径】\n筑基期后，修炼悟道+杀意+心境后领悟；\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期）有概率获得；\n筑基期时使用机缘探索宗门遗迹有概率获得", "avg_confidence": 0.9721, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:52:46"}, {"index": 119, "row": 19, "col": 5, "name": "缚龙真法", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/119.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/119.png", "detail_image": "assets/kapai_ganwu_xinfa/details/119.jpg", "intro_paragraphs": ["以法为链，以道为锁；缚龙族为仆，驭万灵为奴；", "修炼后可领悟口诀：驭兽决"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "以法为链，以道为锁；缚龙族为仆，驭万灵为奴；\n修炼后可领悟口诀：驭兽决\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9745, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:19:21", "first_seen": "2026-11-17T03:19:21"}, {"index": 120, "row": 20, "col": 0, "name": "同魂经", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/120.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/120.png", "detail_image": "assets/kapai_ganwu_xinfa/details/120.jpg", "intro_paragraphs": ["以魂为桥，异体同心；同魂共振，万力归一；", "修炼后可领悟天赋：灵愈血契"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "以魂为桥，异体同心；同魂共振，万力归一；\n修炼后可领悟天赋：灵愈血契\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9932, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:19:22", "first_seen": "2026-11-17T03:19:22"}, {"index": 121, "row": 20, "col": 1, "name": "苍壁经", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/121.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/121.png", "detail_image": "assets/kapai_ganwu_xinfa/details/121.jpg", "intro_paragraphs": ["以壁为基，蕴道藏锋；苍冥为盾，玉蕴长生；", "修炼后可领悟天赋：载天盾"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "以壁为基，蕴道藏锋；苍冥为盾，玉蕴长生；\n修炼后可领悟天赋：载天盾\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9809, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:19:23", "first_seen": "2026-11-17T03:19:23"}, {"index": 122, "row": 20, "col": 2, "name": "分神诀", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/122.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/122.png", "detail_image": "assets/kapai_ganwu_xinfa/details/122.jpg", "intro_paragraphs": ["修神之法，以分裂神念为核心，令一份神识化作数份，各"], "sections": [{"title": "司其职。", "paragraphs": ["修炼后可领悟技能：分神"]}, {"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "修神之法，以分裂神念为核心，令一份神识化作数份，各\n\n【司其职。】\n修炼后可领悟技能：分神\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9935, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:19:24", "first_seen": "2026-11-17T03:19:24"}, {"index": 123, "row": 20, "col": 3, "name": "土影诀", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/123.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/123.png", "detail_image": "assets/kapai_ganwu_xinfa/details/123.jpg", "intro_paragraphs": ["借大地土气凝聚为兽形虚影，随心意攻防。", "修炼后可领悟技能：土影卫"], "sections": [{"title": "获取途径", "paragraphs": ["结丹期后，修炼悟道+承载+御物后领悟：", "把心境赠送给入魔的修士（结丹期）有概率获得；", "结丹期时使用机缘探索宗门遗迹有概率获得；"]}], "full_text": "借大地土气凝聚为兽形虚影，随心意攻防。\n修炼后可领悟技能：土影卫\n\n【获取途径】\n结丹期后，修炼悟道+承载+御物后领悟：\n把心境赠送给入魔的修士（结丹期）有概率获得；\n结丹期时使用机缘探索宗门遗迹有概率获得；", "avg_confidence": 0.9623, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:52:48"}, {"index": 124, "row": 20, "col": 4, "name": "噬魂秘法", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/124.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/124.png", "detail_image": "assets/kapai_ganwu_xinfa/details/124.jpg", "intro_paragraphs": ["一念绝杀，噬尽三魂七魄为"], "sections": [{"title": "已用，唯余枯骨证道；", "paragraphs": ["修炼后可领悟天赋：噬魂"]}, {"title": "获取途径", "paragraphs": ["可在魔修神秘人处兑换：", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期有概率获得：", "筑基期时使用机缘探索宗门遗迹有概率获得；"]}], "full_text": "一念绝杀，噬尽三魂七魄为\n\n【已用，唯余枯骨证道；】\n修炼后可领悟天赋：噬魂\n\n【获取途径】\n可在魔修神秘人处兑换：\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期有概率获得：\n筑基期时使用机缘探索宗门遗迹有概率获得；", "avg_confidence": 0.9716, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:52:50"}, {"index": 125, "row": 20, "col": 5, "name": "阴姹玄功", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/125.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/125.png", "detail_image": "assets/kapai_ganwu_xinfa/details/125.jpg", "intro_paragraphs": ["以阴阳交泰为枢，采月魄玄阴为媒。", "需要一名异性角色方可修炼此心法。此心法为特殊心法，不会因修炼而消失，但每次修炼必定获得心魔：色。", "修炼后可领悟口诀：奴心咒"], "sections": [{"title": "获取途径", "paragraphs": ["可在魔修神秘人处兑换：", "在玄机阁中有概率刷出", "把心境赠送给入魔的修士（筑基期有概率获得", "筑基期时使用机缘探索宗门遗迹有橱率获得"]}], "full_text": "以阴阳交泰为枢，采月魄玄阴为媒。\n需要一名异性角色方可修炼此心法。此心法为特殊心法，不会因修炼而消失，但每次修炼必定获得心魔：色。\n修炼后可领悟口诀：奴心咒\n\n【获取途径】\n可在魔修神秘人处兑换：\n在玄机阁中有概率刷出\n把心境赠送给入魔的修士（筑基期有概率获得\n筑基期时使用机缘探索宗门遗迹有橱率获得", "avg_confidence": 0.9775, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:52:53"}, {"index": 126, "row": 21, "col": 0, "name": "七杀经", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/126.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/126.png", "detail_image": "assets/kapai_ganwu_xinfa/details/126.jpg", "intro_paragraphs": ["承七杀星宿肃杀之气，以杀伐证道，以血煞通玄；", "修炼后可领悟天赋：杀戮证"], "sections": [{"title": "道", "paragraphs": []}, {"title": "获取途径", "paragraphs": ["可在魔修神秘人处兑换：", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期有概率获得；", "筑基期时使用机缘探索宗门遗迹有概率获得；"]}], "full_text": "承七杀星宿肃杀之气，以杀伐证道，以血煞通玄；\n修炼后可领悟天赋：杀戮证\n\n【道】\n\n【获取途径】\n可在魔修神秘人处兑换：\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期有概率获得；\n筑基期时使用机缘探索宗门遗迹有概率获得；", "avg_confidence": 0.9768, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:53:00"}, {"index": 127, "row": 21, "col": 1, "name": "锁魂术", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/127.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/127.png", "detail_image": "assets/kapai_ganwu_xinfa/details/127.jpg", "intro_paragraphs": ["此术暗合幽冥至阴法则，大成时可召鬼将阴兵、驱万魂成阵；", "修炼后可领悟天赋：拘魂"], "sections": [{"title": "获取途径", "paragraphs": ["可在魔修神秘人处兑换：", "在玄机阁中有概率刷出；", "把心境赠送给入魔的修士（筑基期有概率获得；", "筑基期时使用机缘探索宗门遗迹有概率获得；"]}], "full_text": "此术暗合幽冥至阴法则，大成时可召鬼将阴兵、驱万魂成阵；\n修炼后可领悟天赋：拘魂\n\n【获取途径】\n可在魔修神秘人处兑换：\n在玄机阁中有概率刷出；\n把心境赠送给入魔的修士（筑基期有概率获得；\n筑基期时使用机缘探索宗门遗迹有概率获得；", "avg_confidence": 0.9665, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:53:02"}, {"index": 128, "row": 21, "col": 2, "name": "逆生劫典", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/128.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/128.png", "detail_image": "assets/kapai_ganwu_xinfa/details/128.jpg", "intro_paragraphs": ["本是用于治疗的灵气，但只需稍稍逆转，便转化成杀人的利器；", "修炼后可领悟技能：蚀脉"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "本是用于治疗的灵气，但只需稍稍逆转，便转化成杀人的利器；\n修炼后可领悟技能：蚀脉\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.986, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:19:27", "first_seen": "2026-11-17T03:19:27"}, {"index": 129, "row": 21, "col": 3, "name": "夺灵天卷", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/129.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/129.png", "detail_image": "assets/kapai_ganwu_xinfa/details/129.jpg", "intro_paragraphs": ["夺天地之造化，侵万物之灵机；", "修炼后可领悟天赋：夺灵"], "sections": [{"title": "获取途径", "paragraphs": ["修炼悟道+包容+杀意后领悟；", "把心境赠送给入魔的修士（结丹期有概率获得：", "结丹期时使用机缘探索宗门遗迹有概率获得；"]}], "full_text": "夺天地之造化，侵万物之灵机；\n修炼后可领悟天赋：夺灵\n\n【获取途径】\n修炼悟道+包容+杀意后领悟；\n把心境赠送给入魔的修士（结丹期有概率获得：\n结丹期时使用机缘探索宗门遗迹有概率获得；", "avg_confidence": 0.946, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:53:04"}, {"index": 130, "row": 21, "col": 4, "name": "无障诀", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/130.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/130.png", "detail_image": "assets/kapai_ganwu_xinfa/details/130.jpg", "intro_paragraphs": ["遁行无声无迹，最擅潜行刺探、脱身避战。", "修炼后可领悟技能：暗杀"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "遁行无声无迹，最擅潜行刺探、脱身避战。\n修炼后可领悟技能：暗杀\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.984, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:19:28", "first_seen": "2026-11-17T03:19:28"}, {"index": 131, "row": 21, "col": 5, "name": "七星宝典", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/131.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/131.png", "detail_image": "assets/kapai_ganwu_xinfa/details/131.jpg", "intro_paragraphs": ["引北斗星辰之力淬炼七窍化周天灵气为本命星灯，点亮一星便可破一层天关，七灯齐燃则与星同寿。修炼后获得大量修为，且自"], "sections": [{"title": "身灵气值将恢复满。", "paragraphs": ["此卡牌由内测玩家：星光设计"]}, {"title": "获取途径", "paragraphs": ["完成无名村庄村长的任务后，在村长的房子里获得；"]}], "full_text": "引北斗星辰之力淬炼七窍化周天灵气为本命星灯，点亮一星便可破一层天关，七灯齐燃则与星同寿。修炼后获得大量修为，且自\n\n【身灵气值将恢复满。】\n此卡牌由内测玩家：星光设计\n\n【获取途径】\n完成无名村庄村长的任务后，在村长的房子里获得；", "avg_confidence": 0.9886, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:53:06"}, {"index": 132, "row": 22, "col": 0, "name": "观星术", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/132.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/132.png", "detail_image": "assets/kapai_ganwu_xinfa/details/132.jpg", "intro_paragraphs": ["无名人士写就得一夜观星象的方法，也不知道有什么用。"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "无名人士写就得一夜观星象的方法，也不知道有什么用。\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9814, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:19:29", "first_seen": "2026-11-17T03:19:29"}, {"index": 133, "row": 22, "col": 1, "name": "固本经", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/133.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/133.png", "detail_image": "assets/kapai_ganwu_xinfa/details/133.jpg", "intro_paragraphs": ["修者修成后，体内自成一套温润气机：一旦脱离战阵、杀意平息，无需刻意运功调息，本源之气便会自行流转：修炼后可领悟天赋：敛锋蕴气"], "sections": [{"title": "获取途径", "paragraphs": ["修炼悟道+丹道+试金后领悟；"]}], "full_text": "修者修成后，体内自成一套温润气机：一旦脱离战阵、杀意平息，无需刻意运功调息，本源之气便会自行流转：修炼后可领悟天赋：敛锋蕴气\n\n【获取途径】\n修炼悟道+丹道+试金后领悟；", "avg_confidence": 0.9522, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:53:09"}, {"index": 134, "row": 22, "col": 2, "name": "调息诀", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/134.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/134.png", "detail_image": "assets/kapai_ganwu_xinfa/details/134.jpg", "intro_paragraphs": ["以规整呼吸节奏为引，带动周身灵气循经脉运转。", "修炼后可领悟天赋：回春圣体"], "sections": [{"title": "获取途径", "paragraphs": ["修炼悟道+丹道+身法后领悟；"]}], "full_text": "以规整呼吸节奏为引，带动周身灵气循经脉运转。\n修炼后可领悟天赋：回春圣体\n\n【获取途径】\n修炼悟道+丹道+身法后领悟；", "avg_confidence": 0.9814, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:53:11"}, {"index": 135, "row": 22, "col": 3, "name": "炼元宝鉴", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/135.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/135.png", "detail_image": "assets/kapai_ganwu_xinfa/details/135.jpg", "intro_paragraphs": ["修练者可借自身元力炼化材料杂质，大幅提升天材地宝的灵气利用率：", "修炼后可领悟天赋：灵犀巧手"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "修练者可借自身元力炼化材料杂质，大幅提升天材地宝的灵气利用率：\n修炼后可领悟天赋：灵犀巧手\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9891, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:19:30", "first_seen": "2026-11-17T03:19:30"}, {"index": 136, "row": 22, "col": 4, "name": "天衍诀", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/136.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/136.png", "detail_image": "assets/kapai_ganwu_xinfa/details/136.jpg", "intro_paragraphs": ["以身为器，以神为筹，推演万物，穷究天机。窃一线生机，衍无尽可能。", "修炼后可领悟天赋：窥天机"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "以身为器，以神为筹，推演万物，穷究天机。窃一线生机，衍无尽可能。\n修炼后可领悟天赋：窥天机\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9746, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:19:32", "first_seen": "2026-11-17T03:19:32"}, {"index": 137, "row": 22, "col": 5, "name": "炼心诀", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/137.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/137.png", "detail_image": "assets/kapai_ganwu_xinfa/details/137.jpg", "intro_paragraphs": ["为辅助类顶尖心法，取心定如磐、神魂无尘为道基，是专攻心境淬炼的正统秘法，与直接攻伐的功法截然不同，素有炼心千劫，道心不灭”的美名。", "修炼后可领悟天赋：天窍"], "sections": [{"title": "获取途径", "paragraphs": ["结丹期后，修炼悟道+释放+顿悟后领悟；"]}], "full_text": "为辅助类顶尖心法，取心定如磐、神魂无尘为道基，是专攻心境淬炼的正统秘法，与直接攻伐的功法截然不同，素有炼心千劫，道心不灭”的美名。\n修炼后可领悟天赋：天窍\n\n【获取途径】\n结丹期后，修炼悟道+释放+顿悟后领悟；", "avg_confidence": 0.9746, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:53:12"}, {"index": 138, "row": 23, "col": 0, "name": "敛神术", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/138.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/138.png", "detail_image": "assets/kapai_ganwu_xinfa/details/138.jpg", "intro_paragraphs": ["神魂类顶尖心法，取敛神归窍、神魂如渊为道基，是融隐匿、防御、修神於一体的特殊秘法，素有\"敛神一出，万识皆盲”的盛名。", "修炼后可领悟天赋：洞虚灵眸"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "神魂类顶尖心法，取敛神归窍、神魂如渊为道基，是融隐匿、防御、修神於一体的特殊秘法，素有\"敛神一出，万识皆盲”的盛名。\n修炼后可领悟天赋：洞虚灵眸\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.962, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:19:35", "first_seen": "2026-11-17T03:19:35"}, {"index": 139, "row": 23, "col": 1, "name": "归元宝鉴", "locked": true, "card_image": "assets/kapai_ganwu_xinfa/cards/139.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/139.png", "detail_image": "assets/kapai_ganwu_xinfa/details/139.jpg", "intro_paragraphs": ["修者以神念为引、自身灵气为媒，可探入法宝肌理，弥合器身裂痕、重续断裂灵脉、补全缺损禁制。修炼后可领悟口诀：还灵咒"], "sections": [{"title": "获取途径", "paragraphs": ["首次获得卡牌后解锁："]}], "full_text": "修者以神念为引、自身灵气为媒，可探入法宝肌理，弥合器身裂痕、重续断裂灵脉、补全缺损禁制。修炼后可领悟口诀：还灵咒\n\n【获取途径】\n首次获得卡牌后解锁：", "avg_confidence": 0.9907, "needs_review": true, "status": "未获得", "captured_at": "2026-11-17T03:19:38", "first_seen": "2026-11-17T03:19:38"}, {"index": 140, "row": 23, "col": 2, "name": "天工经", "locked": false, "card_image": "assets/kapai_ganwu_xinfa/cards/140.png", "icon_image": "assets/kapai_ganwu_xinfa/icons/140.png", "detail_image": "assets/kapai_ganwu_xinfa/details/140.jpg", "intro_paragraphs": ["为器修一脉的正统顶尖心法，取天工造物、器灵共生为道基，是融炼器、御器、融器于一体的特殊秘法，素有“天工一出，万器通灵”的盛誉。", "修炼后可领悟天赋：兵甲通玄"], "sections": [{"title": "获取途径", "paragraphs": ["结丹期后，修炼悟道+凝聚+御物后领悟；"]}], "full_text": "为器修一脉的正统顶尖心法，取天工造物、器灵共生为道基，是融炼器、御器、融器于一体的特殊秘法，素有“天工一出，万器通灵”的盛誉。\n修炼后可领悟天赋：兵甲通玄\n\n【获取途径】\n结丹期后，修炼悟道+凝聚+御物后领悟；", "avg_confidence": 0.986, "needs_review": true, "status": "已获得", "captured_at": "2026-11-17T02:53:17"}], "file_name": "kapai_ganwu_xinfa.json"}]}</script>
+<script>
+(function() {
+  const PUBLISH_MODE = false;
+  const rawEl = document.getElementById('guide-data');
+  const GUIDE = JSON.parse(rawEl.textContent || '{"categories":[]}');
+  const STORAGE_KEY = 'kapai_xiuxian_edits_v1';
+
+  let state = {
+    catIdx: 0,
+    selectedIndex: 0,
+    view: 'codex',
+    filter: 'all',
+    query: '',
+    proofreadOpen: false,
+    edits: loadEdits()
+  };
+
+  function loadEdits() {
+    if (PUBLISH_MODE) return {};
+    try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); }
+    catch (_) { return {}; }
+  }
+
+  function saveEdits() {
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state.edits)); } catch (_) {}
+  }
+
+  // 应用本地校对记录
+  function applySavedEdits() {
+    let editCount = 0;
+    for (const cat of GUIDE.categories) {
+      const catEdits = state.edits[cat.slug] || {};
+      for (const item of cat.items) {
+        const ed = catEdits[String(item.index)];
+        // 只在截图未变化时套用本地校对；卡牌重新抓取（如新获得）后旧校对自动失效
+        if (ed && (ed.captured_at || '') === (item.captured_at || '')) {
+          item.name = ed.name;
+          item.full_text = ed.full_text;
+          const parsed = parseFullText(ed.full_text);
+          item.intro_paragraphs = parsed.intro_paragraphs;
+          item.sections = parsed.sections;
+          item.needs_review = false;
+          item._edited = true;
+          editCount++;
+        }
+      }
+    }
+    const btnJson = document.getElementById('btnExportJson');
+    if (btnJson) {
+      btnJson.style.display = (!PUBLISH_MODE && editCount > 0) ? 'inline-flex' : 'none';
+      btnJson.textContent = `下载修正 JSON (${editCount})`;
+    }
+  }
+
+  function parseFullText(text) {
+    const intro = [];
+    const sections = [];
+    let curSec = null;
+    const lines = String(text || '').split(/\r?\n/);
+    for (const raw of lines) {
+      const line = raw.trim();
+      if (!line) continue;
+      const m = line.match(/^【(.+?)】$/);
+      if (m) {
+        curSec = { title: m[1].trim(), paragraphs: [] };
+        sections.push(curSec);
+      } else if (curSec) {
+        curSec.paragraphs.push(line);
+      } else {
+        intro.push(line);
+      }
+    }
+    return { intro_paragraphs: intro, sections };
+  }
+
+  function formatEditableText(item) {
+    const out = [];
+    for (const p of (item.intro_paragraphs || [])) {
+      if (p.trim()) out.push(p.trim());
+    }
+    for (const s of (item.sections || [])) {
+      if (out.length) out.push('');
+      out.push(`【${s.title}】`);
+      for (const p of (s.paragraphs || [])) {
+        if (p.trim()) out.push(p.trim());
+      }
+    }
+    if (!out.length && item.full_text) return item.full_text;
+    return out.join('\n');
+  }
+
+  function escapeHtml(str) {
+    return String(str || '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  function highlight(str) {
+    const safe = escapeHtml(str);
+    const q = state.query.trim();
+    if (!q) return safe;
+    const esc = q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return safe.replace(new RegExp(esc, 'gi'), m => `<mark>${m}</mark>`);
+  }
+
+  function showToast(msg) {
+    const el = document.getElementById('toast');
+    el.textContent = msg;
+    el.classList.add('show');
+    clearTimeout(showToast._t);
+    showToast._t = setTimeout(() => el.classList.remove('show'), 2300);
+  }
+
+  function isNew(cat, it) {
+    return !!(it.unlocked_at && cat.last_run_at && it.unlocked_at === cat.last_run_at);
+  }
+
+  function getCurrentCat() {
+    return GUIDE.categories[state.catIdx] || null;
+  }
+
+  function getFilteredItems(cat) {
+    if (!cat) return [];
+    const q = state.query.trim().toLowerCase();
+    return cat.items.filter(it => {
+      if (state.filter === 'unlocked' && it.locked) return false;
+      if (state.filter === 'locked' && !it.locked) return false;
+      if (state.filter === 'review' && !it.needs_review) return false;
+      if (state.filter === 'new' && !isNew(cat, it)) return false;
+      if (!q) return true;
+      const hay = [
+        it.name || '',
+        it.full_text || '',
+        ...(it.intro_paragraphs || []),
+        ...((it.sections || []).flatMap(s => [s.title, ...(s.paragraphs || [])]))
+      ].join(' ').toLowerCase();
+      return hay.includes(q);
+    });
+  }
+
+  function render() {
+    applySavedEdits();
+    const cats = GUIDE.categories || [];
+    const tabsEl = document.getElementById('categoryTabs');
+    const toolbar = document.getElementById('toolbar');
+    const root = document.getElementById('contentRoot');
+
+    if (!cats.length) {
+      tabsEl.innerHTML = '';
+      toolbar.style.display = 'none';
+      document.getElementById('btnExportMd').style.display = 'none';
+      root.innerHTML = `
+        <div class="empty-state">
+          <h2>图鉴攻略框架已就绪，等待抓取数据</h2>
+          <p style="color:#6d5c45;font-size:17px;">运行自动抓取脚本后，【感悟&amp;心法】及后续所有分类的卡牌图标与完整文案会自动填入此页面。</p>
+          <div class="empty-steps">
+            <div>1. 首次使用先双击运行 <code>一键安装依赖.bat</code>（自动安装截图与离线中文 OCR 库）。</div>
+            <div>2. 打开《卡牌修仙传》（1920×1080 全屏），进入 <code>【图鉴】→【卡牌】→【感悟&amp;心法】</code>。</div>
+            <div>3. 双击运行 <code>开始抓取.bat</code>，在 5 秒倒计时内切回游戏画面，等待脚本自动点击、滑动并识别全部资料（按 <code>F9</code> 暂停/继续，<code>F10</code> 随时停止并保存）。</div>
+            <div>4. 抓取完成后会自动刷新并打开本页面！未获得的卡牌也会收录并标记 🔒，以后获得了运行 <code>开始抓取.bat</code> → <code>4</code> 即可只补抓这些卡。</div>
+          </div>
+        </div>`;
+      return;
+    }
+
+    document.getElementById('btnExportMd').style.display = 'inline-flex';
+    toolbar.style.display = 'flex';
+
+    const totalItems = cats.reduce((s, c) => s + c.items.length, 0);
+    const totalLocked = cats.reduce((s, c) => s + c.items.filter(x => x.locked).length, 0);
+    document.getElementById('headerSub').textContent =
+      `已收录 ${cats.length} 个分类 · 共 ${totalItems} 条图鉴资料（已获得 ${totalItems - totalLocked} / 未获得 ${totalLocked}）`;
+
+    tabsEl.innerHTML = cats.map((c, i) => {
+      const label = escapeHtml(c.category || c.full_category || `分类${i+1}`);
+      return `<button class="cat-tab ${i === state.catIdx ? 'active' : ''}" onclick="selectCat(${i})">${label}<span class="count">(${c.items.length})</span></button>`;
+    }).join('');
+
+    const cat = getCurrentCat();
+    const filtered = getFilteredItems(cat);
+    const reviewCount = cat.items.filter(x => x.needs_review).length;
+    const lockedCount = cat.items.filter(x => x.locked).length;
+    const newCount = cat.items.filter(x => isNew(cat, x)).length;
+
+    let chipsHtml = `<button class="chip ${state.filter === 'all' ? 'active' : ''}" onclick="setFilter('all')">全部 (${cat.items.length})</button>`;
+    if (lockedCount > 0) {
+      chipsHtml += `<button class="chip ${state.filter === 'unlocked' ? 'active' : ''}" onclick="setFilter('unlocked')">已获得 (${cat.items.length - lockedCount})</button>`;
+      chipsHtml += `<button class="chip ${state.filter === 'locked' ? 'active' : ''}" onclick="setFilter('locked')">🔒 未获得 (${lockedCount})</button>`;
+    }
+    if (newCount > 0) {
+      chipsHtml += `<button class="chip ${state.filter === 'new' ? 'active' : ''}" onclick="setFilter('new')">★ 新获得 (${newCount})</button>`;
+    }
+    if (!PUBLISH_MODE && reviewCount > 0) {
+      chipsHtml += `<button class="chip ${state.filter === 'review' ? 'active' : ''}" onclick="setFilter('review')">建议核对 (${reviewCount})</button>`;
+    }
+    document.getElementById('filterChips').innerHTML = chipsHtml;
+    document.getElementById('statsText').textContent =
+      `当前显示 ${filtered.length} / ${cat.items.length} 条`;
+
+    if (!filtered.length) {
+      root.innerHTML = `<div class="empty-state"><h2>没有匹配的图鉴条目</h2><p style="color:#6d5c45;">试试更换搜索关键词或切换筛选条件。</p></div>`;
+      return;
+    }
+
+    if (!filtered.some(x => x.index === state.selectedIndex)) {
+      state.selectedIndex = filtered[0].index;
+    }
+
+    if (state.view === 'codex') {
+      renderCodexView(cat, filtered, root);
+    } else {
+      renderListView(cat, filtered, root);
+    }
+  }
+
+  function renderCodexView(cat, filtered, root) {
+    const sel = cat.items.find(x => x.index === state.selectedIndex) || filtered[0];
+    const cardsHtml = filtered.map(it => {
+      const cls = [
+        'card-tile',
+        it.index === sel.index ? 'selected' : '',
+        it.locked ? 'locked' : ''
+      ].filter(Boolean).join(' ');
+      const title = escapeHtml(it.name || `#${it.index + 1}`);
+      const imgHtml = it.card_image
+        ? `<img class="full-card-img" src="./${escapeHtml(it.card_image)}" alt="${title}" loading="lazy">`
+        : `<div class="card-tile-fallback"><div class="card-tile-title">${title}</div><div class="card-tile-body">${title.slice(0,2)}</div></div>`;
+      const revDot = (!PUBLISH_MODE && it.needs_review) ? `<span class="review-dot" title="OCR 置信度略低，建议对照原图核对"></span>` : '';
+      const edDot = (!PUBLISH_MODE && it._edited) ? `<span class="edited-dot" title="已手动校对"></span>` : '';
+      const lockTag = it.locked ? `<span class="lock-ribbon">🔒 未获得</span>` : '';
+      const newTag = isNew(cat, it) ? `<span class="new-badge">新</span>` : '';
+      return `<div class="${cls}" onclick="selectItem(${it.index})" title="${title}${it.locked ? '（未获得）' : ''}">${imgHtml}${revDot}${edDot}${lockTag}${newTag}<div class="card-name-caption">${title}</div></div>`;
+    }).join('');
+
+    let bodyHtml = '';
+    {
+      for (const p of (sel.intro_paragraphs || [])) {
+        bodyHtml += `<p>${highlight(p)}</p>`;
+      }
+      for (const sec of (sel.sections || [])) {
+        bodyHtml += `<div class="detail-section-title">【${highlight(sec.title)}】</div>`;
+        for (const p of (sec.paragraphs || [])) {
+          bodyHtml += `<p>${highlight(p)}</p>`;
+        }
+      }
+      if (!bodyHtml && sel.full_text) {
+        bodyHtml = sel.full_text.split(/\n+/).map(p => `<p>${highlight(p)}</p>`).join('');
+      }
+      if (!bodyHtml) {
+        bodyHtml = `<p style="color:#8b7b65;">（暂无详细说明）</p>`;
+      }
+    }
+    const lockBanner = sel.locked
+      ? `<div class="lock-banner">🔒 <b>尚未获得此卡牌</b>${PUBLISH_MODE ? '：以下为游戏图鉴中可见的部分信息，获得后可查看完整内容。' : '：以下为未获得状态下图鉴中可见的信息。获得后在游戏里打开此分类，运行「开始抓取.bat」→ 选 <b>4 补全未获得卡牌</b>，会自动更新这一条。'}</div>`
+      : '';
+    const newBanner = isNew(cat, sel)
+      ? `<div class="lock-banner" style="border-color:#c0392b;background:#fbe9e4;">★ 本次补全新获得的卡牌（${escapeHtml(sel.unlocked_at || '')}）</div>`
+      : '';
+
+    const iconSrc = sel.icon_image || sel.card_image;
+    const iconHtml = iconSrc
+      ? `<div class="detail-hero"><img class="detail-icon" src="./${escapeHtml(iconSrc)}" alt="${escapeHtml(sel.name)}"></div>`
+      : '';
+
+    const warnHtml = (!PUBLISH_MODE && sel.needs_review)
+      ? `<div class="warn-banner">提示：此条目有个别字 OCR 置信度低于 96%（或已自动修正楷体形近字），可点击下方「对照原图校对」快速核验。</div>`
+      : '';
+
+    let proofHtml = '';
+    if (!PUBLISH_MODE && state.proofreadOpen) {
+      const detailImg = sel.detail_image
+        ? `<label>游戏原图（自动无缝拼接全文）：</label><div class="proofread-img-wrap"><img src="./${escapeHtml(sel.detail_image)}" alt="原图"></div>`
+        : '';
+      proofHtml = `
+        <div class="proofread-box">
+          <div class="proofread-grid">
+            ${detailImg}
+            <div>
+              <label>卡牌名称：</label>
+              <input type="text" id="editName" value="${escapeHtml(sel.name || '')}">
+              <label>正文内容（每行一段，小标题用【获取途径】格式）：</label>
+              <textarea id="editBody">${escapeHtml(formatEditableText(sel))}</textarea>
+              <div style="display:flex;gap:8px;flex-wrap:wrap;">
+                <button class="btn btn-primary" onclick="saveCurrentEdit()">保存本条修改</button>
+                <button class="btn btn-light" onclick="downloadEditedJson()">导出修正后的 ${escapeHtml(cat.file_name || 'data.json')}</button>
+              </div>
+            </div>
+          </div>
+        </div>`;
+    }
+
+    const proofBtn = (!PUBLISH_MODE)
+      ? `<button class="btn btn-light" onclick="toggleProofread()">${state.proofreadOpen ? '收起校对' : '对照原图校对'}</button>`
+      : '';
+
+    const confText = (!PUBLISH_MODE && sel.avg_confidence)
+      ? ` · OCR ${(sel.avg_confidence * 100).toFixed(1)}%`
+      : '';
+
+    // 记住左侧卡牌列表的滚动位置：只有切换分类 / 筛选 / 搜索时才回到顶部
+    const gridKey = `${state.catIdx}|${state.filter}|${state.query}`;
+    const oldPane = root.querySelector('.card-grid-pane');
+    const keepScroll = oldPane && state._gridKey === gridKey ? oldPane.scrollTop : 0;
+    const oldDetail = root.querySelector('.detail-pane');
+    const keepDetailScroll = (oldDetail && state._detailIdx === sel.index) ? oldDetail.scrollTop : 0;
+    state._gridKey = gridKey;
+    state._detailIdx = sel.index;
+
+    root.innerHTML = `
+      <div class="codex-layout">
+        <section class="card-grid-pane">
+          <div class="card-grid">${cardsHtml}</div>
+        </section>
+        <aside class="detail-pane">
+          ${iconHtml}
+          <div class="detail-title-row">
+            <h2 class="detail-title">${highlight(sel.name || '未命名')}${sel.locked ? '<span class="status-tag locked">🔒 未获得</span>' : ''}${isNew(cat, sel) ? '<span class="status-tag new">新获得</span>' : ''}</h2>
+            <span class="detail-meta">#${sel.index + 1}${confText}</span>
+          </div>
+          ${lockBanner}${newBanner}
+          ${warnHtml}
+          <div class="detail-body">${bodyHtml}</div>
+          <div class="detail-toolbar">
+            <button class="btn btn-light" onclick="copyItemText(${sel.index})">复制本条文字</button>
+            ${proofBtn}
+          </div>
+          ${proofHtml}
+        </aside>
+      </div>`;
+
+    const pane = root.querySelector('.card-grid-pane');
+    if (pane) pane.scrollTop = keepScroll;
+    const detail = root.querySelector('.detail-pane');
+    if (detail) detail.scrollTop = keepDetailScroll;
+    if (state._scrollToSel) {
+      state._scrollToSel = false;
+      const tile = root.querySelector('.card-tile.selected');
+      if (tile) tile.scrollIntoView({ block: 'nearest' });
+    }
+    if (state._revealDetail && window.innerWidth <= 1080 && detail) {
+      // 手机 / 窄屏（上下布局）时点卡牌后把详情滚入视野
+      detail.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+    state._revealDetail = false;
+  }
+
+  function renderListView(cat, filtered, root) {
+    const cards = filtered.map(it => {
+      const thumb = it.card_image || it.icon_image;
+      const thumbHtml = thumb
+        ? `<div class="list-card-thumb"><img src="./${escapeHtml(thumb)}" alt="${escapeHtml(it.name)}" loading="lazy"></div>`
+        : '';
+      let b = '';
+      for (const p of (it.intro_paragraphs || [])) b += `<p>${highlight(p)}</p>`;
+      for (const s of (it.sections || [])) {
+        b += `<div class="list-card-sec">【${highlight(s.title)}】</div>`;
+        for (const p of (s.paragraphs || [])) b += `<p>${highlight(p)}</p>`;
+      }
+      if (!b) b = `<p style="color:#8b7b65;">（暂无详细说明）</p>`;
+      return `
+        <article class="list-card">
+          ${thumbHtml}
+          <div class="list-card-content">
+            <div class="list-card-header">
+              <span class="list-card-title">${highlight(it.name || `#${it.index+1}`)}${it.locked ? '<span class="status-tag locked">🔒 未获得</span>' : ''}${isNew(cat, it) ? '<span class="status-tag new">新获得</span>' : ''}</span>
+              <span class="detail-meta" style="cursor:pointer;" onclick="jumpToCodex(${it.index})">#${it.index + 1} 查看详情 →</span>
+            </div>
+            <div class="list-card-body">${b}</div>
+          </div>
+        </article>`;
+    }).join('');
+    root.innerHTML = `<div class="list-view">${cards}</div>`;
+  }
+
+  window.selectCat = function(idx) {
+    state.catIdx = idx;
+    state.selectedIndex = (GUIDE.categories[idx] && GUIDE.categories[idx].items[0]) ? GUIDE.categories[idx].items[0].index : 0;
+    state.filter = 'all';
+    render();
+  };
+
+  window.selectItem = function(idx) {
+    state.selectedIndex = idx;
+    state._revealDetail = true;
+    render();
+  };
+
+  window.jumpToCodex = function(idx) {
+    state.selectedIndex = idx;
+    state._scrollToSel = true;
+    setView('codex');
+  };
+
+  window.setView = function(v) {
+    state.view = v;
+    document.getElementById('btnViewCodex').classList.toggle('active', v === 'codex');
+    document.getElementById('btnViewList').classList.toggle('active', v === 'list');
+    render();
+  };
+
+  window.setFilter = function(f) {
+    state.filter = f;
+    render();
+  };
+
+  window.onSearchInput = function() {
+    const val = document.getElementById('searchInput').value;
+    state.query = val;
+    document.getElementById('searchClear').style.display = val ? 'block' : 'none';
+    render();
+  };
+
+  window.clearSearch = function() {
+    document.getElementById('searchInput').value = '';
+    state.query = '';
+    document.getElementById('searchClear').style.display = 'none';
+    render();
+  };
+
+  window.toggleProofread = function() {
+    state.proofreadOpen = !state.proofreadOpen;
+    render();
+  };
+
+  window.saveCurrentEdit = function() {
+    const cat = getCurrentCat();
+    if (!cat) return;
+    const name = document.getElementById('editName').value.trim();
+    const body = document.getElementById('editBody').value.trim();
+    if (!state.edits[cat.slug]) state.edits[cat.slug] = {};
+    const curItem = cat.items.find(x => x.index === state.selectedIndex) || {};
+    state.edits[cat.slug][String(state.selectedIndex)] = { name, full_text: body, captured_at: curItem.captured_at || '' };
+    saveEdits();
+    render();
+    showToast(`已保存「${name}」的校对内容（可点击右上角导出修正 JSON）`);
+  };
+
+  window.copyItemText = function(idx) {
+    const cat = getCurrentCat();
+    const it = cat && cat.items.find(x => x.index === idx);
+    if (!it) return;
+    const text = `【${it.name}】\n${formatEditableText(it)}`;
+    navigator.clipboard.writeText(text).then(
+      () => showToast(`已复制「${it.name}」的完整文字`),
+      () => showToast('复制失败，请手动选中复制')
+    );
+  };
+
+  function triggerDownload(filename, content, mime) {
+    const blob = new Blob([content], { type: mime });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  }
+
+  window.downloadEditedJson = function() {
+    const cat = getCurrentCat();
+    if (!cat) return;
+    applySavedEdits();
+    const clean = JSON.parse(JSON.stringify(cat));
+    for (const it of clean.items) delete it._edited;
+    triggerDownload(
+      cat.file_name || `${cat.slug}.json`,
+      JSON.stringify(clean, null, 2),
+      'application/json;charset=utf-8'
+    );
+    showToast(`已导出 ${cat.file_name}，放入 docs/data/ 后运行「重新生成HTML攻略.bat」即可永久生效`);
+  };
+
+  window.downloadMarkdown = function() {
+    const cat = getCurrentCat();
+    if (!cat) return;
+    const lines = [`# 【卡牌修仙传】图鉴攻略 — ${cat.full_category || cat.category}`, ''];
+    for (const it of cat.items) {
+      lines.push(`## ${it.index + 1}. ${it.name}${it.locked ? '（🔒 未获得）' : ''}`, '');
+      if (it.locked) lines.push('> 尚未获得此卡牌，以下为图鉴中可见的部分信息。', '');
+      for (const p of (it.intro_paragraphs || [])) lines.push(p, '');
+      for (const s of (it.sections || [])) {
+        lines.push(`### 【${s.title}】`, '');
+        for (const p of (s.paragraphs || [])) lines.push(p, '');
+      }
+      lines.push('---', '');
+    }
+    triggerDownload(`${cat.slug || 'guide'}.md`, lines.join('\n'), 'text/markdown;charset=utf-8');
+    showToast('已导出 Markdown 攻略文件');
+  };
+
+  // 支持键盘左右方向键快速翻看卡牌
+  document.addEventListener('keydown', function(e) {
+    if (['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) return;
+    if (state.view !== 'codex') return;
+    const cat = getCurrentCat();
+    if (!cat) return;
+    const filtered = getFilteredItems(cat);
+    const pos = filtered.findIndex(x => x.index === state.selectedIndex);
+    if (pos < 0) return;
+    if (e.key === 'ArrowRight' && pos + 1 < filtered.length) {
+      state.selectedIndex = filtered[pos + 1].index;
+      state._scrollToSel = true;
+      render();
+    } else if (e.key === 'ArrowLeft' && pos > 0) {
+      state.selectedIndex = filtered[pos - 1].index;
+      state._scrollToSel = true;
+      render();
+    }
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>
