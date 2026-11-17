@@ -1,6 +1,6 @@
 {
   "title": "卡牌修仙传 · 图鉴攻略",
-  "generated_at": "2026-11-17 10:18",
+  "generated_at": "2026-11-17 23:41",
   "categories": [
     {
       "slug": "kapai_cailiao",
@@ -57,6 +57,13 @@
       "full_category": "卡牌 / 天赋",
       "file_name": "kapai_tianfu.json",
       "count": 51
+    },
+    {
+      "slug": "fabao_kuilei",
+      "category": "法宝&傀儡",
+      "full_category": "法宝&傀儡",
+      "file_name": "fabao_kuilei.json",
+      "count": 115
     }
   ]
 }
