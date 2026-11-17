@@ -163,7 +163,10 @@
       "icon_image": "assets/kapai_jineng_koujue/icons/003.png",
       "detail_image": "assets/kapai_jineng_koujue/details/003.jpg",
       "intro_paragraphs": [
-        "增伤：攻击造成伤害时，会使伤害结果增加当前的增伤数值；根据技能不同，增伤有多种清除时机：1.攻击后清除；2.回合结束后清除；3.战斗结束时清除；"
+        "增伤：攻击造成伤害时，会使伤害结果增加当前的增伤数值；根据技能不同，增伤有多种清除时机：",
+        "1.攻击后清除；",
+        "2.回合结束后清除；",
+        "3.战斗结束时清除；"
       ],
       "sections": [
         {
@@ -173,64 +176,66 @@
           ]
         }
       ],
-      "full_text": "增伤：攻击造成伤害时，会使伤害结果增加当前的增伤数值；根据技能不同，增伤有多种清除时机：1.攻击后清除；2.回合结束后清除；3.战斗结束时清除；\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "full_text": "增伤：攻击造成伤害时，会使伤害结果增加当前的增伤数值；根据技能不同，增伤有多种清除时机：\n1.攻击后清除；\n2.回合结束后清除；\n3.战斗结束时清除；\n\n【获取途径】\n首次获得卡牌后解锁：",
       "avg_confidence": 0.9707,
       "needs_review": true,
       "ocr_lines": [
         {
           "text": "增伤：攻击造成伤害时，会使",
-          "score": 0.9961,
+          "score": 0.9917,
           "dx": 19
         },
         {
           "text": "伤害结果增加当前的增伤数",
-          "score": 0.9986,
+          "score": 0.9975,
           "dx": 20
         },
         {
           "text": "值；",
-          "score": 0.9245,
+          "score": 0.9142,
           "dx": 18
         },
         {
           "text": "根据技能不同，增伤有多种清",
-          "score": 0.9929,
+          "score": 0.9877,
           "dx": 18
         },
         {
           "text": "除时机：",
-          "score": 0.9948,
-          "dx": 0
+          "score": 0.9938,
+          "dx": 20
         },
         {
           "text": "1.攻击后清除；",
-          "score": 0.9473,
+          "score": 0.949,
           "dx": 18
         },
         {
           "text": "2.回合结束后清除；",
-          "score": 0.9583,
+          "score": 0.9731,
           "dx": 19
         },
         {
           "text": "3.战斗结束时清除；",
-          "score": 0.9577,
-          "dx": 19
+          "score": 0.9583,
+          "dx": 18
         },
         {
           "text": "【获取途泾】",
-          "score": 0.974,
+          "score": 0.9797,
           "dx": 33
         },
         {
           "text": "首次获得卡牌后解锁：",
-          "score": 0.9865,
+          "score": 0.9898,
           "dx": 19
         }
       ],
       "status": "未获得",
       "captured_at": "2026-11-17T14:36:41",
-      "first_seen": "2026-11-17T04:50:10"
+      "first_seen": "2026-11-17T04:50:10",
+      "text_before_ai_calib2": "增伤：攻击造成伤害时，会使伤害结果增加当前的增伤数值；根据技能不同，增伤有多种清除时机：1.攻击后清除；2.回合结束后清除；3.战斗结束时清除；\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "ai_calibrated": true
     },
     {
       "index": 4,
@@ -242,7 +247,10 @@
       "icon_image": "assets/kapai_jineng_koujue/icons/004.png",
       "detail_image": "assets/kapai_jineng_koujue/details/004.jpg",
       "intro_paragraphs": [
-        "减伤：受到伤害时，会使伤害结果减少当前的减伤数值；根据技能不同，减伤有多种清除时机：1.受伤后清除；2.回合结束后清除3.战斗结束时清除；"
+        "减伤：受到伤害时，会使伤害结果减少当前的减伤数值；根据技能不同，减伤有多种清除时机：",
+        "1.受伤后清除；",
+        "2.回合结束后清除；",
+        "3.战斗结束时清除；"
       ],
       "sections": [
         {
@@ -252,59 +260,61 @@
           ]
         }
       ],
-      "full_text": "减伤：受到伤害时，会使伤害结果减少当前的减伤数值；根据技能不同，减伤有多种清除时机：1.受伤后清除；2.回合结束后清除3.战斗结束时清除；\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "full_text": "减伤：受到伤害时，会使伤害结果减少当前的减伤数值；根据技能不同，减伤有多种清除时机：\n1.受伤后清除；\n2.回合结束后清除；\n3.战斗结束时清除；\n\n【获取途径】\n首次获得卡牌后解锁：",
       "avg_confidence": 0.9575,
       "needs_review": true,
       "ocr_lines": [
         {
           "text": "减伤：受到伤害时，会使伤害",
-          "score": 0.9826,
+          "score": 0.9911,
           "dx": 20
         },
         {
           "text": "结果减少当前的减伤数值；",
-          "score": 0.9028,
+          "score": 0.9532,
           "dx": 20
         },
         {
           "text": "根据技能不同，减伤有多种清",
-          "score": 0.9881,
+          "score": 0.9885,
           "dx": 18
         },
         {
           "text": "除时机：",
-          "score": 0.996,
+          "score": 0.9943,
           "dx": 20
         },
         {
           "text": "1.受伤后清除；",
-          "score": 0.9307,
-          "dx": 0
+          "score": 0.9503,
+          "dx": 18
         },
         {
-          "text": "2.回合结束后清除",
-          "score": 0.9929,
+          "text": "2.回合结束后清除：",
+          "score": 0.9334,
           "dx": 19
         },
         {
           "text": "3.战斗结束时清除；",
-          "score": 0.9465,
+          "score": 0.9555,
           "dx": 19
         },
         {
           "text": "【获取途泾】",
-          "score": 0.9832,
+          "score": 0.9753,
           "dx": 33
         },
         {
           "text": "首次获得卡牌后解锁：",
-          "score": 0.9828,
+          "score": 0.9903,
           "dx": 19
         }
       ],
       "status": "未获得",
       "captured_at": "2026-11-17T14:36:47",
-      "first_seen": "2026-11-17T04:50:15"
+      "first_seen": "2026-11-17T04:50:15",
+      "text_before_ai_calib2": "减伤：受到伤害时，会使伤害结果减少当前的减伤数值；根据技能不同，减伤有多种清除时机：1.受伤后清除；2.回合结束后清除3.战斗结束时清除；\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "ai_calibrated": true
     },
     {
       "index": 5,
@@ -6034,7 +6044,7 @@
       "icon_image": "assets/kapai_jineng_koujue/icons/108.png",
       "detail_image": "assets/kapai_jineng_koujue/details/108.jpg",
       "intro_paragraphs": [
-        "当敌方卡牌失去中毒时，使随机敌方卡牌再次获得中毒（中毒伤害为攻击力的30%)（此技能每回合只触发一次）"
+        "当敌方卡牌失去中毒时，使随机敌方卡牌再次获得中毒（中毒伤害为攻击力的30%）（此技能每回合只触发一次）"
       ],
       "sections": [
         {
@@ -6044,7 +6054,7 @@
           ]
         }
       ],
-      "full_text": "当敌方卡牌失去中毒时，使随机敌方卡牌再次获得中毒（中毒伤害为攻击力的30%)（此技能每回合只触发一次）\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "full_text": "当敌方卡牌失去中毒时，使随机敌方卡牌再次获得中毒（中毒伤害为攻击力的30%）（此技能每回合只触发一次）\n\n【获取途径】\n首次获得卡牌后解锁：",
       "avg_confidence": 0.9468,
       "needs_review": true,
       "ocr_lines": [
@@ -6083,7 +6093,8 @@
       "captured_at": "2026-11-17T04:52:55",
       "first_seen": "2026-11-17T04:52:55",
       "text_before_ai_calib": "当敌方卡牌失去中毒时，使随机敌方卡牌再次获得中毒（中毒伤害为攻击力的30%)（此技能每\n\n【回合只触发一次）】\n\n【获取途径】\n首次获得卡牌后解锁：",
-      "ai_calibrated": true
+      "ai_calibrated": true,
+      "text_before_ai_calib2": "当敌方卡牌失去中毒时，使随机敌方卡牌再次获得中毒（中毒伤害为攻击力的30%)（此技能每回合只触发一次）\n\n【获取途径】\n首次获得卡牌后解锁："
     },
     {
       "index": 109,
@@ -6560,7 +6571,7 @@
       "icon_image": "assets/kapai_jineng_koujue/icons/118.png",
       "detail_image": "assets/kapai_jineng_koujue/details/118.jpg",
       "intro_paragraphs": [
-        "攻击后，使受击者中毒（中毒伤害为30%)"
+        "攻击后，使受击者中毒（中毒伤害为30%）"
       ],
       "sections": [
         {
@@ -6570,7 +6581,7 @@
           ]
         }
       ],
-      "full_text": "攻击后，使受击者中毒（中毒伤害为30%)\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "full_text": "攻击后，使受击者中毒（中毒伤害为30%）\n\n【获取途径】\n首次获得卡牌后解锁：",
       "avg_confidence": 0.9726,
       "needs_review": true,
       "ocr_lines": [
@@ -6599,7 +6610,8 @@
       "captured_at": "2026-11-17T04:52:45",
       "first_seen": "2026-11-17T04:52:45",
       "text_before_ai_calib": "攻击后，使受击者中毒（中毒伤\n\n【害为30%)】\n\n【获取途径】\n首次获得卡牌后解锁：",
-      "ai_calibrated": true
+      "ai_calibrated": true,
+      "text_before_ai_calib2": "攻击后，使受击者中毒（中毒伤害为30%)\n\n【获取途径】\n首次获得卡牌后解锁："
     },
     {
       "index": 119,
@@ -6678,7 +6690,7 @@
       "icon_image": "assets/kapai_jineng_koujue/icons/120.png",
       "detail_image": "assets/kapai_jineng_koujue/details/120.jpg",
       "intro_paragraphs": [
-        "当敌方卡牌失去中毒时，使随机敌方卡牌再次获得中毒（中毒伤害为攻击力的30%)（此技能每回合只触发一次）"
+        "当敌方卡牌失去中毒时，使随机敌方卡牌再次获得中毒（中毒伤害为攻击力的30%）（此技能每回合只触发一次）"
       ],
       "sections": [
         {
@@ -6688,7 +6700,7 @@
           ]
         }
       ],
-      "full_text": "当敌方卡牌失去中毒时，使随机敌方卡牌再次获得中毒（中毒伤害为攻击力的30%)（此技能每回合只触发一次）\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "full_text": "当敌方卡牌失去中毒时，使随机敌方卡牌再次获得中毒（中毒伤害为攻击力的30%）（此技能每回合只触发一次）\n\n【获取途径】\n首次获得卡牌后解锁：",
       "avg_confidence": 0.9468,
       "needs_review": true,
       "ocr_lines": [
@@ -6727,7 +6739,8 @@
       "captured_at": "2026-11-17T04:52:47",
       "first_seen": "2026-11-17T04:52:47",
       "text_before_ai_calib": "当敌方卡牌失去中毒时，使随机敌方卡牌再次获得中毒（中毒伤害为攻击力的30%)（此技能每\n\n【回合只触发一次）】\n\n【获取途径】\n首次获得卡牌后解锁：",
-      "ai_calibrated": true
+      "ai_calibrated": true,
+      "text_before_ai_calib2": "当敌方卡牌失去中毒时，使随机敌方卡牌再次获得中毒（中毒伤害为攻击力的30%)（此技能每回合只触发一次）\n\n【获取途径】\n首次获得卡牌后解锁："
     },
     {
       "index": 121,
@@ -6793,7 +6806,7 @@
       "icon_image": "assets/kapai_jineng_koujue/icons/122.png",
       "detail_image": "assets/kapai_jineng_koujue/details/122.jpg",
       "intro_paragraphs": [
-        "回合开始时，使随机敌方卡牌获得中毒（中毒伤害为攻击力的30%)"
+        "回合开始时，使随机敌方卡牌获得中毒（中毒伤害为攻击力的30%）"
       ],
       "sections": [
         {
@@ -6803,7 +6816,7 @@
           ]
         }
       ],
-      "full_text": "回合开始时，使随机敌方卡牌获得中毒（中毒伤害为攻击力的30%)\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "full_text": "回合开始时，使随机敌方卡牌获得中毒（中毒伤害为攻击力的30%）\n\n【获取途径】\n首次获得卡牌后解锁：",
       "avg_confidence": 0.9527,
       "needs_review": true,
       "ocr_lines": [
@@ -6835,7 +6848,9 @@
       ],
       "status": "未获得",
       "captured_at": "2026-11-17T04:52:49",
-      "first_seen": "2026-11-17T04:52:49"
+      "first_seen": "2026-11-17T04:52:49",
+      "text_before_ai_calib2": "回合开始时，使随机敌方卡牌获得中毒（中毒伤害为攻击力的30%)\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "ai_calibrated": true
     },
     {
       "index": 123,
@@ -8520,7 +8535,7 @@
       "icon_image": "assets/kapai_jineng_koujue/icons/159.png",
       "detail_image": "assets/kapai_jineng_koujue/details/159.jpg",
       "intro_paragraphs": [
-        "如果击伤灵兽类型卡牌，使其获得中毒。（中毒伤害为攻击力的50%)"
+        "如果击伤灵兽类型卡牌，使其获得中毒。（中毒伤害为攻击力的50%）"
       ],
       "sections": [
         {
@@ -8530,7 +8545,7 @@
           ]
         }
       ],
-      "full_text": "如果击伤灵兽类型卡牌，使其获得中毒。（中毒伤害为攻击力的50%)\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "full_text": "如果击伤灵兽类型卡牌，使其获得中毒。（中毒伤害为攻击力的50%）\n\n【获取途径】\n首次获得卡牌后解锁：",
       "avg_confidence": 0.96,
       "needs_review": true,
       "ocr_lines": [
@@ -8562,7 +8577,9 @@
       ],
       "status": "未获得",
       "captured_at": "2026-11-17T04:53:33",
-      "first_seen": "2026-11-17T04:53:33"
+      "first_seen": "2026-11-17T04:53:33",
+      "text_before_ai_calib2": "如果击伤灵兽类型卡牌，使其获得中毒。（中毒伤害为攻击力的50%)\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "ai_calibrated": true
     },
     {
       "index": 160,
@@ -8574,7 +8591,7 @@
       "icon_image": "assets/kapai_jineng_koujue/icons/160.png",
       "detail_image": "assets/kapai_jineng_koujue/details/160.jpg",
       "intro_paragraphs": [
-        "加入战场时，复制两个假的惑音（属性为主角的15%)；（假惑音被击败后，使攻击者获得混乱）"
+        "加入战场时，复制两个假的惑音（属性为主角的15%）；（假惑音被击败后，使攻击者获得混乱）"
       ],
       "sections": [
         {
@@ -8584,7 +8601,7 @@
           ]
         }
       ],
-      "full_text": "加入战场时，复制两个假的惑音（属性为主角的15%)；（假惑音被击败后，使攻击者获得混乱）\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "full_text": "加入战场时，复制两个假的惑音（属性为主角的15%）；（假惑音被击败后，使攻击者获得混乱）\n\n【获取途径】\n首次获得卡牌后解锁：",
       "avg_confidence": 0.9832,
       "needs_review": true,
       "ocr_lines": [
@@ -8616,7 +8633,9 @@
       ],
       "status": "未获得",
       "captured_at": "2026-11-17T04:53:34",
-      "first_seen": "2026-11-17T04:53:34"
+      "first_seen": "2026-11-17T04:53:34",
+      "text_before_ai_calib2": "加入战场时，复制两个假的惑音（属性为主角的15%)；（假惑音被击败后，使攻击者获得混乱）\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "ai_calibrated": true
     },
     {
       "index": 161,
@@ -8686,7 +8705,7 @@
       "icon_image": "assets/kapai_jineng_koujue/icons/162.png",
       "detail_image": "assets/kapai_jineng_koujue/details/162.jpg",
       "intro_paragraphs": [
-        "每当有卡牌死亡时，使随机敌人获得中毒（中毒伤害为攻击力的20%)"
+        "每当有卡牌死亡时，使随机敌人获得中毒（中毒伤害为攻击力的20%）"
       ],
       "sections": [
         {
@@ -8696,7 +8715,7 @@
           ]
         }
       ],
-      "full_text": "每当有卡牌死亡时，使随机敌人获得中毒（中毒伤害为攻击力的20%)\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "full_text": "每当有卡牌死亡时，使随机敌人获得中毒（中毒伤害为攻击力的20%）\n\n【获取途径】\n首次获得卡牌后解锁：",
       "avg_confidence": 0.9513,
       "needs_review": true,
       "ocr_lines": [
@@ -8728,7 +8747,9 @@
       ],
       "status": "未获得",
       "captured_at": "2026-11-17T04:53:36",
-      "first_seen": "2026-11-17T04:53:36"
+      "first_seen": "2026-11-17T04:53:36",
+      "text_before_ai_calib2": "每当有卡牌死亡时，使随机敌人获得中毒（中毒伤害为攻击力的20%)\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "ai_calibrated": true
     },
     {
       "index": 163,
