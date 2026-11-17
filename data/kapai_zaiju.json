@@ -306,13 +306,9 @@
       "icon_image": "assets/kapai_zaiju/icons/005.png",
       "detail_image": "assets/kapai_zaiju/details/005.jpg",
       "intro_paragraphs": [
-        "不知如何形成的一团云：遁速变得极快，但飞行过程中"
+        "不知如何形成的一团云：遁速变得极快，但飞行过程中不会发现奇遇地点；"
       ],
       "sections": [
-        {
-          "title": "不会发现奇遇地点；",
-          "paragraphs": []
-        },
         {
           "title": "获取途径",
           "paragraphs": [
@@ -320,7 +316,7 @@
           ]
         }
       ],
-      "full_text": "不知如何形成的一团云：遁速变得极快，但飞行过程中\n\n【不会发现奇遇地点；】\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "full_text": "不知如何形成的一团云：遁速变得极快，但飞行过程中不会发现奇遇地点；\n\n【获取途径】\n首次获得卡牌后解锁：",
       "avg_confidence": 0.9783,
       "needs_review": true,
       "ocr_lines": [
@@ -352,7 +348,9 @@
       ],
       "status": "未获得",
       "captured_at": "2026-11-17T05:02:22",
-      "first_seen": "2026-11-17T05:02:22"
+      "first_seen": "2026-11-17T05:02:22",
+      "text_before_ai_calib": "不知如何形成的一团云：遁速变得极快，但飞行过程中\n\n【不会发现奇遇地点；】\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "ai_calibrated": true
     },
     {
       "index": 6,
@@ -424,15 +422,11 @@
         {
           "title": "获取途径",
           "paragraphs": [
-            "雁荡城的隐藏商店有概率出"
+            "雁荡城的隐藏商店有概率出售"
           ]
-        },
-        {
-          "title": "售",
-          "paragraphs": []
         }
       ],
-      "full_text": "不知如何制作的一张椅子：遁速变得极慢，但运气（触发奇遇地点）极大幅度提高；\n\n【获取途径】\n雁荡城的隐藏商店有概率出\n\n【售】",
+      "full_text": "不知如何制作的一张椅子：遁速变得极慢，但运气（触发奇遇地点）极大幅度提高；\n\n【获取途径】\n雁荡城的隐藏商店有概率出售",
       "avg_confidence": 0.9657,
       "needs_review": true,
       "ocr_lines": [
@@ -469,7 +463,9 @@
       ],
       "status": "已获得",
       "captured_at": "2026-11-17T05:02:24",
-      "first_seen": "2026-11-17T05:02:24"
+      "first_seen": "2026-11-17T05:02:24",
+      "text_before_ai_calib": "不知如何制作的一张椅子：遁速变得极慢，但运气（触发奇遇地点）极大幅度提高；\n\n【获取途径】\n雁荡城的隐藏商店有概率出\n\n【售】",
+      "ai_calibrated": true
     }
   ]
 }
