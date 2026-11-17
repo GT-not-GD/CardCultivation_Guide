@@ -839,9 +839,9 @@
 
 ---
 
-## 37. 六辦兰
+## 37. 六瓣兰
 
-![六辦兰](../assets/kapai_lingcao_danyao/icons/036.png)
+![六瓣兰](../assets/kapai_lingcao_danyao/icons/036.png)
 
 奇怪的兰花，生长的时间越长，花瓣数量会越多。
 

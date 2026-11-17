@@ -3516,7 +3516,7 @@
       "icon_image": "assets/kapai_tianfu/icons/048.png",
       "detail_image": "assets/kapai_tianfu/details/048.jpg",
       "intro_paragraphs": [
-        "修炼后提高自己的白〔神识〕，但会降低〔灵气〕上限："
+        "修炼后提高自己的〔神识〕，但会降低〔灵气〕上限："
       ],
       "sections": [
         {
@@ -3528,7 +3528,7 @@
           ]
         }
       ],
-      "full_text": "修炼后提高自己的白〔神识〕，但会降低〔灵气〕上限：\n\n【获取途径】\n修炼敛神术后获得；\n在天帝宝库中有概率获得；\n结丹奖励中有概率出现；",
+      "full_text": "修炼后提高自己的〔神识〕，但会降低〔灵气〕上限：\n\n【获取途径】\n修炼敛神术后获得；\n在天帝宝库中有概率获得；\n结丹奖励中有概率出现；",
       "avg_confidence": 0.9589,
       "needs_review": true,
       "inline_icons": [
