@@ -2,8 +2,8 @@
   "slug": "kapai_jineng_koujue",
   "category": "技能&口诀",
   "full_category": "卡牌 / 技能&口诀",
-  "updated_at": "2026-11-17 10:04",
-  "last_run_at": "2026-11-17T05:51:02",
+  "updated_at": "2026-11-17 14:48",
+  "last_run_at": "2026-11-17T14:36:36",
   "ocr_engine": "PP-OCRv5 mobile",
   "items": [
     {
@@ -160,15 +160,76 @@
       "name": "增伤",
       "locked": true,
       "card_image": "assets/kapai_jineng_koujue/cards/003.png",
-      "icon_image": "",
-      "detail_image": "",
-      "intro_paragraphs": [],
-      "sections": [],
-      "full_text": "",
-      "avg_confidence": 0.9981,
-      "needs_review": false,
+      "icon_image": "assets/kapai_jineng_koujue/icons/003.png",
+      "detail_image": "assets/kapai_jineng_koujue/details/003.jpg",
+      "intro_paragraphs": [
+        "增伤：攻击造成伤害时，会使伤害结果增加当前的增伤数值；根据技能不同，增伤有多种清除时机：1.攻击后清除；2.回合结束后清除；3.战斗结束时清除；"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "增伤：攻击造成伤害时，会使伤害结果增加当前的增伤数值；根据技能不同，增伤有多种清除时机：1.攻击后清除；2.回合结束后清除；3.战斗结束时清除；\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9707,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "增伤：攻击造成伤害时，会使",
+          "score": 0.9961,
+          "dx": 19
+        },
+        {
+          "text": "伤害结果增加当前的增伤数",
+          "score": 0.9986,
+          "dx": 20
+        },
+        {
+          "text": "值；",
+          "score": 0.9245,
+          "dx": 18
+        },
+        {
+          "text": "根据技能不同，增伤有多种清",
+          "score": 0.9929,
+          "dx": 18
+        },
+        {
+          "text": "除时机：",
+          "score": 0.9948,
+          "dx": 0
+        },
+        {
+          "text": "1.攻击后清除；",
+          "score": 0.9473,
+          "dx": 18
+        },
+        {
+          "text": "2.回合结束后清除；",
+          "score": 0.9583,
+          "dx": 19
+        },
+        {
+          "text": "3.战斗结束时清除；",
+          "score": 0.9577,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.974,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9865,
+          "dx": 19
+        }
+      ],
       "status": "未获得",
-      "captured_at": "2026-11-17T04:50:10",
+      "captured_at": "2026-11-17T14:36:41",
       "first_seen": "2026-11-17T04:50:10"
     },
     {
@@ -178,15 +239,71 @@
       "name": "减伤",
       "locked": true,
       "card_image": "assets/kapai_jineng_koujue/cards/004.png",
-      "icon_image": "",
-      "detail_image": "",
-      "intro_paragraphs": [],
-      "sections": [],
-      "full_text": "",
-      "avg_confidence": 0.9988,
-      "needs_review": false,
+      "icon_image": "assets/kapai_jineng_koujue/icons/004.png",
+      "detail_image": "assets/kapai_jineng_koujue/details/004.jpg",
+      "intro_paragraphs": [
+        "减伤：受到伤害时，会使伤害结果减少当前的减伤数值；根据技能不同，减伤有多种清除时机：1.受伤后清除；2.回合结束后清除3.战斗结束时清除；"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "减伤：受到伤害时，会使伤害结果减少当前的减伤数值；根据技能不同，减伤有多种清除时机：1.受伤后清除；2.回合结束后清除3.战斗结束时清除；\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9575,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "减伤：受到伤害时，会使伤害",
+          "score": 0.9826,
+          "dx": 20
+        },
+        {
+          "text": "结果减少当前的减伤数值；",
+          "score": 0.9028,
+          "dx": 20
+        },
+        {
+          "text": "根据技能不同，减伤有多种清",
+          "score": 0.9881,
+          "dx": 18
+        },
+        {
+          "text": "除时机：",
+          "score": 0.996,
+          "dx": 20
+        },
+        {
+          "text": "1.受伤后清除；",
+          "score": 0.9307,
+          "dx": 0
+        },
+        {
+          "text": "2.回合结束后清除",
+          "score": 0.9929,
+          "dx": 19
+        },
+        {
+          "text": "3.战斗结束时清除；",
+          "score": 0.9465,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9832,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9828,
+          "dx": 19
+        }
+      ],
       "status": "未获得",
-      "captured_at": "2026-11-17T04:50:15",
+      "captured_at": "2026-11-17T14:36:47",
       "first_seen": "2026-11-17T04:50:15"
     },
     {
@@ -682,15 +799,51 @@
       "name": "复活",
       "locked": true,
       "card_image": "assets/kapai_jineng_koujue/cards/014.png",
-      "icon_image": "",
-      "detail_image": "",
-      "intro_paragraphs": [],
-      "sections": [],
-      "full_text": "",
-      "avg_confidence": 0.9926,
-      "needs_review": false,
+      "icon_image": "assets/kapai_jineng_koujue/icons/014.png",
+      "detail_image": "assets/kapai_jineng_koujue/details/014.jpg",
+      "intro_paragraphs": [
+        "复活：卡牌在战斗中血量为0时触发，触发后恢复一定的血量；"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁"
+          ]
+        }
+      ],
+      "full_text": "复活：卡牌在战斗中血量为0时触发，触发后恢复一定的血量；\n\n【获取途径】\n首次获得卡牌后解锁",
+      "avg_confidence": 0.981,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "复活：卡牌在战斗中血量为0时",
+          "score": 0.9981,
+          "dx": 20
+        },
+        {
+          "text": "触发，触发后恢复一定的血",
+          "score": 0.9925,
+          "dx": 20
+        },
+        {
+          "text": "量；",
+          "score": 0.9476,
+          "dx": 20
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9829,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁",
+          "score": 0.9866,
+          "dx": 19
+        }
+      ],
       "status": "未获得",
-      "captured_at": "2026-11-17T04:50:29",
+      "captured_at": "2026-11-17T14:36:54",
       "first_seen": "2026-11-17T04:50:29"
     },
     {
@@ -6301,15 +6454,46 @@
       "name": "唤灵肆",
       "locked": true,
       "card_image": "assets/kapai_jineng_koujue/cards/116.png",
-      "icon_image": "",
-      "detail_image": "",
-      "intro_paragraphs": [],
-      "sections": [],
-      "full_text": "",
-      "avg_confidence": 0.9976,
-      "needs_review": false,
+      "icon_image": "assets/kapai_jineng_koujue/icons/116.png",
+      "detail_image": "assets/kapai_jineng_koujue/details/116.jpg",
+      "intro_paragraphs": [
+        "当战场的第一只花灵战败时，再召唤3只"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "当战场的第一只花灵战败时，再召唤3只\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9562,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "当战场的第一只花灵战败时，",
+          "score": 0.9669,
+          "dx": 23
+        },
+        {
+          "text": "再召唤3只",
+          "score": 0.9884,
+          "dx": 20
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9806,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9802,
+          "dx": 19
+        }
+      ],
       "status": "未获得",
-      "captured_at": "2026-11-17T04:52:43",
+      "captured_at": "2026-11-17T14:37:08",
       "first_seen": "2026-11-17T04:52:43"
     },
     {
