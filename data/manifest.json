@@ -1,13 +1,62 @@
 {
   "title": "卡牌修仙传 · 图鉴攻略",
-  "generated_at": "2026-11-17 04:22",
+  "generated_at": "2026-11-17 10:09",
   "categories": [
+    {
+      "slug": "kapai_cailiao",
+      "category": "材料",
+      "full_category": "卡牌 / 材料",
+      "file_name": "kapai_cailiao.json",
+      "count": 167
+    },
+    {
+      "slug": "kapai_lingcao_danyao",
+      "category": "灵草&丹药",
+      "full_category": "卡牌 / 灵草&丹药",
+      "file_name": "kapai_lingcao_danyao.json",
+      "count": 85
+    },
     {
       "slug": "kapai_ganwu_xinfa",
       "category": "感悟&心法",
       "full_category": "卡牌 / 感悟&心法",
       "file_name": "kapai_ganwu_xinfa.json",
       "count": 141
+    },
+    {
+      "slug": "kapai_jineng_koujue",
+      "category": "技能&口诀",
+      "full_category": "卡牌 / 技能&口诀",
+      "file_name": "kapai_jineng_koujue.json",
+      "count": 175
+    },
+    {
+      "slug": "kapai_daoju_chuanwen",
+      "category": "道具&传闻",
+      "full_category": "卡牌 / 道具&传闻",
+      "file_name": "kapai_daoju_chuanwen.json",
+      "count": 50
+    },
+    {
+      "slug": "kapai_zhidianka",
+      "category": "指点卡",
+      "full_category": "卡牌 / 指点卡",
+      "file_name": "kapai_zhidianka.json",
+      "count": 116
+    },
+    {
+      "slug": "kapai_zaiju",
+      "category": "载具",
+      "full_category": "卡牌 / 载具",
+      "file_name": "kapai_zaiju.json",
+      "count": 8
+    },
+    {
+      "slug": "kapai_tianfu",
+      "category": "天赋",
+      "full_category": "卡牌 / 天赋",
+      "file_name": "kapai_tianfu.json",
+      "count": 51
     }
   ]
 }

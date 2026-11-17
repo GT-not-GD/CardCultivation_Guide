@@ -1,0 +1,8182 @@
+{
+  "slug": "kapai_lingcao_danyao",
+  "category": "灵草&丹药",
+  "full_category": "卡牌 / 灵草&丹药",
+  "updated_at": "2026-11-17 10:05",
+  "last_run_at": "2026-11-17T05:50:18",
+  "ocr_engine": "PP-OCRv5 mobile",
+  "items": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "name": "止血草",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/000.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/000.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/000.jpg",
+      "intro_paragraphs": [
+        "大千世界里最常见的灵草，稍加炼制便可以止血化瘀。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "活血：恢复血量",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "活血：恢复血量",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有40%概率获得人品灵草：",
+            "探索药田有10%概率获得人品灵草",
+            "以在坊市他修易获得"
+          ]
+        }
+      ],
+      "full_text": "大千世界里最常见的灵草，稍加炼制便可以止血化瘀。\n\n【主药效果】\n\n【活血：恢复血量】\n\n【辅药效果】\n\n【活血：恢复血量】\n\n【获取途径】\n培养种子有40%概率获得人品灵草：\n探索药田有10%概率获得人品灵草\n以在坊市他修易获得",
+      "avg_confidence": 0.9778,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "大千世界里最常见的灵草，稍",
+          "score": 0.9979,
+          "dx": 11
+        },
+        {
+          "text": "加炼制便可以止血化瘀。",
+          "score": 0.9924,
+          "dx": 12
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9996,
+          "dx": 26
+        },
+        {
+          "text": "活血：恢复血量",
+          "score": 0.9483,
+          "dx": 36
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9966,
+          "dx": 26
+        },
+        {
+          "text": "活血：恢复血量",
+          "score": 0.9667,
+          "dx": 36
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9786,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有40%概率获得",
+          "score": 0.9876,
+          "dx": 53
+        },
+        {
+          "text": "人品灵草：",
+          "score": 0.8961,
+          "dx": 12
+        },
+        {
+          "text": "探索药田有10%概率获得",
+          "score": 0.9803,
+          "dx": 53
+        },
+        {
+          "text": "人品灵草",
+          "score": 0.9904,
+          "dx": 12
+        },
+        {
+          "text": "以在坊市他修易",
+          "score": 0.9995,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9618,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:44:01",
+      "first_seen": "2026-11-17T04:44:01"
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "name": "疑血草",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/001.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/001.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/001.jpg",
+      "intro_paragraphs": [
+        "大千世界里最常见的灵草，稍加炼制便可以止血化瘀。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "活血：恢复血量",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "活血：恢复血量",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有40%概率获得人品灵草：",
+            "探索药田有10%概率获得人品灵草",
+            "以在坊市修易获得"
+          ]
+        }
+      ],
+      "full_text": "大千世界里最常见的灵草，稍加炼制便可以止血化瘀。\n\n【主药效果】\n\n【活血：恢复血量】\n\n【辅药效果】\n\n【活血：恢复血量】\n\n【获取途径】\n培养种子有40%概率获得人品灵草：\n探索药田有10%概率获得人品灵草\n以在坊市修易获得",
+      "avg_confidence": 0.9727,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "大千世界里最常见的灵草，稍",
+          "score": 0.9945,
+          "dx": 11
+        },
+        {
+          "text": "加炼制便可以止血化瘀。",
+          "score": 0.9897,
+          "dx": 12
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9996,
+          "dx": 26
+        },
+        {
+          "text": "活血：恢复血量",
+          "score": 0.9705,
+          "dx": 36
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9987,
+          "dx": 0
+        },
+        {
+          "text": "活血：恢复血量",
+          "score": 0.9782,
+          "dx": 36
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9593,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有40%概率获得",
+          "score": 0.9864,
+          "dx": 53
+        },
+        {
+          "text": "人品灵草：",
+          "score": 0.9005,
+          "dx": 12
+        },
+        {
+          "text": "探索药田有10%概率获得",
+          "score": 0.9872,
+          "dx": 53
+        },
+        {
+          "text": "人品灵草",
+          "score": 0.9927,
+          "dx": 12
+        },
+        {
+          "text": "以在坊市修易",
+          "score": 0.9988,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9678,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:44:08",
+      "first_seen": "2026-11-17T04:44:08"
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "name": "苍血草",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/002.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/002.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/002.jpg",
+      "intro_paragraphs": [
+        "大千世界里最常见的灵草，稍加炼制便可以止血化瘀。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "活血：恢复血量",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "活血：恢复血量",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有40%概率获得人品灵草：",
+            "探索药田有10%概率获得人品灵草",
+            "以在坊市修易获得"
+          ]
+        }
+      ],
+      "full_text": "大千世界里最常见的灵草，稍加炼制便可以止血化瘀。\n\n【主药效果】\n\n【活血：恢复血量】\n\n【辅药效果】\n\n【活血：恢复血量】\n\n【获取途径】\n培养种子有40%概率获得人品灵草：\n探索药田有10%概率获得人品灵草\n以在坊市修易获得",
+      "avg_confidence": 0.9798,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "大千世界里最常见的灵草，稍",
+          "score": 0.9944,
+          "dx": 11
+        },
+        {
+          "text": "加炼制便可以止血化瘀。",
+          "score": 0.9897,
+          "dx": 12
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9996,
+          "dx": 26
+        },
+        {
+          "text": "活血：恢复血量",
+          "score": 0.9705,
+          "dx": 36
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9987,
+          "dx": 0
+        },
+        {
+          "text": "活血：恢复血量",
+          "score": 0.9782,
+          "dx": 36
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9594,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有40%概率获得",
+          "score": 0.9866,
+          "dx": 53
+        },
+        {
+          "text": "人品灵草：",
+          "score": 0.9009,
+          "dx": 12
+        },
+        {
+          "text": "探索药田有10%概率获得",
+          "score": 0.9872,
+          "dx": 53
+        },
+        {
+          "text": "人品灵草",
+          "score": 0.9924,
+          "dx": 12
+        },
+        {
+          "text": "以在坊市修易",
+          "score": 0.9991,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.968,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:44:15",
+      "first_seen": "2026-11-17T04:44:15"
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "col": 3,
+      "name": "洗骨花",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/003.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/003.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/003.jpg",
+      "intro_paragraphs": [
+        "闻一下花的香味，能感觉身体都被洗涤了一次。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "活血：恢复血量",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "活血：恢复血量",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有30%概率获得地品灵草；",
+            "探索药田有25%概率获得地品灵草",
+            "以在坊市修易获得"
+          ]
+        }
+      ],
+      "full_text": "闻一下花的香味，能感觉身体都被洗涤了一次。\n\n【主药效果】\n\n【活血：恢复血量】\n\n【辅药效果】\n\n【活血：恢复血量】\n\n【获取途径】\n培养种子有30%概率获得地品灵草；\n探索药田有25%概率获得地品灵草\n以在坊市修易获得",
+      "avg_confidence": 0.9823,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "闻一下花的香味，能感觉身体",
+          "score": 0.9974,
+          "dx": 12
+        },
+        {
+          "text": "都被洗涤了一次。",
+          "score": 0.9992,
+          "dx": 11
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9996,
+          "dx": 26
+        },
+        {
+          "text": "活血：恢复血量",
+          "score": 0.9706,
+          "dx": 36
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9987,
+          "dx": 0
+        },
+        {
+          "text": "活血：恢复血量",
+          "score": 0.9777,
+          "dx": 36
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9591,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有30%概率获得",
+          "score": 0.9828,
+          "dx": 53
+        },
+        {
+          "text": "地品灵草；",
+          "score": 0.9178,
+          "dx": 11
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.9855,
+          "dx": 53
+        },
+        {
+          "text": "地品灵草",
+          "score": 0.9983,
+          "dx": 11
+        },
+        {
+          "text": "以在坊市修易",
+          "score": 0.9988,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9672,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:44:22",
+      "first_seen": "2026-11-17T04:44:22"
+    },
+    {
+      "index": 4,
+      "row": 0,
+      "col": 4,
+      "name": "大洗骨花",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/004.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/004.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/004.jpg",
+      "intro_paragraphs": [
+        "闻一下花的香味，能感觉身体都被洗涤了一次。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "活血：恢复血量",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "活血：恢复血量",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有30%概率获得地品灵草；",
+            "探索药田有25%概率获得地品灵草",
+            "以在坊市修易获得"
+          ]
+        }
+      ],
+      "full_text": "闻一下花的香味，能感觉身体都被洗涤了一次。\n\n【主药效果】\n\n【活血：恢复血量】\n\n【辅药效果】\n\n【活血：恢复血量】\n\n【获取途径】\n培养种子有30%概率获得地品灵草；\n探索药田有25%概率获得地品灵草\n以在坊市修易获得",
+      "avg_confidence": 0.9823,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "闻一下花的香味，能感觉身体",
+          "score": 0.9974,
+          "dx": 12
+        },
+        {
+          "text": "都被洗涤了一次。",
+          "score": 0.9992,
+          "dx": 11
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9996,
+          "dx": 26
+        },
+        {
+          "text": "活血：恢复血量",
+          "score": 0.9706,
+          "dx": 36
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9987,
+          "dx": 0
+        },
+        {
+          "text": "活血：恢复血量",
+          "score": 0.9779,
+          "dx": 36
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9588,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有30%概率获得",
+          "score": 0.9828,
+          "dx": 53
+        },
+        {
+          "text": "地品灵草；",
+          "score": 0.9178,
+          "dx": 11
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.9855,
+          "dx": 53
+        },
+        {
+          "text": "地品灵草",
+          "score": 0.9983,
+          "dx": 11
+        },
+        {
+          "text": "以在坊市修易",
+          "score": 0.9988,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.968,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:44:29",
+      "first_seen": "2026-11-17T04:44:29"
+    },
+    {
+      "index": 5,
+      "row": 0,
+      "col": 5,
+      "name": "洗髓花",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/005.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/005.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/005.jpg",
+      "intro_paragraphs": [
+        "闻一下花的香味，能感觉身体都被洗涤了一次。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "活血：恢复血量",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "活血：恢复血量",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有30%概率获得地品灵草；",
+            "探索药田有25%概率获得地品灵草",
+            "以在坊市修易获得"
+          ]
+        }
+      ],
+      "full_text": "闻一下花的香味，能感觉身体都被洗涤了一次。\n\n【主药效果】\n\n【活血：恢复血量】\n\n【辅药效果】\n\n【活血：恢复血量】\n\n【获取途径】\n培养种子有30%概率获得地品灵草；\n探索药田有25%概率获得地品灵草\n以在坊市修易获得",
+      "avg_confidence": 0.9801,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "闻一下花的香味，能感觉身体",
+          "score": 0.9973,
+          "dx": 12
+        },
+        {
+          "text": "都被洗涤了一次。",
+          "score": 0.9992,
+          "dx": 11
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9997,
+          "dx": 26
+        },
+        {
+          "text": "活血：恢复血量",
+          "score": 0.9704,
+          "dx": 36
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9987,
+          "dx": 0
+        },
+        {
+          "text": "活血：恢复血量",
+          "score": 0.9779,
+          "dx": 36
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9591,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有30%概率获得",
+          "score": 0.9827,
+          "dx": 53
+        },
+        {
+          "text": "地品灵草；",
+          "score": 0.9165,
+          "dx": 11
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.9854,
+          "dx": 53
+        },
+        {
+          "text": "地品灵草",
+          "score": 0.9984,
+          "dx": 11
+        },
+        {
+          "text": "以在坊市修易",
+          "score": 0.9988,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.968,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:44:36",
+      "first_seen": "2026-11-17T04:44:36"
+    },
+    {
+      "index": 6,
+      "row": 1,
+      "col": 0,
+      "name": "红仁果",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/006.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/006.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/006.jpg",
+      "intro_paragraphs": [
+        "闻一下花的香味，能感觉身体都被洗涤了一次。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "活血：恢复血量",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "活血：恢复血量",
+          "paragraphs": []
+        },
+        {
+          "title": "聚气：补充灵气值",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有20%概率获得天品灵草",
+            "探索药田有20%概率获得天品灵草",
+            "可以在坊市与其他修士交易获得"
+          ]
+        }
+      ],
+      "full_text": "闻一下花的香味，能感觉身体都被洗涤了一次。\n\n【主药效果】\n\n【活血：恢复血量】\n\n【辅药效果】\n\n【活血：恢复血量】\n\n【聚气：补充灵气值】\n\n【获取途径】\n培养种子有20%概率获得天品灵草\n探索药田有20%概率获得天品灵草\n可以在坊市与其他修士交易获得",
+      "avg_confidence": 0.9757,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "闻一下花的香味，能感觉身体",
+          "score": 0.9983,
+          "dx": 11
+        },
+        {
+          "text": "都被洗涤了一次。",
+          "score": 0.9994,
+          "dx": 11
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9997,
+          "dx": 26
+        },
+        {
+          "text": "活血：恢复血量",
+          "score": 0.9802,
+          "dx": 36
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9967,
+          "dx": 0
+        },
+        {
+          "text": "活血：恢复血量",
+          "score": 0.9733,
+          "dx": 36
+        },
+        {
+          "text": "聚气：补充灵气值",
+          "score": 0.9434,
+          "dx": 38
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9796,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有20%概率获得",
+          "score": 0.9934,
+          "dx": 53
+        },
+        {
+          "text": "天品灵草",
+          "score": 0.9946,
+          "dx": 12
+        },
+        {
+          "text": "探索药田有20%概率获得",
+          "score": 0.9836,
+          "dx": 52
+        },
+        {
+          "text": "天品灵草",
+          "score": 0.9947,
+          "dx": 12
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9999,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9286,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:44:43",
+      "first_seen": "2026-11-17T04:44:43"
+    },
+    {
+      "index": 7,
+      "row": 1,
+      "col": 1,
+      "name": "炎仁果",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/007.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/007.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/007.jpg",
+      "intro_paragraphs": [
+        "红彤彤的果实里蕴含着补充人体血气的神奇之物。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "活血：恢复血量",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "活血：恢复血量",
+          "paragraphs": []
+        },
+        {
+          "title": "聚气：补充灵气值",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有20%概率获得天品灵草",
+            "探索药田有20%概率获得天品灵草",
+            "可以在坊市与其他修士交易获得"
+          ]
+        }
+      ],
+      "full_text": "红彤彤的果实里蕴含着补充人体血气的神奇之物。\n\n【主药效果】\n\n【活血：恢复血量】\n\n【辅药效果】\n\n【活血：恢复血量】\n\n【聚气：补充灵气值】\n\n【获取途径】\n培养种子有20%概率获得天品灵草\n探索药田有20%概率获得天品灵草\n可以在坊市与其他修士交易获得",
+      "avg_confidence": 0.9838,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "红彤彤的果实里蕴含着补充人",
+          "score": 0.9871,
+          "dx": 12
+        },
+        {
+          "text": "体血气的神奇之物。",
+          "score": 0.9994,
+          "dx": 11
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9998,
+          "dx": 26
+        },
+        {
+          "text": "活血：恢复血量",
+          "score": 0.9814,
+          "dx": 36
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9962,
+          "dx": 0
+        },
+        {
+          "text": "活血：恢复血量",
+          "score": 0.9729,
+          "dx": 36
+        },
+        {
+          "text": "聚气：补充灵气值",
+          "score": 0.9463,
+          "dx": 38
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9794,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有20%概率获得",
+          "score": 0.9934,
+          "dx": 53
+        },
+        {
+          "text": "天品灵草",
+          "score": 0.9945,
+          "dx": 12
+        },
+        {
+          "text": "探索药田有20%概率获得",
+          "score": 0.984,
+          "dx": 52
+        },
+        {
+          "text": "天品灵草",
+          "score": 0.9947,
+          "dx": 12
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9999,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.928,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:44:50",
+      "first_seen": "2026-11-17T04:44:50"
+    },
+    {
+      "index": 8,
+      "row": 1,
+      "col": 2,
+      "name": "天火果",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/008.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/008.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/008.jpg",
+      "intro_paragraphs": [
+        "红彤彤的果实里蕴含着补充人体血气的神奇之物。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "活血：恢复血量",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "活血：恢复血量",
+          "paragraphs": []
+        },
+        {
+          "title": "聚气：补充灵气值",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有20%概率获得天品灵草",
+            "探索药田有20%概率获得天品灵草",
+            "可以在坊市与其他修士交易获得"
+          ]
+        }
+      ],
+      "full_text": "红彤彤的果实里蕴含着补充人体血气的神奇之物。\n\n【主药效果】\n\n【活血：恢复血量】\n\n【辅药效果】\n\n【活血：恢复血量】\n\n【聚气：补充灵气值】\n\n【获取途径】\n培养种子有20%概率获得天品灵草\n探索药田有20%概率获得天品灵草\n可以在坊市与其他修士交易获得",
+      "avg_confidence": 0.9835,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "红彤彤的果实里蕴含着补充人",
+          "score": 0.9869,
+          "dx": 12
+        },
+        {
+          "text": "体血气的神奇之物。",
+          "score": 0.9994,
+          "dx": 11
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9998,
+          "dx": 26
+        },
+        {
+          "text": "活血：恢复血量",
+          "score": 0.9814,
+          "dx": 36
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9962,
+          "dx": 0
+        },
+        {
+          "text": "活血：恢复血量",
+          "score": 0.973,
+          "dx": 36
+        },
+        {
+          "text": "聚气：补充灵气值",
+          "score": 0.9463,
+          "dx": 38
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9794,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有20%概率获得",
+          "score": 0.9934,
+          "dx": 53
+        },
+        {
+          "text": "天品灵草",
+          "score": 0.9945,
+          "dx": 12
+        },
+        {
+          "text": "探索药田有20%概率获得",
+          "score": 0.9839,
+          "dx": 52
+        },
+        {
+          "text": "天品灵草",
+          "score": 0.9945,
+          "dx": 12
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9999,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9251,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:44:56",
+      "first_seen": "2026-11-17T04:44:56"
+    },
+    {
+      "index": 9,
+      "row": 1,
+      "col": 3,
+      "name": "血精果",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/009.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/009.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/009.jpg",
+      "intro_paragraphs": [
+        "血精果里蕴含大量气血和灵气，是珍贵的灵草。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "活血：恢复血量",
+          "paragraphs": [
+            "聚气：补充灵气值"
+          ]
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "开窍：可获得修为",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "探索药田有10%概率获得神品灵草；",
+            "可以在坊市与其他修士交易获得"
+          ]
+        }
+      ],
+      "full_text": "血精果里蕴含大量气血和灵气，是珍贵的灵草。\n\n【主药效果】\n\n【活血：恢复血量】\n聚气：补充灵气值\n\n【辅药效果】\n\n【开窍：可获得修为】\n\n【获取途径】\n探索药田有10%概率获得神品灵草；\n可以在坊市与其他修士交易获得",
+      "avg_confidence": 0.9762,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "血精果里蕴含大量气血和灵",
+          "score": 0.9968,
+          "dx": 11
+        },
+        {
+          "text": "气，是珍贵的灵草。",
+          "score": 0.9941,
+          "dx": 12
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9998,
+          "dx": 26
+        },
+        {
+          "text": "活血：恢复血量",
+          "score": 0.9462,
+          "dx": 36
+        },
+        {
+          "text": "聚气：补充灵气值",
+          "score": 0.9752,
+          "dx": 0
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9979,
+          "dx": 26
+        },
+        {
+          "text": "开窍：可获得修为",
+          "score": 0.9631,
+          "dx": 36
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9852,
+          "dx": 26
+        },
+        {
+          "text": "探索药田有10%概率获得",
+          "score": 0.9793,
+          "dx": 53
+        },
+        {
+          "text": "神品灵草；",
+          "score": 0.8986,
+          "dx": 11
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9998,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9542,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:45:03",
+      "first_seen": "2026-11-17T04:45:03"
+    },
+    {
+      "index": 10,
+      "row": 1,
+      "col": 4,
+      "name": "大血精果",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/010.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/010.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/010.jpg",
+      "intro_paragraphs": [
+        "血精果里蕴含大量气血和灵气，是珍贵的灵草。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "活血：恢复血量",
+          "paragraphs": [
+            "聚气：补充灵气值"
+          ]
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "开窍：可获得修为",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "探索药田有10%概率获得神品灵草；",
+            "可以在坊市与其他修士交易获得"
+          ]
+        }
+      ],
+      "full_text": "血精果里蕴含大量气血和灵气，是珍贵的灵草。\n\n【主药效果】\n\n【活血：恢复血量】\n聚气：补充灵气值\n\n【辅药效果】\n\n【开窍：可获得修为】\n\n【获取途径】\n探索药田有10%概率获得神品灵草；\n可以在坊市与其他修士交易获得",
+      "avg_confidence": 0.9783,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "血精果里蕴含大量气血和灵",
+          "score": 0.9972,
+          "dx": 11
+        },
+        {
+          "text": "气，是珍贵的灵草。",
+          "score": 0.9949,
+          "dx": 12
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9995,
+          "dx": 26
+        },
+        {
+          "text": "活血：恢复血量",
+          "score": 0.968,
+          "dx": 36
+        },
+        {
+          "text": "聚气：补充灵气值",
+          "score": 0.9746,
+          "dx": 0
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9984,
+          "dx": 26
+        },
+        {
+          "text": "开窍：可获得修为",
+          "score": 0.9618,
+          "dx": 36
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9783,
+          "dx": 26
+        },
+        {
+          "text": "探索药田有10%概率获得",
+          "score": 0.9753,
+          "dx": 53
+        },
+        {
+          "text": "神品灵草；",
+          "score": 0.8875,
+          "dx": 11
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9999,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9824,
+          "dx": 12
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:45:06",
+      "first_seen": "2026-11-17T04:45:06"
+    },
+    {
+      "index": 11,
+      "row": 1,
+      "col": 5,
+      "name": "血晶果",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/011.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/011.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/011.jpg",
+      "intro_paragraphs": [
+        "血精果里蕴含大量气血和灵气，是珍贵的灵草。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "活血：恢复血量",
+          "paragraphs": [
+            "聚气：补充灵气值"
+          ]
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "开窍：可获得修为",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "探索药田有10%概率获得神品灵草；",
+            "可以在坊市与其他修士交易获得"
+          ]
+        }
+      ],
+      "full_text": "血精果里蕴含大量气血和灵气，是珍贵的灵草。\n\n【主药效果】\n\n【活血：恢复血量】\n聚气：补充灵气值\n\n【辅药效果】\n\n【开窍：可获得修为】\n\n【获取途径】\n探索药田有10%概率获得神品灵草；\n可以在坊市与其他修士交易获得",
+      "avg_confidence": 0.9784,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "血精果里蕴含大量气血和灵",
+          "score": 0.9973,
+          "dx": 11
+        },
+        {
+          "text": "气，是珍贵的灵草。",
+          "score": 0.9951,
+          "dx": 12
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9995,
+          "dx": 26
+        },
+        {
+          "text": "活血：恢复血量",
+          "score": 0.9692,
+          "dx": 36
+        },
+        {
+          "text": "聚气：补充灵气值",
+          "score": 0.9748,
+          "dx": 0
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9984,
+          "dx": 26
+        },
+        {
+          "text": "开窍：可获得修为",
+          "score": 0.9618,
+          "dx": 36
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9783,
+          "dx": 26
+        },
+        {
+          "text": "探索药田有10%概率获得",
+          "score": 0.9753,
+          "dx": 53
+        },
+        {
+          "text": "神品灵草；",
+          "score": 0.8876,
+          "dx": 11
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9999,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9824,
+          "dx": 12
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:45:08",
+      "first_seen": "2026-11-17T04:45:08"
+    },
+    {
+      "index": 12,
+      "row": 2,
+      "col": 0,
+      "name": "金蝉",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/012.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/012.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/012.jpg",
+      "intro_paragraphs": [
+        "击败妖王金蝉蛊后有概率获得，因长期吸取蛊王灵气所以内涵大量气血。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": [
+            "活血：恢复血量"
+          ]
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "击败妖王：金蝉蛊后有20%橱率获得，炼化其内丹大概率获得；"
+          ]
+        }
+      ],
+      "full_text": "击败妖王金蝉蛊后有概率获得，因长期吸取蛊王灵气所以内涵大量气血。\n\n【主药效果】\n活血：恢复血量\n\n【获取途径】\n击败妖王：金蝉蛊后有20%橱率获得，炼化其内丹大概率获得；",
+      "avg_confidence": 0.9604,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "击败妖王金蝉蛊后有概率获",
+          "score": 0.9962,
+          "dx": 19
+        },
+        {
+          "text": "得，因长期吸取蛊王灵气所以",
+          "score": 0.9903,
+          "dx": 20
+        },
+        {
+          "text": "内涵大量气血。",
+          "score": 0.9676,
+          "dx": 20
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9993,
+          "dx": 33
+        },
+        {
+          "text": "活血：恢复血量",
+          "score": 0.969,
+          "dx": 0
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9912,
+          "dx": 33
+        },
+        {
+          "text": "击败妖王：金蝉蛊后有20%橱",
+          "score": 0.9588,
+          "dx": 48
+        },
+        {
+          "text": "率获得，炼化其内丹大概率获",
+          "score": 0.9881,
+          "dx": 20
+        },
+        {
+          "text": "得；",
+          "score": 0.7466,
+          "dx": 20
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:45:10",
+      "first_seen": "2026-11-17T04:45:10"
+    },
+    {
+      "index": 13,
+      "row": 2,
+      "col": 1,
+      "name": "土茯苓",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/013.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/013.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/013.jpg",
+      "intro_paragraphs": [
+        "深藏在地下的灵草，吸收了大地的养分和灵气。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "聚气：补充灵气值",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "聚气：补充灵气值",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有40%概率获得人品灵草：",
+            "探索药田有10%概率获得人品灵草",
+            "以在坊市修易获得"
+          ]
+        }
+      ],
+      "full_text": "深藏在地下的灵草，吸收了大地的养分和灵气。\n\n【主药效果】\n\n【聚气：补充灵气值】\n\n【辅药效果】\n\n【聚气：补充灵气值】\n\n【获取途径】\n培养种子有40%概率获得人品灵草：\n探索药田有10%概率获得人品灵草\n以在坊市修易获得",
+      "avg_confidence": 0.9788,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "深藏在地下的灵草，吸收了大",
+          "score": 0.9987,
+          "dx": 11
+        },
+        {
+          "text": "地的养分和灵气。",
+          "score": 0.9784,
+          "dx": 12
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9997,
+          "dx": 26
+        },
+        {
+          "text": "聚气：补充灵气值",
+          "score": 0.9784,
+          "dx": 37
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9988,
+          "dx": 0
+        },
+        {
+          "text": "聚气：补充灵气值",
+          "score": 0.977,
+          "dx": 38
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9779,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有40%概率获得",
+          "score": 0.9915,
+          "dx": 53
+        },
+        {
+          "text": "人品灵草：",
+          "score": 0.8918,
+          "dx": 12
+        },
+        {
+          "text": "探索药田有10%概率获得",
+          "score": 0.9875,
+          "dx": 53
+        },
+        {
+          "text": "人品灵草",
+          "score": 0.9917,
+          "dx": 12
+        },
+        {
+          "text": "以在坊市修易",
+          "score": 0.9988,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9674,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:45:12",
+      "first_seen": "2026-11-17T04:45:12"
+    },
+    {
+      "index": 14,
+      "row": 2,
+      "col": 2,
+      "name": "千年土茯苓",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/014.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/014.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/014.jpg",
+      "intro_paragraphs": [
+        "深藏在地下的灵草，吸收了大地的养分和灵气。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "聚气：补充灵气值",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "聚气：补充灵气值",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有40%概率获得人品灵草：",
+            "探索药田有10%概率获得人品灵草",
+            "以在坊市修易获得"
+          ]
+        }
+      ],
+      "full_text": "深藏在地下的灵草，吸收了大地的养分和灵气。\n\n【主药效果】\n\n【聚气：补充灵气值】\n\n【辅药效果】\n\n【聚气：补充灵气值】\n\n【获取途径】\n培养种子有40%概率获得人品灵草：\n探索药田有10%概率获得人品灵草\n以在坊市修易获得",
+      "avg_confidence": 0.9736,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "深藏在地下的灵草，吸收了大",
+          "score": 0.999,
+          "dx": 11
+        },
+        {
+          "text": "地的养分和灵气。",
+          "score": 0.9798,
+          "dx": 12
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9997,
+          "dx": 26
+        },
+        {
+          "text": "聚气：补充灵气值",
+          "score": 0.9781,
+          "dx": 37
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9987,
+          "dx": 0
+        },
+        {
+          "text": "聚气：补充灵气值",
+          "score": 0.977,
+          "dx": 38
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9776,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有40%概率获得",
+          "score": 0.9908,
+          "dx": 53
+        },
+        {
+          "text": "人品灵草：",
+          "score": 0.8908,
+          "dx": 12
+        },
+        {
+          "text": "探索药田有10%概率获得",
+          "score": 0.987,
+          "dx": 53
+        },
+        {
+          "text": "人品灵草",
+          "score": 0.9922,
+          "dx": 12
+        },
+        {
+          "text": "以在坊市修易",
+          "score": 0.9988,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9678,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:45:19",
+      "first_seen": "2026-11-17T04:45:19"
+    },
+    {
+      "index": 15,
+      "row": 2,
+      "col": 3,
+      "name": "万年土茯苓",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/015.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/015.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/015.jpg",
+      "intro_paragraphs": [
+        "深藏在地下的灵草，吸收了大地的养分和灵气。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "聚气：补充灵气值",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "聚气：补充灵气值",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有40%概率获得人品灵草：",
+            "探索药田有10%概率获得人品灵草",
+            "以在坊市修易获得"
+          ]
+        }
+      ],
+      "full_text": "深藏在地下的灵草，吸收了大地的养分和灵气。\n\n【主药效果】\n\n【聚气：补充灵气值】\n\n【辅药效果】\n\n【聚气：补充灵气值】\n\n【获取途径】\n培养种子有40%概率获得人品灵草：\n探索药田有10%概率获得人品灵草\n以在坊市修易获得",
+      "avg_confidence": 0.9802,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "深藏在地下的灵草，吸收了大",
+          "score": 0.9989,
+          "dx": 11
+        },
+        {
+          "text": "地的养分和灵气。",
+          "score": 0.9795,
+          "dx": 12
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9997,
+          "dx": 26
+        },
+        {
+          "text": "聚气：补充灵气值",
+          "score": 0.9781,
+          "dx": 37
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9987,
+          "dx": 0
+        },
+        {
+          "text": "聚气：补充灵气值",
+          "score": 0.977,
+          "dx": 38
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9776,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有40%概率获得",
+          "score": 0.9908,
+          "dx": 53
+        },
+        {
+          "text": "人品灵草：",
+          "score": 0.8908,
+          "dx": 12
+        },
+        {
+          "text": "探索药田有10%概率获得",
+          "score": 0.987,
+          "dx": 53
+        },
+        {
+          "text": "人品灵草",
+          "score": 0.9922,
+          "dx": 12
+        },
+        {
+          "text": "以在坊市修易",
+          "score": 0.9991,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.968,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:45:26",
+      "first_seen": "2026-11-17T04:45:26"
+    },
+    {
+      "index": 16,
+      "row": 2,
+      "col": 4,
+      "name": "白莲子",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/016.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/016.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/016.jpg",
+      "intro_paragraphs": [
+        "洁白无暇的莲子，仔细看便能发现莲子里蕴含着灵气。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "聚气：补充灵气值",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "聚气：补充灵气值",
+          "paragraphs": []
+        },
+        {
+          "title": "断脉：可造成伤害",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有20%概率获得天品灵草：",
+            "探索药田有20%概率获得天品灵草",
+            "可以在坊市与其他修士交易获得"
+          ]
+        }
+      ],
+      "full_text": "洁白无暇的莲子，仔细看便能发现莲子里蕴含着灵气。\n\n【主药效果】\n\n【聚气：补充灵气值】\n\n【辅药效果】\n\n【聚气：补充灵气值】\n\n【断脉：可造成伤害】\n\n【获取途径】\n培养种子有20%概率获得天品灵草：\n探索药田有20%概率获得天品灵草\n可以在坊市与其他修士交易获得",
+      "avg_confidence": 0.9759,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "洁白无暇的莲子，仔细看便能",
+          "score": 0.9932,
+          "dx": 12
+        },
+        {
+          "text": "发现莲子里蕴含着灵气。",
+          "score": 0.9969,
+          "dx": 12
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9998,
+          "dx": 26
+        },
+        {
+          "text": "聚气：补充灵气值",
+          "score": 0.9781,
+          "dx": 37
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.999,
+          "dx": 26
+        },
+        {
+          "text": "聚气：补充灵气值",
+          "score": 0.976,
+          "dx": 38
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.9647,
+          "dx": 36
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9817,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有20%概率获得",
+          "score": 0.9932,
+          "dx": 53
+        },
+        {
+          "text": "天品灵草：",
+          "score": 0.877,
+          "dx": 12
+        },
+        {
+          "text": "探索药田有20%概率获得",
+          "score": 0.9839,
+          "dx": 52
+        },
+        {
+          "text": "天品灵草",
+          "score": 0.9936,
+          "dx": 12
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9999,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9218,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:45:33",
+      "first_seen": "2026-11-17T04:45:33"
+    },
+    {
+      "index": 17,
+      "row": 2,
+      "col": 5,
+      "name": "白莲芯",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/017.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/017.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/017.jpg",
+      "intro_paragraphs": [
+        "洁白无暇的莲子，仔细看便能发现莲子里蕴含着灵气。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "聚气：补充灵气值",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "聚气：补充灵气值",
+          "paragraphs": []
+        },
+        {
+          "title": "断脉：可造成伤害",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有20%概率获得天品灵草：",
+            "探索药田有20%概率获得天品灵草",
+            "可以在坊市与其他修士交易获得"
+          ]
+        }
+      ],
+      "full_text": "洁白无暇的莲子，仔细看便能发现莲子里蕴含着灵气。\n\n【主药效果】\n\n【聚气：补充灵气值】\n\n【辅药效果】\n\n【聚气：补充灵气值】\n\n【断脉：可造成伤害】\n\n【获取途径】\n培养种子有20%概率获得天品灵草：\n探索药田有20%概率获得天品灵草\n可以在坊市与其他修士交易获得",
+      "avg_confidence": 0.9683,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "洁白无暇的莲子，仔细看便能",
+          "score": 0.9947,
+          "dx": 12
+        },
+        {
+          "text": "发现莲子里蕴含着灵气。",
+          "score": 0.9968,
+          "dx": 12
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9998,
+          "dx": 26
+        },
+        {
+          "text": "聚气：补充灵气值",
+          "score": 0.9657,
+          "dx": 38
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9988,
+          "dx": 0
+        },
+        {
+          "text": "聚气：补充灵气值",
+          "score": 0.9801,
+          "dx": 38
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.9613,
+          "dx": 36
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.982,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有20%概率获得",
+          "score": 0.9934,
+          "dx": 53
+        },
+        {
+          "text": "天品灵草：",
+          "score": 0.8859,
+          "dx": 12
+        },
+        {
+          "text": "探索药田有20%概率获得",
+          "score": 0.9838,
+          "dx": 52
+        },
+        {
+          "text": "天品灵草",
+          "score": 0.9947,
+          "dx": 12
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9999,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9641,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:45:40",
+      "first_seen": "2026-11-17T04:45:40"
+    },
+    {
+      "index": 18,
+      "row": 3,
+      "col": 0,
+      "name": "白莲玉",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/018.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/018.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/018.jpg",
+      "intro_paragraphs": [
+        "洁白无暇的莲子，仔细看便能发现莲子里蕴含着灵气。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "聚气：补充灵气值",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "聚气：补充灵气值",
+          "paragraphs": []
+        },
+        {
+          "title": "断脉：可造成伤害",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有20%概率获得天品灵草：",
+            "探索药田有20%概率获得天品灵草",
+            "可以在坊市与其他修士交易获得"
+          ]
+        }
+      ],
+      "full_text": "洁白无暇的莲子，仔细看便能发现莲子里蕴含着灵气。\n\n【主药效果】\n\n【聚气：补充灵气值】\n\n【辅药效果】\n\n【聚气：补充灵气值】\n\n【断脉：可造成伤害】\n\n【获取途径】\n培养种子有20%概率获得天品灵草：\n探索药田有20%概率获得天品灵草\n可以在坊市与其他修士交易获得",
+      "avg_confidence": 0.974,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "洁白无暇的莲子，仔细看便能",
+          "score": 0.9948,
+          "dx": 12
+        },
+        {
+          "text": "发现莲子里蕴含着灵气。",
+          "score": 0.9968,
+          "dx": 12
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9998,
+          "dx": 26
+        },
+        {
+          "text": "聚气：补充灵气值",
+          "score": 0.9654,
+          "dx": 38
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9988,
+          "dx": 0
+        },
+        {
+          "text": "聚气：补充灵气值",
+          "score": 0.98,
+          "dx": 38
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.962,
+          "dx": 36
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9821,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有20%概率获得",
+          "score": 0.9934,
+          "dx": 53
+        },
+        {
+          "text": "天品灵草：",
+          "score": 0.8857,
+          "dx": 12
+        },
+        {
+          "text": "探索药田有20%概率获得",
+          "score": 0.9838,
+          "dx": 52
+        },
+        {
+          "text": "天品灵草",
+          "score": 0.9947,
+          "dx": 12
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9999,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9245,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:45:47",
+      "first_seen": "2026-11-17T04:45:47"
+    },
+    {
+      "index": 19,
+      "row": 3,
+      "col": 1,
+      "name": "魂婴果",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/019.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/019.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/019.jpg",
+      "intro_paragraphs": [
+        "通常情况下，只有生物才有魂魄，但魂婴果里也似乎存在。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "聚气：补充灵气值",
+          "paragraphs": [
+            "堕心：会产生心魔"
+          ]
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "聚气：补充灵气值",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有10%概率获得仙品灵草：",
+            "探索药田有25%概率获得仙品灵草",
+            "可以在坊市与其他修士交易获得"
+          ]
+        }
+      ],
+      "full_text": "通常情况下，只有生物才有魂魄，但魂婴果里也似乎存在。\n\n【主药效果】\n\n【聚气：补充灵气值】\n堕心：会产生心魔\n\n【辅药效果】\n\n【聚气：补充灵气值】\n\n【获取途径】\n培养种子有10%概率获得仙品灵草：\n探索药田有25%概率获得仙品灵草\n可以在坊市与其他修士交易获得",
+      "avg_confidence": 0.9632,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "通常情况下，只有生物才有魂",
+          "score": 0.9951,
+          "dx": 14
+        },
+        {
+          "text": "魄，但魂婴果里也似乎存在。",
+          "score": 0.9977,
+          "dx": 11
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9998,
+          "dx": 26
+        },
+        {
+          "text": "聚气：补充灵气值",
+          "score": 0.9781,
+          "dx": 37
+        },
+        {
+          "text": "堕心：会产生心魔",
+          "score": 0.9326,
+          "dx": 0
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9989,
+          "dx": 26
+        },
+        {
+          "text": "聚气：补充灵气值",
+          "score": 0.9384,
+          "dx": 37
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9848,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有10%概率获得",
+          "score": 0.9944,
+          "dx": 53
+        },
+        {
+          "text": "仙品灵草：",
+          "score": 0.8889,
+          "dx": 10
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.9834,
+          "dx": 52
+        },
+        {
+          "text": "仙品灵草",
+          "score": 0.9577,
+          "dx": 10
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9999,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9265,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:45:53",
+      "first_seen": "2026-11-17T04:45:53"
+    },
+    {
+      "index": 20,
+      "row": 3,
+      "col": 2,
+      "name": "百年魂嬰果",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/020.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/020.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/020.jpg",
+      "intro_paragraphs": [
+        "通常情况下，只有生物才有魂魄，但魂婴果里也似乎存在。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "聚气：补充灵气值",
+          "paragraphs": [
+            "堕心：会产生心魔"
+          ]
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "聚气：补充灵气值",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有10%概率获得仙品灵草：",
+            "探索药田有25%概率获得仙品灵草",
+            "可以在坊市与其他修士交易获得"
+          ]
+        }
+      ],
+      "full_text": "通常情况下，只有生物才有魂魄，但魂婴果里也似乎存在。\n\n【主药效果】\n\n【聚气：补充灵气值】\n堕心：会产生心魔\n\n【辅药效果】\n\n【聚气：补充灵气值】\n\n【获取途径】\n培养种子有10%概率获得仙品灵草：\n探索药田有25%概率获得仙品灵草\n可以在坊市与其他修士交易获得",
+      "avg_confidence": 0.9675,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "通常情况下，只有生物才有魂",
+          "score": 0.9952,
+          "dx": 14
+        },
+        {
+          "text": "魄，但魂婴果里也似乎存在。",
+          "score": 0.9976,
+          "dx": 11
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9996,
+          "dx": 26
+        },
+        {
+          "text": "聚气：补充灵气值",
+          "score": 0.978,
+          "dx": 37
+        },
+        {
+          "text": "堕心：会产生心魔",
+          "score": 0.9325,
+          "dx": 0
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9989,
+          "dx": 26
+        },
+        {
+          "text": "聚气：补充灵气值",
+          "score": 0.938,
+          "dx": 37
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9848,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有10%概率获得",
+          "score": 0.9944,
+          "dx": 53
+        },
+        {
+          "text": "仙品灵草：",
+          "score": 0.8892,
+          "dx": 10
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.9834,
+          "dx": 52
+        },
+        {
+          "text": "仙品灵草",
+          "score": 0.9572,
+          "dx": 10
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9999,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9265,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:46:00",
+      "first_seen": "2026-11-17T04:46:00"
+    },
+    {
+      "index": 21,
+      "row": 3,
+      "col": 3,
+      "name": "千年魂嬰果",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/021.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/021.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/021.jpg",
+      "intro_paragraphs": [
+        "通常情况下，只有生物才有魂魄，但魂婴果里也似乎存在。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "聚气：补充灵气值",
+          "paragraphs": [
+            "堕心：会产生心魔"
+          ]
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "聚气：补充灵气值",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有10%概率获得仙品灵草：",
+            "探索药田有25%概率获得仙品灵草",
+            "可以在坊市与其他修士交易获得"
+          ]
+        }
+      ],
+      "full_text": "通常情况下，只有生物才有魂魄，但魂婴果里也似乎存在。\n\n【主药效果】\n\n【聚气：补充灵气值】\n堕心：会产生心魔\n\n【辅药效果】\n\n【聚气：补充灵气值】\n\n【获取途径】\n培养种子有10%概率获得仙品灵草：\n探索药田有25%概率获得仙品灵草\n可以在坊市与其他修士交易获得",
+      "avg_confidence": 0.9693,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "通常情况下，只有生物才有魂",
+          "score": 0.9951,
+          "dx": 14
+        },
+        {
+          "text": "魄，但魂婴果里也似乎存在。",
+          "score": 0.9977,
+          "dx": 11
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9998,
+          "dx": 26
+        },
+        {
+          "text": "聚气：补充灵气值",
+          "score": 0.978,
+          "dx": 37
+        },
+        {
+          "text": "堕心：会产生心魔",
+          "score": 0.9325,
+          "dx": 0
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9989,
+          "dx": 26
+        },
+        {
+          "text": "聚气：补充灵气值",
+          "score": 0.9382,
+          "dx": 37
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9848,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有10%概率获得",
+          "score": 0.9944,
+          "dx": 53
+        },
+        {
+          "text": "仙品灵草：",
+          "score": 0.8891,
+          "dx": 10
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.9834,
+          "dx": 52
+        },
+        {
+          "text": "仙品灵草",
+          "score": 0.9581,
+          "dx": 10
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9999,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9256,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:46:07",
+      "first_seen": "2026-11-17T04:46:07"
+    },
+    {
+      "index": 22,
+      "row": 3,
+      "col": 4,
+      "name": "铁熊胆",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/022.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/022.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/022.jpg",
+      "intro_paragraphs": [
+        "击败妖王铁骨熊后有概率获得，熊胆拥有极大量的灵气。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "聚气：补充灵气值",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "击败妖王：铁骨熊后有20%橱率获得，炼化其内丹大概率获得；"
+          ]
+        }
+      ],
+      "full_text": "击败妖王铁骨熊后有概率获得，熊胆拥有极大量的灵气。\n\n【主药效果】\n\n【聚气：补充灵气值】\n\n【获取途径】\n击败妖王：铁骨熊后有20%橱率获得，炼化其内丹大概率获得；",
+      "avg_confidence": 0.9629,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "击败妖王铁骨熊后有概率获",
+          "score": 0.9966,
+          "dx": 19
+        },
+        {
+          "text": "得，熊胆拥有极大量的灵气。",
+          "score": 0.9911,
+          "dx": 20
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9998,
+          "dx": 33
+        },
+        {
+          "text": "聚气：补充灵气值",
+          "score": 0.9626,
+          "dx": 45
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.992,
+          "dx": 0
+        },
+        {
+          "text": "击败妖王：铁骨熊后有20%橱",
+          "score": 0.9556,
+          "dx": 60
+        },
+        {
+          "text": "率获得，炼化其内丹大概率获",
+          "score": 0.9832,
+          "dx": 20
+        },
+        {
+          "text": "得；",
+          "score": 0.8071,
+          "dx": 20
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:46:13",
+      "first_seen": "2026-11-17T04:46:13"
+    },
+    {
+      "index": 23,
+      "row": 3,
+      "col": 5,
+      "name": "腐木菇",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/023.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/023.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/023.jpg",
+      "intro_paragraphs": [
+        "生长在腐烂尸体上的灵菇，散发着一股难闻的味道"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "断脉：可造成伤害",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "断脉：可造成伤害",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有40%概率获得人品灵草：",
+            "探索药田有10%概率获得人品灵草",
+            "以在坊市修易获得"
+          ]
+        }
+      ],
+      "full_text": "生长在腐烂尸体上的灵菇，散发着一股难闻的味道\n\n【主药效果】\n\n【断脉：可造成伤害】\n\n【辅药效果】\n\n【断脉：可造成伤害】\n\n【获取途径】\n培养种子有40%概率获得人品灵草：\n探索药田有10%概率获得人品灵草\n以在坊市修易获得",
+      "avg_confidence": 0.9688,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "生长在腐烂尸体上的灵菇，散",
+          "score": 0.9906,
+          "dx": 13
+        },
+        {
+          "text": "发着一股难闻的味道",
+          "score": 0.9895,
+          "dx": 12
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9996,
+          "dx": 26
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.9657,
+          "dx": 36
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9992,
+          "dx": 0
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.9623,
+          "dx": 36
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9457,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有40%概率获得",
+          "score": 0.9853,
+          "dx": 53
+        },
+        {
+          "text": "人品灵草：",
+          "score": 0.9019,
+          "dx": 12
+        },
+        {
+          "text": "探索药田有10%概率获得",
+          "score": 0.9877,
+          "dx": 53
+        },
+        {
+          "text": "人品灵草",
+          "score": 0.9914,
+          "dx": 12
+        },
+        {
+          "text": "以在坊市修易",
+          "score": 0.9987,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9684,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:46:14",
+      "first_seen": "2026-11-17T04:46:14"
+    },
+    {
+      "index": 24,
+      "row": 4,
+      "col": 0,
+      "name": "大腐木菇",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/024.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/024.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/024.jpg",
+      "intro_paragraphs": [
+        "生长在腐烂尸体上的灵菇，散发着一股难闻的味道"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "断脉：可造成伤害",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "断脉：可造成伤害",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有40%概率获得人品灵草：",
+            "探索药田有10%概率获得人品灵草",
+            "以在坊市修易获得"
+          ]
+        }
+      ],
+      "full_text": "生长在腐烂尸体上的灵菇，散发着一股难闻的味道\n\n【主药效果】\n\n【断脉：可造成伤害】\n\n【辅药效果】\n\n【断脉：可造成伤害】\n\n【获取途径】\n培养种子有40%概率获得人品灵草：\n探索药田有10%概率获得人品灵草\n以在坊市修易获得",
+      "avg_confidence": 0.9685,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "生长在腐烂尸体上的灵菇，散",
+          "score": 0.9907,
+          "dx": 13
+        },
+        {
+          "text": "发着一股难闻的味道",
+          "score": 0.9893,
+          "dx": 12
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9996,
+          "dx": 26
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.9658,
+          "dx": 36
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9988,
+          "dx": 0
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.9631,
+          "dx": 36
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9458,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有40%概率获得",
+          "score": 0.9858,
+          "dx": 53
+        },
+        {
+          "text": "人品灵草：",
+          "score": 0.9027,
+          "dx": 12
+        },
+        {
+          "text": "探索药田有10%概率获得",
+          "score": 0.9873,
+          "dx": 53
+        },
+        {
+          "text": "人品灵草",
+          "score": 0.9918,
+          "dx": 12
+        },
+        {
+          "text": "以在坊市修易",
+          "score": 0.9988,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9673,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:46:23",
+      "first_seen": "2026-11-17T04:46:23"
+    },
+    {
+      "index": 25,
+      "row": 4,
+      "col": 1,
+      "name": "腐尸菇",
+      "locked": true,
+      "card_image": "assets/kapai_lingcao_danyao/cards/025.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/025.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/025.jpg",
+      "intro_paragraphs": [
+        "生长在腐烂尸体上的灵菇，散发着一股难闻的味道。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "断脉：可造成伤害",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "断脉：可造成伤害",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "生长在腐烂尸体上的灵菇，散发着一股难闻的味道。\n\n【主药效果】\n\n【断脉：可造成伤害】\n\n【辅药效果】\n\n【断脉：可造成伤害】\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9492,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "生长在腐烂尸体上的灵菇，散",
+          "score": 0.9877,
+          "dx": 20
+        },
+        {
+          "text": "发着一股难闻的味道。",
+          "score": 0.9876,
+          "dx": 20
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9997,
+          "dx": 33
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.9672,
+          "dx": 44
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9984,
+          "dx": 0
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.9652,
+          "dx": 44
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9813,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9874,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:46:28",
+      "first_seen": "2026-11-17T04:46:28"
+    },
+    {
+      "index": 26,
+      "row": 4,
+      "col": 2,
+      "name": "断魂花",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/026.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/026.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/026.jpg",
+      "intro_paragraphs": [
+        "吸聚了大量冤魂的怪花，夜晚时能听到冤魂的呼叫"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "断脉：可造成伤害",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "断脉：可造成伤害",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有30%概率获得地品灵草：",
+            "探索药田有25%概率获得地品灵草",
+            "以在坊市修易获得"
+          ]
+        }
+      ],
+      "full_text": "吸聚了大量冤魂的怪花，夜晚时能听到冤魂的呼叫\n\n【主药效果】\n\n【断脉：可造成伤害】\n\n【辅药效果】\n\n【断脉：可造成伤害】\n\n【获取途径】\n培养种子有30%概率获得地品灵草：\n探索药田有25%概率获得地品灵草\n以在坊市修易获得",
+      "avg_confidence": 0.9818,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "吸聚了大量冤魂的怪花，夜晚",
+          "score": 0.9975,
+          "dx": 13
+        },
+        {
+          "text": "时能听到冤魂的呼叫",
+          "score": 0.9912,
+          "dx": 12
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9996,
+          "dx": 26
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.9593,
+          "dx": 36
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9985,
+          "dx": 0
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.9709,
+          "dx": 36
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9766,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有30%概率获得",
+          "score": 0.9846,
+          "dx": 53
+        },
+        {
+          "text": "地品灵草：",
+          "score": 0.9316,
+          "dx": 11
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.9858,
+          "dx": 53
+        },
+        {
+          "text": "地品灵草",
+          "score": 0.9977,
+          "dx": 11
+        },
+        {
+          "text": "以在坊市修易",
+          "score": 0.9991,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9681,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:46:30",
+      "first_seen": "2026-11-17T04:46:30"
+    },
+    {
+      "index": 27,
+      "row": 4,
+      "col": 3,
+      "name": "大断魂花",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/027.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/027.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/027.jpg",
+      "intro_paragraphs": [
+        "吸聚了大量冤魂的怪花，夜晚时能听到冤魂的呼叫"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "断脉：可造成伤害",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "断脉：可造成伤害",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有30%概率获得地品灵草：",
+            "探索药田有25%概率获得地品灵草",
+            "以在坊市修易获得"
+          ]
+        }
+      ],
+      "full_text": "吸聚了大量冤魂的怪花，夜晚时能听到冤魂的呼叫\n\n【主药效果】\n\n【断脉：可造成伤害】\n\n【辅药效果】\n\n【断脉：可造成伤害】\n\n【获取途径】\n培养种子有30%概率获得地品灵草：\n探索药田有25%概率获得地品灵草\n以在坊市修易获得",
+      "avg_confidence": 0.9823,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "吸聚了大量冤魂的怪花，夜晚",
+          "score": 0.9975,
+          "dx": 13
+        },
+        {
+          "text": "时能听到冤魂的呼叫",
+          "score": 0.9913,
+          "dx": 12
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9997,
+          "dx": 26
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.9658,
+          "dx": 36
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9988,
+          "dx": 0
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.9601,
+          "dx": 36
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.978,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有30%概率获得",
+          "score": 0.9849,
+          "dx": 53
+        },
+        {
+          "text": "地品灵草：",
+          "score": 0.9505,
+          "dx": 11
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.9856,
+          "dx": 53
+        },
+        {
+          "text": "地品灵草",
+          "score": 0.998,
+          "dx": 11
+        },
+        {
+          "text": "以在坊市修易",
+          "score": 0.9988,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9678,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:46:36",
+      "first_seen": "2026-11-17T04:46:36"
+    },
+    {
+      "index": 28,
+      "row": 4,
+      "col": 4,
+      "name": "絕魂草",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/028.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/028.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/028.jpg",
+      "intro_paragraphs": [
+        "吸聚了大量冤魂的怪花，夜晚时能听到冤魂的呼叫"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "断脉：可造成伤害",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "断脉：可造成伤害",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有30%概率获得地品灵草：",
+            "探索药田有25%概率获得地品灵草",
+            "以在坊市修易获得"
+          ]
+        }
+      ],
+      "full_text": "吸聚了大量冤魂的怪花，夜晚时能听到冤魂的呼叫\n\n【主药效果】\n\n【断脉：可造成伤害】\n\n【辅药效果】\n\n【断脉：可造成伤害】\n\n【获取途径】\n培养种子有30%概率获得地品灵草：\n探索药田有25%概率获得地品灵草\n以在坊市修易获得",
+      "avg_confidence": 0.9738,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "吸聚了大量冤魂的怪花，夜晚",
+          "score": 0.9975,
+          "dx": 13
+        },
+        {
+          "text": "时能听到冤魂的呼叫",
+          "score": 0.9916,
+          "dx": 12
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9997,
+          "dx": 26
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.9656,
+          "dx": 36
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9988,
+          "dx": 0
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.9603,
+          "dx": 36
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9781,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有30%概率获得",
+          "score": 0.9849,
+          "dx": 53
+        },
+        {
+          "text": "地品灵草：",
+          "score": 0.9505,
+          "dx": 11
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.9856,
+          "dx": 53
+        },
+        {
+          "text": "地品灵草",
+          "score": 0.998,
+          "dx": 11
+        },
+        {
+          "text": "以在坊市修易",
+          "score": 0.9991,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9679,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:46:43",
+      "first_seen": "2026-11-17T04:46:43"
+    },
+    {
+      "index": 29,
+      "row": 4,
+      "col": 5,
+      "name": "腐骨草",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/029.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/029.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/029.jpg",
+      "intro_paragraphs": [
+        "如果不小心接触到此草，那么连骨头也有可能被腐蚀"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "断脉：可造成伤害",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "探索药田有10%概率获得神品灵草；",
+            "可以在坊市与其他修士交易获得；"
+          ]
+        }
+      ],
+      "full_text": "如果不小心接触到此草，那么连骨头也有可能被腐蚀\n\n【主药效果】\n\n【断脉：可造成伤害】\n\n【获取途径】\n探索药田有10%概率获得神品灵草；\n可以在坊市与其他修士交易获得；",
+      "avg_confidence": 0.9499,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "如果不小心接触到此草，那么",
+          "score": 0.9942,
+          "dx": 19
+        },
+        {
+          "text": "连骨头也有可能被腐蚀",
+          "score": 0.9998,
+          "dx": 21
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9998,
+          "dx": 33
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.9598,
+          "dx": 44
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9914,
+          "dx": 0
+        },
+        {
+          "text": "探索药田有10%概率获得",
+          "score": 0.9879,
+          "dx": 60
+        },
+        {
+          "text": "神品灵草；",
+          "score": 0.9395,
+          "dx": 19
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9995,
+          "dx": 60
+        },
+        {
+          "text": "获得；",
+          "score": 0.8222,
+          "dx": 19
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:46:48",
+      "first_seen": "2026-11-17T04:46:48"
+    },
+    {
+      "index": 30,
+      "row": 5,
+      "col": 0,
+      "name": "大腐骨草",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/030.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/030.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/030.jpg",
+      "intro_paragraphs": [
+        "如果不小心接触到此草，那么连骨头也有可能被腐蚀"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "断脉：可造成伤害",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "探索药田有10%概率获得神品灵草；",
+            "可以在坊市与其他修士交易获得；"
+          ]
+        }
+      ],
+      "full_text": "如果不小心接触到此草，那么连骨头也有可能被腐蚀\n\n【主药效果】\n\n【断脉：可造成伤害】\n\n【获取途径】\n探索药田有10%概率获得神品灵草；\n可以在坊市与其他修士交易获得；",
+      "avg_confidence": 0.9565,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "如果不小心接触到此草，那么",
+          "score": 0.9954,
+          "dx": 19
+        },
+        {
+          "text": "连骨头也有可能被腐蚀",
+          "score": 0.9998,
+          "dx": 21
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9997,
+          "dx": 33
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.9761,
+          "dx": 44
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9912,
+          "dx": 0
+        },
+        {
+          "text": "探索药田有10%概率获得",
+          "score": 0.9875,
+          "dx": 60
+        },
+        {
+          "text": "神品灵草；",
+          "score": 0.9413,
+          "dx": 19
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9995,
+          "dx": 60
+        },
+        {
+          "text": "获得；",
+          "score": 0.82,
+          "dx": 19
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:46:51",
+      "first_seen": "2026-11-17T04:46:51"
+    },
+    {
+      "index": 31,
+      "row": 5,
+      "col": 1,
+      "name": "阴骨草",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/031.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/031.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/031.jpg",
+      "intro_paragraphs": [
+        "如果不小心接触到此草，那么连骨头也有可能被腐蚀"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "断脉：可造成伤害",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "探索药田有10%概率获得神品灵草；",
+            "可以在坊市与其他修士交易获得；"
+          ]
+        }
+      ],
+      "full_text": "如果不小心接触到此草，那么连骨头也有可能被腐蚀\n\n【主药效果】\n\n【断脉：可造成伤害】\n\n【获取途径】\n探索药田有10%概率获得神品灵草；\n可以在坊市与其他修士交易获得；",
+      "avg_confidence": 0.9703,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "如果不小心接触到此草，那么",
+          "score": 0.9955,
+          "dx": 19
+        },
+        {
+          "text": "连骨头也有可能被腐蚀",
+          "score": 0.9998,
+          "dx": 21
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9997,
+          "dx": 33
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.9761,
+          "dx": 44
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9912,
+          "dx": 0
+        },
+        {
+          "text": "探索药田有10%概率获得",
+          "score": 0.9875,
+          "dx": 60
+        },
+        {
+          "text": "神品灵草；",
+          "score": 0.9404,
+          "dx": 19
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9995,
+          "dx": 60
+        },
+        {
+          "text": "获得；",
+          "score": 0.8203,
+          "dx": 19
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:46:53",
+      "first_seen": "2026-11-17T04:46:53"
+    },
+    {
+      "index": 32,
+      "row": 5,
+      "col": 2,
+      "name": "毒液",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/032.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/032.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/032.jpg",
+      "intro_paragraphs": [
+        "击败小型的鬼面蛛有概率获得，从其毒囊里收集的精华毒液。此卡牌无主药效果，如果用于主材料，则只能炼制出无效果的丹药"
+      ],
+      "sections": [
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "断脉：可造成伤害",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "击败妖王：鬼面蛛后有20%橱率获得，炼化其内丹大概率获得"
+          ]
+        }
+      ],
+      "full_text": "击败小型的鬼面蛛有概率获得，从其毒囊里收集的精华毒液。此卡牌无主药效果，如果用于主材料，则只能炼制出无效果的丹药\n\n【辅药效果】\n\n【断脉：可造成伤害】\n\n【获取途径】\n击败妖王：鬼面蛛后有20%橱率获得，炼化其内丹大概率获得",
+      "avg_confidence": 0.985,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "击败小型的鬼面蛛有概率获",
+          "score": 0.9904,
+          "dx": 19
+        },
+        {
+          "text": "得，从其毒囊里收集的精华毒",
+          "score": 0.9836,
+          "dx": 20
+        },
+        {
+          "text": "液。",
+          "score": 0.9472,
+          "dx": 19
+        },
+        {
+          "text": "此卡牌无主药效果，如果用于",
+          "score": 0.995,
+          "dx": 19
+        },
+        {
+          "text": "主材料，则只能炼制出无效果",
+          "score": 0.9937,
+          "dx": 0
+        },
+        {
+          "text": "的丹药",
+          "score": 0.9952,
+          "dx": 21
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9996,
+          "dx": 33
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.9699,
+          "dx": 44
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9905,
+          "dx": 33
+        },
+        {
+          "text": "击败妖王：鬼面蛛后有20%橱",
+          "score": 0.9616,
+          "dx": 60
+        },
+        {
+          "text": "率获得，炼化其内丹大概率获",
+          "score": 0.9869,
+          "dx": 20
+        },
+        {
+          "text": "得",
+          "score": 0.9926,
+          "dx": 20
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:46:55",
+      "first_seen": "2026-11-17T04:46:55"
+    },
+    {
+      "index": 33,
+      "row": 5,
+      "col": 3,
+      "name": "剧毒液",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/033.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/033.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/033.jpg",
+      "intro_paragraphs": [
+        "击败妖王鬼面蛛后有概率获得，炼制成丹药后可造成大量伤害"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": [
+            "断脉：可造成伤害"
+          ]
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "断脉：可造成伤害",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "击败妖王：鬼面蛛后有20%橱率获得，炼化其内丹大概率获得；"
+          ]
+        }
+      ],
+      "full_text": "击败妖王鬼面蛛后有概率获得，炼制成丹药后可造成大量伤害\n\n【主药效果】\n断脉：可造成伤害\n\n【辅药效果】\n\n【断脉：可造成伤害】\n\n【获取途径】\n击败妖王：鬼面蛛后有20%橱率获得，炼化其内丹大概率获得；",
+      "avg_confidence": 0.968,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "击败妖王鬼面蛛后有概率获",
+          "score": 0.9942,
+          "dx": 19
+        },
+        {
+          "text": "得，炼制成丹药后可造成大量",
+          "score": 0.9883,
+          "dx": 20
+        },
+        {
+          "text": "伤害",
+          "score": 0.9994,
+          "dx": 20
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.994,
+          "dx": 33
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.959,
+          "dx": 0
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9991,
+          "dx": 33
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.9733,
+          "dx": 44
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9795,
+          "dx": 33
+        },
+        {
+          "text": "击败妖王：鬼面蛛后有20%橱",
+          "score": 0.962,
+          "dx": 60
+        },
+        {
+          "text": "率获得，炼化其内丹大概率获",
+          "score": 0.9813,
+          "dx": 20
+        },
+        {
+          "text": "得；",
+          "score": 0.7869,
+          "dx": 20
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:46:57",
+      "first_seen": "2026-11-17T04:46:57"
+    },
+    {
+      "index": 34,
+      "row": 5,
+      "col": 4,
+      "name": "紫煙果",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/034.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/034.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/034.jpg",
+      "intro_paragraphs": [
+        "果子不时的冒出一股股的紫烟，透过紫烟似乎能看到另一片世界。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "硬肤：获得〔？〕",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "硬肤：获得〔？〕",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有30%概率获得地品灵草：",
+            "探索药田有25%概率获得地品灵草",
+            "可以在坊市与其他修士交易获得"
+          ]
+        }
+      ],
+      "full_text": "果子不时的冒出一股股的紫烟，透过紫烟似乎能看到另一片世界。\n\n【主药效果】\n\n【硬肤：获得〔？〕】\n\n【辅药效果】\n\n【硬肤：获得〔？〕】\n\n【获取途径】\n培养种子有30%概率获得地品灵草：\n探索药田有25%概率获得地品灵草\n可以在坊市与其他修士交易获得",
+      "avg_confidence": 0.9738,
+      "needs_review": true,
+      "inline_icons": [
+        {
+          "label": "？",
+          "known": false
+        },
+        {
+          "label": "？",
+          "known": false
+        }
+      ],
+      "ocr_lines": [
+        {
+          "text": "果子不时的冒出一股股的紫",
+          "score": 0.9908,
+          "dx": 14
+        },
+        {
+          "text": "烟，透过紫烟似乎能看到另一",
+          "score": 0.9838,
+          "dx": 11
+        },
+        {
+          "text": "片世界。",
+          "score": 0.9972,
+          "dx": 13
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9973,
+          "dx": 26
+        },
+        {
+          "text": "硬肤:获得〔？〕",
+          "score": 0.9015,
+          "dx": 35
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9984,
+          "dx": 26
+        },
+        {
+          "text": "硬肤：获得〔？〕",
+          "score": 0.9141,
+          "dx": 35
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.987,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有30%概率获得",
+          "score": 0.9928,
+          "dx": 53
+        },
+        {
+          "text": "地品灵草：",
+          "score": 0.9335,
+          "dx": 11
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.9904,
+          "dx": 52
+        },
+        {
+          "text": "地品灵草",
+          "score": 0.9968,
+          "dx": 11
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9999,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9256,
+          "dx": 13
+        }
+      ],
+      "text_before_icon_fix": "果子不时的冒出一股股的紫烟，透过紫烟似乎能看到另一片世界。\n\n【主药效果】\n硬肤：获得●\n\n【辅药效果】\n\n【硬肤：获得】\n\n【获取途径】\n培养种子有30%概率获得地品灵草：\n探索药田有25%概率获得地品灵草\n可以在坊市与其他修士交易获得",
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:47:00",
+      "first_seen": "2026-11-17T04:47:00"
+    },
+    {
+      "index": 35,
+      "row": 5,
+      "col": 5,
+      "name": "大紫煙果",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/035.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/035.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/035.jpg",
+      "intro_paragraphs": [
+        "果子不时的冒出一股股的紫烟，透过紫烟似乎能看到另一片世界。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "硬肤：获得〔？〕",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "硬肤：获得〔？〕",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有30%概率获得地品灵草：",
+            "探索药田有25%概率获得地品灵草",
+            "可以在坊市与其他修士交易获得"
+          ]
+        }
+      ],
+      "full_text": "果子不时的冒出一股股的紫烟，透过紫烟似乎能看到另一片世界。\n\n【主药效果】\n\n【硬肤：获得〔？〕】\n\n【辅药效果】\n\n【硬肤：获得〔？〕】\n\n【获取途径】\n培养种子有30%概率获得地品灵草：\n探索药田有25%概率获得地品灵草\n可以在坊市与其他修士交易获得",
+      "avg_confidence": 0.9731,
+      "needs_review": true,
+      "inline_icons": [
+        {
+          "label": "？",
+          "known": false
+        },
+        {
+          "label": "？",
+          "known": false
+        }
+      ],
+      "ocr_lines": [
+        {
+          "text": "果子不时的冒出一股股的紫",
+          "score": 0.9903,
+          "dx": 14
+        },
+        {
+          "text": "烟，透过紫烟似乎能看到另一",
+          "score": 0.984,
+          "dx": 11
+        },
+        {
+          "text": "片世界。",
+          "score": 0.9973,
+          "dx": 13
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9973,
+          "dx": 26
+        },
+        {
+          "text": "硬肤:获得〔？〕",
+          "score": 0.8985,
+          "dx": 35
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9997,
+          "dx": 26
+        },
+        {
+          "text": "硬肤：获得〔？〕",
+          "score": 0.9109,
+          "dx": 35
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9873,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有30%概率获得",
+          "score": 0.993,
+          "dx": 53
+        },
+        {
+          "text": "地品灵草：",
+          "score": 0.9319,
+          "dx": 11
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.9903,
+          "dx": 52
+        },
+        {
+          "text": "地品灵草",
+          "score": 0.9969,
+          "dx": 11
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9999,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9258,
+          "dx": 13
+        }
+      ],
+      "text_before_icon_fix": "果子不时的冒出一股股的紫烟，透过紫烟似乎能看到另一片世界。\n\n【主药效果】\n硬肤：获得●\n\n【辅药效果】\n\n【硬肤：获得●】\n\n【获取途径】\n培养种子有30%概率获得地品灵草：\n探索药田有25%概率获得地品灵草\n可以在坊市与其他修士交易获得",
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:47:06",
+      "first_seen": "2026-11-17T04:47:06"
+    },
+    {
+      "index": 36,
+      "row": 6,
+      "col": 0,
+      "name": "六辦兰",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/036.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/036.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/036.jpg",
+      "intro_paragraphs": [
+        "奇怪的兰花，生长的时间越长，花瓣数量会越多。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "硬肤：获得〔？〕",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有20%概率获得天品灵草；",
+            "探索药田有20%概率获得天品灵草",
+            "可以在坊市与其他修士交易获得；"
+          ]
+        }
+      ],
+      "full_text": "奇怪的兰花，生长的时间越长，花瓣数量会越多。\n\n【主药效果】\n\n【硬肤：获得〔？〕】\n\n【获取途径】\n培养种子有20%概率获得天品灵草；\n探索药田有20%概率获得天品灵草\n可以在坊市与其他修士交易获得；",
+      "avg_confidence": 0.9621,
+      "needs_review": true,
+      "inline_icons": [
+        {
+          "label": "？",
+          "known": false
+        }
+      ],
+      "ocr_lines": [
+        {
+          "text": "奇怪的兰花，生长的时间越",
+          "score": 0.9947,
+          "dx": 20
+        },
+        {
+          "text": "长，花瓣数量会越多。",
+          "score": 0.9925,
+          "dx": 20
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9999,
+          "dx": 33
+        },
+        {
+          "text": "硬肤：获得〔？〕",
+          "score": 0.8945,
+          "dx": 43
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9856,
+          "dx": 0
+        },
+        {
+          "text": "培养种子有20%概率获得",
+          "score": 0.9888,
+          "dx": 60
+        },
+        {
+          "text": "天品灵草；",
+          "score": 0.9522,
+          "dx": 19
+        },
+        {
+          "text": "探索药田有20%概率获得",
+          "score": 0.9913,
+          "dx": 60
+        },
+        {
+          "text": "天品灵草",
+          "score": 0.9954,
+          "dx": 19
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9998,
+          "dx": 60
+        },
+        {
+          "text": "获得；",
+          "score": 0.8026,
+          "dx": 19
+        }
+      ],
+      "text_before_icon_fix": "奇怪的兰花，生长的时间越长，花瓣数量会越多。\n\n【主药效果】\n\n【硬肤：获得●】\n\n【获取途径】\n培养种子有20%概率获得天品灵草：\n探索药田有20%概率获得天品灵草\n可以在坊市与其他修士交易获得；",
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:47:13",
+      "first_seen": "2026-11-17T04:47:13"
+    },
+    {
+      "index": 37,
+      "row": 6,
+      "col": 1,
+      "name": "九瓣兰",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/037.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/037.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/037.jpg",
+      "intro_paragraphs": [
+        "奇怪的兰花，生长的时间越长，花瓣数量会越多。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "硬肤：获得〔？〕",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有20%概率获得天品灵草；",
+            "探索药田有20%概率获得天品灵草",
+            "可以在坊市与其他修士交易获得；"
+          ]
+        }
+      ],
+      "full_text": "奇怪的兰花，生长的时间越长，花瓣数量会越多。\n\n【主药效果】\n\n【硬肤：获得〔？〕】\n\n【获取途径】\n培养种子有20%概率获得天品灵草；\n探索药田有20%概率获得天品灵草\n可以在坊市与其他修士交易获得；",
+      "avg_confidence": 0.9553,
+      "needs_review": true,
+      "inline_icons": [
+        {
+          "label": "？",
+          "known": false
+        }
+      ],
+      "ocr_lines": [
+        {
+          "text": "奇怪的兰花，生长的时间越",
+          "score": 0.995,
+          "dx": 20
+        },
+        {
+          "text": "长，花瓣数量会越多。",
+          "score": 0.9925,
+          "dx": 20
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9996,
+          "dx": 33
+        },
+        {
+          "text": "硬肤：获得〔？〕",
+          "score": 0.9026,
+          "dx": 43
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9857,
+          "dx": 0
+        },
+        {
+          "text": "培养种子有20%概率获得",
+          "score": 0.9691,
+          "dx": 60
+        },
+        {
+          "text": "天品灵草；",
+          "score": 0.9531,
+          "dx": 19
+        },
+        {
+          "text": "探索药田有20%概率获得",
+          "score": 0.9912,
+          "dx": 60
+        },
+        {
+          "text": "天品灵草",
+          "score": 0.996,
+          "dx": 19
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9998,
+          "dx": 60
+        },
+        {
+          "text": "获得；",
+          "score": 0.7998,
+          "dx": 19
+        }
+      ],
+      "text_before_icon_fix": "奇怪的兰花，生长的时间越长，花瓣数量会越多。\n\n【主药效果】\n\n【硬肤：获得●】\n\n【获取途径】\n培养种子有20%概率获得天品灵草；\n探索药田有20%概率获得天品灵草\n可以在坊市与其他修士交易获得；",
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:47:15",
+      "first_seen": "2026-11-17T04:47:15"
+    },
+    {
+      "index": 38,
+      "row": 6,
+      "col": 2,
+      "name": "冰雪莲",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/038.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/038.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/038.jpg",
+      "intro_paragraphs": [
+        "生长在冰川雪地的莲花，整朵花瓣都如冰雪般晶莹"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "硬肤：获得〔？〕",
+          "paragraphs": [
+            "逆经：会减少当前灵气"
+          ]
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "硬肤：获得〔？〕",
+          "paragraphs": []
+        },
+        {
+          "title": "逆经：会减少当前灵气",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有10%概率获得仙品灵草：",
+            "探索药田有25%概率获得仙品灵草",
+            "可以在坊市与其他修士交易获得"
+          ]
+        }
+      ],
+      "full_text": "生长在冰川雪地的莲花，整朵花瓣都如冰雪般晶莹\n\n【主药效果】\n\n【硬肤：获得〔？〕】\n逆经：会减少当前灵气\n\n【辅药效果】\n\n【硬肤：获得〔？〕】\n\n【逆经：会减少当前灵气】\n\n【获取途径】\n培养种子有10%概率获得仙品灵草：\n探索药田有25%概率获得仙品灵草\n可以在坊市与其他修士交易获得",
+      "avg_confidence": 0.9696,
+      "needs_review": true,
+      "inline_icons": [
+        {
+          "label": "？",
+          "known": false
+        },
+        {
+          "label": "？",
+          "known": false
+        }
+      ],
+      "ocr_lines": [
+        {
+          "text": "生长在冰川雪地的莲花，整朵",
+          "score": 0.9965,
+          "dx": 13
+        },
+        {
+          "text": "花瓣都如冰雪般晶莹",
+          "score": 0.9937,
+          "dx": 13
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9996,
+          "dx": 26
+        },
+        {
+          "text": "硬肤：获得〔？〕",
+          "score": 0.8758,
+          "dx": 35
+        },
+        {
+          "text": "逆经：会减少当前灵气",
+          "score": 0.96,
+          "dx": 0
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.997,
+          "dx": 26
+        },
+        {
+          "text": "硬肤：获得〔？〕",
+          "score": 0.8886,
+          "dx": 35
+        },
+        {
+          "text": "逆经：会减少当前灵气",
+          "score": 0.9637,
+          "dx": 37
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9842,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有10%概率获得",
+          "score": 0.9932,
+          "dx": 53
+        },
+        {
+          "text": "仙品灵草：",
+          "score": 0.9348,
+          "dx": 10
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.9887,
+          "dx": 52
+        },
+        {
+          "text": "仙品灵草",
+          "score": 0.9828,
+          "dx": 10
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9999,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9642,
+          "dx": 13
+        }
+      ],
+      "text_before_icon_fix": "生长在冰川雪地的莲花，整朵花瓣都如冰雪般晶莹\n\n【主药效果】\n\n【硬肤：获得●】\n逆经：会减少当前灵气\n\n【辅药效果】\n\n【硬肤：获得●】\n\n【逆经：会减少当前灵气】\n\n【获取途径】\n培养种子有10%概率获得仙品灵草：\n探索药田有25%概率获得仙品灵草\n可以在坊市与其他修士交易获得",
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:47:18",
+      "first_seen": "2026-11-17T04:47:18"
+    },
+    {
+      "index": 39,
+      "row": 6,
+      "col": 3,
+      "name": "冰晶莲",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/039.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/039.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/039.jpg",
+      "intro_paragraphs": [
+        "生长在冰川雪地的莲花，整朵花瓣都如冰雪般晶莹"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "硬肤：获得〔？〕",
+          "paragraphs": [
+            "逆经：会减少当前灵气"
+          ]
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "硬肤：获得〔？〕",
+          "paragraphs": []
+        },
+        {
+          "title": "逆经：会减少当前灵气",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有10%概率获得仙品灵草：",
+            "探索药田有25%概率获得仙品灵草",
+            "可以在坊市与其他修士交易获得"
+          ]
+        }
+      ],
+      "full_text": "生长在冰川雪地的莲花，整朵花瓣都如冰雪般晶莹\n\n【主药效果】\n\n【硬肤：获得〔？〕】\n逆经：会减少当前灵气\n\n【辅药效果】\n\n【硬肤：获得〔？〕】\n\n【逆经：会减少当前灵气】\n\n【获取途径】\n培养种子有10%概率获得仙品灵草：\n探索药田有25%概率获得仙品灵草\n可以在坊市与其他修士交易获得",
+      "avg_confidence": 0.9693,
+      "needs_review": true,
+      "inline_icons": [
+        {
+          "label": "？",
+          "known": false
+        },
+        {
+          "label": "？",
+          "known": false
+        }
+      ],
+      "ocr_lines": [
+        {
+          "text": "生长在冰川雪地的莲花，整朵",
+          "score": 0.9965,
+          "dx": 13
+        },
+        {
+          "text": "花瓣都如冰雪般晶莹",
+          "score": 0.9958,
+          "dx": 13
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9996,
+          "dx": 26
+        },
+        {
+          "text": "硬肤：获得〔？〕",
+          "score": 0.8988,
+          "dx": 35
+        },
+        {
+          "text": "逆经：会减少当前灵气",
+          "score": 0.9604,
+          "dx": 0
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9983,
+          "dx": 26
+        },
+        {
+          "text": "硬肤：获得〔？〕",
+          "score": 0.8877,
+          "dx": 35
+        },
+        {
+          "text": "逆经：会减少当前灵气",
+          "score": 0.9608,
+          "dx": 37
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9843,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有10%概率获得",
+          "score": 0.9933,
+          "dx": 53
+        },
+        {
+          "text": "仙品灵草：",
+          "score": 0.9111,
+          "dx": 10
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.9887,
+          "dx": 53
+        },
+        {
+          "text": "仙品灵草",
+          "score": 0.9828,
+          "dx": 10
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9999,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9637,
+          "dx": 13
+        }
+      ],
+      "text_before_icon_fix": "生长在冰川雪地的莲花，整朵花瓣都如冰雪般晶莹\n\n【主药效果】\n\n【硬肤：获得●】\n逆经：会减少当前灵气\n\n【辅药效果】\n\n【硬肤：获得●】\n\n【逆经：会减少当前灵气】\n\n【获取途径】\n培养种子有10%概率获得仙品灵草：\n探索药田有25%概率获得仙品灵草\n可以在坊市与其他修士交易获得",
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:47:25",
+      "first_seen": "2026-11-17T04:47:25"
+    },
+    {
+      "index": 40,
+      "row": 6,
+      "col": 4,
+      "name": "磐石粉",
+      "locked": true,
+      "card_image": "assets/kapai_lingcao_danyao/cards/040.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/040.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/040.jpg",
+      "intro_paragraphs": [
+        "一部分〔土〕妖王身上都覆盖磐石，击败妖王后有概率获得。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "硬肤：获得〔？〕",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "一部分〔土〕妖王身上都覆盖磐石，击败妖王后有概率获得。\n\n【主药效果】\n\n【硬肤：获得〔？〕】\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9711,
+      "needs_review": true,
+      "inline_icons": [
+        {
+          "label": "土",
+          "known": true
+        },
+        {
+          "label": "？",
+          "known": false
+        }
+      ],
+      "ocr_lines": [
+        {
+          "text": "一部分　〔土〕妖王身上都覆盖磐",
+          "score": 0.9286,
+          "dx": 18
+        },
+        {
+          "text": "石，击败妖王后有概率获得。",
+          "score": 0.9949,
+          "dx": 18
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9999,
+          "dx": 33
+        },
+        {
+          "text": "硬肤：获得〔？〕",
+          "score": 0.8969,
+          "dx": 43
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9938,
+          "dx": 0
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9842,
+          "dx": 19
+        }
+      ],
+      "text_before_icon_fix": "一部分妖王身上都覆盖磐石，击败妖王后有概率获得。\n\n【主药效果】\n\n【硬肤：获得●】\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:47:30",
+      "first_seen": "2026-11-17T04:47:30"
+    },
+    {
+      "index": 41,
+      "row": 6,
+      "col": 5,
+      "name": "醉龙果",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/041.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/041.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/041.jpg",
+      "intro_paragraphs": [
+        "果实里富含营养物，只是实在太多了，以至于妖怪吃了也要醉倒。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": [
+            "醉心：会进入入定状态"
+          ]
+        },
+        {
+          "title": "堕心：会产生心魔",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "断脉：可造成伤害",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有10%概率获得仙品灵草：",
+            "探索药田有25%概率获得仙品灵草",
+            "可以在坊市与其他修士交易获得"
+          ]
+        }
+      ],
+      "full_text": "果实里富含营养物，只是实在太多了，以至于妖怪吃了也要醉倒。\n\n【主药效果】\n醉心：会进入入定状态\n\n【堕心：会产生心魔】\n\n【辅药效果】\n\n【断脉：可造成伤害】\n\n【获取途径】\n培养种子有10%概率获得仙品灵草：\n探索药田有25%概率获得仙品灵草\n可以在坊市与其他修士交易获得",
+      "avg_confidence": 0.9797,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "果实里富含营养物，只是实在",
+          "score": 0.9977,
+          "dx": 13
+        },
+        {
+          "text": "太多了，以至于妖怪吃了也要",
+          "score": 0.9955,
+          "dx": 13
+        },
+        {
+          "text": "醉倒。",
+          "score": 0.9982,
+          "dx": 11
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9961,
+          "dx": 26
+        },
+        {
+          "text": "醉心：会进入入定状态",
+          "score": 0.9668,
+          "dx": 0
+        },
+        {
+          "text": "堕心：会产生心魔",
+          "score": 0.9272,
+          "dx": 36
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9992,
+          "dx": 26
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.9631,
+          "dx": 36
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9864,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有10%概率获得",
+          "score": 0.9947,
+          "dx": 53
+        },
+        {
+          "text": "仙品灵草：",
+          "score": 0.9165,
+          "dx": 10
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.9908,
+          "dx": 52
+        },
+        {
+          "text": "仙品灵草",
+          "score": 0.9817,
+          "dx": 10
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9998,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9629,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:47:31",
+      "first_seen": "2026-11-17T04:47:31"
+    },
+    {
+      "index": 42,
+      "row": 7,
+      "col": 0,
+      "name": "百年醉龙果",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/042.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/042.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/042.jpg",
+      "intro_paragraphs": [
+        "果实里富含营养物，只是实在太多了，以至于妖怪吃了也要醉倒。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": [
+            "醉心：会进入入定状态"
+          ]
+        },
+        {
+          "title": "堕心：会产生心魔",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "断脉：可造成伤害",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有10%概率获得仙品灵草：",
+            "探索药田有25%概率获得仙品灵草",
+            "可以在坊市与其他修士交易获得"
+          ]
+        }
+      ],
+      "full_text": "果实里富含营养物，只是实在太多了，以至于妖怪吃了也要醉倒。\n\n【主药效果】\n醉心：会进入入定状态\n\n【堕心：会产生心魔】\n\n【辅药效果】\n\n【断脉：可造成伤害】\n\n【获取途径】\n培养种子有10%概率获得仙品灵草：\n探索药田有25%概率获得仙品灵草\n可以在坊市与其他修士交易获得",
+      "avg_confidence": 0.9793,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "果实里富含营养物，只是实在",
+          "score": 0.9976,
+          "dx": 13
+        },
+        {
+          "text": "太多了，以至于妖怪吃了也要",
+          "score": 0.9954,
+          "dx": 13
+        },
+        {
+          "text": "醉倒。",
+          "score": 0.9974,
+          "dx": 11
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9961,
+          "dx": 26
+        },
+        {
+          "text": "醉心：会进入入定状态",
+          "score": 0.9676,
+          "dx": 0
+        },
+        {
+          "text": "堕心：会产生心魔",
+          "score": 0.9263,
+          "dx": 36
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9991,
+          "dx": 26
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.9646,
+          "dx": 36
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9864,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有10%概率获得",
+          "score": 0.9947,
+          "dx": 53
+        },
+        {
+          "text": "仙品灵草：",
+          "score": 0.9094,
+          "dx": 10
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.9905,
+          "dx": 53
+        },
+        {
+          "text": "仙品灵草",
+          "score": 0.9815,
+          "dx": 10
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9998,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9635,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:47:38",
+      "first_seen": "2026-11-17T04:47:38"
+    },
+    {
+      "index": 43,
+      "row": 7,
+      "col": 1,
+      "name": "千年醉龙果",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/043.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/043.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/043.jpg",
+      "intro_paragraphs": [
+        "果实里富含营养物，只是实在太多了，以至于妖怪吃了也要醉倒。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": [
+            "醉心：会进入入定状态"
+          ]
+        },
+        {
+          "title": "堕心：会产生心魔",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "断脉：可造成伤害",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有10%概率获得仙品灵草：",
+            "探索药田有25%概率获得仙品灵草",
+            "可以在坊市与其他修士交易获得"
+          ]
+        }
+      ],
+      "full_text": "果实里富含营养物，只是实在太多了，以至于妖怪吃了也要醉倒。\n\n【主药效果】\n醉心：会进入入定状态\n\n【堕心：会产生心魔】\n\n【辅药效果】\n\n【断脉：可造成伤害】\n\n【获取途径】\n培养种子有10%概率获得仙品灵草：\n探索药田有25%概率获得仙品灵草\n可以在坊市与其他修士交易获得",
+      "avg_confidence": 0.9781,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "果实里富含营养物，只是实在",
+          "score": 0.9977,
+          "dx": 13
+        },
+        {
+          "text": "太多了，以至于妖怪吃了也要",
+          "score": 0.9954,
+          "dx": 13
+        },
+        {
+          "text": "醉倒。",
+          "score": 0.9975,
+          "dx": 11
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9961,
+          "dx": 26
+        },
+        {
+          "text": "醉心：会进入入定状态",
+          "score": 0.9677,
+          "dx": 0
+        },
+        {
+          "text": "堕心：会产生心魔",
+          "score": 0.9265,
+          "dx": 36
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9992,
+          "dx": 26
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.9645,
+          "dx": 36
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9864,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有10%概率获得",
+          "score": 0.9947,
+          "dx": 53
+        },
+        {
+          "text": "仙品灵草：",
+          "score": 0.9094,
+          "dx": 10
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.9909,
+          "dx": 52
+        },
+        {
+          "text": "仙品灵草",
+          "score": 0.9819,
+          "dx": 10
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9998,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.944,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:47:45",
+      "first_seen": "2026-11-17T04:47:45"
+    },
+    {
+      "index": 44,
+      "row": 7,
+      "col": 2,
+      "name": "菩提果",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/044.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/044.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/044.jpg",
+      "intro_paragraphs": [
+        "菩提树历经百年沧桑才会结果。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "醉心：会进入入定状态",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "探索药田有10%概率获得神品灵草：",
+            "可以在坊市与其他修士交易获得："
+          ]
+        }
+      ],
+      "full_text": "菩提树历经百年沧桑才会结果。\n\n【主药效果】\n\n【醉心：会进入入定状态】\n\n【获取途径】\n探索药田有10%概率获得神品灵草：\n可以在坊市与其他修士交易获得：",
+      "avg_confidence": 0.9627,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "菩提树历经百年沧桑才会结",
+          "score": 0.9989,
+          "dx": 19
+        },
+        {
+          "text": "果。",
+          "score": 0.9659,
+          "dx": 20
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9997,
+          "dx": 33
+        },
+        {
+          "text": "醉心：会进入入定状态",
+          "score": 0.9556,
+          "dx": 43
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9902,
+          "dx": 0
+        },
+        {
+          "text": "探索药田有10%概率获得",
+          "score": 0.9912,
+          "dx": 60
+        },
+        {
+          "text": "神品灵草：",
+          "score": 0.9244,
+          "dx": 19
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9998,
+          "dx": 60
+        },
+        {
+          "text": "获得：",
+          "score": 0.8117,
+          "dx": 19
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:47:50",
+      "first_seen": "2026-11-17T04:47:50"
+    },
+    {
+      "index": 45,
+      "row": 7,
+      "col": 3,
+      "name": "大菩提果",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/045.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/045.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/045.jpg",
+      "intro_paragraphs": [
+        "菩提树历经百年沧桑才会结果。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "醉心：会进入入定状态",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "探索药田有10%概率获得神品灵草：",
+            "可以在坊市与其他修士交易获得："
+          ]
+        }
+      ],
+      "full_text": "菩提树历经百年沧桑才会结果。\n\n【主药效果】\n\n【醉心：会进入入定状态】\n\n【获取途径】\n探索药田有10%概率获得神品灵草：\n可以在坊市与其他修士交易获得：",
+      "avg_confidence": 0.963,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "菩提树历经百年沧桑才会结",
+          "score": 0.9989,
+          "dx": 19
+        },
+        {
+          "text": "果。",
+          "score": 0.967,
+          "dx": 20
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9998,
+          "dx": 33
+        },
+        {
+          "text": "醉心：会进入入定状态",
+          "score": 0.9547,
+          "dx": 43
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9903,
+          "dx": 0
+        },
+        {
+          "text": "探索药田有10%概率获得",
+          "score": 0.9913,
+          "dx": 60
+        },
+        {
+          "text": "神品灵草：",
+          "score": 0.9252,
+          "dx": 19
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9998,
+          "dx": 60
+        },
+        {
+          "text": "获得：",
+          "score": 0.8085,
+          "dx": 19
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:47:52",
+      "first_seen": "2026-11-17T04:47:52"
+    },
+    {
+      "index": 46,
+      "row": 7,
+      "col": 4,
+      "name": "菩提道果",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/046.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/046.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/046.jpg",
+      "intro_paragraphs": [
+        "菩提树历经百年沧桑才会结果。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "醉心：会进入入定状态",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "探索药田有10%概率获得神品灵草：",
+            "可以在坊市与其他修士交易获得："
+          ]
+        }
+      ],
+      "full_text": "菩提树历经百年沧桑才会结果。\n\n【主药效果】\n\n【醉心：会进入入定状态】\n\n【获取途径】\n探索药田有10%概率获得神品灵草：\n可以在坊市与其他修士交易获得：",
+      "avg_confidence": 0.9638,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "菩提树历经百年沧桑才会结",
+          "score": 0.9989,
+          "dx": 19
+        },
+        {
+          "text": "果。",
+          "score": 0.9665,
+          "dx": 20
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9998,
+          "dx": 33
+        },
+        {
+          "text": "醉心：会进入入定状态",
+          "score": 0.9545,
+          "dx": 43
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9903,
+          "dx": 0
+        },
+        {
+          "text": "探索药田有10%概率获得",
+          "score": 0.9913,
+          "dx": 60
+        },
+        {
+          "text": "神品灵草：",
+          "score": 0.9269,
+          "dx": 19
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9998,
+          "dx": 60
+        },
+        {
+          "text": "获得：",
+          "score": 0.8137,
+          "dx": 19
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:47:54",
+      "first_seen": "2026-11-17T04:47:54"
+    },
+    {
+      "index": 47,
+      "row": 7,
+      "col": 5,
+      "name": "迷魂香",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/047.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/047.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/047.jpg",
+      "intro_paragraphs": [
+        "闻到香味着，无论妖怪或是人物，均会倒地不起。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": [
+            "迷魂：有控制目标的效果活血：恢复血量"
+          ]
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": [
+            "迷魂：有控制目标的效果"
+          ]
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有30%概率获得地品灵草：",
+            "探索药田有25%概率获得地品灵草",
+            "可以在坊市与其他修士交易获得"
+          ]
+        }
+      ],
+      "full_text": "闻到香味着，无论妖怪或是人物，均会倒地不起。\n\n【主药效果】\n迷魂：有控制目标的效果活血：恢复血量\n\n【辅药效果】\n迷魂：有控制目标的效果\n\n【获取途径】\n培养种子有30%概率获得地品灵草：\n探索药田有25%概率获得地品灵草\n可以在坊市与其他修士交易获得",
+      "avg_confidence": 0.9786,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "闻到香味着，无论妖怪或是人",
+          "score": 0.9972,
+          "dx": 11
+        },
+        {
+          "text": "物，均会倒地不起。",
+          "score": 0.996,
+          "dx": 11
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9998,
+          "dx": 26
+        },
+        {
+          "text": "迷魂：有控制目标的效果",
+          "score": 0.974,
+          "dx": 37
+        },
+        {
+          "text": "活血：恢复血量",
+          "score": 0.97,
+          "dx": 0
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9981,
+          "dx": 26
+        },
+        {
+          "text": "迷魂：有控制目标的效果",
+          "score": 0.9648,
+          "dx": 37
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9743,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有30%概率获得",
+          "score": 0.9936,
+          "dx": 53
+        },
+        {
+          "text": "地品灵草：",
+          "score": 0.9124,
+          "dx": 11
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.9794,
+          "dx": 52
+        },
+        {
+          "text": "地品灵草",
+          "score": 0.9947,
+          "dx": 11
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9999,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9266,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:47:57",
+      "first_seen": "2026-11-17T04:47:57"
+    },
+    {
+      "index": 48,
+      "row": 8,
+      "col": 0,
+      "name": "迷魂迭香",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/048.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/048.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/048.jpg",
+      "intro_paragraphs": [
+        "闻到香味着，无论妖怪或是人物，均会倒地不起。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": [
+            "迷魂：有控制目标的效果活血：恢复血量"
+          ]
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": [
+            "迷魂：有控制目标的效果"
+          ]
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有30%概率获得地品灵草：",
+            "探索药田有25%概率获得地品灵草",
+            "可以在坊市与其他修士交易获得"
+          ]
+        }
+      ],
+      "full_text": "闻到香味着，无论妖怪或是人物，均会倒地不起。\n\n【主药效果】\n迷魂：有控制目标的效果活血：恢复血量\n\n【辅药效果】\n迷魂：有控制目标的效果\n\n【获取途径】\n培养种子有30%概率获得地品灵草：\n探索药田有25%概率获得地品灵草\n可以在坊市与其他修士交易获得",
+      "avg_confidence": 0.9701,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "闻到香味着，无论妖怪或是人",
+          "score": 0.9966,
+          "dx": 11
+        },
+        {
+          "text": "物，均会倒地不起。",
+          "score": 0.996,
+          "dx": 11
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9997,
+          "dx": 26
+        },
+        {
+          "text": "迷魂：有控制目标的效果",
+          "score": 0.9739,
+          "dx": 37
+        },
+        {
+          "text": "活血：恢复血量",
+          "score": 0.97,
+          "dx": 0
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9979,
+          "dx": 26
+        },
+        {
+          "text": "迷魂：有控制目标的效果",
+          "score": 0.9651,
+          "dx": 37
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9735,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有30%概率获得",
+          "score": 0.9938,
+          "dx": 53
+        },
+        {
+          "text": "地品灵草：",
+          "score": 0.9102,
+          "dx": 11
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.9796,
+          "dx": 52
+        },
+        {
+          "text": "地品灵草",
+          "score": 0.9969,
+          "dx": 11
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9999,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9295,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:48:05",
+      "first_seen": "2026-11-17T04:48:05"
+    },
+    {
+      "index": 49,
+      "row": 8,
+      "col": 1,
+      "name": "忘魂香",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/049.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/049.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/049.jpg",
+      "intro_paragraphs": [
+        "闻到香味着，无论妖怪或是人物，均会倒地不起。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": [
+            "迷魂：有控制目标的效果活血：恢复血量"
+          ]
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": [
+            "迷魂：有控制目标的效果"
+          ]
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有30%概率获得地品灵草：",
+            "探索药田有25%概率获得地品灵草",
+            "可以在坊市与其他修士交易获得"
+          ]
+        }
+      ],
+      "full_text": "闻到香味着，无论妖怪或是人物，均会倒地不起。\n\n【主药效果】\n迷魂：有控制目标的效果活血：恢复血量\n\n【辅药效果】\n迷魂：有控制目标的效果\n\n【获取途径】\n培养种子有30%概率获得地品灵草：\n探索药田有25%概率获得地品灵草\n可以在坊市与其他修士交易获得",
+      "avg_confidence": 0.9661,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "闻到香味着，无论妖怪或是人",
+          "score": 0.9899,
+          "dx": 11
+        },
+        {
+          "text": "物，均会倒地不起。",
+          "score": 0.996,
+          "dx": 11
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9998,
+          "dx": 26
+        },
+        {
+          "text": "迷魂：有控制目标的效果",
+          "score": 0.9738,
+          "dx": 37
+        },
+        {
+          "text": "活血：恢复血量",
+          "score": 0.97,
+          "dx": 0
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9979,
+          "dx": 26
+        },
+        {
+          "text": "迷魂：有控制目标的效果",
+          "score": 0.9651,
+          "dx": 37
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9735,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有30%概率获得",
+          "score": 0.9937,
+          "dx": 53
+        },
+        {
+          "text": "地品灵草：",
+          "score": 0.9101,
+          "dx": 11
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.9796,
+          "dx": 52
+        },
+        {
+          "text": "地品灵草",
+          "score": 0.9969,
+          "dx": 11
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9999,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9295,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:48:12",
+      "first_seen": "2026-11-17T04:48:12"
+    },
+    {
+      "index": 50,
+      "row": 8,
+      "col": 2,
+      "name": "幻神草",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/050.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/050.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/050.jpg",
+      "intro_paragraphs": [
+        "哪怕神仙一口，也会触发幻觉的灵草。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": [
+            "迷魂：有控制目标的效果"
+          ]
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": [
+            "迷魂：有控制目标的效果"
+          ]
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有10%概率获得仙品灵草：",
+            "探索药田有25%概率获得仙品灵草",
+            "以在坊市修易获得"
+          ]
+        }
+      ],
+      "full_text": "哪怕神仙一口，也会触发幻觉的灵草。\n\n【主药效果】\n迷魂：有控制目标的效果\n\n【辅药效果】\n迷魂：有控制目标的效果\n\n【获取途径】\n培养种子有10%概率获得仙品灵草：\n探索药田有25%概率获得仙品灵草\n以在坊市修易获得",
+      "avg_confidence": 0.9802,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "哪怕神仙一口，也会触发幻",
+          "score": 0.9718,
+          "dx": 12
+        },
+        {
+          "text": "觉的灵草。",
+          "score": 0.9987,
+          "dx": 14
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9996,
+          "dx": 26
+        },
+        {
+          "text": "迷魂：有控制目标的效果",
+          "score": 0.9744,
+          "dx": 37
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9987,
+          "dx": 0
+        },
+        {
+          "text": "迷魂：有控制目标的效果",
+          "score": 0.9779,
+          "dx": 37
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9749,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有10%概率获得",
+          "score": 0.9943,
+          "dx": 53
+        },
+        {
+          "text": "仙品灵草：",
+          "score": 0.9033,
+          "dx": 10
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.9786,
+          "dx": 53
+        },
+        {
+          "text": "仙品灵草",
+          "score": 0.9926,
+          "dx": 10
+        },
+        {
+          "text": "以在坊市修易",
+          "score": 0.9988,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.968,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:48:19",
+      "first_seen": "2026-11-17T04:48:19"
+    },
+    {
+      "index": 51,
+      "row": 8,
+      "col": 3,
+      "name": "大幻神草",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/051.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/051.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/051.jpg",
+      "intro_paragraphs": [
+        "哪怕神仙尝一口，也会触发幻觉的灵草。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": [
+            "迷魂：有控制目标的效果"
+          ]
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": [
+            "迷魂：有控制目标的效果"
+          ]
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有10%概率获得仙品灵草：",
+            "探索药田有25%概率获得仙品灵草",
+            "以在坊市修易获得"
+          ]
+        }
+      ],
+      "full_text": "哪怕神仙尝一口，也会触发幻觉的灵草。\n\n【主药效果】\n迷魂：有控制目标的效果\n\n【辅药效果】\n迷魂：有控制目标的效果\n\n【获取途径】\n培养种子有10%概率获得仙品灵草：\n探索药田有25%概率获得仙品灵草\n以在坊市修易获得",
+      "avg_confidence": 0.9807,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "哪怕神仙尝一口，也会触发幻",
+          "score": 0.9721,
+          "dx": 12
+        },
+        {
+          "text": "觉的灵草。",
+          "score": 0.9988,
+          "dx": 14
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9996,
+          "dx": 26
+        },
+        {
+          "text": "迷魂：有控制目标的效果",
+          "score": 0.9743,
+          "dx": 37
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9986,
+          "dx": 0
+        },
+        {
+          "text": "迷魂：有控制目标的效果",
+          "score": 0.9779,
+          "dx": 37
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9748,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有10%概率获得",
+          "score": 0.9943,
+          "dx": 53
+        },
+        {
+          "text": "仙品灵草：",
+          "score": 0.9032,
+          "dx": 10
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.9786,
+          "dx": 53
+        },
+        {
+          "text": "仙品灵草",
+          "score": 0.9926,
+          "dx": 10
+        },
+        {
+          "text": "以在坊市修易",
+          "score": 0.9988,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9678,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:48:26",
+      "first_seen": "2026-11-17T04:48:26"
+    },
+    {
+      "index": 52,
+      "row": 8,
+      "col": 4,
+      "name": "幻魄草",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/052.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/052.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/052.jpg",
+      "intro_paragraphs": [
+        "哪怕神仙尝一口，也会触发幻觉的灵草。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": [
+            "迷魂：有控制目标的效果"
+          ]
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": [
+            "迷魂：有控制目标的效果"
+          ]
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有10%概率获得仙品灵草：",
+            "探索药田有25%概率获得仙品灵草",
+            "以在坊市修易获得"
+          ]
+        }
+      ],
+      "full_text": "哪怕神仙尝一口，也会触发幻觉的灵草。\n\n【主药效果】\n迷魂：有控制目标的效果\n\n【辅药效果】\n迷魂：有控制目标的效果\n\n【获取途径】\n培养种子有10%概率获得仙品灵草：\n探索药田有25%概率获得仙品灵草\n以在坊市修易获得",
+      "avg_confidence": 0.9623,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "哪怕神仙尝一口，也会触发幻",
+          "score": 0.9735,
+          "dx": 12
+        },
+        {
+          "text": "觉的灵草。",
+          "score": 0.9987,
+          "dx": 14
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9996,
+          "dx": 26
+        },
+        {
+          "text": "迷魂：有控制目标的效果",
+          "score": 0.9743,
+          "dx": 37
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9986,
+          "dx": 0
+        },
+        {
+          "text": "迷魂：有控制目标的效果",
+          "score": 0.9779,
+          "dx": 37
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.975,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有10%概率获得",
+          "score": 0.9943,
+          "dx": 53
+        },
+        {
+          "text": "仙品灵草：",
+          "score": 0.9025,
+          "dx": 10
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.9785,
+          "dx": 53
+        },
+        {
+          "text": "仙品灵草",
+          "score": 0.9927,
+          "dx": 10
+        },
+        {
+          "text": "以在坊市修易",
+          "score": 0.9988,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9682,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:48:33",
+      "first_seen": "2026-11-17T04:48:33"
+    },
+    {
+      "index": 53,
+      "row": 8,
+      "col": 5,
+      "name": "青焰根",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/053.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/053.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/053.jpg",
+      "intro_paragraphs": [
+        "此火焰并不灼烧肉体，而是燃烧灵魂"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "开窍：可获得修为",
+          "paragraphs": [
+            "堕心：会产生心魔"
+          ]
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "断脉：可造成伤害",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有20%概率获得天品灵草",
+            "探索药田有20%概率获得天品灵草",
+            "可以在坊市与其他修士交易获得"
+          ]
+        }
+      ],
+      "full_text": "此火焰并不灼烧肉体，而是燃烧灵魂\n\n【主药效果】\n\n【开窍：可获得修为】\n堕心：会产生心魔\n\n【辅药效果】\n\n【断脉：可造成伤害】\n\n【获取途径】\n培养种子有20%概率获得天品灵草\n探索药田有20%概率获得天品灵草\n可以在坊市与其他修士交易获得",
+      "avg_confidence": 0.9825,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "此火焰并不灼烧肉体，而是燃",
+          "score": 0.995,
+          "dx": 11
+        },
+        {
+          "text": "烧灵魂",
+          "score": 0.9946,
+          "dx": 11
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9995,
+          "dx": 26
+        },
+        {
+          "text": "开窍：可获得修为",
+          "score": 0.9589,
+          "dx": 36
+        },
+        {
+          "text": "堕心：会产生心魔",
+          "score": 0.9431,
+          "dx": 0
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9977,
+          "dx": 26
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.938,
+          "dx": 36
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9799,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有20%概率获得",
+          "score": 0.9933,
+          "dx": 53
+        },
+        {
+          "text": "天品灵草",
+          "score": 0.9988,
+          "dx": 12
+        },
+        {
+          "text": "探索药田有20%概率获得",
+          "score": 0.9833,
+          "dx": 52
+        },
+        {
+          "text": "天品灵草",
+          "score": 0.9946,
+          "dx": 12
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9999,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9643,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:48:40",
+      "first_seen": "2026-11-17T04:48:40"
+    },
+    {
+      "index": 54,
+      "row": 9,
+      "col": 0,
+      "name": "青焰魔根",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/054.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/054.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/054.jpg",
+      "intro_paragraphs": [
+        "此火焰并不灼烧肉体，而是燃烧灵魂"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "开窍：可获得修为",
+          "paragraphs": [
+            "堕心：会产生心魔"
+          ]
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "断脉：可造成伤害",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有20%概率获得天品灵草",
+            "探索药田有20%概率获得天品灵草",
+            "可以在坊市与其他修士交易获得"
+          ]
+        }
+      ],
+      "full_text": "此火焰并不灼烧肉体，而是燃烧灵魂\n\n【主药效果】\n\n【开窍：可获得修为】\n堕心：会产生心魔\n\n【辅药效果】\n\n【断脉：可造成伤害】\n\n【获取途径】\n培养种子有20%概率获得天品灵草\n探索药田有20%概率获得天品灵草\n可以在坊市与其他修士交易获得",
+      "avg_confidence": 0.9769,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "此火焰并不灼烧肉体，而是燃",
+          "score": 0.995,
+          "dx": 11
+        },
+        {
+          "text": "烧灵魂",
+          "score": 0.9975,
+          "dx": 11
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9995,
+          "dx": 26
+        },
+        {
+          "text": "开窍：可获得修为",
+          "score": 0.9591,
+          "dx": 36
+        },
+        {
+          "text": "堕心：会产生心魔",
+          "score": 0.9439,
+          "dx": 0
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9977,
+          "dx": 26
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.94,
+          "dx": 36
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9798,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有20%概率获得",
+          "score": 0.9933,
+          "dx": 53
+        },
+        {
+          "text": "天品灵草",
+          "score": 0.9988,
+          "dx": 12
+        },
+        {
+          "text": "探索药田有20%概率获得",
+          "score": 0.9833,
+          "dx": 52
+        },
+        {
+          "text": "天品灵草",
+          "score": 0.9946,
+          "dx": 12
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9999,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9258,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:48:46",
+      "first_seen": "2026-11-17T04:48:46"
+    },
+    {
+      "index": 55,
+      "row": 9,
+      "col": 1,
+      "name": "魔焰根",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/055.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/055.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/055.jpg",
+      "intro_paragraphs": [
+        "此火焰并不灼烧肉体，而是燃烧灵魂"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "开窍：可获得修为",
+          "paragraphs": [
+            "堕心：会产生心魔"
+          ]
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "断脉：可造成伤害",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有20%概率获得天品灵草",
+            "探索药田有20%概率获得天品灵草",
+            "可以在坊市与其他修士交易获得"
+          ]
+        }
+      ],
+      "full_text": "此火焰并不灼烧肉体，而是燃烧灵魂\n\n【主药效果】\n\n【开窍：可获得修为】\n堕心：会产生心魔\n\n【辅药效果】\n\n【断脉：可造成伤害】\n\n【获取途径】\n培养种子有20%概率获得天品灵草\n探索药田有20%概率获得天品灵草\n可以在坊市与其他修士交易获得",
+      "avg_confidence": 0.9821,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "此火焰并不灼烧肉体，而是燃",
+          "score": 0.9951,
+          "dx": 11
+        },
+        {
+          "text": "烧灵魂",
+          "score": 0.9976,
+          "dx": 11
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9995,
+          "dx": 26
+        },
+        {
+          "text": "开窍：可获得修为",
+          "score": 0.9593,
+          "dx": 36
+        },
+        {
+          "text": "堕心：会产生心魔",
+          "score": 0.9435,
+          "dx": 0
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9977,
+          "dx": 26
+        },
+        {
+          "text": "断脉：可造成伤害",
+          "score": 0.9403,
+          "dx": 36
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9798,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有20%概率获得",
+          "score": 0.9933,
+          "dx": 53
+        },
+        {
+          "text": "天品灵草",
+          "score": 0.9988,
+          "dx": 12
+        },
+        {
+          "text": "探索药田有20%概率获得",
+          "score": 0.9832,
+          "dx": 52
+        },
+        {
+          "text": "天品灵草",
+          "score": 0.9947,
+          "dx": 12
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9999,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9652,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:48:53",
+      "first_seen": "2026-11-17T04:48:53"
+    },
+    {
+      "index": 56,
+      "row": 9,
+      "col": 2,
+      "name": "百灵参",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/056.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/056.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/056.jpg",
+      "intro_paragraphs": [
+        "生长了多年的人参。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "开窍：可获得修为",
+          "paragraphs": []
+        },
+        {
+          "title": "逆经：会减少当前灵气",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有10%概率获得仙品灵草；",
+            "探索药田有25%概率获得仙品灵草",
+            "可以在坊市与其他修士交易获得；"
+          ]
+        }
+      ],
+      "full_text": "生长了多年的人参。\n\n【主药效果】\n\n【开窍：可获得修为】\n\n【逆经：会减少当前灵气】\n\n【获取途径】\n培养种子有10%概率获得仙品灵草；\n探索药田有25%概率获得仙品灵草\n可以在坊市与其他修士交易获得；",
+      "avg_confidence": 0.9541,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "生长了多年的人参。",
+          "score": 0.9992,
+          "dx": 20
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9996,
+          "dx": 33
+        },
+        {
+          "text": "开窍：可获得修为",
+          "score": 0.9588,
+          "dx": 43
+        },
+        {
+          "text": "逆经：会减少当前灵气",
+          "score": 0.9651,
+          "dx": 45
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9809,
+          "dx": 0
+        },
+        {
+          "text": "培养种子有10%概率获得",
+          "score": 0.9938,
+          "dx": 60
+        },
+        {
+          "text": "仙品灵草；",
+          "score": 0.8964,
+          "dx": 18
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.9935,
+          "dx": 60
+        },
+        {
+          "text": "仙品灵草",
+          "score": 0.991,
+          "dx": 18
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9997,
+          "dx": 60
+        },
+        {
+          "text": "获得；",
+          "score": 0.8484,
+          "dx": 19
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:48:59",
+      "first_seen": "2026-11-17T04:48:59"
+    },
+    {
+      "index": 57,
+      "row": 9,
+      "col": 3,
+      "name": "千灵参",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/057.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/057.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/057.jpg",
+      "intro_paragraphs": [
+        "生长了多年的人参。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "开窍：可获得修为",
+          "paragraphs": []
+        },
+        {
+          "title": "逆经：会减少当前灵气",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有10%概率获得仙品灵草；",
+            "探索药田有25%概率获得仙品灵草",
+            "可以在坊市与其他修士交易获得；"
+          ]
+        }
+      ],
+      "full_text": "生长了多年的人参。\n\n【主药效果】\n\n【开窍：可获得修为】\n\n【逆经：会减少当前灵气】\n\n【获取途径】\n培养种子有10%概率获得仙品灵草；\n探索药田有25%概率获得仙品灵草\n可以在坊市与其他修士交易获得；",
+      "avg_confidence": 0.9596,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "生长了多年的人参。",
+          "score": 0.9992,
+          "dx": 20
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9996,
+          "dx": 33
+        },
+        {
+          "text": "开窍：可获得修为",
+          "score": 0.9587,
+          "dx": 43
+        },
+        {
+          "text": "逆经：会减少当前灵气",
+          "score": 0.9655,
+          "dx": 45
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.976,
+          "dx": 0
+        },
+        {
+          "text": "培养种子有10%概率获得",
+          "score": 0.9937,
+          "dx": 60
+        },
+        {
+          "text": "仙品灵草；",
+          "score": 0.8965,
+          "dx": 18
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.9935,
+          "dx": 60
+        },
+        {
+          "text": "仙品灵草",
+          "score": 0.9908,
+          "dx": 18
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9997,
+          "dx": 60
+        },
+        {
+          "text": "获得；",
+          "score": 0.8475,
+          "dx": 19
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:49:01",
+      "first_seen": "2026-11-17T04:49:01"
+    },
+    {
+      "index": 58,
+      "row": 9,
+      "col": 4,
+      "name": "万灵参",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/058.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/058.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/058.jpg",
+      "intro_paragraphs": [
+        "生长了多年的人参。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "开窍：可获得修为",
+          "paragraphs": []
+        },
+        {
+          "title": "逆经：会减少当前灵气",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有10%概率获得仙品灵草；",
+            "探索药田有25%概率获得仙品灵草",
+            "可以在坊市与其他修士交易获得；"
+          ]
+        }
+      ],
+      "full_text": "生长了多年的人参。\n\n【主药效果】\n\n【开窍：可获得修为】\n\n【逆经：会减少当前灵气】\n\n【获取途径】\n培养种子有10%概率获得仙品灵草；\n探索药田有25%概率获得仙品灵草\n可以在坊市与其他修士交易获得；",
+      "avg_confidence": 0.9614,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "生长了多年的人参。",
+          "score": 0.9992,
+          "dx": 20
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9996,
+          "dx": 33
+        },
+        {
+          "text": "开窍：可获得修为",
+          "score": 0.9587,
+          "dx": 43
+        },
+        {
+          "text": "逆经：会减少当前灵气",
+          "score": 0.9654,
+          "dx": 45
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.976,
+          "dx": 0
+        },
+        {
+          "text": "培养种子有10%概率获得",
+          "score": 0.9937,
+          "dx": 60
+        },
+        {
+          "text": "仙品灵草；",
+          "score": 0.8968,
+          "dx": 18
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.9935,
+          "dx": 60
+        },
+        {
+          "text": "仙品灵草",
+          "score": 0.9908,
+          "dx": 18
+        },
+        {
+          "text": "可以在坊市与其他修士交易",
+          "score": 0.9997,
+          "dx": 60
+        },
+        {
+          "text": "获得；",
+          "score": 0.8471,
+          "dx": 19
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:49:03",
+      "first_seen": "2026-11-17T04:49:03"
+    },
+    {
+      "index": 59,
+      "row": 9,
+      "col": 5,
+      "name": "蕴元仙萼",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/059.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/059.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/059.jpg",
+      "intro_paragraphs": [
+        "萼瓣疑霜、芯藏金光，得天地元气滋养万年方得成形；"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "开窍：可获得修为",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "开窍：可获得修为",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "在古木幽森的深处有概率获得；"
+          ]
+        }
+      ],
+      "full_text": "萼瓣疑霜、芯藏金光，得天地元气滋养万年方得成形；\n\n【主药效果】\n\n【开窍：可获得修为】\n\n【辅药效果】\n\n【开窍：可获得修为】\n\n【获取途径】\n在古木幽森的深处有概率获得；",
+      "avg_confidence": 0.9457,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "萼瓣疑霜、芯藏金光，得天地",
+          "score": 0.9721,
+          "dx": 19
+        },
+        {
+          "text": "元气滋养万年方得成形；",
+          "score": 0.9709,
+          "dx": 20
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9998,
+          "dx": 33
+        },
+        {
+          "text": "开窍：可获得修为",
+          "score": 0.9637,
+          "dx": 43
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9984,
+          "dx": 0
+        },
+        {
+          "text": "开窍：可获得修为",
+          "score": 0.9708,
+          "dx": 43
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9864,
+          "dx": 33
+        },
+        {
+          "text": "在古木幽森的深处有概率获",
+          "score": 0.9853,
+          "dx": 59
+        },
+        {
+          "text": "得；",
+          "score": 0.655,
+          "dx": 20
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:49:05",
+      "first_seen": "2026-11-17T04:49:05"
+    },
+    {
+      "index": 60,
+      "row": 10,
+      "col": 0,
+      "name": "兽涎水",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/060.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/060.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/060.jpg",
+      "intro_paragraphs": [
+        "这种水会散发一股香气，能吸引妖怪的到来"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "唤灵：可招来妖兽",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": [
+            "迷魂：有控制目标的效果"
+          ]
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有30%概率获得地品灵草：",
+            "探索药田有25%概率获得地品灵草",
+            "以在坊市修易获得"
+          ]
+        }
+      ],
+      "full_text": "这种水会散发一股香气，能吸引妖怪的到来\n\n【主药效果】\n\n【唤灵：可招来妖兽】\n\n【辅药效果】\n迷魂：有控制目标的效果\n\n【获取途径】\n培养种子有30%概率获得地品灵草：\n探索药田有25%概率获得地品灵草\n以在坊市修易获得",
+      "avg_confidence": 0.9812,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "这种水会散发一股香气，能吸",
+          "score": 0.995,
+          "dx": 13
+        },
+        {
+          "text": "引妖怪的到来",
+          "score": 0.9997,
+          "dx": 15
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9997,
+          "dx": 26
+        },
+        {
+          "text": "唤灵：可招来妖兽",
+          "score": 0.9804,
+          "dx": 36
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9987,
+          "dx": 0
+        },
+        {
+          "text": "迷魂：有控制目标的效果",
+          "score": 0.9783,
+          "dx": 37
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.975,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有30%概率获得",
+          "score": 0.9827,
+          "dx": 53
+        },
+        {
+          "text": "地品灵草：",
+          "score": 0.8979,
+          "dx": 11
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.9789,
+          "dx": 53
+        },
+        {
+          "text": "地品灵草",
+          "score": 0.9982,
+          "dx": 11
+        },
+        {
+          "text": "以在坊市修易",
+          "score": 0.9988,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.968,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:49:09",
+      "first_seen": "2026-11-17T04:49:09"
+    },
+    {
+      "index": 61,
+      "row": 10,
+      "col": 1,
+      "name": "兽涎露",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/061.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/061.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/061.jpg",
+      "intro_paragraphs": [
+        "这种水会散发一股香气，能吸引妖怪的到来"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "唤灵：可招来妖兽",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": [
+            "迷魂：有控制目标的效果"
+          ]
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有30%概率获得地品灵草：",
+            "探索药田有25%概率获得地品灵草",
+            "以在坊市修易获得"
+          ]
+        }
+      ],
+      "full_text": "这种水会散发一股香气，能吸引妖怪的到来\n\n【主药效果】\n\n【唤灵：可招来妖兽】\n\n【辅药效果】\n迷魂：有控制目标的效果\n\n【获取途径】\n培养种子有30%概率获得地品灵草：\n探索药田有25%概率获得地品灵草\n以在坊市修易获得",
+      "avg_confidence": 0.98,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "这种水会散发一股香气，能吸",
+          "score": 0.9949,
+          "dx": 13
+        },
+        {
+          "text": "引妖怪的到来",
+          "score": 0.999,
+          "dx": 15
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9997,
+          "dx": 26
+        },
+        {
+          "text": "唤灵：可招来妖兽",
+          "score": 0.9803,
+          "dx": 36
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9987,
+          "dx": 0
+        },
+        {
+          "text": "迷魂：有控制目标的效果",
+          "score": 0.9781,
+          "dx": 37
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.975,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有30%概率获得",
+          "score": 0.9856,
+          "dx": 53
+        },
+        {
+          "text": "地品灵草：",
+          "score": 0.902,
+          "dx": 11
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.979,
+          "dx": 53
+        },
+        {
+          "text": "地品灵草",
+          "score": 0.9983,
+          "dx": 11
+        },
+        {
+          "text": "以在坊市修易",
+          "score": 0.9988,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9672,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:49:16",
+      "first_seen": "2026-11-17T04:49:16"
+    },
+    {
+      "index": 62,
+      "row": 10,
+      "col": 2,
+      "name": "兽涎露石",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/062.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/062.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/062.jpg",
+      "intro_paragraphs": [
+        "这种水会散发一股香气，能吸引妖怪的到来"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "唤灵：可招来妖兽",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": [
+            "迷魂：有控制目标的效果"
+          ]
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "培养种子有30%概率获得地品灵草：",
+            "探索药田有25%概率获得地品灵草",
+            "以在坊市修易获得"
+          ]
+        }
+      ],
+      "full_text": "这种水会散发一股香气，能吸引妖怪的到来\n\n【主药效果】\n\n【唤灵：可招来妖兽】\n\n【辅药效果】\n迷魂：有控制目标的效果\n\n【获取途径】\n培养种子有30%概率获得地品灵草：\n探索药田有25%概率获得地品灵草\n以在坊市修易获得",
+      "avg_confidence": 0.9793,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "这种水会散发一股香气，能吸",
+          "score": 0.9949,
+          "dx": 13
+        },
+        {
+          "text": "引妖怪的到来",
+          "score": 0.9997,
+          "dx": 15
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9997,
+          "dx": 26
+        },
+        {
+          "text": "唤灵：可招来妖兽",
+          "score": 0.9804,
+          "dx": 36
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9987,
+          "dx": 0
+        },
+        {
+          "text": "迷魂：有控制目标的效果",
+          "score": 0.9781,
+          "dx": 37
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9749,
+          "dx": 26
+        },
+        {
+          "text": "培养种子有30%概率获得",
+          "score": 0.9856,
+          "dx": 53
+        },
+        {
+          "text": "地品灵草：",
+          "score": 0.9018,
+          "dx": 11
+        },
+        {
+          "text": "探索药田有25%概率获得",
+          "score": 0.979,
+          "dx": 53
+        },
+        {
+          "text": "地品灵草",
+          "score": 0.9983,
+          "dx": 11
+        },
+        {
+          "text": "以在坊市修易",
+          "score": 0.9988,
+          "dx": 52
+        },
+        {
+          "text": "获得",
+          "score": 0.9681,
+          "dx": 13
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:49:23",
+      "first_seen": "2026-11-17T04:49:23"
+    },
+    {
+      "index": 63,
+      "row": 10,
+      "col": 3,
+      "name": "九霄灵芝",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/063.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/063.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/063.jpg",
+      "intro_paragraphs": [
+        "生长在仙界的灵芝，灵芝会自己跑动，才流落到人间。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": [
+            "延寿：有增加寿命的效果"
+          ]
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "在古木幽森的深处有概率获得；"
+          ]
+        }
+      ],
+      "full_text": "生长在仙界的灵芝，灵芝会自己跑动，才流落到人间。\n\n【主药效果】\n延寿：有增加寿命的效果\n\n【获取途径】\n在古木幽森的深处有概率获得；",
+      "avg_confidence": 0.9538,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "生长在仙界的灵芝，灵芝会自",
+          "score": 0.9978,
+          "dx": 20
+        },
+        {
+          "text": "己跑动，才流落到人间。",
+          "score": 0.9975,
+          "dx": 22
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9998,
+          "dx": 33
+        },
+        {
+          "text": "延寿：有增加寿命的效果",
+          "score": 0.9742,
+          "dx": 43
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9922,
+          "dx": 0
+        },
+        {
+          "text": "在古木幽森的深处有概率获",
+          "score": 0.9978,
+          "dx": 59
+        },
+        {
+          "text": "得；",
+          "score": 0.7606,
+          "dx": 20
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:49:28",
+      "first_seen": "2026-11-17T04:49:28"
+    },
+    {
+      "index": 64,
+      "row": 10,
+      "col": 4,
+      "name": "赤霄灵芝",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/064.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/064.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/064.jpg",
+      "intro_paragraphs": [
+        "生长在仙界的灵芝，灵芝会自己跑动，才流落到人间。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": [
+            "延寿：有增加寿命的效果"
+          ]
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "在古木幽森的深处有概率获得；"
+          ]
+        }
+      ],
+      "full_text": "生长在仙界的灵芝，灵芝会自己跑动，才流落到人间。\n\n【主药效果】\n延寿：有增加寿命的效果\n\n【获取途径】\n在古木幽森的深处有概率获得；",
+      "avg_confidence": 0.962,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "生长在仙界的灵芝，灵芝会自",
+          "score": 0.9978,
+          "dx": 20
+        },
+        {
+          "text": "己跑动，才流落到人间。",
+          "score": 0.9974,
+          "dx": 22
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9999,
+          "dx": 33
+        },
+        {
+          "text": "延寿：有增加寿命的效果",
+          "score": 0.9742,
+          "dx": 43
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9921,
+          "dx": 0
+        },
+        {
+          "text": "在古木幽森的深处有概率获",
+          "score": 0.9979,
+          "dx": 59
+        },
+        {
+          "text": "得；",
+          "score": 0.7671,
+          "dx": 20
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:49:29",
+      "first_seen": "2026-11-17T04:49:29"
+    },
+    {
+      "index": 65,
+      "row": 10,
+      "col": 5,
+      "name": "碧霄灵芝",
+      "locked": true,
+      "card_image": "assets/kapai_lingcao_danyao/cards/065.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/065.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/065.jpg",
+      "intro_paragraphs": [
+        "生长在仙界的灵芝，灵芝会自己跑动，才流落到人间。"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": [
+            "延寿：有增加寿命的效果"
+          ]
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "生长在仙界的灵芝，灵芝会自己跑动，才流落到人间。\n\n【主药效果】\n延寿：有增加寿命的效果\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.981,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "生长在仙界的灵芝，灵芝会自",
+          "score": 0.9978,
+          "dx": 20
+        },
+        {
+          "text": "己跑动，才流落到人间。",
+          "score": 0.9973,
+          "dx": 22
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9999,
+          "dx": 33
+        },
+        {
+          "text": "延寿：有增加寿命的效果",
+          "score": 0.9736,
+          "dx": 43
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9925,
+          "dx": 0
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.984,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:49:30",
+      "first_seen": "2026-11-17T04:49:30"
+    },
+    {
+      "index": 66,
+      "row": 11,
+      "col": 0,
+      "name": "血灵芝",
+      "locked": true,
+      "card_image": "assets/kapai_lingcao_danyao/cards/066.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/066.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/066.jpg",
+      "intro_paragraphs": [
+        "击败妖王血肉灵芝后有概率获得，可用于炼制寿元丹，但其血腥之气实在容易令人入魔"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": [
+            "延寿：有增加寿命的效果"
+          ]
+        },
+        {
+          "title": "堕心：会产生心魔",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "击败妖王血肉灵芝后有概率获得，可用于炼制寿元丹，但其血腥之气实在容易令人入魔\n\n【主药效果】\n延寿：有增加寿命的效果\n\n【堕心：会产生心魔】\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9829,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "击败妖王血肉灵芝后有概率获",
+          "score": 0.9979,
+          "dx": 19
+        },
+        {
+          "text": "得，可用于炼制寿元丹，但其",
+          "score": 0.993,
+          "dx": 20
+        },
+        {
+          "text": "血腥之气实在容易令人入魔",
+          "score": 0.9982,
+          "dx": 19
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9994,
+          "dx": 33
+        },
+        {
+          "text": "延寿：有增加寿命的效果",
+          "score": 0.9821,
+          "dx": 0
+        },
+        {
+          "text": "堕心:会产生心魔",
+          "score": 0.9268,
+          "dx": 44
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9881,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9796,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:49:31",
+      "first_seen": "2026-11-17T04:49:31"
+    },
+    {
+      "index": 67,
+      "row": 11,
+      "col": 1,
+      "name": "缘玑仙草",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/067.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/067.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/067.jpg",
+      "intro_paragraphs": [
+        "隐于云海仙山的聚气之地，茎生七叶、叶缀玑珠，沐晨露吸星华而生，其株自带缥缈气运"
+      ],
+      "sections": [
+        {
+          "title": "主药效果",
+          "paragraphs": [
+            "气运：可获得机缘"
+          ]
+        },
+        {
+          "title": "开窍：可获得修为",
+          "paragraphs": []
+        },
+        {
+          "title": "辅药效果",
+          "paragraphs": []
+        },
+        {
+          "title": "气运：可获得机缘",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "在古木幽森的深处有概率获得；"
+          ]
+        }
+      ],
+      "full_text": "隐于云海仙山的聚气之地，茎生七叶、叶缀玑珠，沐晨露吸星华而生，其株自带缥缈气运\n\n【主药效果】\n气运：可获得机缘\n\n【开窍：可获得修为】\n\n【辅药效果】\n\n【气运：可获得机缘】\n\n【获取途径】\n在古木幽森的深处有概率获得；",
+      "avg_confidence": 0.9614,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "隐于云海仙山的聚气之地，茎",
+          "score": 0.996,
+          "dx": 21
+        },
+        {
+          "text": "生七叶、叶缀玑珠，沐晨露吸",
+          "score": 0.9934,
+          "dx": 20
+        },
+        {
+          "text": "星华而生，其株自带缥缈气运",
+          "score": 0.9898,
+          "dx": 20
+        },
+        {
+          "text": "【主药效果】",
+          "score": 0.9982,
+          "dx": 33
+        },
+        {
+          "text": "气运：可获得机缘",
+          "score": 0.971,
+          "dx": 0
+        },
+        {
+          "text": "开窍：可获得修为",
+          "score": 0.9342,
+          "dx": 43
+        },
+        {
+          "text": "【辅药效果】",
+          "score": 0.9988,
+          "dx": 33
+        },
+        {
+          "text": "气运：可获得机缘",
+          "score": 0.9588,
+          "dx": 44
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9727,
+          "dx": 33
+        },
+        {
+          "text": "在古木幽森的深处有概率获",
+          "score": 0.9984,
+          "dx": 59
+        },
+        {
+          "text": "得；",
+          "score": 0.7526,
+          "dx": 20
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:49:32",
+      "first_seen": "2026-11-17T04:49:32"
+    },
+    {
+      "index": 68,
+      "row": 11,
+      "col": 2,
+      "name": "化瘀丹",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/068.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/068.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/068.jpg",
+      "intro_paragraphs": [
+        "普通的回血丹药，在战斗中亦可服用。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "使用止血草，洗骨花，红仁果，金蝉做主药可以炼制出；"
+          ]
+        }
+      ],
+      "full_text": "普通的回血丹药，在战斗中亦可服用。\n\n【获取途径】\n使用止血草，洗骨花，红仁果，金蝉做主药可以炼制出；",
+      "avg_confidence": 0.9567,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "普通的回血丹药，在战斗中亦",
+          "score": 0.9956,
+          "dx": 19
+        },
+        {
+          "text": "可服用。",
+          "score": 0.999,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9881,
+          "dx": 33
+        },
+        {
+          "text": "使用止血草，洗骨花，红仁",
+          "score": 0.9919,
+          "dx": 59
+        },
+        {
+          "text": "果，金蝉做主药可以炼制出；",
+          "score": 0.9461,
+          "dx": 20
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:49:34",
+      "first_seen": "2026-11-17T04:49:34"
+    },
+    {
+      "index": 69,
+      "row": 11,
+      "col": 3,
+      "name": "血还丹",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/069.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/069.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/069.jpg",
+      "intro_paragraphs": [
+        "能够同时恢复气血和灵气的丹"
+      ],
+      "sections": [
+        {
+          "title": "药！",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "使用血精果做主药可以炼制"
+          ]
+        },
+        {
+          "title": "出；",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "能够同时恢复气血和灵气的丹\n\n【药！】\n\n【获取途径】\n使用血精果做主药可以炼制\n\n【出；】",
+      "avg_confidence": 0.9466,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "能够同时恢复气血和灵气的丹",
+          "score": 0.9919,
+          "dx": 19
+        },
+        {
+          "text": "药！",
+          "score": 0.9804,
+          "dx": 22
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9882,
+          "dx": 33
+        },
+        {
+          "text": "使用血精果做主药可以炼制",
+          "score": 0.9963,
+          "dx": 59
+        },
+        {
+          "text": "出；",
+          "score": 0.7697,
+          "dx": 24
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:49:35",
+      "first_seen": "2026-11-17T04:49:35"
+    },
+    {
+      "index": 70,
+      "row": 11,
+      "col": 4,
+      "name": "引气丸",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/070.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/070.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/070.jpg",
+      "intro_paragraphs": [
+        "常见的丹药，可以快速补充修士体内的灵气。探索秘境时义带之。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "使用土茯苓，白莲子做主药可以炼制出；"
+          ]
+        }
+      ],
+      "full_text": "常见的丹药，可以快速补充修士体内的灵气。探索秘境时义带之。\n\n【获取途径】\n使用土茯苓，白莲子做主药可以炼制出；",
+      "avg_confidence": 0.9717,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "常见的丹药，可以快速补充修",
+          "score": 0.9897,
+          "dx": 22
+        },
+        {
+          "text": "士体内的灵气。探索秘境时义",
+          "score": 0.9783,
+          "dx": 19
+        },
+        {
+          "text": "带之。",
+          "score": 0.967,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9812,
+          "dx": 33
+        },
+        {
+          "text": "使用土茯苓，白莲子做主药",
+          "score": 0.966,
+          "dx": 59
+        },
+        {
+          "text": "可以炼制出；",
+          "score": 0.9203,
+          "dx": 19
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:49:36",
+      "first_seen": "2026-11-17T04:49:36"
+    },
+    {
+      "index": 71,
+      "row": 11,
+      "col": 5,
+      "name": "魔元丹",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/071.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/071.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/071.jpg",
+      "intro_paragraphs": [
+        "可恢复大量的灵气，但服用后会入魔。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "使用魂婴果做主药可以炼制"
+          ]
+        },
+        {
+          "title": "出；",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "可恢复大量的灵气，但服用后会入魔。\n\n【获取途径】\n使用魂婴果做主药可以炼制\n\n【出；】",
+      "avg_confidence": 0.972,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "可恢复大量的灵气，但服用后",
+          "score": 0.9988,
+          "dx": 20
+        },
+        {
+          "text": "会入魔。",
+          "score": 0.9952,
+          "dx": 20
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9907,
+          "dx": 33
+        },
+        {
+          "text": "使用魂婴果做主药可以炼制",
+          "score": 0.9953,
+          "dx": 59
+        },
+        {
+          "text": "出；",
+          "score": 0.9052,
+          "dx": 24
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:49:38",
+      "first_seen": "2026-11-17T04:49:38"
+    },
+    {
+      "index": 72,
+      "row": 12,
+      "col": 0,
+      "name": "毒心散",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/072.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/072.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/072.jpg",
+      "intro_paragraphs": [
+        "蕴含剧毒的丹药，能对生物造成伤害。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "使用腐木菇，断魂花，腐骨草，剧毒液做主药可以炼制出；"
+          ]
+        }
+      ],
+      "full_text": "蕴含剧毒的丹药，能对生物造成伤害。\n\n【获取途径】\n使用腐木菇，断魂花，腐骨草，剧毒液做主药可以炼制出；",
+      "avg_confidence": 0.9752,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "蕴含剧毒的丹药，能对生物造",
+          "score": 0.9903,
+          "dx": 20
+        },
+        {
+          "text": "成伤害。",
+          "score": 0.9977,
+          "dx": 21
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9884,
+          "dx": 33
+        },
+        {
+          "text": "使用腐木菇，断魂花，腐骨",
+          "score": 0.9899,
+          "dx": 59
+        },
+        {
+          "text": "草，剧毒液做主药可以炼制出；",
+          "score": 0.9537,
+          "dx": 20
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:49:40",
+      "first_seen": "2026-11-17T04:49:40"
+    },
+    {
+      "index": 73,
+      "row": 12,
+      "col": 1,
+      "name": "铸体丹",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/073.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/073.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/073.jpg",
+      "intro_paragraphs": [
+        "服用后可以将身体稍稍硬化。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "使用紫烟果，三瓣兰，磐石粉做主药可以炼制出；"
+          ]
+        }
+      ],
+      "full_text": "服用后可以将身体稍稍硬化。\n\n【获取途径】\n使用紫烟果，三瓣兰，磐石粉做主药可以炼制出；",
+      "avg_confidence": 0.9802,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "服用后可以将身体稍稍硬化。",
+          "score": 0.9979,
+          "dx": 18
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.994,
+          "dx": 33
+        },
+        {
+          "text": "使用紫烟果，三瓣兰，磐石",
+          "score": 0.9643,
+          "dx": 59
+        },
+        {
+          "text": "粉做主药可以炼制出；",
+          "score": 0.9671,
+          "dx": 20
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:49:41",
+      "first_seen": "2026-11-17T04:49:41"
+    },
+    {
+      "index": 74,
+      "row": 12,
+      "col": 2,
+      "name": "玄霜丸",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/074.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/074.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/074.jpg",
+      "intro_paragraphs": [
+        "服用后可以将身体外覆盖一层冰甲，可过低的温度也会身体造成一些负面效果。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "使用冰雪莲做主药可以炼制"
+          ]
+        },
+        {
+          "title": "出；",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "服用后可以将身体外覆盖一层冰甲，可过低的温度也会身体造成一些负面效果。\n\n【获取途径】\n使用冰雪莲做主药可以炼制\n\n【出；】",
+      "avg_confidence": 0.9711,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "服用后可以将身体外覆盖一层",
+          "score": 0.9992,
+          "dx": 18
+        },
+        {
+          "text": "冰甲，可过低的温度也会身体",
+          "score": 0.9951,
+          "dx": 20
+        },
+        {
+          "text": "造成一些负面效果。",
+          "score": 0.9993,
+          "dx": 21
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9811,
+          "dx": 33
+        },
+        {
+          "text": "使用冰雪莲做主药可以炼制",
+          "score": 0.9936,
+          "dx": 59
+        },
+        {
+          "text": "出；",
+          "score": 0.8529,
+          "dx": 24
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:49:42",
+      "first_seen": "2026-11-17T04:49:42"
+    },
+    {
+      "index": 75,
+      "row": 12,
+      "col": 3,
+      "name": "醉心露",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/075.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/075.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/075.jpg",
+      "intro_paragraphs": [
+        "服用后会醉倒，但在醉梦中才悟得清楚"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "使用醉龙果做主药可以炼制"
+          ]
+        },
+        {
+          "title": "出；",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "服用后会醉倒，但在醉梦中才悟得清楚\n\n【获取途径】\n使用醉龙果做主药可以炼制\n\n【出；】",
+      "avg_confidence": 0.9642,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "服用后会醉倒，但在醉梦中才",
+          "score": 0.9929,
+          "dx": 18
+        },
+        {
+          "text": "悟得清楚",
+          "score": 0.9915,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9881,
+          "dx": 33
+        },
+        {
+          "text": "使用醉龙果做主药可以炼制",
+          "score": 0.9961,
+          "dx": 59
+        },
+        {
+          "text": "出；",
+          "score": 0.823,
+          "dx": 24
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:49:43",
+      "first_seen": "2026-11-17T04:49:43"
+    },
+    {
+      "index": 76,
+      "row": 12,
+      "col": 4,
+      "name": "真悟丹",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/076.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/076.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/076.jpg",
+      "intro_paragraphs": [
+        "服用后会进入顿悟状态。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "使用菩提果做主药可以炼制"
+          ]
+        },
+        {
+          "title": "出；",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "服用后会进入顿悟状态。\n\n【获取途径】\n使用菩提果做主药可以炼制\n\n【出；】",
+      "avg_confidence": 0.9464,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "服用后会进入顿悟状态。",
+          "score": 0.9891,
+          "dx": 18
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9927,
+          "dx": 33
+        },
+        {
+          "text": "使用菩提果做主药可以炼制",
+          "score": 0.9939,
+          "dx": 59
+        },
+        {
+          "text": "出；",
+          "score": 0.8021,
+          "dx": 24
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:49:44",
+      "first_seen": "2026-11-17T04:49:44"
+    },
+    {
+      "index": 77,
+      "row": 12,
+      "col": 5,
+      "name": "迷魂丹",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/077.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/077.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/077.jpg",
+      "intro_paragraphs": [
+        "将目标的神经放松，才可控制"
+      ],
+      "sections": [
+        {
+          "title": "目标。",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "使用迷魂香做主药可以炼制"
+          ]
+        },
+        {
+          "title": "出；",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "将目标的神经放松，才可控制\n\n【目标。】\n\n【获取途径】\n使用迷魂香做主药可以炼制\n\n【出；】",
+      "avg_confidence": 0.9685,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "将目标的神经放松，才可控制",
+          "score": 0.9963,
+          "dx": 19
+        },
+        {
+          "text": "目标。",
+          "score": 0.9972,
+          "dx": 26
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9945,
+          "dx": 33
+        },
+        {
+          "text": "使用迷魂香做主药可以炼制",
+          "score": 0.9942,
+          "dx": 59
+        },
+        {
+          "text": "出；",
+          "score": 0.8505,
+          "dx": 24
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:49:45",
+      "first_seen": "2026-11-17T04:49:45"
+    },
+    {
+      "index": 78,
+      "row": 13,
+      "col": 0,
+      "name": "锁神丹",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/078.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/078.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/078.jpg",
+      "intro_paragraphs": [
+        "把目标的神识牢牢锁住"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "使用幻神草做主药可以炼制"
+          ]
+        },
+        {
+          "title": "出；",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "把目标的神识牢牢锁住\n\n【获取途径】\n使用幻神草做主药可以炼制\n\n【出；】",
+      "avg_confidence": 0.9562,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "把目标的神识牢牢锁住",
+          "score": 0.9993,
+          "dx": 20
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.981,
+          "dx": 33
+        },
+        {
+          "text": "使用幻神草做主药可以炼制",
+          "score": 0.9926,
+          "dx": 59
+        },
+        {
+          "text": "出；",
+          "score": 0.879,
+          "dx": 24
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:49:47",
+      "first_seen": "2026-11-17T04:49:47"
+    },
+    {
+      "index": 79,
+      "row": 13,
+      "col": 1,
+      "name": "燃魂散",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/079.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/079.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/079.jpg",
+      "intro_paragraphs": [
+        "服用后可获得修为，但对魂魄造成一定的伤害"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "使用青焰根做主药可以炼制"
+          ]
+        },
+        {
+          "title": "出；",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "服用后可获得修为，但对魂魄造成一定的伤害\n\n【获取途径】\n使用青焰根做主药可以炼制\n\n【出；】",
+      "avg_confidence": 0.9665,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "服用后可获得修为，但对魂魄",
+          "score": 0.9952,
+          "dx": 19
+        },
+        {
+          "text": "造成一定的伤害",
+          "score": 0.9997,
+          "dx": 20
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9945,
+          "dx": 33
+        },
+        {
+          "text": "使用青焰根做主药可以炼制",
+          "score": 0.994,
+          "dx": 59
+        },
+        {
+          "text": "出；",
+          "score": 0.8199,
+          "dx": 24
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:49:48",
+      "first_seen": "2026-11-17T04:49:48"
+    },
+    {
+      "index": 80,
+      "row": 13,
+      "col": 2,
+      "name": "逆元丹",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/080.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/080.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/080.jpg",
+      "intro_paragraphs": [
+        "服用后可以将全身的灵气逆转成修为"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "使用百灵参做主药可以炼制"
+          ]
+        },
+        {
+          "title": "出；",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "服用后可以将全身的灵气逆转成修为\n\n【获取途径】\n使用百灵参做主药可以炼制\n\n【出；】",
+      "avg_confidence": 0.9689,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "服用后可以将全身的灵气逆转",
+          "score": 0.9993,
+          "dx": 18
+        },
+        {
+          "text": "成修为",
+          "score": 1.0,
+          "dx": 21
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9788,
+          "dx": 33
+        },
+        {
+          "text": "使用百灵参做主药可以炼制",
+          "score": 0.9963,
+          "dx": 59
+        },
+        {
+          "text": "出；",
+          "score": 0.8499,
+          "dx": 24
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:49:49",
+      "first_seen": "2026-11-17T04:49:49"
+    },
+    {
+      "index": 81,
+      "row": 13,
+      "col": 3,
+      "name": "修为丹",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/081.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/081.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/081.jpg",
+      "intro_paragraphs": [
+        "服用后立刻获得修为，且无其他副作用。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "使用蕴元仙萼做主药可以炼制出；"
+          ]
+        }
+      ],
+      "full_text": "服用后立刻获得修为，且无其他副作用。\n\n【获取途径】\n使用蕴元仙萼做主药可以炼制出；",
+      "avg_confidence": 0.9839,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "服用后立刻获得修为，且无其",
+          "score": 0.996,
+          "dx": 18
+        },
+        {
+          "text": "他副作用。",
+          "score": 0.9987,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.967,
+          "dx": 33
+        },
+        {
+          "text": "使用蕴元仙萼做主药可以炼",
+          "score": 0.9921,
+          "dx": 59
+        },
+        {
+          "text": "制出；",
+          "score": 0.9689,
+          "dx": 19
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:49:50",
+      "first_seen": "2026-11-17T04:49:50"
+    },
+    {
+      "index": 82,
+      "row": 13,
+      "col": 4,
+      "name": "引兽丸",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/082.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/082.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/082.jpg",
+      "intro_paragraphs": [
+        "丹药散发着浓浓的香味，能将妖兽吸引来"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "使用兽涎水做主药可以炼制"
+          ]
+        },
+        {
+          "title": "出；",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "丹药散发着浓浓的香味，能将妖兽吸引来\n\n【获取途径】\n使用兽涎水做主药可以炼制\n\n【出；】",
+      "avg_confidence": 0.9539,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "丹药散发着浓浓的香味，能将",
+          "score": 0.9955,
+          "dx": 20
+        },
+        {
+          "text": "妖兽吸引来",
+          "score": 0.9999,
+          "dx": 18
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9912,
+          "dx": 33
+        },
+        {
+          "text": "使用兽涎水做主药可以炼制",
+          "score": 0.9964,
+          "dx": 59
+        },
+        {
+          "text": "出；",
+          "score": 0.7477,
+          "dx": 24
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:49:51",
+      "first_seen": "2026-11-17T04:49:51"
+    },
+    {
+      "index": 83,
+      "row": 13,
+      "col": 5,
+      "name": "寿元丹",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/083.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/083.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/083.jpg",
+      "intro_paragraphs": [
+        "能逆天改命的丹药，服用后增加少量寿命"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "使用九霄灵芝，血灵芝做主药可以炼制出；"
+          ]
+        }
+      ],
+      "full_text": "能逆天改命的丹药，服用后增加少量寿命\n\n【获取途径】\n使用九霄灵芝，血灵芝做主药可以炼制出；",
+      "avg_confidence": 0.9687,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "能逆天改命的丹药，服用后增",
+          "score": 0.9965,
+          "dx": 20
+        },
+        {
+          "text": "加少量寿命",
+          "score": 0.9624,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9891,
+          "dx": 33
+        },
+        {
+          "text": "使用九霄灵芝，血灵芝做主",
+          "score": 0.9683,
+          "dx": 59
+        },
+        {
+          "text": "药可以炼制出；",
+          "score": 0.939,
+          "dx": 21
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:49:52",
+      "first_seen": "2026-11-17T04:49:52"
+    },
+    {
+      "index": 84,
+      "row": 14,
+      "col": 0,
+      "name": "慧心丹",
+      "locked": false,
+      "card_image": "assets/kapai_lingcao_danyao/cards/084.png",
+      "icon_image": "assets/kapai_lingcao_danyao/icons/084.png",
+      "detail_image": "assets/kapai_lingcao_danyao/details/084.jpg",
+      "intro_paragraphs": [
+        "蕴含因果机缘的丹药。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "使用缘玑仙草做主药可以炼制出；"
+          ]
+        }
+      ],
+      "full_text": "蕴含因果机缘的丹药。\n\n【获取途径】\n使用缘玑仙草做主药可以炼制出；",
+      "avg_confidence": 0.9323,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "蕴含因果机缘的丹药。",
+          "score": 0.9948,
+          "dx": 20
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9809,
+          "dx": 33
+        },
+        {
+          "text": "使用缘玑仙草做主药可以炼",
+          "score": 0.9772,
+          "dx": 59
+        },
+        {
+          "text": "制出；",
+          "score": 0.9208,
+          "dx": 19
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:49:55",
+      "first_seen": "2026-11-17T04:49:55"
+    }
+  ]
+}
