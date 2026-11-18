@@ -1,6 +1,6 @@
 {
   "title": "卡牌修仙传 · 图鉴攻略",
-  "generated_at": "2026-11-18 16:10",
+  "generated_at": "2026-11-18 21:36",
   "categories": [
     {
       "slug": "kapai_cailiao",
@@ -59,6 +59,41 @@
       "count": 51
     },
     {
+      "slug": "kapai_daotu",
+      "category": "道途&金丹",
+      "full_category": "卡牌 / 道途&金丹",
+      "file_name": "kapai_daotu.json",
+      "count": 7
+    },
+    {
+      "slug": "kapai_neidan",
+      "category": "内丹",
+      "full_category": "卡牌 / 内丹",
+      "file_name": "kapai_neidan.json",
+      "count": 21
+    },
+    {
+      "slug": "kapai_tuzhi",
+      "category": "图纸",
+      "full_category": "卡牌 / 图纸",
+      "file_name": "kapai_tuzhi.json",
+      "count": 11
+    },
+    {
+      "slug": "kapai_qita",
+      "category": "宝物&其他道具",
+      "full_category": "卡牌 / 宝物&其他道具",
+      "file_name": "kapai_qita.json",
+      "count": 97
+    },
+    {
+      "slug": "kapai_zhaohuan",
+      "category": "召唤物",
+      "full_category": "卡牌 / 召唤物",
+      "file_name": "kapai_zhaohuan.json",
+      "count": 21
+    },
+    {
       "slug": "renwu",
       "category": "人物",
       "full_category": "人物",
@@ -92,6 +127,13 @@
       "full_category": "妖王",
       "file_name": "yaowang.json",
       "count": 31
+    },
+    {
+      "slug": "mijing",
+      "category": "秘境",
+      "full_category": "秘境",
+      "file_name": "mijing.json",
+      "count": 37
     }
   ]
 }
