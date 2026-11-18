@@ -4,8 +4,8 @@
  "full_category": "卡牌 / 载具",
  "layout": "card",
  "data_source": "官方数据（游戏本地数据表）",
- "official_generated_at": "2026-11-18 04:42:46",
- "updated_at": "2026-11-18 04:42",
+ "official_generated_at": "2026-11-18 05:24:16",
+ "updated_at": "2026-11-18 05:24",
  "items": [
   {
    "index": 0,
@@ -30,6 +30,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -74,6 +76,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -114,6 +118,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -154,6 +160,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -194,6 +202,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -231,6 +241,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -268,6 +280,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -304,6 +318,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,

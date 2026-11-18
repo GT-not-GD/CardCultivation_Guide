@@ -4,8 +4,8 @@
  "full_category": "卡牌 / 道具&传闻",
  "layout": "card",
  "data_source": "官方数据（游戏本地数据表）",
- "official_generated_at": "2026-11-18 04:42:46",
- "updated_at": "2026-11-18 04:42",
+ "official_generated_at": "2026-11-18 05:24:16",
+ "updated_at": "2026-11-18 05:24",
  "items": [
   {
    "index": 0,
@@ -48,6 +48,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -93,6 +95,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -139,6 +143,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -180,6 +186,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -221,6 +229,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -267,6 +277,8 @@
      "qua": "天品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -306,12 +318,10 @@
     {
      "realm": "结丹",
      "qua": "神品"
-    },
-    {
-     "realm": "筑基",
-     "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -347,6 +357,8 @@
      "qua": "人品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -381,6 +393,8 @@
      "qua": "地品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -424,12 +438,14 @@
      ]
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
    "sections": [
     {
-     "title": "效果（各境界 / 品质）",
+     "title": "各版本（境界 / 品质）",
      "paragraphs": [
       "绝品：击杀妖兽后收集的所得。出售可以获得较多灵石！"
      ]
@@ -441,7 +457,7 @@
      ]
     }
    ],
-   "full_text": "击杀妖兽后收集的所得，出售可以获得灵石！\n\n【效果（各境界 / 品质）】\n绝品：击杀妖兽后收集的所得。出售可以获得较多灵石！\n\n【获取途径】\n击败妖兽时有20%概率获得；"
+   "full_text": "击杀妖兽后收集的所得，出售可以获得灵石！\n\n【各版本（境界 / 品质）】\n绝品：击杀妖兽后收集的所得。出售可以获得较多灵石！\n\n【获取途径】\n击败妖兽时有20%概率获得；"
   },
   {
    "index": 10,
@@ -465,6 +481,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -525,17 +543,17 @@
      ]
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
    "sections": [
     {
-     "title": "效果（各境界 / 品质）",
+     "title": "各版本（境界 / 品质）",
      "paragraphs": [
-      "筑基·仙品：从妖王身上发现的灵草种子，随着时间的流逝会成长出{仙品}以上的灵草。",
-      "筑基·仙品：可以在[培养]工作台加快成长速度。",
-      "结丹·仙品：从妖王身上发现的灵草种子，随着时间的流逝会成长出{仙品}以上的灵草。",
-      "结丹·仙品：可以在[培养]工作台加快成长速度。"
+      "筑基·仙品：从妖王身上发现的灵草种子，随着时间的流逝会成长出{仙品}以上的灵草。；可以在[培养]工作台加快成长速度。",
+      "结丹·仙品：从妖王身上发现的灵草种子，随着时间的流逝会成长出{仙品}以上的灵草。；可以在[培养]工作台加快成长速度。"
      ]
     },
     {
@@ -545,7 +563,7 @@
      ]
     }
    ],
-   "full_text": "一颗普通的灵草种子，随着时间的流逝会生长成灵草。\n可以在[培养]工作台加快成长速度。\n\n【效果（各境界 / 品质）】\n筑基·仙品：从妖王身上发现的灵草种子，随着时间的流逝会成长出{仙品}以上的灵草。\n筑基·仙品：可以在[培养]工作台加快成长速度。\n结丹·仙品：从妖王身上发现的灵草种子，随着时间的流逝会成长出{仙品}以上的灵草。\n结丹·仙品：可以在[培养]工作台加快成长速度。\n\n【获取途径】\n炼气期时探索山脚和青灵木（小）有概率获得；"
+   "full_text": "一颗普通的灵草种子，随着时间的流逝会生长成灵草。\n可以在[培养]工作台加快成长速度。\n\n【各版本（境界 / 品质）】\n筑基·仙品：从妖王身上发现的灵草种子，随着时间的流逝会成长出{仙品}以上的灵草。；可以在[培养]工作台加快成长速度。\n结丹·仙品：从妖王身上发现的灵草种子，随着时间的流逝会成长出{仙品}以上的灵草。；可以在[培养]工作台加快成长速度。\n\n【获取途径】\n炼气期时探索山脚和青灵木（小）有概率获得；"
   },
   {
    "index": 12,
@@ -572,6 +590,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -612,6 +632,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -651,6 +673,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -690,6 +714,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -729,6 +755,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -768,6 +796,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -842,12 +872,14 @@
      ]
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
    "sections": [
     {
-     "title": "效果（各境界 / 品质）",
+     "title": "各版本（境界 / 品质）",
      "paragraphs": [
       "人品：普通的灵纹戒，[调查]后可使收纳空间上限提高。（收纳空间+30；）",
       "地品：品质更高的灵纹戒，[调查]后可使收纳空间上限提高。（收纳空间+50；）",
@@ -866,7 +898,7 @@
      ]
     }
    ],
-   "full_text": "这是可以收纳物品的戒指法宝；具体如何使用，需要[调查]一番便知！\n\n【效果（各境界 / 品质）】\n人品：普通的灵纹戒，[调查]后可使收纳空间上限提高。（收纳空间+30；）\n地品：品质更高的灵纹戒，[调查]后可使收纳空间上限提高。（收纳空间+50；）\n天品：品质更高的灵纹戒，[调查]后可使收纳空间上限提高。（收纳空间+100；）\n仙品：品质更高的灵纹戒，[调查]后可使收纳空间上限提高。（收纳空间+200；）\n神品：稀有的灵纹戒，[调查]后可使收纳空间上限提高。（收纳空间+300；）\n绝品：罕见的灵纹戒，[调查]后可使收纳空间上限大幅度提高。（收纳空间+500；）\n\n【获取途径】\n在玄机阁商店可以购买；\n调查藏宝地点有15%概率获得；\n地火深洞宝箱有15%概率获得；"
+   "full_text": "这是可以收纳物品的戒指法宝；具体如何使用，需要[调查]一番便知！\n\n【各版本（境界 / 品质）】\n人品：普通的灵纹戒，[调查]后可使收纳空间上限提高。（收纳空间+30；）\n地品：品质更高的灵纹戒，[调查]后可使收纳空间上限提高。（收纳空间+50；）\n天品：品质更高的灵纹戒，[调查]后可使收纳空间上限提高。（收纳空间+100；）\n仙品：品质更高的灵纹戒，[调查]后可使收纳空间上限提高。（收纳空间+200；）\n神品：稀有的灵纹戒，[调查]后可使收纳空间上限提高。（收纳空间+300；）\n绝品：罕见的灵纹戒，[调查]后可使收纳空间上限大幅度提高。（收纳空间+500；）\n\n【获取途径】\n在玄机阁商店可以购买；\n调查藏宝地点有15%概率获得；\n地火深洞宝箱有15%概率获得；"
   },
   {
    "index": 19,
@@ -890,6 +922,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -925,6 +959,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -960,6 +996,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -997,6 +1035,8 @@
      "qua": "人品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1036,6 +1076,8 @@
      "qua": "人品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1076,6 +1118,8 @@
      "qua": "人品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1115,6 +1159,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1152,6 +1198,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1186,6 +1234,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1221,6 +1271,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1256,6 +1308,7 @@
    "variants": [
     {
      "qua": "人品",
+     "name": "异常之地",
      "desc": [
       "老人说村子的附近有个地方很奇怪，让我帮忙[调查]。"
      ]
@@ -1264,14 +1317,16 @@
      "qua": "人品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
    "sections": [
     {
-     "title": "效果（各境界 / 品质）",
+     "title": "各版本（境界 / 品质）",
      "paragraphs": [
-      "人品：老人说村子的附近有个地方很奇怪，让我帮忙[调查]。"
+      "异常之地·人品：老人说村子的附近有个地方很奇怪，让我帮忙[调查]。"
      ]
     },
     {
@@ -1283,7 +1338,7 @@
      ]
     }
    ],
-   "full_text": "我发现了有一处灵气异常的地方。\n我可以深入[调查]，也可以到[客栈]询问线索；\n\n【效果（各境界 / 品质）】\n人品：老人说村子的附近有个地方很奇怪，让我帮忙[调查]。\n\n【获取途径】\n主角/神识探索世界的时候，有5%概率获得；\n玄机阁有概率出售；\n筑基期雪隐宗弟子有10%概率携带，有较大概率生成交易物"
+   "full_text": "我发现了有一处灵气异常的地方。\n我可以深入[调查]，也可以到[客栈]询问线索；\n\n【各版本（境界 / 品质）】\n异常之地·人品：老人说村子的附近有个地方很奇怪，让我帮忙[调查]。\n\n【获取途径】\n主角/神识探索世界的时候，有5%概率获得；\n玄机阁有概率出售；\n筑基期雪隐宗弟子有10%概率携带，有较大概率生成交易物"
   },
   {
    "index": 30,
@@ -1310,6 +1365,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1350,6 +1407,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1390,6 +1449,8 @@
      "qua": "人品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1430,6 +1491,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1470,6 +1533,8 @@
      "qua": "人品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1510,13 +1575,18 @@
     },
     {
      "realm": "筑基",
-     "qua": "神品"
+     "qua": "神品",
+     "name": "藏宝之地(筑基)"
     },
     {
      "realm": "结丹",
-     "qua": "神品"
+     "qua": "神品",
+     "name": "藏宝之地(结丹)",
+     "icon": "assets/kapai/official/Items_100072.webp"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1553,6 +1623,8 @@
      "qua": "人品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1590,6 +1662,8 @@
      "qua": "人品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1629,6 +1703,8 @@
      "qua": "人品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1667,6 +1743,8 @@
      "qua": "人品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1705,6 +1783,8 @@
      "qua": "人品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1743,6 +1823,8 @@
      "qua": "人品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1781,6 +1863,8 @@
      "qua": "人品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1820,6 +1904,8 @@
      "qua": "人品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1859,6 +1945,8 @@
      "qua": "人品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1897,6 +1985,8 @@
      "qua": "人品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1934,6 +2024,8 @@
      "qua": "人品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1978,6 +2070,8 @@
      "qua": "人品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2012,6 +2106,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2046,6 +2142,8 @@
      "qua": "人品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2082,6 +2180,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2119,6 +2219,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2156,6 +2258,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2193,6 +2297,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2230,6 +2336,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2267,6 +2375,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2304,6 +2414,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2341,6 +2453,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2378,6 +2492,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2415,6 +2531,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2452,6 +2570,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2489,6 +2609,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2526,6 +2648,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2563,6 +2687,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2600,6 +2726,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2637,6 +2765,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2674,6 +2804,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2711,6 +2843,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,

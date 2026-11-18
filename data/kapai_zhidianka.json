@@ -4,8 +4,8 @@
  "full_category": "卡牌 / 指点卡",
  "layout": "card",
  "data_source": "官方数据（游戏本地数据表）",
- "official_generated_at": "2026-11-18 04:42:46",
- "updated_at": "2026-11-18 04:42",
+ "official_generated_at": "2026-11-18 05:24:16",
+ "updated_at": "2026-11-18 05:24",
  "items": [
   {
    "index": 0,
@@ -25,6 +25,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -49,6 +51,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -73,6 +77,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -97,6 +103,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -122,6 +130,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -146,6 +156,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -172,6 +184,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -198,6 +212,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -226,6 +242,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -252,6 +270,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -278,6 +298,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -304,6 +326,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -330,6 +354,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -356,6 +382,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -380,6 +408,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -403,6 +433,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -429,6 +461,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -454,6 +488,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -479,6 +515,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -504,6 +542,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -529,6 +569,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -554,6 +596,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -582,6 +626,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -607,6 +653,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -632,6 +680,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -660,6 +710,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -685,6 +737,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -710,6 +764,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -736,6 +792,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -762,6 +820,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -787,6 +847,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -817,6 +879,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -842,6 +906,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -867,6 +933,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -892,6 +960,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -917,6 +987,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -942,6 +1014,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -968,6 +1042,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -993,6 +1069,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1019,6 +1097,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1044,6 +1124,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1069,6 +1151,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1094,6 +1178,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1119,6 +1205,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1144,6 +1232,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1169,6 +1259,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1194,6 +1286,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1219,6 +1313,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1244,6 +1340,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1269,6 +1367,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1294,6 +1394,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1319,6 +1421,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1344,6 +1448,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1369,6 +1475,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1394,6 +1502,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1419,6 +1529,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1444,6 +1556,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1469,6 +1583,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1494,6 +1610,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1519,6 +1637,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1548,6 +1668,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1573,6 +1695,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1598,6 +1722,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1623,6 +1749,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1648,6 +1776,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1673,6 +1803,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1698,6 +1830,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1723,6 +1857,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1748,6 +1884,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1773,6 +1911,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1798,6 +1938,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1823,6 +1965,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1848,6 +1992,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1873,6 +2019,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1898,6 +2046,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1923,6 +2073,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1948,6 +2100,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1973,6 +2127,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1998,6 +2154,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2023,6 +2181,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2048,6 +2208,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2073,6 +2235,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2098,6 +2262,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2123,6 +2289,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2148,6 +2316,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2173,6 +2343,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2198,6 +2370,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2223,6 +2397,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2248,6 +2424,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2273,6 +2451,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2298,6 +2478,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2323,6 +2505,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2348,6 +2532,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2373,6 +2559,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2398,6 +2586,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2423,6 +2613,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2448,6 +2640,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2473,6 +2667,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2498,6 +2694,8 @@
      "realm": "结丹"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2524,6 +2722,8 @@
      "realm": "结丹"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2549,6 +2749,8 @@
      "realm": "结丹"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2574,6 +2776,8 @@
      "realm": "结丹"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2599,6 +2803,8 @@
      "realm": "结丹"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2624,6 +2830,8 @@
      "realm": "结丹"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2649,6 +2857,8 @@
      "realm": "结丹"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2674,6 +2884,8 @@
      "realm": "结丹"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2699,6 +2911,8 @@
      "realm": "结丹"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2724,6 +2938,8 @@
      "realm": "结丹"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2749,6 +2965,8 @@
      "realm": "结丹"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2776,6 +2994,8 @@
      "realm": "结丹"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2801,6 +3021,8 @@
      "realm": "结丹"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2826,6 +3048,8 @@
      "realm": "结丹"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2851,6 +3075,8 @@
      "realm": "结丹"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2876,6 +3102,8 @@
      "realm": "元婴"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2903,6 +3131,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2929,6 +3159,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,

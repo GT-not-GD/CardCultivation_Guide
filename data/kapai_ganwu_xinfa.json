@@ -4,8 +4,8 @@
  "full_category": "卡牌 / 感悟&心法",
  "layout": "card",
  "data_source": "官方数据（游戏本地数据表）",
- "official_generated_at": "2026-11-18 04:42:46",
- "updated_at": "2026-11-18 04:42",
+ "official_generated_at": "2026-11-18 05:24:16",
+ "updated_at": "2026-11-18 05:24",
  "items": [
   {
    "index": 0,
@@ -15,9 +15,7 @@
    "icon_image": "assets/kapai/official/Items_40001.webp",
    "qua": "",
    "realm": "",
-   "element": [
-    "无属性/全属性"
-   ],
+   "element": [],
    "intro_paragraphs": [
     "修炼过程中有感而发的想法，不成文章。如若是整理整理思绪，或许能化作有用感悟。",
     "思绪是感悟卡中最基础的卡牌，它可以在修炼工作台中逐渐\"升级\"至更细化的感悟。"
@@ -33,6 +31,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -58,9 +58,7 @@
    "icon_image": "assets/kapai/official/Items_40002.webp",
    "qua": "",
    "realm": "",
-   "element": [
-    "无属性/全属性"
-   ],
+   "element": [],
    "intro_paragraphs": [
     "偶有一丝想法缠绕在脑中，花些许时间悟道，会得到心法。",
     "可以在修炼工作台悟道，从而获得心法。"
@@ -74,7 +72,6 @@
     "调查混沌之地时，最后奖励有50%概率获得；"
    ],
    "variants": [
-    {},
     {
      "qua": "人品",
      "desc": [
@@ -82,12 +79,14 @@
      ]
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
    "sections": [
     {
-     "title": "效果（各境界 / 品质）",
+     "title": "各版本（境界 / 品质）",
      "paragraphs": [
       "人品：偶有一丝想法缠绕在脑中，花些许时间悟道，会得到感悟卡。"
      ]
@@ -103,7 +102,7 @@
      ]
     }
    ],
-   "full_text": "偶有一丝想法缠绕在脑中，花些许时间悟道，会得到心法。\n可以在修炼工作台悟道，从而获得心法。\n\n【效果（各境界 / 品质）】\n人品：偶有一丝想法缠绕在脑中，花些许时间悟道，会得到感悟卡。\n\n【获取途径】\n主角/神识在修炼时加入混沌灵气，累计一定次数后必定获得；\n思绪+任意感悟卡修炼后，累计一定次数必定获得；\n思绪+心境修炼后必定获得；\n在碑地点中祭拜有10%概率获得；\n调查混沌之地时，最后奖励有50%概率获得；"
+   "full_text": "偶有一丝想法缠绕在脑中，花些许时间悟道，会得到心法。\n可以在修炼工作台悟道，从而获得心法。\n\n【各版本（境界 / 品质）】\n人品：偶有一丝想法缠绕在脑中，花些许时间悟道，会得到感悟卡。\n\n【获取途径】\n主角/神识在修炼时加入混沌灵气，累计一定次数后必定获得；\n思绪+任意感悟卡修炼后，累计一定次数必定获得；\n思绪+心境修炼后必定获得；\n在碑地点中祭拜有10%概率获得；\n调查混沌之地时，最后奖励有50%概率获得；"
   },
   {
    "index": 2,
@@ -113,9 +112,7 @@
    "icon_image": "assets/kapai/official/Items_40003.webp",
    "qua": "",
    "realm": "",
-   "element": [
-    "无属性/全属性"
-   ],
+   "element": [],
    "intro_paragraphs": [
     "一种平静的状态，无喜无悲，无物无我。能够安抚心里的情绪，抵消心魔的侵扰。",
     "可以在恢复工作台消除心魔；和思绪卡结合成悟道；"
@@ -130,6 +127,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -154,9 +153,7 @@
    "icon_image": "assets/kapai/official/Items_40004.webp",
    "qua": "",
    "realm": "",
-   "element": [
-    "无属性/全属性"
-   ],
+   "element": [],
    "intro_paragraphs": [
     "坐忘三载，不如一瞬通明；",
     "顿悟是更高级的\"悟道\"，使用顿悟，可以获得品质更高的心法；"
@@ -168,6 +165,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -210,6 +209,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -236,9 +237,7 @@
    "icon_image": "assets/kapai/official/Items_40006.webp",
    "qua": "",
    "realm": "",
-   "element": [
-    "无属性/全属性"
-   ],
+   "element": [],
    "intro_paragraphs": [
     "在日复一日的战斗中，我的战斗技巧已得到提升。",
     "可将[技能卡]提升一个境界；"
@@ -256,6 +255,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -283,9 +284,7 @@
    "icon_image": "assets/kapai/official/Items_40007.webp",
    "qua": "",
    "realm": "",
-   "element": [
-    "无属性/全属性"
-   ],
+   "element": [],
    "intro_paragraphs": [
     "使用口诀的次数多了，我对此有一些感悟。",
     "可将[口诀卡]提升一个境界"
@@ -301,6 +300,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -326,9 +327,7 @@
    "icon_image": "assets/kapai/official/Items_40100.webp",
    "qua": "",
    "realm": "",
-   "element": [
-    "无属性/全属性"
-   ],
+   "element": [],
    "intro_paragraphs": [
     "五行相生相克，如果同时吸收五种灵气，便会互相湮灭；但在湮灭的一瞬间，会有产生一丝混沌灵气。"
    ],
@@ -339,6 +338,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -376,6 +377,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -416,6 +419,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -456,6 +461,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -496,6 +503,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -536,6 +545,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -579,6 +590,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -604,9 +617,7 @@
    "icon_image": "assets/kapai/official/Items_40107.webp",
    "qua": "",
    "realm": "练气",
-   "element": [
-    "无属性/全属性"
-   ],
+   "element": [],
    "intro_paragraphs": [
     "在战斗中躲避攻击慢慢形成身体本能。"
    ],
@@ -623,6 +634,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -648,9 +661,7 @@
    "icon_image": "assets/kapai/official/Items_40108.webp",
    "qua": "",
    "realm": "练气",
-   "element": [
-    "无属性/全属性"
-   ],
+   "element": [],
    "intro_paragraphs": [
     "世间的各种天材地宝，都需要理解其构造，才能以此炼药。"
    ],
@@ -667,6 +678,8 @@
      "realm": "练气"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -692,9 +705,7 @@
    "icon_image": "assets/kapai/official/Items_40201.webp",
    "qua": "",
    "realm": "筑基",
-   "element": [
-    "无属性/全属性"
-   ],
+   "element": [],
    "intro_paragraphs": [
     "或许可以将其与相似的感悟相结合，以探索更多样的道路，亦可尝试与五行相合……"
    ],
@@ -712,6 +723,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -738,9 +751,7 @@
    "icon_image": "assets/kapai/official/Items_40202.webp",
    "qua": "",
    "realm": "筑基",
-   "element": [
-    "无属性/全属性"
-   ],
+   "element": [],
    "intro_paragraphs": [
     "或许可以将其与相似的感悟相结合，以探索更多样的道路，亦可尝试与五行相合……"
    ],
@@ -759,6 +770,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -786,9 +799,7 @@
    "icon_image": "assets/kapai/official/Items_40203.webp",
    "qua": "",
    "realm": "筑基",
-   "element": [
-    "无属性/全属性"
-   ],
+   "element": [],
    "intro_paragraphs": [
     "心中似乎升起了一丝杀戮的念头。"
    ],
@@ -808,6 +819,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -836,9 +849,7 @@
    "icon_image": "assets/kapai/official/Items_40204.webp",
    "qua": "",
    "realm": "筑基",
-   "element": [
-    "无属性/全属性"
-   ],
+   "element": [],
    "intro_paragraphs": [
     "以身为炉，以心为火，百脉归元，凝结黍米。"
    ],
@@ -855,6 +866,8 @@
      "realm": "筑基"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -900,6 +913,8 @@
      "realm": "结丹"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -946,6 +961,8 @@
      "realm": "结丹"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -992,6 +1009,8 @@
      "realm": "结丹"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1038,6 +1057,8 @@
      "realm": "结丹"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1084,6 +1105,8 @@
      "realm": "结丹"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1110,9 +1133,7 @@
    "icon_image": "assets/kapai/official/Items_40401.webp",
    "qua": "",
    "realm": "元婴",
-   "element": [
-    "无属性/全属性"
-   ],
+   "element": [],
    "intro_paragraphs": [
     "万法归宗，万象归元，终返混沌本一。"
    ],
@@ -1125,6 +1146,8 @@
      "realm": "元婴"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1162,6 +1185,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1202,6 +1227,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1240,6 +1267,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1278,6 +1307,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1317,6 +1348,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1353,6 +1386,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1387,6 +1422,8 @@
    "variants": [
     {}
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1410,9 +1447,7 @@
    "icon_image": "assets/kapai/official/Items_50100.webp",
    "qua": "人品",
    "realm": "",
-   "element": [
-    "无属性/全属性"
-   ],
+   "element": [],
    "intro_paragraphs": [
     "里面讲述了一种吐纳修炼的口诀，可将天地间的灵气通过呼吸存储于体内：",
     "静心守一",
@@ -1433,6 +1468,8 @@
      "qua": "人品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1454,9 +1491,7 @@
    "icon_image": "assets/kapai/official/Items_50101.webp",
    "qua": "神品",
    "realm": "",
-   "element": [
-    "无属性/全属性"
-   ],
+   "element": [],
    "intro_paragraphs": [
     "此功最是奇特，能兼容五行灵气，令修士于吐纳之间，同步吸纳金木水火土五气入体。",
     "隐约可见，所创者：[广尘]。",
@@ -1471,6 +1506,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1509,6 +1546,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1550,6 +1589,8 @@
      "qua": "地品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1594,6 +1635,8 @@
      "qua": "天品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1638,6 +1681,8 @@
      "qua": "地品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1683,6 +1728,8 @@
      "qua": "天品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1729,6 +1776,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1775,6 +1824,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1821,6 +1872,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1867,6 +1920,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1910,6 +1965,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1948,6 +2005,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -1986,6 +2045,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2027,6 +2088,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2071,6 +2134,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2113,6 +2178,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2155,6 +2222,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2197,6 +2266,8 @@
      "qua": "天品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2237,6 +2308,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2275,6 +2348,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2313,6 +2388,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2352,6 +2429,8 @@
      "qua": "地品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2394,6 +2473,8 @@
      "qua": "天品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2436,6 +2517,8 @@
      "qua": "地品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2479,6 +2562,8 @@
      "qua": "天品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2523,6 +2608,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2567,6 +2654,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2611,6 +2700,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2655,6 +2746,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2699,6 +2792,8 @@
      "qua": "地品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2743,6 +2838,8 @@
      "qua": "天品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2784,6 +2881,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2824,6 +2923,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2866,6 +2967,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2908,6 +3011,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2950,6 +3055,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -2992,6 +3099,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -3032,6 +3141,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -3070,6 +3181,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -3109,6 +3222,8 @@
      "qua": "地品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -3151,6 +3266,8 @@
      "qua": "天品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -3193,6 +3310,8 @@
      "qua": "地品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -3234,6 +3353,8 @@
      "qua": "天品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -3276,6 +3397,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -3318,6 +3441,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -3360,6 +3485,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -3402,6 +3529,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -3444,6 +3573,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -3486,6 +3617,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -3528,6 +3661,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -3568,6 +3703,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -3607,6 +3744,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -3648,6 +3787,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -3690,6 +3831,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -3732,6 +3875,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -3774,6 +3919,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -3814,6 +3961,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -3853,6 +4002,8 @@
      "qua": "地品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -3895,6 +4046,8 @@
      "qua": "天品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -3938,6 +4091,8 @@
      "qua": "地品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -3981,6 +4136,8 @@
      "qua": "天品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -4025,6 +4182,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -4069,6 +4228,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -4113,6 +4274,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -4157,6 +4320,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -4201,6 +4366,8 @@
      "qua": "天品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -4245,6 +4412,8 @@
      "qua": "天品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -4287,6 +4456,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -4328,6 +4499,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -4369,6 +4542,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -4410,6 +4585,8 @@
      "qua": "天品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -4451,6 +4628,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -4490,6 +4669,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -4527,6 +4708,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -4566,6 +4749,8 @@
      "qua": "地品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -4608,6 +4793,8 @@
      "qua": "天品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -4651,6 +4838,8 @@
      "qua": "地品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -4695,6 +4884,8 @@
      "qua": "天品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -4739,6 +4930,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -4783,6 +4976,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -4827,6 +5022,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -4871,6 +5068,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -4912,6 +5111,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -4953,6 +5154,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -4997,6 +5200,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -5038,6 +5243,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -5077,6 +5284,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -5118,6 +5327,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -5159,6 +5370,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -5200,6 +5413,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -5243,6 +5458,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -5289,6 +5506,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -5333,6 +5552,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -5377,6 +5598,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -5420,6 +5643,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -5462,6 +5687,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -5502,6 +5729,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -5541,6 +5770,8 @@
      "qua": "天品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -5578,6 +5809,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -5616,6 +5849,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -5654,6 +5889,8 @@
      "qua": "仙品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -5692,6 +5929,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -5730,6 +5969,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -5769,6 +6010,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -5807,6 +6050,8 @@
      "qua": "绝品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -5845,6 +6090,8 @@
      "qua": "天品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
@@ -5866,16 +6113,7 @@
    "icon_image": "assets/kapai/official/Items_58301.webp",
    "qua": "神品",
    "realm": "结丹",
-   "element": [
-    "无属性/全属性",
-    "金",
-    "木",
-    "水",
-    "火",
-    "土",
-    "阴",
-    "阳"
-   ],
+   "element": [],
    "intro_paragraphs": [
     "为器修一脉的正统顶尖心法，取天工造物、器灵共生为道基，是融炼器、御器、融器于一体的特殊秘法，素有“天工一出，万器通灵”的盛誉。",
     "修炼后可领悟[天赋：兵甲通玄]"
@@ -5890,6 +6128,8 @@
      "qua": "神品"
     }
    ],
+   "main_eff": [],
+   "sub_eff": [],
    "locked": false,
    "status": "已获得",
    "official": true,
