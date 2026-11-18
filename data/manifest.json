@@ -1,6 +1,6 @@
 {
   "title": "卡牌修仙传 · 图鉴攻略",
-  "generated_at": "2026-11-18 21:36",
+  "generated_at": "2026-11-18 23:42",
   "categories": [
     {
       "slug": "kapai_cailiao",
@@ -21,7 +21,7 @@
       "category": "感悟&心法",
       "full_category": "卡牌 / 感悟&心法",
       "file_name": "kapai_ganwu_xinfa.json",
-      "count": 141
+      "count": 150
     },
     {
       "slug": "kapai_jineng_koujue",
@@ -56,7 +56,7 @@
       "category": "天赋",
       "full_category": "卡牌 / 天赋",
       "file_name": "kapai_tianfu.json",
-      "count": 51
+      "count": 52
     },
     {
       "slug": "kapai_daotu",
@@ -92,6 +92,13 @@
       "full_category": "卡牌 / 召唤物",
       "file_name": "kapai_zhaohuan.json",
       "count": 21
+    },
+    {
+      "slug": "kapai_xiushi",
+      "category": "敌对修士",
+      "full_category": "卡牌 / 敌对修士",
+      "file_name": "kapai_xiushi.json",
+      "count": 3
     },
     {
       "slug": "renwu",
@@ -133,7 +140,14 @@
       "category": "秘境",
       "full_category": "秘境",
       "file_name": "mijing.json",
-      "count": 37
+      "count": 44
+    },
+    {
+      "slug": "didian",
+      "category": "地点",
+      "full_category": "地点",
+      "file_name": "didian.json",
+      "count": 23
     }
   ]
 }
