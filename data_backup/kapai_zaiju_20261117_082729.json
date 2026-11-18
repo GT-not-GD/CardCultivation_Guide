@@ -1,0 +1,475 @@
+{
+  "slug": "kapai_zaiju",
+  "category": "载具",
+  "full_category": "卡牌 / 载具",
+  "updated_at": "2026-11-17 05:53",
+  "last_run_at": "2026-11-17T05:53:14",
+  "ocr_engine": "PP-OCRv5 mobile",
+  "items": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "name": "坐骑：白龙",
+      "locked": false,
+      "card_image": "assets/kapai_zaiju/cards/000.png",
+      "icon_image": "assets/kapai_zaiju/icons/000.png",
+      "detail_image": "assets/kapai_zaiju/details/000.jpg",
+      "intro_paragraphs": [
+        "这是霜螭赠与我的飞行载具：遁速+20；运气（触发奇遇地点）中等幅度提高；"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "找到白龙的名字，交给白龙后获得"
+          ]
+        }
+      ],
+      "full_text": "这是霜螭赠与我的飞行载具：遁速+20；运气（触发奇遇地点）中等幅度提高；\n\n【获取途径】\n找到白龙的名字，交给白龙后获得",
+      "avg_confidence": 0.9629,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "这是霜螭赠与我的飞行载具：",
+          "score": 0.9779,
+          "dx": 21
+        },
+        {
+          "text": "遁速+20；运气(触发奇遇地",
+          "score": 0.9604,
+          "dx": 20
+        },
+        {
+          "text": "点)中等幅度提高；",
+          "score": 0.9607,
+          "dx": 21
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9696,
+          "dx": 33
+        },
+        {
+          "text": "找到白龙的名字，交给白龙",
+          "score": 0.9656,
+          "dx": 62
+        },
+        {
+          "text": "后获得",
+          "score": 0.9802,
+          "dx": 19
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T05:02:17",
+      "first_seen": "2026-11-17T05:02:17"
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "name": "青翅竹筱",
+      "locked": false,
+      "card_image": "assets/kapai_zaiju/cards/001.png",
+      "icon_image": "assets/kapai_zaiju/icons/001.png",
+      "detail_image": "assets/kapai_zaiju/details/001.jpg",
+      "intro_paragraphs": [
+        "使用青翼蝠王的翅膀制作的飞行载具：遁速+25；运气（触发奇遇地点）小幅度提高；"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "使用青翼蝠王的材料：青翼影膜炼制获得"
+          ]
+        }
+      ],
+      "full_text": "使用青翼蝠王的翅膀制作的飞行载具：遁速+25；运气（触发奇遇地点）小幅度提高；\n\n【获取途径】\n使用青翼蝠王的材料：青翼影膜炼制获得",
+      "avg_confidence": 0.9706,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "使用青翼蝠王的翅膀制作的飞",
+          "score": 0.9864,
+          "dx": 18
+        },
+        {
+          "text": "行载具：",
+          "score": 0.9778,
+          "dx": 20
+        },
+        {
+          "text": "遁速+25；运气(触发奇遇地",
+          "score": 0.9574,
+          "dx": 20
+        },
+        {
+          "text": "点)小幅度提高；",
+          "score": 0.9689,
+          "dx": 21
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9937,
+          "dx": 0
+        },
+        {
+          "text": "使用青翼蝠王的材料：青翼",
+          "score": 0.987,
+          "dx": 59
+        },
+        {
+          "text": "影膜炼制获得",
+          "score": 0.9879,
+          "dx": 19
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T05:02:18",
+      "first_seen": "2026-11-17T05:02:18"
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "name": "千机纸鹤",
+      "locked": false,
+      "card_image": "assets/kapai_zaiju/cards/002.png",
+      "icon_image": "assets/kapai_zaiju/icons/002.png",
+      "detail_image": "assets/kapai_zaiju/details/002.jpg",
+      "intro_paragraphs": [
+        "一个纸扎的鹤：运气（触发奇遇地点）中幅度提高；"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "在玄机阁中出售"
+          ]
+        }
+      ],
+      "full_text": "一个纸扎的鹤：运气（触发奇遇地点）中幅度提高；\n\n【获取途径】\n在玄机阁中出售",
+      "avg_confidence": 0.9585,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "一个纸扎的鹤：",
+          "score": 0.9886,
+          "dx": 18
+        },
+        {
+          "text": "运气(触发奇遇地点)中幅度提",
+          "score": 0.9972,
+          "dx": 21
+        },
+        {
+          "text": "高；",
+          "score": 0.8845,
+          "dx": 20
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9884,
+          "dx": 33
+        },
+        {
+          "text": "在玄机阁中出售",
+          "score": 0.9956,
+          "dx": 59
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T05:02:19",
+      "first_seen": "2026-11-17T05:02:19"
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "col": 3,
+      "name": "霄流筝",
+      "locked": true,
+      "card_image": "assets/kapai_zaiju/cards/003.png",
+      "icon_image": "assets/kapai_zaiju/icons/003.png",
+      "detail_image": "assets/kapai_zaiju/details/003.jpg",
+      "intro_paragraphs": [
+        "使用文鳐鱼的夜飞双翼制作的飞行载具：遁速+5；"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "使用文鳐鱼的夜飞双翼制作的飞行载具：遁速+5；\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.89,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "使用文鳐鱼的夜飞双翼制作的",
+          "score": 0.917,
+          "dx": 18
+        },
+        {
+          "text": "飞行载具：",
+          "score": 0.9883,
+          "dx": 20
+        },
+        {
+          "text": "遁速+5；",
+          "score": 0.8485,
+          "dx": 20
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9803,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9511,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:02:20",
+      "first_seen": "2026-11-17T05:02:20"
+    },
+    {
+      "index": 4,
+      "row": 0,
+      "col": 4,
+      "name": "霓凰羽毯",
+      "locked": true,
+      "card_image": "assets/kapai_zaiju/cards/004.png",
+      "icon_image": "assets/kapai_zaiju/icons/004.png",
+      "detail_image": "assets/kapai_zaiju/details/004.jpg",
+      "intro_paragraphs": [
+        "使用火云雀的涅槃火羽制作的飞行载具：遁速+20；运气（触发奇遇地点）中等幅度提高；"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "使用火云雀的涅槃火羽制作的飞行载具：遁速+20；运气（触发奇遇地点）中等幅度提高；\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9745,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "使用火云雀的涅槃火羽制作的",
+          "score": 0.9756,
+          "dx": 18
+        },
+        {
+          "text": "飞行载具：",
+          "score": 0.9922,
+          "dx": 20
+        },
+        {
+          "text": "遁速+20；运气(触发奇遇地",
+          "score": 0.9406,
+          "dx": 20
+        },
+        {
+          "text": "点)中等幅度提高；",
+          "score": 0.9384,
+          "dx": 21
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9928,
+          "dx": 0
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9845,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:02:21",
+      "first_seen": "2026-11-17T05:02:21"
+    },
+    {
+      "index": 5,
+      "row": 0,
+      "col": 5,
+      "name": "筋斗云",
+      "locked": true,
+      "card_image": "assets/kapai_zaiju/cards/005.png",
+      "icon_image": "assets/kapai_zaiju/icons/005.png",
+      "detail_image": "assets/kapai_zaiju/details/005.jpg",
+      "intro_paragraphs": [
+        "不知如何形成的一团云：遁速变得极快，但飞行过程中"
+      ],
+      "sections": [
+        {
+          "title": "不会发现奇遇地点；",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "不知如何形成的一团云：遁速变得极快，但飞行过程中\n\n【不会发现奇遇地点；】\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9783,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "不知如何形成的一团云：",
+          "score": 0.9822,
+          "dx": 22
+        },
+        {
+          "text": "遁速变得极快，但飞行过程中",
+          "score": 0.9911,
+          "dx": 20
+        },
+        {
+          "text": "不会发现奇遇地点；",
+          "score": 0.9518,
+          "dx": 22
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9764,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9735,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:02:22",
+      "first_seen": "2026-11-17T05:02:22"
+    },
+    {
+      "index": 6,
+      "row": 1,
+      "col": 0,
+      "name": "踏云龙舟",
+      "locked": true,
+      "card_image": "assets/kapai_zaiju/cards/006.png",
+      "icon_image": "assets/kapai_zaiju/icons/006.png",
+      "detail_image": "assets/kapai_zaiju/details/006.jpg",
+      "intro_paragraphs": [
+        "不知如何制作的一艘龙舟：遁速+20；运气（触发奇遇地点）小幅度提高；"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "不知如何制作的一艘龙舟：遁速+20；运气（触发奇遇地点）小幅度提高；\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9738,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "不知如何制作的一艘龙舟：",
+          "score": 0.9731,
+          "dx": 22
+        },
+        {
+          "text": "遁速+20；运气(触发奇遇地",
+          "score": 0.9637,
+          "dx": 20
+        },
+        {
+          "text": "点)小幅度提高；",
+          "score": 0.9683,
+          "dx": 21
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9674,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9735,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:02:23",
+      "first_seen": "2026-11-17T05:02:23"
+    },
+    {
+      "index": 7,
+      "row": 1,
+      "col": 1,
+      "name": "栖月椅",
+      "locked": false,
+      "card_image": "assets/kapai_zaiju/cards/007.png",
+      "icon_image": "assets/kapai_zaiju/icons/007.png",
+      "detail_image": "assets/kapai_zaiju/details/007.jpg",
+      "intro_paragraphs": [
+        "不知如何制作的一张椅子：遁速变得极慢，但运气（触发奇遇地点）极大幅度提高；"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "雁荡城的隐藏商店有概率出"
+          ]
+        },
+        {
+          "title": "售",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "不知如何制作的一张椅子：遁速变得极慢，但运气（触发奇遇地点）极大幅度提高；\n\n【获取途径】\n雁荡城的隐藏商店有概率出\n\n【售】",
+      "avg_confidence": 0.9657,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "不知如何制作的一张椅子：",
+          "score": 0.9739,
+          "dx": 22
+        },
+        {
+          "text": "遁速变得极慢，但运气(触发奇",
+          "score": 0.9809,
+          "dx": 20
+        },
+        {
+          "text": "遇地点)极大幅度提高；",
+          "score": 0.9699,
+          "dx": 20
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9881,
+          "dx": 33
+        },
+        {
+          "text": "雁荡城的隐藏商店有概率出",
+          "score": 0.9943,
+          "dx": 60
+        },
+        {
+          "text": "售",
+          "score": 0.9998,
+          "dx": 22
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T05:02:24",
+      "first_seen": "2026-11-17T05:02:24"
+    }
+  ]
+}

@@ -1,0 +1,4349 @@
+{
+  "slug": "kapai_zhidianka",
+  "category": "指点卡",
+  "full_category": "卡牌 / 指点卡",
+  "updated_at": "2026-11-17 05:53",
+  "last_run_at": "2026-11-17T05:51:55",
+  "ocr_engine": "PP-OCRv5 mobile",
+  "items": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "name": "剑修",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/000.png",
+      "icon_image": "assets/kapai_zhidianka/icons/000.png",
+      "detail_image": "assets/kapai_zhidianka/details/000.jpg",
+      "intro_paragraphs": [
+        "剑修是器修中最广为人知的一个分支，在本游戏里，可以通过加入玄剑阁或其他任务修炼"
+      ],
+      "sections": [
+        {
+          "title": "出独有的剑修天赋；",
+          "paragraphs": [
+            "剑修天赋可以大幅度提高剑类型法宝的战斗能力，但会减火主角使用口诀的能力。"
+          ]
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "剑修是器修中最广为人知的一个分支，在本游戏里，可以通过加入玄剑阁或其他任务修炼\n\n【出独有的剑修天赋；】\n剑修天赋可以大幅度提高剑类型法宝的战斗能力，但会减火主角使用口诀的能力。\n\n【获取途径】",
+      "avg_confidence": 0.9844,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "剑修是器修中最广为人知的一",
+          "score": 0.9886,
+          "dx": 19
+        },
+        {
+          "text": "个分支，在本游戏里，可以通",
+          "score": 0.9974,
+          "dx": 19
+        },
+        {
+          "text": "过加入玄剑阁或其他任务修炼",
+          "score": 0.9982,
+          "dx": 20
+        },
+        {
+          "text": "出独有的剑修天赋；",
+          "score": 0.9894,
+          "dx": 24
+        },
+        {
+          "text": "剑修天赋可以大幅度提高剑类",
+          "score": 0.9968,
+          "dx": 19
+        },
+        {
+          "text": "型法宝的战斗能力，但会减火",
+          "score": 0.9513,
+          "dx": 21
+        },
+        {
+          "text": "主角使用口诀的能力。",
+          "score": 0.9576,
+          "dx": 20
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9811,
+          "dx": 33
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:55:52",
+      "first_seen": "2026-11-17T04:55:52"
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "name": "丹修",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/001.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 0.9994,
+      "needs_review": false,
+      "status": "已获得",
+      "captured_at": "2026-11-17T05:52:04",
+      "first_seen": "2026-11-17T04:55:57"
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "name": "武修",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/002.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "已获得",
+      "captured_at": "2026-11-17T05:52:08",
+      "first_seen": "2026-11-17T04:56:02"
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "col": 3,
+      "name": "术修",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/003.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 0.9948,
+      "needs_review": false,
+      "status": "已获得",
+      "captured_at": "2026-11-17T05:52:13",
+      "first_seen": "2026-11-17T04:56:07"
+    },
+    {
+      "index": 4,
+      "row": 0,
+      "col": 4,
+      "name": "兽修",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/004.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 0.9996,
+      "needs_review": false,
+      "status": "已获得",
+      "captured_at": "2026-11-17T05:52:18",
+      "first_seen": "2026-11-17T04:56:12"
+    },
+    {
+      "index": 5,
+      "row": 0,
+      "col": 5,
+      "name": "魔修",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/005.png",
+      "icon_image": "assets/kapai_zhidianka/icons/005.png",
+      "detail_image": "assets/kapai_zhidianka/details/005.jpg",
+      "intro_paragraphs": [
+        "魔修是非正统修仙玩法，魔修流派的修士可以通过击杀游戏中的其他修士以获得修为，物品，增加自身属性，甚至是抢夺法宝等为主要玩法。魔修在游戏中触发寻仇的概率会极大的提高"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "魔修是非正统修仙玩法，魔修流派的修士可以通过击杀游戏中的其他修士以获得修为，物品，增加自身属性，甚至是抢夺法宝等为主要玩法。魔修在游戏中触发寻仇的概率会极大的提高\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9899,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "魔修是非正统修仙玩法，魔修",
+          "score": 0.9781,
+          "dx": 20
+        },
+        {
+          "text": "流派的修士可以通过击杀游戏",
+          "score": 0.9999,
+          "dx": 20
+        },
+        {
+          "text": "中的其他修士以获得修为，物",
+          "score": 0.9883,
+          "dx": 22
+        },
+        {
+          "text": "品，增加自身属性，甚至是抢",
+          "score": 0.9902,
+          "dx": 21
+        },
+        {
+          "text": "夺法宝等为主要玩法。",
+          "score": 0.9976,
+          "dx": 0
+        },
+        {
+          "text": "魔修在游戏中触发寻仇的概率",
+          "score": 0.9955,
+          "dx": 20
+        },
+        {
+          "text": "会极大的提高",
+          "score": 0.9994,
+          "dx": 20
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.983,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9769,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:56:12",
+      "first_seen": "2026-11-17T04:56:12"
+    },
+    {
+      "index": 6,
+      "row": 1,
+      "col": 0,
+      "name": "操作：抽取卡牌",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/006.png",
+      "icon_image": "assets/kapai_zhidianka/icons/006.png",
+      "detail_image": "assets/kapai_zhidianka/details/006.jpg",
+      "intro_paragraphs": [
+        "操作提示：Control键。按住Control键可以将卡牌从堆叠的一组里单独抽出来，在背包里也是相同操作"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "操作提示：Control键。按住Control键可以将卡牌从堆叠的一组里单独抽出来，在背包里也是相同操作\n\n【获取途径】",
+      "avg_confidence": 0.99,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "操作提示：Control键。",
+          "score": 0.9898,
+          "dx": 21
+        },
+        {
+          "text": "按住Control键可以将卡牌从堆",
+          "score": 0.9791,
+          "dx": 20
+        },
+        {
+          "text": "叠的一组里单独抽出来，在背",
+          "score": 0.994,
+          "dx": 22
+        },
+        {
+          "text": "包里也是相同操作",
+          "score": 0.9989,
+          "dx": 20
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9836,
+          "dx": 0
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:56:15",
+      "first_seen": "2026-11-17T04:56:15"
+    },
+    {
+      "index": 7,
+      "row": 1,
+      "col": 1,
+      "name": "操作：快速移动",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/007.png",
+      "icon_image": "assets/kapai_zhidianka/icons/007.png",
+      "detail_image": "assets/kapai_zhidianka/details/007.jpg",
+      "intro_paragraphs": [
+        "操作提示：双击桌面。如果你找不到主角卡在哪，双击桌面，主角卡会自动飞过来"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "操作提示：双击桌面。如果你找不到主角卡在哪，双击桌面，主角卡会自动飞过来\n\n【获取途径】",
+      "avg_confidence": 0.9811,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "操作提示：双击桌面。",
+          "score": 0.994,
+          "dx": 20
+        },
+        {
+          "text": "如果你找不到主角卡在哪，双",
+          "score": 0.9958,
+          "dx": 19
+        },
+        {
+          "text": "击桌面，主角卡会自动飞过来",
+          "score": 0.9895,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9796,
+          "dx": 33
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:56:16",
+      "first_seen": "2026-11-17T04:56:16"
+    },
+    {
+      "index": 8,
+      "row": 1,
+      "col": 2,
+      "name": "规则：战斗规则",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/008.png",
+      "icon_image": "assets/kapai_zhidianka/icons/008.png",
+      "detail_image": "assets/kapai_zhidianka/details/008.jpg",
+      "intro_paragraphs": [
+        "游戏的战斗规则：在对战时，会有境界压制：攻击方卡牌的大境界，如果比受击方的低，则会有伤害衰减（每相差一个大境界，衰减30%)；如果单个战场上阵的法宝/灵兽/傀儡卡数量，超过了神识，则需要消耗额外的灵气。如果你使用大境界比主角高的卡牌进入战斗，将会消耗大量灵气。"
+      ],
+      "sections": [
+        {
+          "title": "2",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "游戏的战斗规则：在对战时，会有境界压制：攻击方卡牌的大境界，如果比受击方的低，则会有伤害衰减（每相差一个大境界，衰减30%)；如果单个战场上阵的法宝/灵兽/傀儡卡数量，超过了神识，则需要消耗额外的灵气。如果你使用大境界比主角高的卡牌进入战斗，将会消耗大量灵气。\n\n【2】",
+      "avg_confidence": 0.9834,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "游戏的战斗规则：",
+          "score": 0.9922,
+          "dx": 19
+        },
+        {
+          "text": "在对战时，会有境界压制：攻击",
+          "score": 0.9691,
+          "dx": 18
+        },
+        {
+          "text": "方卡牌的大境界，如果比受击",
+          "score": 0.9983,
+          "dx": 21
+        },
+        {
+          "text": "方的低，则会有伤害衰减(每相",
+          "score": 0.9784,
+          "dx": 21
+        },
+        {
+          "text": "差一个大境界，衰减30%)；",
+          "score": 0.9609,
+          "dx": 0
+        },
+        {
+          "text": "如果单个战场上阵的法宝/灵兽",
+          "score": 0.9928,
+          "dx": 19
+        },
+        {
+          "text": "/傀儡卡数量，超过了神识，则",
+          "score": 0.9854,
+          "dx": 18
+        },
+        {
+          "text": "需要消耗额外的灵气。",
+          "score": 0.9996,
+          "dx": 20
+        },
+        {
+          "text": "如果你使用大境界比主角高的",
+          "score": 0.9994,
+          "dx": 19
+        },
+        {
+          "text": "卡牌进入战斗，将会消耗大量",
+          "score": 0.9985,
+          "dx": 19
+        },
+        {
+          "text": "灵气。",
+          "score": 0.9904,
+          "dx": 21
+        },
+        {
+          "text": "2",
+          "score": 0.9769,
+          "dx": 33
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:56:17",
+      "first_seen": "2026-11-17T04:56:17"
+    },
+    {
+      "index": 9,
+      "row": 1,
+      "col": 3,
+      "name": "器修结丹",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/009.png",
+      "icon_image": "assets/kapai_zhidianka/icons/009.png",
+      "detail_image": "assets/kapai_zhidianka/details/009.jpg",
+      "intro_paragraphs": [
+        "器修如何结丹：炼制出绝品法宝可以获得人品器道仅用自己和法宝击败妖王可以获得神品器道在比武大会的冠军赛上，仅用自己或法宝获得冠军，可以获得絕品器道"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "器修如何结丹：炼制出绝品法宝可以获得人品器道仅用自己和法宝击败妖王可以获得神品器道在比武大会的冠军赛上，仅用自己或法宝获得冠军，可以获得絕品器道\n\n【获取途径】",
+      "avg_confidence": 0.986,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "器修如何结丹：",
+          "score": 0.9909,
+          "dx": 19
+        },
+        {
+          "text": "炼制出绝品法宝可以获得",
+          "score": 0.9835,
+          "dx": 19
+        },
+        {
+          "text": "人品器道",
+          "score": 0.9979,
+          "dx": 19
+        },
+        {
+          "text": "仅用自己和法宝击败妖王可以",
+          "score": 0.9994,
+          "dx": 19
+        },
+        {
+          "text": "获得神品器道",
+          "score": 0.9824,
+          "dx": 0
+        },
+        {
+          "text": "在比武大会的冠军赛上，仅用",
+          "score": 0.9953,
+          "dx": 18
+        },
+        {
+          "text": "自己或法宝获得冠军，可以获",
+          "score": 0.9923,
+          "dx": 25
+        },
+        {
+          "text": "得絕品器道",
+          "score": 0.952,
+          "dx": 20
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9882,
+          "dx": 33
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:56:21",
+      "first_seen": "2026-11-17T04:56:21"
+    },
+    {
+      "index": 10,
+      "row": 1,
+      "col": 4,
+      "name": "丹修结丹",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/010.png",
+      "icon_image": "assets/kapai_zhidianka/icons/010.png",
+      "detail_image": "assets/kapai_zhidianka/details/010.jpg",
+      "intro_paragraphs": [
+        "丹修如何结丹：仅使用丹药击败绝品妖兽可以获得人品丹道；仅使用丹药击败妖王可以获得神品丹道；仅用3颗丹药就击败妖王可以获得絕品丹道"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "丹修如何结丹：仅使用丹药击败绝品妖兽可以获得人品丹道；仅使用丹药击败妖王可以获得神品丹道；仅用3颗丹药就击败妖王可以获得絕品丹道\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9662,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "丹修如何结丹：",
+          "score": 0.985,
+          "dx": 20
+        },
+        {
+          "text": "仅使用丹药击败绝品妖兽可以",
+          "score": 0.9965,
+          "dx": 19
+        },
+        {
+          "text": "获得人品丹道；",
+          "score": 0.949,
+          "dx": 19
+        },
+        {
+          "text": "仅使用丹药击败妖王可以获得",
+          "score": 0.9931,
+          "dx": 19
+        },
+        {
+          "text": "神品丹道；",
+          "score": 0.919,
+          "dx": 0
+        },
+        {
+          "text": "仅用3颗丹药就击败妖王可以获",
+          "score": 0.9978,
+          "dx": 19
+        },
+        {
+          "text": "得絕品丹道",
+          "score": 0.9289,
+          "dx": 20
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9761,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9873,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:56:22",
+      "first_seen": "2026-11-17T04:56:22"
+    },
+    {
+      "index": 11,
+      "row": 1,
+      "col": 5,
+      "name": "体修结丹",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/011.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 0.9965,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:56:30",
+      "first_seen": "2026-11-17T04:56:30"
+    },
+    {
+      "index": 12,
+      "row": 2,
+      "col": 0,
+      "name": "术修结丹",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/012.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 0.9197,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:56:35",
+      "first_seen": "2026-11-17T04:56:35"
+    },
+    {
+      "index": 13,
+      "row": 2,
+      "col": 1,
+      "name": "兽修结丹",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/013.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 0.9978,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:56:39",
+      "first_seen": "2026-11-17T04:56:39"
+    },
+    {
+      "index": 14,
+      "row": 2,
+      "col": 2,
+      "name": "本命物",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/014.png",
+      "icon_image": "assets/kapai_zhidianka/icons/014.png",
+      "detail_image": "assets/kapai_zhidianka/details/014.jpg",
+      "intro_paragraphs": [
+        "突破至结丹后，可以炼制本命物：我可以将绝品的法宝或灵兽，放入修炼工作台，将其炼制成本命物！我只能通过此方法，炼制出一个本命物。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "突破至结丹后，可以炼制本命物：我可以将绝品的法宝或灵兽，放入修炼工作台，将其炼制成本命物！我只能通过此方法，炼制出一个本命物。\n\n【获取途径】",
+      "avg_confidence": 0.9914,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "突破至结丹后，可以炼制本命",
+          "score": 0.9969,
+          "dx": 22
+        },
+        {
+          "text": "物：我可以将绝品的法宝或灵",
+          "score": 0.9818,
+          "dx": 19
+        },
+        {
+          "text": "兽，放入修炼工作台，将其炼",
+          "score": 0.9868,
+          "dx": 19
+        },
+        {
+          "text": "制成本命物！",
+          "score": 0.9967,
+          "dx": 19
+        },
+        {
+          "text": "我只能通过此方法，炼制出一",
+          "score": 0.9815,
+          "dx": 0
+        },
+        {
+          "text": "个本命物。",
+          "score": 0.9969,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.991,
+          "dx": 33
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:56:40",
+      "first_seen": "2026-11-17T04:56:40"
+    },
+    {
+      "index": 15,
+      "row": 2,
+      "col": 3,
+      "name": "本命技",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/015.png",
+      "icon_image": "assets/kapai_zhidianka/icons/015.png",
+      "detail_image": "assets/kapai_zhidianka/details/015.jpg",
+      "intro_paragraphs": [
+        "在天地熔炉里，我可以把本命物炼制成本命技！"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "在天地熔炉里，我可以把本命物炼制成本命技！\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9921,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "在天地熔炉里，我可以把本命",
+          "score": 0.9983,
+          "dx": 18
+        },
+        {
+          "text": "物炼制成本命技！",
+          "score": 0.9948,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9836,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.984,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:56:41",
+      "first_seen": "2026-11-17T04:56:41"
+    },
+    {
+      "index": 16,
+      "row": 2,
+      "col": 4,
+      "name": "妖王元婴？",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/016.png",
+      "icon_image": "assets/kapai_zhidianka/icons/016.png",
+      "detail_image": "assets/kapai_zhidianka/details/016.jpg",
+      "intro_paragraphs": [
+        "当击败元婴期以上的敌人时，他们不会立刻死亡，而是变成元婴，此时可以对元婴做以下操作：等诗时间结束，元婴自行离去；使用法宝/灵兽攻击元婴，此举会导致该妖王永久死亡；使用主角/神识卡拘拿元婴："
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "当击败元婴期以上的敌人时，他们不会立刻死亡，而是变成元婴，此时可以对元婴做以下操作：等诗时间结束，元婴自行离去；使用法宝/灵兽攻击元婴，此举会导致该妖王永久死亡；使用主角/神识卡拘拿元婴：\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9633,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "当击败元婴期以上的敌人时，",
+          "score": 0.9679,
+          "dx": 23
+        },
+        {
+          "text": "他们不会立刻死亡，而是变成",
+          "score": 0.9975,
+          "dx": 19
+        },
+        {
+          "text": "元婴，此时可以对元婴做以下",
+          "score": 0.9987,
+          "dx": 20
+        },
+        {
+          "text": "操作：",
+          "score": 0.9785,
+          "dx": 21
+        },
+        {
+          "text": "等诗时间结束，元婴自行离",
+          "score": 0.9653,
+          "dx": 0
+        },
+        {
+          "text": "去；",
+          "score": 0.9222,
+          "dx": 20
+        },
+        {
+          "text": "使用法宝/灵兽攻击元婴，此举",
+          "score": 0.9942,
+          "dx": 18
+        },
+        {
+          "text": "会导致该妖王永久死亡；",
+          "score": 0.9515,
+          "dx": 20
+        },
+        {
+          "text": "使用主角/神识卡拘拿元婴：",
+          "score": 0.9524,
+          "dx": 18
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9941,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9861,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:56:42",
+      "first_seen": "2026-11-17T04:56:42"
+    },
+    {
+      "index": 17,
+      "row": 2,
+      "col": 5,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/017.png",
+      "icon_image": "assets/kapai_zhidianka/icons/017.png",
+      "detail_image": "assets/kapai_zhidianka/details/017.jpg",
+      "intro_paragraphs": [
+        "指点：剑意需要用金属制造的剑释放，除非剑意达到顶峰。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "指点：剑意需要用金属制造的剑释放，除非剑意达到顶峰。\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9812,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "指点：剑意需要用金属制造的",
+          "score": 0.9683,
+          "dx": 21
+        },
+        {
+          "text": "剑释放，除非剑意达到顶峰。",
+          "score": 0.9956,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9591,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9837,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:56:46",
+      "first_seen": "2026-11-17T04:56:46"
+    },
+    {
+      "index": 18,
+      "row": 3,
+      "col": 0,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/018.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:56:51",
+      "first_seen": "2026-11-17T04:56:51"
+    },
+    {
+      "index": 19,
+      "row": 3,
+      "col": 1,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/019.png",
+      "icon_image": "assets/kapai_zhidianka/icons/019.png",
+      "detail_image": "assets/kapai_zhidianka/details/019.jpg",
+      "intro_paragraphs": [
+        "招式分两种，像火焰般的攻击，或是像岩石般的防御。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "招式分两种，像火焰般的攻击，或是像岩石般的防御。\n\n【获取途径】",
+      "avg_confidence": 0.9918,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "招式分两种，像火焰般的攻",
+          "score": 0.9947,
+          "dx": 20
+        },
+        {
+          "text": "击，或是像岩石般的防御。",
+          "score": 0.994,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9795,
+          "dx": 33
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:56:52",
+      "first_seen": "2026-11-17T04:56:52"
+    },
+    {
+      "index": 20,
+      "row": 3,
+      "col": 2,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/020.png",
+      "icon_image": "assets/kapai_zhidianka/icons/020.png",
+      "detail_image": "assets/kapai_zhidianka/details/020.jpg",
+      "intro_paragraphs": [
+        "静心草一般生长在山顶。如果你是个有缘人的话，是可以在药园里采集到。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "静心草一般生长在山顶。如果你是个有缘人的话，是可以在药园里采集到。\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9911,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "静心草一般生长在山顶。如果",
+          "score": 0.998,
+          "dx": 19
+        },
+        {
+          "text": "你是个有缘人的话，是可以在",
+          "score": 0.9958,
+          "dx": 18
+        },
+        {
+          "text": "药园里采集到。",
+          "score": 0.9981,
+          "dx": 21
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9818,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.974,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:56:53",
+      "first_seen": "2026-11-17T04:56:53"
+    },
+    {
+      "index": 21,
+      "row": 3,
+      "col": 3,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/021.png",
+      "icon_image": "assets/kapai_zhidianka/icons/021.png",
+      "detail_image": "assets/kapai_zhidianka/details/021.jpg",
+      "intro_paragraphs": [
+        "每一本心法都可以领悟出口诀，技能或能力；"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "每一本心法都可以领悟出口诀，技能或能力；\n\n【获取途径】",
+      "avg_confidence": 0.9829,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "每一本心法都可以领悟出口",
+          "score": 0.9808,
+          "dx": 20
+        },
+        {
+          "text": "诀，技能或能力；",
+          "score": 0.9627,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9891,
+          "dx": 33
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:56:54",
+      "first_seen": "2026-11-17T04:56:54"
+    },
+    {
+      "index": 22,
+      "row": 3,
+      "col": 4,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/022.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 0.9997,
+      "needs_review": false,
+      "status": "已获得",
+      "captured_at": "2026-11-17T05:52:23",
+      "first_seen": "2026-11-17T04:56:59"
+    },
+    {
+      "index": 23,
+      "row": 3,
+      "col": 5,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/023.png",
+      "icon_image": "assets/kapai_zhidianka/icons/023.png",
+      "detail_image": "assets/kapai_zhidianka/details/023.jpg",
+      "intro_paragraphs": [
+        "如果你有“机缘”在调查时放入地点，会有不一样的产出；"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "如果你有“机缘”在调查时放入地点，会有不一样的产出；\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9886,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "如果你有\"机缘\"在调查时放入",
+          "score": 0.9862,
+          "dx": 19
+        },
+        {
+          "text": "地点，会有不一样的产出；",
+          "score": 0.9839,
+          "dx": 20
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9896,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.984,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:57:00",
+      "first_seen": "2026-11-17T04:57:00"
+    },
+    {
+      "index": 24,
+      "row": 4,
+      "col": 0,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/024.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:57:07",
+      "first_seen": "2026-11-17T04:57:07"
+    },
+    {
+      "index": 25,
+      "row": 4,
+      "col": 1,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/025.png",
+      "icon_image": "assets/kapai_zhidianka/icons/025.png",
+      "detail_image": "assets/kapai_zhidianka/details/025.jpg",
+      "intro_paragraphs": [
+        "这附近有3个大城市，有时间你可御剑前注。金陵城：有坊市（常年有大量修士或商人可交易）；湖月城：灵气十分充裕，十分适合在此培养灵草：雁荡城：位于十万大山的边缘，有时会触发大型攻城玩法；"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "这附近有3个大城市，有时间你可御剑前注。金陵城：有坊市（常年有大量修士或商人可交易）；湖月城：灵气十分充裕，十分适合在此培养灵草：雁荡城：位于十万大山的边缘，有时会触发大型攻城玩法；\n\n【获取途径】",
+      "avg_confidence": 0.9624,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "这附近有3个大城市，有时间你",
+          "score": 0.9983,
+          "dx": 21
+        },
+        {
+          "text": "可御剑前注。",
+          "score": 0.996,
+          "dx": 19
+        },
+        {
+          "text": "金陵城：有坊市（常年有大量",
+          "score": 0.9986,
+          "dx": 20
+        },
+        {
+          "text": "修士或商人可交易）；",
+          "score": 0.9628,
+          "dx": 19
+        },
+        {
+          "text": "湖月城：灵气十分充裕，十分",
+          "score": 0.995,
+          "dx": 0
+        },
+        {
+          "text": "适合在此培养灵草：",
+          "score": 0.9441,
+          "dx": 21
+        },
+        {
+          "text": "雁荡城：位于十万大山的边",
+          "score": 0.9951,
+          "dx": 19
+        },
+        {
+          "text": "缘，有时会触发大型攻城玩",
+          "score": 0.9908,
+          "dx": 19
+        },
+        {
+          "text": "法；",
+          "score": 0.7134,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9938,
+          "dx": 33
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:57:08",
+      "first_seen": "2026-11-17T04:57:08"
+    },
+    {
+      "index": 26,
+      "row": 4,
+      "col": 2,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/026.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 0.9999,
+      "needs_review": false,
+      "status": "已获得",
+      "captured_at": "2026-11-17T05:52:30",
+      "first_seen": "2026-11-17T04:57:16"
+    },
+    {
+      "index": 27,
+      "row": 4,
+      "col": 3,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/027.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 0.9824,
+      "needs_review": false,
+      "status": "已获得",
+      "captured_at": "2026-11-17T05:52:35",
+      "first_seen": "2026-11-17T04:57:21"
+    },
+    {
+      "index": 28,
+      "row": 4,
+      "col": 4,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/028.png",
+      "icon_image": "assets/kapai_zhidianka/icons/028.png",
+      "detail_image": "assets/kapai_zhidianka/details/028.jpg",
+      "intro_paragraphs": [
+        "迷魂丹药在城市里是无法使用成功的。只能在世界或者秘境里尝试使用。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "迷魂丹药在城市里是无法使用成功的。只能在世界或者秘境里尝试使用。\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9905,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "迷魂丹药在城市里是无法使用",
+          "score": 0.9985,
+          "dx": 20
+        },
+        {
+          "text": "成功的。",
+          "score": 0.9979,
+          "dx": 21
+        },
+        {
+          "text": "只能在世界或者秘境里尝试使",
+          "score": 0.9832,
+          "dx": 23
+        },
+        {
+          "text": "用。",
+          "score": 0.9742,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9949,
+          "dx": 0
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9857,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:57:21",
+      "first_seen": "2026-11-17T04:57:21"
+    },
+    {
+      "index": 29,
+      "row": 4,
+      "col": 5,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/029.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:57:26",
+      "first_seen": "2026-11-17T04:57:26"
+    },
+    {
+      "index": 30,
+      "row": 5,
+      "col": 0,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/030.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:57:31",
+      "first_seen": "2026-11-17T04:57:31"
+    },
+    {
+      "index": 31,
+      "row": 5,
+      "col": 1,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/031.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:57:36",
+      "first_seen": "2026-11-17T04:57:36"
+    },
+    {
+      "index": 32,
+      "row": 5,
+      "col": 2,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/032.png",
+      "icon_image": "assets/kapai_zhidianka/icons/032.png",
+      "detail_image": "assets/kapai_zhidianka/details/032.jpg",
+      "intro_paragraphs": [
+        "据说在天地熔炉升阶卡牌会保"
+      ],
+      "sections": [
+        {
+          "title": "留品质。",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "据说在天地熔炉升阶卡牌会保\n\n【留品质。】\n\n【获取途径】",
+      "avg_confidence": 0.9965,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "据说在天地熔炉升阶卡牌会保",
+          "score": 0.9991,
+          "dx": 22
+        },
+        {
+          "text": "留品质。",
+          "score": 0.9991,
+          "dx": 23
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9889,
+          "dx": 33
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:57:37",
+      "first_seen": "2026-11-17T04:57:37"
+    },
+    {
+      "index": 33,
+      "row": 5,
+      "col": 3,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/033.png",
+      "icon_image": "assets/kapai_zhidianka/icons/033.png",
+      "detail_image": "assets/kapai_zhidianka/details/033.jpg",
+      "intro_paragraphs": [
+        "如果法宝没有耐久了，可以尝试去碧潭瀑布，那里可以恢复耐久。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "如果法宝没有耐久了，可以尝试去碧潭瀑布，那里可以恢复耐久。\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9872,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "如果法宝没有耐久了，可以尝",
+          "score": 0.9963,
+          "dx": 19
+        },
+        {
+          "text": "试去碧潭瀑布，那里可以恢复",
+          "score": 0.9972,
+          "dx": 19
+        },
+        {
+          "text": "耐久。",
+          "score": 0.9701,
+          "dx": 20
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9869,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9739,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:57:38",
+      "first_seen": "2026-11-17T04:57:38"
+    },
+    {
+      "index": 34,
+      "row": 5,
+      "col": 4,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/034.png",
+      "icon_image": "assets/kapai_zhidianka/icons/034.png",
+      "detail_image": "assets/kapai_zhidianka/details/034.jpg",
+      "intro_paragraphs": [
+        "药园，灵气源，修士战场无法探索出来。而是世界自行生成的。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "药园，灵气源，修士战场无法探索出来。而是世界自行生成的。\n\n【获取途径】",
+      "avg_confidence": 0.9875,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "药园，灵气源，修士战场无法",
+          "score": 0.9924,
+          "dx": 21
+        },
+        {
+          "text": "探索出来。而是世界自行生成",
+          "score": 0.997,
+          "dx": 19
+        },
+        {
+          "text": "的。",
+          "score": 0.9681,
+          "dx": 21
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9809,
+          "dx": 33
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:57:39",
+      "first_seen": "2026-11-17T04:57:39"
+    },
+    {
+      "index": 35,
+      "row": 5,
+      "col": 5,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/035.png",
+      "icon_image": "assets/kapai_zhidianka/icons/035.png",
+      "detail_image": "assets/kapai_zhidianka/details/035.jpg",
+      "intro_paragraphs": [
+        "如果在探索金矿的次数足夠多，有时候会找到一大块的灵石。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "如果在探索金矿的次数足夠多，有时候会找到一大块的灵石。\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9752,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "如果在探索金矿的次数足夠",
+          "score": 0.9835,
+          "dx": 19
+        },
+        {
+          "text": "多，有时候会找到一大块的灵",
+          "score": 0.9944,
+          "dx": 25
+        },
+        {
+          "text": "石。",
+          "score": 0.9447,
+          "dx": 18
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9808,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9486,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:57:40",
+      "first_seen": "2026-11-17T04:57:40"
+    },
+    {
+      "index": 36,
+      "row": 6,
+      "col": 0,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/036.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:57:46",
+      "first_seen": "2026-11-17T04:57:46"
+    },
+    {
+      "index": 37,
+      "row": 6,
+      "col": 1,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/037.png",
+      "icon_image": "assets/kapai_zhidianka/icons/037.png",
+      "detail_image": "assets/kapai_zhidianka/details/037.jpg",
+      "intro_paragraphs": [
+        "如果你只修炼一种天赋，那么你在某个流派会变得很强。全部流派都修炼也并非不可"
+      ],
+      "sections": [
+        {
+          "title": "只是你的寿命足够吗？",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "如果你只修炼一种天赋，那么你在某个流派会变得很强。全部流派都修炼也并非不可\n\n【只是你的寿命足够吗？】\n\n【获取途径】",
+      "avg_confidence": 0.9891,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "如果你只修炼一种天赋，那么",
+          "score": 0.9974,
+          "dx": 19
+        },
+        {
+          "text": "你在某个流派会变得很强。",
+          "score": 0.9838,
+          "dx": 18
+        },
+        {
+          "text": "全部流派都修炼也并非不可",
+          "score": 0.9985,
+          "dx": 19
+        },
+        {
+          "text": "只是你的寿命足够吗？",
+          "score": 0.9726,
+          "dx": 22
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9835,
+          "dx": 0
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:57:47",
+      "first_seen": "2026-11-17T04:57:47"
+    },
+    {
+      "index": 38,
+      "row": 6,
+      "col": 2,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/038.png",
+      "icon_image": "assets/kapai_zhidianka/icons/038.png",
+      "detail_image": "assets/kapai_zhidianka/details/038.jpg",
+      "intro_paragraphs": [
+        "据说修炼至元婴后，会额外多一张元婴体卡牌。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "据说修炼至元婴后，会额外多一张元婴体卡牌。\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9916,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "据说修炼至元婴后，会额外多",
+          "score": 0.9968,
+          "dx": 22
+        },
+        {
+          "text": "一张元婴体卡牌。",
+          "score": 0.9888,
+          "dx": 18
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9894,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9839,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:57:48",
+      "first_seen": "2026-11-17T04:57:48"
+    },
+    {
+      "index": 39,
+      "row": 6,
+      "col": 3,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/039.png",
+      "icon_image": "assets/kapai_zhidianka/icons/039.png",
+      "detail_image": "assets/kapai_zhidianka/details/039.jpg",
+      "intro_paragraphs": [
+        "当你突破元婴时，天地会降下雷劫试图从神识层面开始击碎你；你只能找来好友帮忙护法，所以在江湖上遇到有名有姓的修士，多和他们交朋友。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "当你突破元婴时，天地会降下雷劫试图从神识层面开始击碎你；你只能找来好友帮忙护法，所以在江湖上遇到有名有姓的修士，多和他们交朋友。\n\n【获取途径】",
+      "avg_confidence": 0.9605,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "当你突破元婴时，天地会降下",
+          "score": 0.9936,
+          "dx": 23
+        },
+        {
+          "text": "雷劫试图从神识层面开始击碎",
+          "score": 0.9913,
+          "dx": 20
+        },
+        {
+          "text": "你；",
+          "score": 0.7272,
+          "dx": 19
+        },
+        {
+          "text": "你只能找来好友帮忙护法，所",
+          "score": 0.993,
+          "dx": 18
+        },
+        {
+          "text": "以在江湖上遇到有名有姓的修",
+          "score": 0.9997,
+          "dx": 0
+        },
+        {
+          "text": "士，多和他们交朋友。",
+          "score": 0.9877,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9927,
+          "dx": 33
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:57:49",
+      "first_seen": "2026-11-17T04:57:49"
+    },
+    {
+      "index": 40,
+      "row": 6,
+      "col": 4,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/040.png",
+      "icon_image": "assets/kapai_zhidianka/icons/040.png",
+      "detail_image": "assets/kapai_zhidianka/details/040.jpg",
+      "intro_paragraphs": [
+        "化神期的修士可以使用大法力将地图上的地点移到另一个地方去，当然也包括自己的洞府。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "化神期的修士可以使用大法力将地图上的地点移到另一个地方去，当然也包括自己的洞府。\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.995,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "化神期的修士可以使用大法力",
+          "score": 0.9999,
+          "dx": 19
+        },
+        {
+          "text": "将地图上的地点移到另一个地",
+          "score": 0.9997,
+          "dx": 19
+        },
+        {
+          "text": "方去，当然也包括自己的洞",
+          "score": 0.9949,
+          "dx": 20
+        },
+        {
+          "text": "府。",
+          "score": 0.9929,
+          "dx": 20
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9945,
+          "dx": 0
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.984,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:57:50",
+      "first_seen": "2026-11-17T04:57:50"
+    },
+    {
+      "index": 41,
+      "row": 6,
+      "col": 5,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/041.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:57:55",
+      "first_seen": "2026-11-17T04:57:55"
+    },
+    {
+      "index": 42,
+      "row": 7,
+      "col": 0,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/042.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:58:00",
+      "first_seen": "2026-11-17T04:58:00"
+    },
+    {
+      "index": 43,
+      "row": 7,
+      "col": 1,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/043.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:58:05",
+      "first_seen": "2026-11-17T04:58:05"
+    },
+    {
+      "index": 44,
+      "row": 7,
+      "col": 2,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/044.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:58:10",
+      "first_seen": "2026-11-17T04:58:10"
+    },
+    {
+      "index": 45,
+      "row": 7,
+      "col": 3,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/045.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:58:14",
+      "first_seen": "2026-11-17T04:58:14"
+    },
+    {
+      "index": 46,
+      "row": 7,
+      "col": 4,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/046.png",
+      "icon_image": "assets/kapai_zhidianka/icons/046.png",
+      "detail_image": "assets/kapai_zhidianka/details/046.jpg",
+      "intro_paragraphs": [
+        "如果你不知道工作台的卡槽需要放置哪张卡。可以点击卡槽，可放入的卡牌会高亮。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "如果你不知道工作台的卡槽需要放置哪张卡。可以点击卡槽，可放入的卡牌会高亮。\n\n【获取途径】",
+      "avg_confidence": 0.9927,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "如果你不知道工作台的卡槽需",
+          "score": 0.9912,
+          "dx": 19
+        },
+        {
+          "text": "要放置哪张卡。可以点击卡",
+          "score": 0.9994,
+          "dx": 19
+        },
+        {
+          "text": "槽，可放入的卡牌会高亮。",
+          "score": 0.9975,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9761,
+          "dx": 33
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:58:15",
+      "first_seen": "2026-11-17T04:58:15"
+    },
+    {
+      "index": 47,
+      "row": 7,
+      "col": 5,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/047.png",
+      "icon_image": "assets/kapai_zhidianka/icons/047.png",
+      "detail_image": "assets/kapai_zhidianka/details/047.jpg",
+      "intro_paragraphs": [
+        "相同类型的卡牌可以堆叠在一起；按住左CTRL键，可以把中间的某张卡牌单独拖出来；"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "相同类型的卡牌可以堆叠在一起；按住左CTRL键，可以把中间的某张卡牌单独拖出来；\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.988,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "相同类型的卡牌可以堆叠在一",
+          "score": 0.9957,
+          "dx": 18
+        },
+        {
+          "text": "起；按住左CTRL键，可以把",
+          "score": 0.9958,
+          "dx": 20
+        },
+        {
+          "text": "中间的某张卡牌单独拖出来；",
+          "score": 0.9881,
+          "dx": 22
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9754,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9739,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:58:16",
+      "first_seen": "2026-11-17T04:58:16"
+    },
+    {
+      "index": 48,
+      "row": 8,
+      "col": 0,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/048.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:58:23",
+      "first_seen": "2026-11-17T04:58:23"
+    },
+    {
+      "index": 49,
+      "row": 8,
+      "col": 1,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/049.png",
+      "icon_image": "assets/kapai_zhidianka/icons/049.png",
+      "detail_image": "assets/kapai_zhidianka/details/049.jpg",
+      "intro_paragraphs": [
+        "按住左CTRL键，可以把工作台“串联”起来统一拖动；"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "按住左CTRL键，可以把工作台“串联”起来统一拖动；\n\n【获取途径】",
+      "avg_confidence": 0.9789,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "按住左CTRL键，可以把工作",
+          "score": 0.9982,
+          "dx": 20
+        },
+        {
+          "text": "台\"串联\"起来统一拖动；",
+          "score": 0.9368,
+          "dx": 25
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9815,
+          "dx": 33
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:58:23",
+      "first_seen": "2026-11-17T04:58:23"
+    },
+    {
+      "index": 50,
+      "row": 8,
+      "col": 2,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/050.png",
+      "icon_image": "assets/kapai_zhidianka/icons/050.png",
+      "detail_image": "assets/kapai_zhidianka/details/050.jpg",
+      "intro_paragraphs": [
+        "有些秘境太大了，找不到主角卡？鼠标左键双击空白的地图区域，主角卡就会自动飞过来；"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "有些秘境太大了，找不到主角卡？鼠标左键双击空白的地图区域，主角卡就会自动飞过来；\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9799,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "有些秘境太大了，找不到主角",
+          "score": 0.9946,
+          "dx": 19
+        },
+        {
+          "text": "卡？鼠标左键双击空白的地图",
+          "score": 0.9889,
+          "dx": 19
+        },
+        {
+          "text": "区域，主角卡就会自动飞过",
+          "score": 0.9941,
+          "dx": 23
+        },
+        {
+          "text": "来；",
+          "score": 0.9442,
+          "dx": 20
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9948,
+          "dx": 0
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9436,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:58:25",
+      "first_seen": "2026-11-17T04:58:25"
+    },
+    {
+      "index": 51,
+      "row": 8,
+      "col": 3,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/051.png",
+      "icon_image": "assets/kapai_zhidianka/icons/051.png",
+      "detail_image": "assets/kapai_zhidianka/details/051.jpg",
+      "intro_paragraphs": [
+        "如果你使用了灵纹戒，右键卡牌（没有打开工作台）便会自动收纳到灵纹戒里。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "如果你使用了灵纹戒，右键卡牌（没有打开工作台）便会自动收纳到灵纹戒里。\n\n【获取途径】",
+      "avg_confidence": 0.9923,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "如果你使用了灵纹戒，右键卡",
+          "score": 0.998,
+          "dx": 19
+        },
+        {
+          "text": "牌(没有打开工作台)便会自动收",
+          "score": 0.9882,
+          "dx": 18
+        },
+        {
+          "text": "纳到灵纹戒里。",
+          "score": 0.9992,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9769,
+          "dx": 33
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:58:26",
+      "first_seen": "2026-11-17T04:58:26"
+    },
+    {
+      "index": 52,
+      "row": 8,
+      "col": 4,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/052.png",
+      "icon_image": "assets/kapai_zhidianka/icons/052.png",
+      "detail_image": "assets/kapai_zhidianka/details/052.jpg",
+      "intro_paragraphs": [
+        "可以把战斗中的卡牌拖出战场，视为逃跑；但总要留一张卡牌殿后！（可以配合暂停操作）"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "可以把战斗中的卡牌拖出战场，视为逃跑；但总要留一张卡牌殿后！（可以配合暂停操作）\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9895,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "可以把战斗中的卡牌拖出战",
+          "score": 0.9998,
+          "dx": 20
+        },
+        {
+          "text": "场，视为逃跑；但总要留一张",
+          "score": 0.9893,
+          "dx": 20
+        },
+        {
+          "text": "卡牌殿后！(可以配合暂停操作)",
+          "score": 0.9908,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9849,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9734,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:58:27",
+      "first_seen": "2026-11-17T04:58:27"
+    },
+    {
+      "index": 53,
+      "row": 8,
+      "col": 5,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/053.png",
+      "icon_image": "assets/kapai_zhidianka/icons/053.png",
+      "detail_image": "assets/kapai_zhidianka/details/053.jpg",
+      "intro_paragraphs": [
+        "在秘境里，右键卡牌会自动收纳至安全区；因灵气不足无法操控的卡牌也可以收纳。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "在秘境里，右键卡牌会自动收纳至安全区；因灵气不足无法操控的卡牌也可以收纳。\n\n【获取途径】",
+      "avg_confidence": 0.9863,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "在秘境里，右键卡牌会自动收",
+          "score": 0.975,
+          "dx": 18
+        },
+        {
+          "text": "纳至安全区；因灵气不足无法",
+          "score": 0.9771,
+          "dx": 20
+        },
+        {
+          "text": "操控的卡牌也可以收纳。",
+          "score": 0.9992,
+          "dx": 20
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9811,
+          "dx": 33
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:58:28",
+      "first_seen": "2026-11-17T04:58:28"
+    },
+    {
+      "index": 54,
+      "row": 9,
+      "col": 0,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/054.png",
+      "icon_image": "assets/kapai_zhidianka/icons/054.png",
+      "detail_image": "assets/kapai_zhidianka/details/054.jpg",
+      "intro_paragraphs": [
+        "按[Space]可以暂停/恢复游戏；按[Tab]可以切换游戏时间流逝速度。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "按[Space]可以暂停/恢复游戏；按[Tab]可以切换游戏时间流逝速度。\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9895,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "按[Space]可以暂停/恢复游",
+          "score": 0.9929,
+          "dx": 20
+        },
+        {
+          "text": "戏；按[Tab]可以切换游戏时间",
+          "score": 0.9898,
+          "dx": 18
+        },
+        {
+          "text": "流逝速度。",
+          "score": 0.9991,
+          "dx": 20
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.987,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9694,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:58:29",
+      "first_seen": "2026-11-17T04:58:29"
+    },
+    {
+      "index": 55,
+      "row": 9,
+      "col": 1,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/055.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:58:34",
+      "first_seen": "2026-11-17T04:58:34"
+    },
+    {
+      "index": 56,
+      "row": 9,
+      "col": 2,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/056.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:58:39",
+      "first_seen": "2026-11-17T04:58:39"
+    },
+    {
+      "index": 57,
+      "row": 9,
+      "col": 3,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/057.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:58:44",
+      "first_seen": "2026-11-17T04:58:44"
+    },
+    {
+      "index": 58,
+      "row": 9,
+      "col": 4,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/058.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:58:48",
+      "first_seen": "2026-11-17T04:58:48"
+    },
+    {
+      "index": 59,
+      "row": 9,
+      "col": 5,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/059.png",
+      "icon_image": "assets/kapai_zhidianka/icons/059.png",
+      "detail_image": "assets/kapai_zhidianka/details/059.jpg",
+      "intro_paragraphs": [
+        "按快捷键[P]，可以生成一张卡牌：天道结界；堆叠在结界上的卡组，不会被其他卡牌撞歪。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "按快捷键[P]，可以生成一张卡牌：天道结界；堆叠在结界上的卡组，不会被其他卡牌撞歪。\n\n【获取途径】",
+      "avg_confidence": 0.983,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "按快捷键[P],可以生成一张卡",
+          "score": 0.9637,
+          "dx": 20
+        },
+        {
+          "text": "牌：天道结界；堆叠在结界上",
+          "score": 0.9963,
+          "dx": 18
+        },
+        {
+          "text": "的卡组，不会被其他卡牌撞",
+          "score": 0.9921,
+          "dx": 21
+        },
+        {
+          "text": "歪。",
+          "score": 0.9533,
+          "dx": 21
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9936,
+          "dx": 0
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:58:49",
+      "first_seen": "2026-11-17T04:58:49"
+    },
+    {
+      "index": 60,
+      "row": 10,
+      "col": 0,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/060.png",
+      "icon_image": "assets/kapai_zhidianka/icons/060.png",
+      "detail_image": "assets/kapai_zhidianka/details/060.jpg",
+      "intro_paragraphs": [
+        "静心草获得方式：在无名村庄旁边的山顶上，长着一株静心草，不过你需要先完成村长的任务；如果你能发现药园，可以用机缘探索到；村庄里的农夫就是在药园采集静心草而受伤，帮助他恢复吧；别小看小孩们，他们偶尔也能捡到静心草："
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁"
+          ]
+        }
+      ],
+      "full_text": "静心草获得方式：在无名村庄旁边的山顶上，长着一株静心草，不过你需要先完成村长的任务；如果你能发现药园，可以用机缘探索到；村庄里的农夫就是在药园采集静心草而受伤，帮助他恢复吧；别小看小孩们，他们偶尔也能捡到静心草：\n\n【获取途径】\n首次获得卡牌后解锁",
+      "avg_confidence": 0.964,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "静心草获得方式：",
+          "score": 0.9871,
+          "dx": 12
+        },
+        {
+          "text": "在无名村庄旁边的山顶上，长",
+          "score": 0.9947,
+          "dx": 11
+        },
+        {
+          "text": "着一株静心草，不过你需要先",
+          "score": 0.9975,
+          "dx": 12
+        },
+        {
+          "text": "完成村长的任务；",
+          "score": 0.9316,
+          "dx": 15
+        },
+        {
+          "text": "如果你能发现药园，可以用机",
+          "score": 0.9806,
+          "dx": 0
+        },
+        {
+          "text": "缘探索到；",
+          "score": 0.9028,
+          "dx": 12
+        },
+        {
+          "text": "村庄里的农夫就是在药园采集",
+          "score": 0.9971,
+          "dx": 12
+        },
+        {
+          "text": "静心草而受伤，帮助他恢复",
+          "score": 0.9917,
+          "dx": 12
+        },
+        {
+          "text": "吧；",
+          "score": 0.8482,
+          "dx": 12
+        },
+        {
+          "text": "别小看小孩们，他们偶尔也能",
+          "score": 0.9799,
+          "dx": 11
+        },
+        {
+          "text": "捡到静心草：",
+          "score": 0.9052,
+          "dx": 12
+        },
+        {
+          "text": "获取途泾",
+          "score": 0.9907,
+          "dx": 26
+        },
+        {
+          "text": "首次获得卡牌后解锁",
+          "score": 0.9897,
+          "dx": 11
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:58:52",
+      "first_seen": "2026-11-17T04:58:52"
+    },
+    {
+      "index": 61,
+      "row": 10,
+      "col": 1,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/061.png",
+      "icon_image": "assets/kapai_zhidianka/icons/061.png",
+      "detail_image": "assets/kapai_zhidianka/details/061.jpg",
+      "intro_paragraphs": [
+        "如果你想踏入武道之路，不妨尝试只靠自己击败一只绝品妖兽"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "如果你想踏入武道之路，不妨尝试只靠自己击败一只绝品妖兽\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9862,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "如果你想踏入武道之路，不妨",
+          "score": 0.9975,
+          "dx": 19
+        },
+        {
+          "text": "尝试只靠自己击败一只绝品妖",
+          "score": 0.9933,
+          "dx": 19
+        },
+        {
+          "text": "兽",
+          "score": 0.9996,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9798,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9478,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:58:57",
+      "first_seen": "2026-11-17T04:58:57"
+    },
+    {
+      "index": 62,
+      "row": 10,
+      "col": 2,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/062.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:59:02",
+      "first_seen": "2026-11-17T04:59:02"
+    },
+    {
+      "index": 63,
+      "row": 10,
+      "col": 3,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/063.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:59:07",
+      "first_seen": "2026-11-17T04:59:07"
+    },
+    {
+      "index": 64,
+      "row": 10,
+      "col": 4,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/064.png",
+      "icon_image": "assets/kapai_zhidianka/icons/064.png",
+      "detail_image": "assets/kapai_zhidianka/details/064.jpg",
+      "intro_paragraphs": [
+        "如果你想修炼至武道巅峰，其中一个方法，便是镇妖塔最高层，以一己之力战胜妖王！"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "如果你想修炼至武道巅峰，其中一个方法，便是镇妖塔最高层，以一己之力战胜妖王！\n\n【获取途径】",
+      "avg_confidence": 0.9912,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "如果你想修炼至武道巅峰，其",
+          "score": 0.9928,
+          "dx": 19
+        },
+        {
+          "text": "中一个方法，便是镇妖塔最高",
+          "score": 0.9958,
+          "dx": 22
+        },
+        {
+          "text": "层，以一己之力战胜妖王！",
+          "score": 0.9915,
+          "dx": 20
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.977,
+          "dx": 33
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:59:08",
+      "first_seen": "2026-11-17T04:59:08"
+    },
+    {
+      "index": 65,
+      "row": 10,
+      "col": 5,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/065.png",
+      "icon_image": "assets/kapai_zhidianka/icons/065.png",
+      "detail_image": "assets/kapai_zhidianka/details/065.jpg",
+      "intro_paragraphs": [
+        "如果你想修炼至武道巅峰，其中一个方法，那便是欣赏元婴期武道高手的战斗！"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "如果你想修炼至武道巅峰，其中一个方法，那便是欣赏元婴期武道高手的战斗！\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9887,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "如果你想修炼至武道巅峰，其",
+          "score": 0.993,
+          "dx": 19
+        },
+        {
+          "text": "中一个方法，那便是欣赏元婴",
+          "score": 0.9975,
+          "dx": 22
+        },
+        {
+          "text": "期武道高手的战斗！",
+          "score": 0.9875,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9812,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9738,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:59:09",
+      "first_seen": "2026-11-17T04:59:09"
+    },
+    {
+      "index": 66,
+      "row": 11,
+      "col": 0,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/066.png",
+      "icon_image": "assets/kapai_zhidianka/icons/066.png",
+      "detail_image": "assets/kapai_zhidianka/details/066.jpg",
+      "intro_paragraphs": [
+        "如果你想踏入器道之路，不妨尝试炼制一把绝品法宝"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "如果你想踏入器道之路，不妨尝试炼制一把绝品法宝\n\n【获取途径】",
+      "avg_confidence": 0.9924,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "如果你想踏入器道之路，不妨",
+          "score": 0.9977,
+          "dx": 19
+        },
+        {
+          "text": "尝试炼制一把绝品法宝",
+          "score": 0.995,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.978,
+          "dx": 33
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:59:10",
+      "first_seen": "2026-11-17T04:59:10"
+    },
+    {
+      "index": 67,
+      "row": 11,
+      "col": 1,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/067.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 0.9999,
+      "needs_review": false,
+      "status": "已获得",
+      "captured_at": "2026-11-17T05:52:45",
+      "first_seen": "2026-11-17T04:59:15"
+    },
+    {
+      "index": 68,
+      "row": 11,
+      "col": 2,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/068.png",
+      "icon_image": "assets/kapai_zhidianka/icons/068.png",
+      "detail_image": "assets/kapai_zhidianka/details/068.jpg",
+      "intro_paragraphs": [
+        "如果你想修炼至器道巅峰，其中一个方法，便是在比武冠军赛力，仅以自己和法宝战胜敌人！（需自己和法宝均对敌人造成过伤害）"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "如果你想修炼至器道巅峰，其中一个方法，便是在比武冠军赛力，仅以自己和法宝战胜敌人！（需自己和法宝均对敌人造成过伤害）\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9792,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "如果你想修炼至器道巅峰，其",
+          "score": 0.9923,
+          "dx": 19
+        },
+        {
+          "text": "中一个方法，便是在比武冠军",
+          "score": 0.9966,
+          "dx": 22
+        },
+        {
+          "text": "赛力，仅以自己和法宝战胜敌",
+          "score": 0.9961,
+          "dx": 20
+        },
+        {
+          "text": "人！（需自己和法宝均对敌人造",
+          "score": 0.9705,
+          "dx": 19
+        },
+        {
+          "text": "成过伤害）",
+          "score": 0.8993,
+          "dx": 0
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9942,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9858,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:59:16",
+      "first_seen": "2026-11-17T04:59:16"
+    },
+    {
+      "index": 69,
+      "row": 11,
+      "col": 3,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/069.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:59:21",
+      "first_seen": "2026-11-17T04:59:21"
+    },
+    {
+      "index": 70,
+      "row": 11,
+      "col": 4,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/070.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:59:26",
+      "first_seen": "2026-11-17T04:59:26"
+    },
+    {
+      "index": 71,
+      "row": 11,
+      "col": 5,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/071.png",
+      "icon_image": "assets/kapai_zhidianka/icons/071.png",
+      "detail_image": "assets/kapai_zhidianka/details/071.jpg",
+      "intro_paragraphs": [
+        "如果你想踏入兽道之路，不妨尝试把一只灵兽提升至绝品"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "如果你想踏入兽道之路，不妨尝试把一只灵兽提升至绝品\n\n【获取途径】",
+      "avg_confidence": 0.9955,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "如果你想踏入兽道之路，不妨",
+          "score": 0.9973,
+          "dx": 19
+        },
+        {
+          "text": "尝试把一只灵兽提升至绝品",
+          "score": 0.9945,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9913,
+          "dx": 33
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:59:27",
+      "first_seen": "2026-11-17T04:59:27"
+    },
+    {
+      "index": 72,
+      "row": 12,
+      "col": 0,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/072.png",
+      "icon_image": "assets/kapai_zhidianka/icons/072.png",
+      "detail_image": "assets/kapai_zhidianka/details/072.jpg",
+      "intro_paragraphs": [
+        "如果你想在兽道之路走得更远，那你需要只靠灵兽击败一"
+      ],
+      "sections": [
+        {
+          "title": "只筑基期妖王",
+          "paragraphs": []
+        },
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "如果你想在兽道之路走得更远，那你需要只靠灵兽击败一\n\n【只筑基期妖王】\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9867,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "如果你想在兽道之路走得更",
+          "score": 0.9997,
+          "dx": 19
+        },
+        {
+          "text": "远，那你需要只靠灵兽击败一",
+          "score": 0.9935,
+          "dx": 21
+        },
+        {
+          "text": "只筑基期妖王",
+          "score": 0.9992,
+          "dx": 23
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9811,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9478,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:59:29",
+      "first_seen": "2026-11-17T04:59:29"
+    },
+    {
+      "index": 73,
+      "row": 12,
+      "col": 1,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/073.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:59:34",
+      "first_seen": "2026-11-17T04:59:34"
+    },
+    {
+      "index": 74,
+      "row": 12,
+      "col": 2,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/074.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:59:39",
+      "first_seen": "2026-11-17T04:59:39"
+    },
+    {
+      "index": 75,
+      "row": 12,
+      "col": 3,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/075.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:59:44",
+      "first_seen": "2026-11-17T04:59:44"
+    },
+    {
+      "index": 76,
+      "row": 12,
+      "col": 4,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/076.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:59:49",
+      "first_seen": "2026-11-17T04:59:49"
+    },
+    {
+      "index": 77,
+      "row": 12,
+      "col": 5,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/077.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:59:53",
+      "first_seen": "2026-11-17T04:59:53"
+    },
+    {
+      "index": 78,
+      "row": 13,
+      "col": 0,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/078.png",
+      "icon_image": "assets/kapai_zhidianka/icons/078.png",
+      "detail_image": "assets/kapai_zhidianka/details/078.jpg",
+      "intro_paragraphs": [
+        "如果你想修炼至丹道巅峰，其中一个方法，便是仅用3个（包括小于3个）毒药毒杀筑基期妖王"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "如果你想修炼至丹道巅峰，其中一个方法，便是仅用3个（包括小于3个）毒药毒杀筑基期妖王\n\n【获取途径】",
+      "avg_confidence": 0.9958,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "如果你想修炼至丹道巅峰，其",
+          "score": 0.9943,
+          "dx": 19
+        },
+        {
+          "text": "中一个方法，便是仅用3个(包",
+          "score": 0.9912,
+          "dx": 22
+        },
+        {
+          "text": "括小于3个)毒药毒杀筑基期妖",
+          "score": 0.9984,
+          "dx": 20
+        },
+        {
+          "text": "王",
+          "score": 0.9985,
+          "dx": 21
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9935,
+          "dx": 0
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:59:54",
+      "first_seen": "2026-11-17T04:59:54"
+    },
+    {
+      "index": 79,
+      "row": 13,
+      "col": 1,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/079.png",
+      "icon_image": "assets/kapai_zhidianka/icons/079.png",
+      "detail_image": "assets/kapai_zhidianka/details/079.jpg",
+      "intro_paragraphs": [
+        "如果你想修炼至丹道巅峰，其中一个方法，便是仅用1个毒药毒杀一名筑基期修士"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "如果你想修炼至丹道巅峰，其中一个方法，便是仅用1个毒药毒杀一名筑基期修士\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9907,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "如果你想修炼至丹道巅峰，其",
+          "score": 0.9962,
+          "dx": 19
+        },
+        {
+          "text": "中一个方法，便是仅用1个毒药",
+          "score": 0.9955,
+          "dx": 22
+        },
+        {
+          "text": "毒杀一名筑基期修士",
+          "score": 0.9997,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9821,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9714,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T04:59:55",
+      "first_seen": "2026-11-17T04:59:55"
+    },
+    {
+      "index": 80,
+      "row": 13,
+      "col": 2,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/080.png",
+      "icon_image": "assets/kapai_zhidianka/icons/080.png",
+      "detail_image": "assets/kapai_zhidianka/details/080.jpg",
+      "intro_paragraphs": [
+        "如果你能发现天帝宝库，里面说不定有丹道巅峰的修炼方法"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "如果你能发现天帝宝库，里面说不定有丹道巅峰的修炼方法\n\n【获取途径】",
+      "avg_confidence": 0.9872,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "如果你能发现天帝宝库，里面",
+          "score": 0.9912,
+          "dx": 19
+        },
+        {
+          "text": "说不定有丹道巅峰的修炼方法",
+          "score": 0.9991,
+          "dx": 18
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9597,
+          "dx": 33
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T04:59:56",
+      "first_seen": "2026-11-17T04:59:56"
+    },
+    {
+      "index": 81,
+      "row": 13,
+      "col": 3,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/081.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 0.9795,
+      "needs_review": false,
+      "status": "已获得",
+      "captured_at": "2026-11-17T05:52:51",
+      "first_seen": "2026-11-17T05:00:01"
+    },
+    {
+      "index": 82,
+      "row": 13,
+      "col": 4,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/082.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 0.9996,
+      "needs_review": false,
+      "status": "已获得",
+      "captured_at": "2026-11-17T05:52:56",
+      "first_seen": "2026-11-17T05:00:06"
+    },
+    {
+      "index": 83,
+      "row": 13,
+      "col": 5,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/083.png",
+      "icon_image": "assets/kapai_zhidianka/icons/083.png",
+      "detail_image": "assets/kapai_zhidianka/details/083.jpg",
+      "intro_paragraphs": [
+        "如果你想修炼至术道巅峰，其中一个方法，便是在比武冠军赛力，以口诀法术战胜敌人！"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "如果你想修炼至术道巅峰，其中一个方法，便是在比武冠军赛力，以口诀法术战胜敌人！\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9866,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "如果你想修炼至术道巅峰，其",
+          "score": 0.9933,
+          "dx": 19
+        },
+        {
+          "text": "中一个方法，便是在比武冠军",
+          "score": 0.9977,
+          "dx": 22
+        },
+        {
+          "text": "赛力，以口诀法术战胜敌人！",
+          "score": 0.9857,
+          "dx": 20
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.97,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9736,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:00:07",
+      "first_seen": "2026-11-17T05:00:07"
+    },
+    {
+      "index": 84,
+      "row": 14,
+      "col": 0,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/084.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:00:14",
+      "first_seen": "2026-11-17T05:00:14"
+    },
+    {
+      "index": 85,
+      "row": 14,
+      "col": 1,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/085.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:00:18",
+      "first_seen": "2026-11-17T05:00:18"
+    },
+    {
+      "index": 86,
+      "row": 14,
+      "col": 2,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/086.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:00:23",
+      "first_seen": "2026-11-17T05:00:23"
+    },
+    {
+      "index": 87,
+      "row": 14,
+      "col": 3,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/087.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:00:28",
+      "first_seen": "2026-11-17T05:00:28"
+    },
+    {
+      "index": 88,
+      "row": 14,
+      "col": 4,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/088.png",
+      "icon_image": "assets/kapai_zhidianka/icons/088.png",
+      "detail_image": "assets/kapai_zhidianka/details/088.jpg",
+      "intro_paragraphs": [
+        "地图上的客栈，证明附近有秘境！但如何开启，倒是要自己找方法了。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "地图上的客栈，证明附近有秘境！但如何开启，倒是要自己找方法了。\n\n【获取途径】",
+      "avg_confidence": 0.9911,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "地图上的客栈，证明附近有秘",
+          "score": 0.978,
+          "dx": 20
+        },
+        {
+          "text": "境！但如何开启，倒是要自己",
+          "score": 0.9946,
+          "dx": 19
+        },
+        {
+          "text": "找方法了。",
+          "score": 0.9965,
+          "dx": 20
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9875,
+          "dx": 33
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T05:00:29",
+      "first_seen": "2026-11-17T05:00:29"
+    },
+    {
+      "index": 89,
+      "row": 14,
+      "col": 5,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/089.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 0.9997,
+      "needs_review": false,
+      "status": "已获得",
+      "captured_at": "2026-11-17T05:53:02",
+      "first_seen": "2026-11-17T05:00:34"
+    },
+    {
+      "index": 90,
+      "row": 15,
+      "col": 0,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/090.png",
+      "icon_image": "assets/kapai_zhidianka/icons/090.png",
+      "detail_image": "assets/kapai_zhidianka/details/090.jpg",
+      "intro_paragraphs": [
+        "不限制进入的秘境里的內容都有刷新时间，一般为180日或360日游戏时间。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "不限制进入的秘境里的內容都有刷新时间，一般为180日或360日游戏时间。\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9816,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "不限制进入的秘境里的內容都",
+          "score": 0.9587,
+          "dx": 22
+        },
+        {
+          "text": "有刷新时间，一般为180日或",
+          "score": 0.9799,
+          "dx": 19
+        },
+        {
+          "text": "360日游戏时间。",
+          "score": 0.996,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9825,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9736,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:00:34",
+      "first_seen": "2026-11-17T05:00:34"
+    },
+    {
+      "index": 91,
+      "row": 15,
+      "col": 1,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/091.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:00:40",
+      "first_seen": "2026-11-17T05:00:40"
+    },
+    {
+      "index": 92,
+      "row": 15,
+      "col": 2,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/092.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:00:44",
+      "first_seen": "2026-11-17T05:00:44"
+    },
+    {
+      "index": 93,
+      "row": 15,
+      "col": 3,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/093.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:00:49",
+      "first_seen": "2026-11-17T05:00:49"
+    },
+    {
+      "index": 94,
+      "row": 15,
+      "col": 4,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/094.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:00:54",
+      "first_seen": "2026-11-17T05:00:54"
+    },
+    {
+      "index": 95,
+      "row": 15,
+      "col": 5,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/095.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:00:59",
+      "first_seen": "2026-11-17T05:00:59"
+    },
+    {
+      "index": 96,
+      "row": 16,
+      "col": 0,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/096.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:01:03",
+      "first_seen": "2026-11-17T05:01:03"
+    },
+    {
+      "index": 97,
+      "row": 16,
+      "col": 1,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/097.png",
+      "icon_image": "assets/kapai_zhidianka/icons/097.png",
+      "detail_image": "assets/kapai_zhidianka/details/097.jpg",
+      "intro_paragraphs": [
+        "两个灵兽神魄可以培养成本源兽魄；也可以用机缘和圣兽交換本源兽魄"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "两个灵兽神魄可以培养成本源兽魄；也可以用机缘和圣兽交換本源兽魄\n\n【获取途径】",
+      "avg_confidence": 0.9843,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "两个灵兽神魄可以培养成本源",
+          "score": 0.9997,
+          "dx": 20
+        },
+        {
+          "text": "兽魄；也可以用机缘和圣兽交",
+          "score": 0.9938,
+          "dx": 19
+        },
+        {
+          "text": "換本源兽魄",
+          "score": 0.9515,
+          "dx": 20
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9776,
+          "dx": 33
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T05:01:04",
+      "first_seen": "2026-11-17T05:01:04"
+    },
+    {
+      "index": 98,
+      "row": 16,
+      "col": 2,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/098.png",
+      "icon_image": "assets/kapai_zhidianka/icons/098.png",
+      "detail_image": "assets/kapai_zhidianka/details/098.jpg",
+      "intro_paragraphs": [
+        "如果你想提升金丹的和，不妨把金丹带进天地熔炉或地火深洞修炼！"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "如果你想提升金丹的和，不妨把金丹带进天地熔炉或地火深洞修炼！\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9806,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "如果你想提升金丹的和，",
+          "score": 0.9617,
+          "dx": 19
+        },
+        {
+          "text": "不妨把金丹带进天地熔炉或地",
+          "score": 0.9992,
+          "dx": 22
+        },
+        {
+          "text": "火深洞修炼！",
+          "score": 0.9865,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9876,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9493,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:01:05",
+      "first_seen": "2026-11-17T05:01:05"
+    },
+    {
+      "index": 99,
+      "row": 16,
+      "col": 3,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/099.png",
+      "icon_image": "assets/kapai_zhidianka/icons/099.png",
+      "detail_image": "assets/kapai_zhidianka/details/099.jpg",
+      "intro_paragraphs": [
+        "如果你想提升金丹的效果，可以尝试跟着剑灵修炼。正好，玄剑阁的悟剑崖就有剑灵，不过你要加入玄剑阁方可接触到....否则，只能到剑家碰碰运气了"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "如果你想提升金丹的效果，可以尝试跟着剑灵修炼。正好，玄剑阁的悟剑崖就有剑灵，不过你要加入玄剑阁方可接触到....否则，只能到剑家碰碰运气了\n\n【获取途径】",
+      "avg_confidence": 0.9777,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "如果你想提升金丹的效果，",
+          "score": 0.9709,
+          "dx": 19
+        },
+        {
+          "text": "可以尝试跟着剑灵修炼。",
+          "score": 0.9931,
+          "dx": 19
+        },
+        {
+          "text": "正好，玄剑阁的悟剑崖就有剑",
+          "score": 0.9934,
+          "dx": 19
+        },
+        {
+          "text": "灵，不过你要加入玄剑阁方可",
+          "score": 0.9941,
+          "dx": 21
+        },
+        {
+          "text": "接触到....否则，只能到剑家碰",
+          "score": 0.8827,
+          "dx": 0
+        },
+        {
+          "text": "碰运气了",
+          "score": 0.9971,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9912,
+          "dx": 33
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T05:01:06",
+      "first_seen": "2026-11-17T05:01:06"
+    },
+    {
+      "index": 100,
+      "row": 16,
+      "col": 4,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/100.png",
+      "icon_image": "assets/kapai_zhidianka/icons/100.png",
+      "detail_image": "assets/kapai_zhidianka/details/100.jpg",
+      "intro_paragraphs": [
+        "传说有人跟随上古圣兽：白龙修炼金丹。然后他的就变得更轻松了。"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "传说有人跟随上古圣兽：白龙修炼金丹。然后他的就变得更轻松了。\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9912,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "传说有人跟随上古圣兽：白龙",
+          "score": 0.9984,
+          "dx": 19
+        },
+        {
+          "text": "修炼金丹。然后他的就变得",
+          "score": 0.9973,
+          "dx": 19
+        },
+        {
+          "text": "更轻松了。",
+          "score": 0.999,
+          "dx": 20
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9819,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9714,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:01:07",
+      "first_seen": "2026-11-17T05:01:07"
+    },
+    {
+      "index": 101,
+      "row": 16,
+      "col": 5,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/101.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:01:13",
+      "first_seen": "2026-11-17T05:01:13"
+    },
+    {
+      "index": 102,
+      "row": 17,
+      "col": 0,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/102.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:01:19",
+      "first_seen": "2026-11-17T05:01:19"
+    },
+    {
+      "index": 103,
+      "row": 17,
+      "col": 1,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/103.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:01:24",
+      "first_seen": "2026-11-17T05:01:24"
+    },
+    {
+      "index": 104,
+      "row": 17,
+      "col": 2,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/104.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:01:29",
+      "first_seen": "2026-11-17T05:01:29"
+    },
+    {
+      "index": 105,
+      "row": 17,
+      "col": 3,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/105.png",
+      "icon_image": "assets/kapai_zhidianka/icons/105.png",
+      "detail_image": "assets/kapai_zhidianka/details/105.jpg",
+      "intro_paragraphs": [
+        "如果你想获得大量经验，不妨把金丹带进无字玉璧的最深处！"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "如果你想获得大量经验，不妨把金丹带进无字玉璧的最深处！\n\n【获取途径】",
+      "avg_confidence": 0.9862,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "如果你想获得大量经验，不妨",
+          "score": 0.9984,
+          "dx": 19
+        },
+        {
+          "text": "把金丹带进无字玉璧的最深",
+          "score": 0.9913,
+          "dx": 20
+        },
+        {
+          "text": "处！",
+          "score": 0.9641,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9783,
+          "dx": 33
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T05:01:29",
+      "first_seen": "2026-11-17T05:01:29"
+    },
+    {
+      "index": 106,
+      "row": 17,
+      "col": 4,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/106.png",
+      "icon_image": "assets/kapai_zhidianka/icons/106.png",
+      "detail_image": "assets/kapai_zhidianka/details/106.jpg",
+      "intro_paragraphs": [
+        "在雁荡城最上的房间，那有一间隐藏的药店"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "在雁荡城最上的房间，那有一间隐藏的药店\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9882,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "在雁荡城最上的房间，那有一",
+          "score": 0.9951,
+          "dx": 18
+        },
+        {
+          "text": "间隐藏的药店",
+          "score": 0.997,
+          "dx": 18
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9759,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.974,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:01:30",
+      "first_seen": "2026-11-17T05:01:30"
+    },
+    {
+      "index": 107,
+      "row": 17,
+      "col": 5,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/107.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:01:35",
+      "first_seen": "2026-11-17T05:01:35"
+    },
+    {
+      "index": 108,
+      "row": 18,
+      "col": 0,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/108.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:01:40",
+      "first_seen": "2026-11-17T05:01:40"
+    },
+    {
+      "index": 109,
+      "row": 18,
+      "col": 1,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/109.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:01:45",
+      "first_seen": "2026-11-17T05:01:45"
+    },
+    {
+      "index": 110,
+      "row": 18,
+      "col": 2,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/110.png",
+      "icon_image": "assets/kapai_zhidianka/icons/110.png",
+      "detail_image": "assets/kapai_zhidianka/details/110.jpg",
+      "intro_paragraphs": [
+        "把思绪卡丢给金丹，可以重置金丹的修为任务；"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "把思绪卡丢给金丹，可以重置金丹的修为任务；\n\n【获取途径】",
+      "avg_confidence": 0.9838,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "把思绪卡丢给金丹，可以重置",
+          "score": 0.9867,
+          "dx": 19
+        },
+        {
+          "text": "金丹的修为任务；",
+          "score": 0.9595,
+          "dx": 20
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9898,
+          "dx": 33
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T05:01:46",
+      "first_seen": "2026-11-17T05:01:46"
+    },
+    {
+      "index": 111,
+      "row": 18,
+      "col": 3,
+      "name": "指点",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/111.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 0.9859,
+      "needs_review": false,
+      "status": "已获得",
+      "captured_at": "2026-11-17T05:53:08",
+      "first_seen": "2026-11-17T05:01:51"
+    },
+    {
+      "index": 112,
+      "row": 18,
+      "col": 4,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/112.png",
+      "icon_image": "assets/kapai_zhidianka/icons/112.png",
+      "detail_image": "assets/kapai_zhidianka/details/112.jpg",
+      "intro_paragraphs": [
+        "金丹任务太难？重新思索修炼之道，任务便会重置。（把思绪卡拖至金丹）"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": [
+            "首次获得卡牌后解锁："
+          ]
+        }
+      ],
+      "full_text": "金丹任务太难？重新思索修炼之道，任务便会重置。（把思绪卡拖至金丹）\n\n【获取途径】\n首次获得卡牌后解锁：",
+      "avg_confidence": 0.9718,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "金丹任务太难？重新思索修炼",
+          "score": 0.9844,
+          "dx": 20
+        },
+        {
+          "text": "之道，任务便会重置。(把思绪",
+          "score": 0.9766,
+          "dx": 20
+        },
+        {
+          "text": "卡拖至金丹)",
+          "score": 0.919,
+          "dx": 19
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9801,
+          "dx": 33
+        },
+        {
+          "text": "首次获得卡牌后解锁：",
+          "score": 0.9717,
+          "dx": 19
+        }
+      ],
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:01:52",
+      "first_seen": "2026-11-17T05:01:52"
+    },
+    {
+      "index": 113,
+      "row": 18,
+      "col": 5,
+      "name": "指点",
+      "locked": true,
+      "card_image": "assets/kapai_zhidianka/cards/113.png",
+      "icon_image": "",
+      "detail_image": "",
+      "intro_paragraphs": [],
+      "sections": [],
+      "full_text": "",
+      "avg_confidence": 1.0,
+      "needs_review": false,
+      "status": "未获得",
+      "captured_at": "2026-11-17T05:01:57",
+      "first_seen": "2026-11-17T05:01:57"
+    },
+    {
+      "index": 114,
+      "row": 19,
+      "col": 0,
+      "name": "炼丹心得",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/114.png",
+      "icon_image": "assets/kapai_zhidianka/icons/114.png",
+      "detail_image": "assets/kapai_zhidianka/details/114.jpg",
+      "intro_paragraphs": [
+        "炼丹心得------陆逸尘著第一步：先选择一味药放进炼制里，这味药便是本次炼丹的主药！练出的丹药的效果便等于主药效果了。第二步：再放入辅药，最多能放4种；但切记，第二格至第五格的灵草，只有和主药效果完全相同的辅药效果，才会叠加在丹药效果之中！但是，一些负面的灵草效果。不管灵草位于哪个位置，都会叠加在丹药上最后，法添加的灵草品质越高炼制的丹药效果也会更高"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "炼丹心得------陆逸尘著第一步：先选择一味药放进炼制里，这味药便是本次炼丹的主药！练出的丹药的效果便等于主药效果了。第二步：再放入辅药，最多能放4种；但切记，第二格至第五格的灵草，只有和主药效果完全相同的辅药效果，才会叠加在丹药效果之中！但是，一些负面的灵草效果。不管灵草位于哪个位置，都会叠加在丹药上最后，法添加的灵草品质越高炼制的丹药效果也会更高\n\n【获取途径】",
+      "avg_confidence": 0.9807,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "炼丹心得------陆逸尘著",
+          "score": 0.9321,
+          "dx": 45
+        },
+        {
+          "text": "第一步：先选择一味药放进炼",
+          "score": 0.9962,
+          "dx": 13
+        },
+        {
+          "text": "制里，这味药便是本次炼丹的主",
+          "score": 0.9723,
+          "dx": 12
+        },
+        {
+          "text": "药！练出的丹药的效果便等于",
+          "score": 0.9973,
+          "dx": 14
+        },
+        {
+          "text": "主药效果了。",
+          "score": 0.9877,
+          "dx": 0
+        },
+        {
+          "text": "第二步：再放入辅药，最多能",
+          "score": 0.9821,
+          "dx": 13
+        },
+        {
+          "text": "放4种；但切记，第二格至第五",
+          "score": 0.992,
+          "dx": 12
+        },
+        {
+          "text": "格的灵草，只有和主药效果完",
+          "score": 0.9964,
+          "dx": 11
+        },
+        {
+          "text": "全相同的辅药效果，才会叠加",
+          "score": 0.9913,
+          "dx": 12
+        },
+        {
+          "text": "在丹药效果之中！",
+          "score": 0.9944,
+          "dx": 11
+        },
+        {
+          "text": "但是，一些负面的灵草效果。",
+          "score": 0.9566,
+          "dx": 11
+        },
+        {
+          "text": "不管灵草位于哪个位置，都会",
+          "score": 0.9979,
+          "dx": 14
+        },
+        {
+          "text": "叠加在丹药上",
+          "score": 0.9953,
+          "dx": 13
+        },
+        {
+          "text": "最后，法添加的灵草品质越高",
+          "score": 0.9402,
+          "dx": 12
+        },
+        {
+          "text": "炼制的丹药效果也会更高",
+          "score": 0.9972,
+          "dx": 11
+        },
+        {
+          "text": "【获取途泾】",
+          "score": 0.9652,
+          "dx": 26
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T05:02:00",
+      "first_seen": "2026-11-17T05:02:00"
+    },
+    {
+      "index": 115,
+      "row": 19,
+      "col": 1,
+      "name": "炼器心得",
+      "locked": false,
+      "card_image": "assets/kapai_zhidianka/cards/115.png",
+      "icon_image": "assets/kapai_zhidianka/icons/115.png",
+      "detail_image": "assets/kapai_zhidianka/details/115.jpg",
+      "intro_paragraphs": [
+        "炼器心得------陆逸尘著第一步：先选择一个主材料。主材料决定着法宝的类型。一般来说，一个材料对应一种类型；然后放入辅材料，记住辅材料的五行属性，如果是克主材料的话，会降低法宝出现高品质的概率。如果你放置的材料，能以五行属性排列成一些花色，也会提高炼制概率"
+      ],
+      "sections": [
+        {
+          "title": "获取途径",
+          "paragraphs": []
+        }
+      ],
+      "full_text": "炼器心得------陆逸尘著第一步：先选择一个主材料。主材料决定着法宝的类型。一般来说，一个材料对应一种类型；然后放入辅材料，记住辅材料的五行属性，如果是克主材料的话，会降低法宝出现高品质的概率。如果你放置的材料，能以五行属性排列成一些花色，也会提高炼制概率\n\n【获取途径】",
+      "avg_confidence": 0.9757,
+      "needs_review": true,
+      "ocr_lines": [
+        {
+          "text": "炼器心得------陆逸尘著",
+          "score": 0.9725,
+          "dx": 45
+        },
+        {
+          "text": "第一步：先选择一个主材料。",
+          "score": 0.9663,
+          "dx": 13
+        },
+        {
+          "text": "主材料决定着法宝的类型。一",
+          "score": 0.9984,
+          "dx": 14
+        },
+        {
+          "text": "般来说，一个材料对应一种类",
+          "score": 0.9954,
+          "dx": 12
+        },
+        {
+          "text": "型；",
+          "score": 0.7883,
+          "dx": 0
+        },
+        {
+          "text": "然后放入辅材料，记住辅材料",
+          "score": 0.994,
+          "dx": 12
+        },
+        {
+          "text": "的五行属性，如果是克主材料",
+          "score": 0.9926,
+          "dx": 14
+        },
+        {
+          "text": "的话，会降低法宝出现高品质",
+          "score": 0.9958,
+          "dx": 14
+        },
+        {
+          "text": "的概率。",
+          "score": 0.9989,
+          "dx": 14
+        },
+        {
+          "text": "如果你放置的材料，能以五行",
+          "score": 0.995,
+          "dx": 12
+        },
+        {
+          "text": "属性排列成一些花色，也会提",
+          "score": 0.9972,
+          "dx": 13
+        },
+        {
+          "text": "高炼制概率",
+          "score": 0.9957,
+          "dx": 12
+        },
+        {
+          "text": "获取途泾",
+          "score": 0.984,
+          "dx": 26
+        }
+      ],
+      "status": "已获得",
+      "captured_at": "2026-11-17T05:02:07",
+      "first_seen": "2026-11-17T05:02:07"
+    }
+  ]
+}
