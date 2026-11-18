@@ -1,21 +1,7 @@
 {
   "title": "卡牌修仙传 · 图鉴攻略",
-  "generated_at": "2026-11-18 23:42",
+  "generated_at": "2026-11-19 01:07",
   "categories": [
-    {
-      "slug": "kapai_cailiao",
-      "category": "材料",
-      "full_category": "卡牌 / 材料",
-      "file_name": "kapai_cailiao.json",
-      "count": 184
-    },
-    {
-      "slug": "kapai_lingcao_danyao",
-      "category": "灵草&丹药",
-      "full_category": "卡牌 / 灵草&丹药",
-      "file_name": "kapai_lingcao_danyao.json",
-      "count": 97
-    },
     {
       "slug": "kapai_ganwu_xinfa",
       "category": "感悟&心法",
@@ -29,27 +15,6 @@
       "full_category": "卡牌 / 技能&口诀",
       "file_name": "kapai_jineng_koujue.json",
       "count": 229
-    },
-    {
-      "slug": "kapai_daoju_chuanwen",
-      "category": "道具&传闻",
-      "full_category": "卡牌 / 道具&传闻",
-      "file_name": "kapai_daoju_chuanwen.json",
-      "count": 68
-    },
-    {
-      "slug": "kapai_zhidianka",
-      "category": "指点卡",
-      "full_category": "卡牌 / 指点卡",
-      "file_name": "kapai_zhidianka.json",
-      "count": 116
-    },
-    {
-      "slug": "kapai_zaiju",
-      "category": "载具",
-      "full_category": "卡牌 / 载具",
-      "file_name": "kapai_zaiju.json",
-      "count": 8
     },
     {
       "slug": "kapai_tianfu",
@@ -66,6 +31,27 @@
       "count": 7
     },
     {
+      "slug": "kapai_zhidianka",
+      "category": "指点卡",
+      "full_category": "卡牌 / 指点卡",
+      "file_name": "kapai_zhidianka.json",
+      "count": 116
+    },
+    {
+      "slug": "kapai_cailiao",
+      "category": "材料",
+      "full_category": "卡牌 / 材料",
+      "file_name": "kapai_cailiao.json",
+      "count": 93
+    },
+    {
+      "slug": "kapai_lingcao_danyao",
+      "category": "灵草&丹药",
+      "full_category": "卡牌 / 灵草&丹药",
+      "file_name": "kapai_lingcao_danyao.json",
+      "count": 58
+    },
+    {
       "slug": "kapai_neidan",
       "category": "内丹",
       "full_category": "卡牌 / 内丹",
@@ -80,32 +66,25 @@
       "count": 11
     },
     {
+      "slug": "kapai_daoju_chuanwen",
+      "category": "道具&传闻",
+      "full_category": "卡牌 / 道具&传闻",
+      "file_name": "kapai_daoju_chuanwen.json",
+      "count": 68
+    },
+    {
       "slug": "kapai_qita",
       "category": "宝物&其他道具",
       "full_category": "卡牌 / 宝物&其他道具",
       "file_name": "kapai_qita.json",
-      "count": 97
+      "count": 98
     },
     {
-      "slug": "kapai_zhaohuan",
-      "category": "召唤物",
-      "full_category": "卡牌 / 召唤物",
-      "file_name": "kapai_zhaohuan.json",
-      "count": 21
-    },
-    {
-      "slug": "kapai_xiushi",
-      "category": "敌对修士",
-      "full_category": "卡牌 / 敌对修士",
-      "file_name": "kapai_xiushi.json",
-      "count": 3
-    },
-    {
-      "slug": "renwu",
-      "category": "人物",
-      "full_category": "人物",
-      "file_name": "renwu.json",
-      "count": 14
+      "slug": "kapai_zaiju",
+      "category": "载具",
+      "full_category": "卡牌 / 载具",
+      "file_name": "kapai_zaiju.json",
+      "count": 8
     },
     {
       "slug": "fabao_kuilei",
@@ -122,11 +101,18 @@
       "count": 39
     },
     {
+      "slug": "kapai_zhaohuan",
+      "category": "召唤物",
+      "full_category": "卡牌 / 召唤物",
+      "file_name": "kapai_zhaohuan.json",
+      "count": 21
+    },
+    {
       "slug": "yaoshou",
       "category": "妖兽",
       "full_category": "妖兽",
       "file_name": "yaoshou.json",
-      "count": 18
+      "count": 19
     },
     {
       "slug": "yaowang",
@@ -134,6 +120,20 @@
       "full_category": "妖王",
       "file_name": "yaowang.json",
       "count": 31
+    },
+    {
+      "slug": "kapai_xiushi",
+      "category": "敌对修士",
+      "full_category": "卡牌 / 敌对修士",
+      "file_name": "kapai_xiushi.json",
+      "count": 3
+    },
+    {
+      "slug": "renwu",
+      "category": "人物",
+      "full_category": "人物",
+      "file_name": "renwu.json",
+      "count": 14
     },
     {
       "slug": "mijing",
@@ -148,6 +148,13 @@
       "full_category": "地点",
       "file_name": "didian.json",
       "count": 23
+    },
+    {
+      "slug": "renwu_task",
+      "category": "任务",
+      "full_category": "任务",
+      "file_name": "renwu_task.json",
+      "count": 21
     }
   ]
 }

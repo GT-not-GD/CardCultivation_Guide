@@ -4,8 +4,8 @@
  "full_category": "卡牌 / 召唤物",
  "layout": "card",
  "data_source": "官方数据（游戏本地数据表）",
- "official_generated_at": "2026-11-18 15:34:29",
- "updated_at": "2026-11-18 15:34",
+ "official_generated_at": "2026-11-18 17:00:31",
+ "updated_at": "2026-11-18 17:00",
  "items": [
   {
    "index": 0,
@@ -360,6 +360,11 @@
     {
      "realm": "练气",
      "desc": [],
+     "element": [
+      "火",
+      "土",
+      "木"
+     ],
      "attack": 2,
      "health": 5
     },
@@ -367,12 +372,20 @@
      "realm": "练气",
      "icon": "assets/kapai/official/Role_10.webp",
      "desc": [],
+     "element": [
+      "阳"
+     ],
      "attack": 8,
      "health": 25
     },
     {
      "realm": "筑基",
      "desc": [],
+     "element": [
+      "火",
+      "土",
+      "木"
+     ],
      "attack": 2,
      "health": 5
     },
@@ -380,12 +393,20 @@
      "realm": "筑基",
      "icon": "assets/kapai/official/Role_10.webp",
      "desc": [],
+     "element": [
+      "阳"
+     ],
      "attack": 23,
      "health": 68
     },
     {
      "realm": "结丹",
      "desc": [],
+     "element": [
+      "火",
+      "土",
+      "木"
+     ],
      "attack": 2,
      "health": 5
     },
@@ -393,12 +414,20 @@
      "realm": "结丹",
      "icon": "assets/kapai/official/Role_10.webp",
      "desc": [],
+     "element": [
+      "阳"
+     ],
      "attack": 63,
      "health": 188
     },
     {
      "realm": "元婴",
      "desc": [],
+     "element": [
+      "火",
+      "土",
+      "木"
+     ],
      "attack": 2,
      "health": 5
     },
@@ -406,12 +435,20 @@
      "realm": "元婴",
      "icon": "assets/kapai/official/Role_10.webp",
      "desc": [],
+     "element": [
+      "阳"
+     ],
      "attack": 134,
      "health": 402
     },
     {
      "realm": "化神",
      "desc": [],
+     "element": [
+      "火",
+      "土",
+      "木"
+     ],
      "attack": 2,
      "health": 5
     },
@@ -419,6 +456,9 @@
      "realm": "化神",
      "icon": "assets/kapai/official/Role_10.webp",
      "desc": [],
+     "element": [
+      "阳"
+     ],
      "attack": 134,
      "health": 402
     }
