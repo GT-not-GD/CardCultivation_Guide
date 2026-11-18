@@ -1,4 +1,130 @@
 {
+ "generated_at": "2026-11-18 03:48:24",
+ "quality": {
+  "fabao": [
+   {
+    "q": "人",
+    "name": "人品",
+    "title": "品质：人品",
+    "desc": [
+     "品质一般的法宝。",
+     "自行恢复次数：0；（战败后便会损毁）"
+    ],
+    "skill": false
+   },
+   {
+    "q": "地",
+    "name": "地品",
+    "title": "品质：地品",
+    "desc": [
+     "品质普通的法宝。",
+     "自行恢复次数：1；"
+    ],
+    "skill": false
+   },
+   {
+    "q": "天",
+    "name": "天品",
+    "title": "品质：天品",
+    "desc": [
+     "品质较好的法宝。",
+     "自行恢复次数：1；",
+     "此阶段的法宝，会激活战斗效果；"
+    ],
+    "skill": true
+   },
+   {
+    "q": "仙",
+    "name": "仙品",
+    "title": "品质：仙品",
+    "desc": [
+     "品质极好的法宝。",
+     "自行恢复次数：2；"
+    ],
+    "skill": true
+   },
+   {
+    "q": "神",
+    "name": "神品",
+    "title": "品质：神品",
+    "desc": [
+     "品质完美的法宝。",
+     "自行恢复次数：3；"
+    ],
+    "skill": true
+   },
+   {
+    "q": "绝",
+    "name": "绝品",
+    "title": "品质：卓越",
+    "desc": [
+     "品质完美的法宝。",
+     "自行恢复次数：3；"
+    ],
+    "skill": true
+   }
+  ],
+  "kuilei": [
+   {
+    "q": "人",
+    "name": "人品",
+    "title": "实力：较弱",
+    "desc": [
+     "实力较弱的傀儡。"
+    ],
+    "skill": false
+   },
+   {
+    "q": "地",
+    "name": "地品",
+    "title": "实力：一般",
+    "desc": [
+     "实力一般的傀儡。"
+    ],
+    "skill": false
+   },
+   {
+    "q": "天",
+    "name": "天品",
+    "title": "实力：稍强",
+    "desc": [
+     "实力稍强的傀儡。",
+     "此阶段的傀儡，可掌握战斗技能。"
+    ],
+    "skill": true
+   },
+   {
+    "q": "仙",
+    "name": "仙品",
+    "title": "实力：强大",
+    "desc": [
+     "实力强大的傀儡。",
+     "此阶段的傀儡，可掌握战斗技能。"
+    ],
+    "skill": true
+   },
+   {
+    "q": "神",
+    "name": "神品",
+    "title": "实力：顶尖",
+    "desc": [
+     "实力达到阶段顶峰的傀儡。",
+     "此阶段的傀儡，可掌握战斗技能。"
+    ],
+    "skill": true
+   },
+   {
+    "q": "绝",
+    "name": "绝品",
+    "title": "实力：登峰造极",
+    "desc": [
+     "实力达到阶段顶峰的傀儡。",
+     "此阶段的傀儡，可掌握战斗技能。"
+    ],
+    "skill": true
+   }
+  ]
+ },
  "_说明": "游戏本地数据（LubanTables）导出的法宝&傀儡官方数据，经作者同意解密，仅用于攻略。每次重新生成网页时会自动覆盖到 data/fabao_kuilei.json（已获得/未获得状态仍以你的抓取结果为准）。",
  "game_version_note": "LubanTables（游戏本地数据，经作者同意解密）",
  "slug": "fabao_kuilei",
@@ -31,7 +157,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300101.png"
+     "art": "assets/fabao_kuilei/official/300101.webp"
     },
     {
      "id": 300102,
@@ -53,7 +179,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300102.png"
+     "art": "assets/fabao_kuilei/official/300102.webp"
     },
     {
      "id": 300103,
@@ -75,7 +201,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300102.png"
+     "art": "assets/fabao_kuilei/official/300102.webp"
     },
     {
      "id": 300104,
@@ -97,7 +223,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300103.png"
+     "art": "assets/fabao_kuilei/official/300103.webp"
     },
     {
      "id": 300105,
@@ -119,7 +245,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300103.png"
+     "art": "assets/fabao_kuilei/official/300103.webp"
     }
    ]
   },
@@ -150,7 +276,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300202.png"
+     "art": "assets/fabao_kuilei/official/300202.webp"
     },
     {
      "id": 300203,
@@ -172,7 +298,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300203.png"
+     "art": "assets/fabao_kuilei/official/300203.webp"
     },
     {
      "id": 300204,
@@ -194,7 +320,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300203.png"
+     "art": "assets/fabao_kuilei/official/300203.webp"
     },
     {
      "id": 300205,
@@ -216,7 +342,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300204.png"
+     "art": "assets/fabao_kuilei/official/300204.webp"
     }
    ]
   },
@@ -248,7 +374,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300301.png"
+     "art": "assets/fabao_kuilei/official/300301.webp"
     },
     {
      "id": 300302,
@@ -270,7 +396,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300302.png"
+     "art": "assets/fabao_kuilei/official/300302.webp"
     },
     {
      "id": 300303,
@@ -292,7 +418,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300303.png"
+     "art": "assets/fabao_kuilei/official/300303.webp"
     },
     {
      "id": 300304,
@@ -314,7 +440,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300304.png"
+     "art": "assets/fabao_kuilei/official/300304.webp"
     },
     {
      "id": 300305,
@@ -336,7 +462,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300304.png"
+     "art": "assets/fabao_kuilei/official/300304.webp"
     }
    ]
   },
@@ -371,7 +497,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300402.png"
+     "art": "assets/fabao_kuilei/official/300402.webp"
     },
     {
      "id": 300403,
@@ -397,7 +523,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300402.png"
+     "art": "assets/fabao_kuilei/official/300402.webp"
     },
     {
      "id": 300404,
@@ -423,7 +549,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300403.png"
+     "art": "assets/fabao_kuilei/official/300403.webp"
     },
     {
      "id": 300405,
@@ -449,7 +575,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300404.png"
+     "art": "assets/fabao_kuilei/official/300404.webp"
     }
    ]
   },
@@ -481,7 +607,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300501.png"
+     "art": "assets/fabao_kuilei/official/300501.webp"
     },
     {
      "id": 300502,
@@ -503,7 +629,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300502.png"
+     "art": "assets/fabao_kuilei/official/300502.webp"
     },
     {
      "id": 300503,
@@ -525,7 +651,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300502.png"
+     "art": "assets/fabao_kuilei/official/300502.webp"
     },
     {
      "id": 300504,
@@ -547,7 +673,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300503.png"
+     "art": "assets/fabao_kuilei/official/300503.webp"
     },
     {
      "id": 300505,
@@ -569,7 +695,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300503.png"
+     "art": "assets/fabao_kuilei/official/300503.webp"
     }
    ]
   },
@@ -600,7 +726,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300602.png"
+     "art": "assets/fabao_kuilei/official/300602.webp"
     },
     {
      "id": 300603,
@@ -622,7 +748,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300603.png"
+     "art": "assets/fabao_kuilei/official/300603.webp"
     },
     {
      "id": 300604,
@@ -644,7 +770,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300603.png"
+     "art": "assets/fabao_kuilei/official/300603.webp"
     },
     {
      "id": 300605,
@@ -666,7 +792,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300604.png"
+     "art": "assets/fabao_kuilei/official/300604.webp"
     }
    ]
   },
@@ -698,7 +824,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300701.png"
+     "art": "assets/fabao_kuilei/official/300701.webp"
     },
     {
      "id": 300702,
@@ -720,7 +846,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300702.png"
+     "art": "assets/fabao_kuilei/official/300702.webp"
     },
     {
      "id": 300703,
@@ -742,7 +868,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300702.png"
+     "art": "assets/fabao_kuilei/official/300702.webp"
     },
     {
      "id": 300704,
@@ -764,7 +890,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300703.png"
+     "art": "assets/fabao_kuilei/official/300703.webp"
     },
     {
      "id": 300705,
@@ -786,7 +912,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300703.png"
+     "art": "assets/fabao_kuilei/official/300703.webp"
     }
    ]
   },
@@ -817,7 +943,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300802.png"
+     "art": "assets/fabao_kuilei/official/300802.webp"
     },
     {
      "id": 300803,
@@ -839,7 +965,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300803.png"
+     "art": "assets/fabao_kuilei/official/300803.webp"
     },
     {
      "id": 300804,
@@ -861,7 +987,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300803.png"
+     "art": "assets/fabao_kuilei/official/300803.webp"
     },
     {
      "id": 300805,
@@ -883,7 +1009,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300804.png"
+     "art": "assets/fabao_kuilei/official/300804.webp"
     }
    ]
   },
@@ -915,7 +1041,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300901.png"
+     "art": "assets/fabao_kuilei/official/300901.webp"
     },
     {
      "id": 300902,
@@ -937,7 +1063,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300902.png"
+     "art": "assets/fabao_kuilei/official/300902.webp"
     },
     {
      "id": 300903,
@@ -959,7 +1085,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300902.png"
+     "art": "assets/fabao_kuilei/official/300902.webp"
     },
     {
      "id": 300904,
@@ -981,7 +1107,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300903.png"
+     "art": "assets/fabao_kuilei/official/300903.webp"
     },
     {
      "id": 300905,
@@ -1003,7 +1129,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/300903.png"
+     "art": "assets/fabao_kuilei/official/300903.webp"
     }
    ]
   },
@@ -1038,7 +1164,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301002.png"
+     "art": "assets/fabao_kuilei/official/301002.webp"
     },
     {
      "id": 301003,
@@ -1064,7 +1190,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301002.png"
+     "art": "assets/fabao_kuilei/official/301002.webp"
     },
     {
      "id": 301004,
@@ -1090,7 +1216,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301003.png"
+     "art": "assets/fabao_kuilei/official/301003.webp"
     },
     {
      "id": 301005,
@@ -1116,7 +1242,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301004.png"
+     "art": "assets/fabao_kuilei/official/301004.webp"
     }
    ]
   },
@@ -1147,7 +1273,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301102.png"
+     "art": "assets/fabao_kuilei/official/301102.webp"
     },
     {
      "id": 301103,
@@ -1169,7 +1295,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301102.png"
+     "art": "assets/fabao_kuilei/official/301102.webp"
     },
     {
      "id": 301104,
@@ -1191,7 +1317,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301102.png"
+     "art": "assets/fabao_kuilei/official/301102.webp"
     },
     {
      "id": 301105,
@@ -1213,7 +1339,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301102.png"
+     "art": "assets/fabao_kuilei/official/301102.webp"
     }
    ]
   },
@@ -1244,7 +1370,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301202.png"
+     "art": "assets/fabao_kuilei/official/301202.webp"
     },
     {
      "id": 301203,
@@ -1266,7 +1392,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301202.png"
+     "art": "assets/fabao_kuilei/official/301202.webp"
     },
     {
      "id": 301204,
@@ -1288,7 +1414,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301202.png"
+     "art": "assets/fabao_kuilei/official/301202.webp"
     },
     {
      "id": 301205,
@@ -1310,7 +1436,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301202.png"
+     "art": "assets/fabao_kuilei/official/301202.webp"
     }
    ]
   },
@@ -1341,7 +1467,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301302.png"
+     "art": "assets/fabao_kuilei/official/301302.webp"
     },
     {
      "id": 301303,
@@ -1363,7 +1489,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301302.png"
+     "art": "assets/fabao_kuilei/official/301302.webp"
     },
     {
      "id": 301304,
@@ -1385,7 +1511,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301302.png"
+     "art": "assets/fabao_kuilei/official/301302.webp"
     },
     {
      "id": 301305,
@@ -1407,7 +1533,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301302.png"
+     "art": "assets/fabao_kuilei/official/301302.webp"
     }
    ]
   },
@@ -1438,7 +1564,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301402.png"
+     "art": "assets/fabao_kuilei/official/301402.webp"
     },
     {
      "id": 301402,
@@ -1460,7 +1586,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301402.png"
+     "art": "assets/fabao_kuilei/official/301402.webp"
     },
     {
      "id": 301403,
@@ -1482,7 +1608,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301402.png"
+     "art": "assets/fabao_kuilei/official/301402.webp"
     },
     {
      "id": 301404,
@@ -1504,7 +1630,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301402.png"
+     "art": "assets/fabao_kuilei/official/301402.webp"
     },
     {
      "id": 301405,
@@ -1526,7 +1652,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301402.png"
+     "art": "assets/fabao_kuilei/official/301402.webp"
     }
    ]
   },
@@ -1557,7 +1683,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301502.png"
+     "art": "assets/fabao_kuilei/official/301502.webp"
     },
     {
      "id": 301503,
@@ -1579,7 +1705,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301502.png"
+     "art": "assets/fabao_kuilei/official/301502.webp"
     },
     {
      "id": 301504,
@@ -1601,7 +1727,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301502.png"
+     "art": "assets/fabao_kuilei/official/301502.webp"
     },
     {
      "id": 301505,
@@ -1623,7 +1749,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301502.png"
+     "art": "assets/fabao_kuilei/official/301502.webp"
     }
    ]
   },
@@ -1654,7 +1780,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301601.png"
+     "art": "assets/fabao_kuilei/official/301601.webp"
     },
     {
      "id": 301602,
@@ -1676,7 +1802,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301601.png"
+     "art": "assets/fabao_kuilei/official/301601.webp"
     },
     {
      "id": 301603,
@@ -1698,7 +1824,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301601.png"
+     "art": "assets/fabao_kuilei/official/301601.webp"
     },
     {
      "id": 301604,
@@ -1720,7 +1846,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301601.png"
+     "art": "assets/fabao_kuilei/official/301601.webp"
     },
     {
      "id": 301605,
@@ -1742,7 +1868,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301601.png"
+     "art": "assets/fabao_kuilei/official/301601.webp"
     }
    ]
   },
@@ -1773,7 +1899,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301701.png"
+     "art": "assets/fabao_kuilei/official/301701.webp"
     },
     {
      "id": 301702,
@@ -1795,7 +1921,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301701.png"
+     "art": "assets/fabao_kuilei/official/301701.webp"
     },
     {
      "id": 301703,
@@ -1817,7 +1943,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301701.png"
+     "art": "assets/fabao_kuilei/official/301701.webp"
     },
     {
      "id": 301704,
@@ -1839,7 +1965,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301701.png"
+     "art": "assets/fabao_kuilei/official/301701.webp"
     },
     {
      "id": 301705,
@@ -1861,7 +1987,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301701.png"
+     "art": "assets/fabao_kuilei/official/301701.webp"
     }
    ]
   },
@@ -1892,7 +2018,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301801.png"
+     "art": "assets/fabao_kuilei/official/301801.webp"
     },
     {
      "id": 301802,
@@ -1914,7 +2040,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301801.png"
+     "art": "assets/fabao_kuilei/official/301801.webp"
     },
     {
      "id": 301803,
@@ -1936,7 +2062,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301801.png"
+     "art": "assets/fabao_kuilei/official/301801.webp"
     },
     {
      "id": 301804,
@@ -1958,7 +2084,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301801.png"
+     "art": "assets/fabao_kuilei/official/301801.webp"
     },
     {
      "id": 301805,
@@ -1980,7 +2106,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301801.png"
+     "art": "assets/fabao_kuilei/official/301801.webp"
     }
    ]
   },
@@ -2015,7 +2141,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301901.png"
+     "art": "assets/fabao_kuilei/official/301901.webp"
     },
     {
      "id": 301902,
@@ -2041,7 +2167,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301901.png"
+     "art": "assets/fabao_kuilei/official/301901.webp"
     },
     {
      "id": 301903,
@@ -2067,7 +2193,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301901.png"
+     "art": "assets/fabao_kuilei/official/301901.webp"
     },
     {
      "id": 301904,
@@ -2093,7 +2219,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301901.png"
+     "art": "assets/fabao_kuilei/official/301901.webp"
     },
     {
      "id": 301905,
@@ -2119,7 +2245,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301901.png"
+     "art": "assets/fabao_kuilei/official/301901.webp"
     },
     {
      "id": 301906,
@@ -2145,7 +2271,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301901.png"
+     "art": "assets/fabao_kuilei/official/301901.webp"
     },
     {
      "id": 301907,
@@ -2171,7 +2297,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/301901.png"
+     "art": "assets/fabao_kuilei/official/301901.webp"
     }
    ]
   },
@@ -2202,7 +2328,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/302001.png"
+     "art": "assets/fabao_kuilei/official/302001.webp"
     },
     {
      "id": 302002,
@@ -2224,7 +2350,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/302001.png"
+     "art": "assets/fabao_kuilei/official/302001.webp"
     },
     {
      "id": 302003,
@@ -2246,7 +2372,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/302001.png"
+     "art": "assets/fabao_kuilei/official/302001.webp"
     },
     {
      "id": 302004,
@@ -2268,7 +2394,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/302001.png"
+     "art": "assets/fabao_kuilei/official/302001.webp"
     },
     {
      "id": 302005,
@@ -2290,7 +2416,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/302001.png"
+     "art": "assets/fabao_kuilei/official/302001.webp"
     }
    ]
   },
@@ -2325,7 +2451,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/302101.png"
+     "art": "assets/fabao_kuilei/official/302101.webp"
     },
     {
      "id": 302102,
@@ -2351,7 +2477,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/302101.png"
+     "art": "assets/fabao_kuilei/official/302101.webp"
     },
     {
      "id": 302103,
@@ -2377,7 +2503,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/302101.png"
+     "art": "assets/fabao_kuilei/official/302101.webp"
     },
     {
      "id": 302104,
@@ -2403,7 +2529,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/302101.png"
+     "art": "assets/fabao_kuilei/official/302101.webp"
     },
     {
      "id": 302105,
@@ -2429,7 +2555,7 @@
      "hidden": [
       "剑特性：攻击后，对目标施加等同于大境界值的易伤"
      ],
-     "art": "assets/fabao_kuilei/official/302101.png"
+     "art": "assets/fabao_kuilei/official/302101.webp"
     }
    ]
   },
@@ -2461,7 +2587,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310101.png"
+     "art": "assets/fabao_kuilei/official/310101.webp"
     },
     {
      "id": 310102,
@@ -2483,7 +2609,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310102.png"
+     "art": "assets/fabao_kuilei/official/310102.webp"
     },
     {
      "id": 310103,
@@ -2505,7 +2631,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310102.png"
+     "art": "assets/fabao_kuilei/official/310102.webp"
     },
     {
      "id": 310104,
@@ -2527,7 +2653,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310103.png"
+     "art": "assets/fabao_kuilei/official/310103.webp"
     },
     {
      "id": 310105,
@@ -2549,7 +2675,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310103.png"
+     "art": "assets/fabao_kuilei/official/310103.webp"
     }
    ]
   },
@@ -2580,7 +2706,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310202.png"
+     "art": "assets/fabao_kuilei/official/310202.webp"
     },
     {
      "id": 310203,
@@ -2602,7 +2728,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310202.png"
+     "art": "assets/fabao_kuilei/official/310202.webp"
     },
     {
      "id": 310204,
@@ -2624,7 +2750,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310203.png"
+     "art": "assets/fabao_kuilei/official/310203.webp"
     },
     {
      "id": 310205,
@@ -2646,7 +2772,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310204.png"
+     "art": "assets/fabao_kuilei/official/310204.webp"
     }
    ]
   },
@@ -2678,7 +2804,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310301.png"
+     "art": "assets/fabao_kuilei/official/310301.webp"
     },
     {
      "id": 310302,
@@ -2700,7 +2826,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310302.png"
+     "art": "assets/fabao_kuilei/official/310302.webp"
     },
     {
      "id": 310303,
@@ -2722,7 +2848,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310302.png"
+     "art": "assets/fabao_kuilei/official/310302.webp"
     },
     {
      "id": 310304,
@@ -2744,7 +2870,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310303.png"
+     "art": "assets/fabao_kuilei/official/310303.webp"
     },
     {
      "id": 310305,
@@ -2766,7 +2892,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310303.png"
+     "art": "assets/fabao_kuilei/official/310303.webp"
     }
    ]
   },
@@ -2798,7 +2924,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310401.png"
+     "art": "assets/fabao_kuilei/official/310401.webp"
     },
     {
      "id": 310402,
@@ -2820,7 +2946,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310402.png"
+     "art": "assets/fabao_kuilei/official/310402.webp"
     },
     {
      "id": 310403,
@@ -2842,7 +2968,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310402.png"
+     "art": "assets/fabao_kuilei/official/310402.webp"
     },
     {
      "id": 310404,
@@ -2864,7 +2990,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310403.png"
+     "art": "assets/fabao_kuilei/official/310403.webp"
     },
     {
      "id": 310405,
@@ -2886,7 +3012,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310403.png"
+     "art": "assets/fabao_kuilei/official/310403.webp"
     }
    ]
   },
@@ -2918,7 +3044,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310501.png"
+     "art": "assets/fabao_kuilei/official/310501.webp"
     },
     {
      "id": 310502,
@@ -2940,7 +3066,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310502.png"
+     "art": "assets/fabao_kuilei/official/310502.webp"
     },
     {
      "id": 310503,
@@ -2962,7 +3088,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310502.png"
+     "art": "assets/fabao_kuilei/official/310502.webp"
     },
     {
      "id": 310504,
@@ -2984,7 +3110,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310503.png"
+     "art": "assets/fabao_kuilei/official/310503.webp"
     },
     {
      "id": 310505,
@@ -3006,7 +3132,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310503.png"
+     "art": "assets/fabao_kuilei/official/310503.webp"
     }
    ]
   },
@@ -3038,7 +3164,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310601.png"
+     "art": "assets/fabao_kuilei/official/310601.webp"
     },
     {
      "id": 310602,
@@ -3060,7 +3186,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310602.png"
+     "art": "assets/fabao_kuilei/official/310602.webp"
     },
     {
      "id": 310603,
@@ -3082,7 +3208,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310602.png"
+     "art": "assets/fabao_kuilei/official/310602.webp"
     },
     {
      "id": 310604,
@@ -3104,7 +3230,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310603.png"
+     "art": "assets/fabao_kuilei/official/310603.webp"
     },
     {
      "id": 310605,
@@ -3126,7 +3252,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310603.png"
+     "art": "assets/fabao_kuilei/official/310603.webp"
     },
     {
      "id": 310606,
@@ -3148,7 +3274,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310603.png"
+     "art": "assets/fabao_kuilei/official/310603.webp"
     },
     {
      "id": 310607,
@@ -3170,7 +3296,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310603.png"
+     "art": "assets/fabao_kuilei/official/310603.webp"
     }
    ]
   },
@@ -3202,7 +3328,7 @@
       "刀特性：对护甲造成的伤害为2倍",
       "只会攻击血量最少目标"
      ],
-     "art": "assets/fabao_kuilei/official/310701.png"
+     "art": "assets/fabao_kuilei/official/310701.webp"
     },
     {
      "id": 310702,
@@ -3225,7 +3351,7 @@
       "刀特性：对护甲造成的伤害为2倍",
       "只会攻击血量最少目标"
      ],
-     "art": "assets/fabao_kuilei/official/310701.png"
+     "art": "assets/fabao_kuilei/official/310701.webp"
     },
     {
      "id": 310703,
@@ -3248,7 +3374,7 @@
       "刀特性：对护甲造成的伤害为2倍",
       "只会攻击血量最少目标"
      ],
-     "art": "assets/fabao_kuilei/official/310701.png"
+     "art": "assets/fabao_kuilei/official/310701.webp"
     },
     {
      "id": 310704,
@@ -3271,7 +3397,7 @@
       "刀特性：对护甲造成的伤害为2倍",
       "只会攻击血量最少目标"
      ],
-     "art": "assets/fabao_kuilei/official/310701.png"
+     "art": "assets/fabao_kuilei/official/310701.webp"
     },
     {
      "id": 310705,
@@ -3294,7 +3420,7 @@
       "刀特性：对护甲造成的伤害为2倍",
       "只会攻击血量最少目标"
      ],
-     "art": "assets/fabao_kuilei/official/310701.png"
+     "art": "assets/fabao_kuilei/official/310701.webp"
     }
    ]
   },
@@ -3325,7 +3451,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310801.png"
+     "art": "assets/fabao_kuilei/official/310801.webp"
     },
     {
      "id": 310802,
@@ -3347,7 +3473,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310801.png"
+     "art": "assets/fabao_kuilei/official/310801.webp"
     },
     {
      "id": 310803,
@@ -3369,7 +3495,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310801.png"
+     "art": "assets/fabao_kuilei/official/310801.webp"
     },
     {
      "id": 310804,
@@ -3391,7 +3517,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310801.png"
+     "art": "assets/fabao_kuilei/official/310801.webp"
     },
     {
      "id": 310805,
@@ -3413,7 +3539,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310801.png"
+     "art": "assets/fabao_kuilei/official/310801.webp"
     }
    ]
   },
@@ -3444,7 +3570,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310901.png"
+     "art": "assets/fabao_kuilei/official/310901.webp"
     },
     {
      "id": 310902,
@@ -3466,7 +3592,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310901.png"
+     "art": "assets/fabao_kuilei/official/310901.webp"
     },
     {
      "id": 310903,
@@ -3488,7 +3614,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310901.png"
+     "art": "assets/fabao_kuilei/official/310901.webp"
     },
     {
      "id": 310904,
@@ -3510,7 +3636,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310901.png"
+     "art": "assets/fabao_kuilei/official/310901.webp"
     },
     {
      "id": 310905,
@@ -3532,7 +3658,7 @@
      "hidden": [
       "刀特性：对护甲造成的伤害为2倍"
      ],
-     "art": "assets/fabao_kuilei/official/310901.png"
+     "art": "assets/fabao_kuilei/official/310901.webp"
     }
    ]
   },
@@ -3564,7 +3690,7 @@
      "hidden": [
       "双刀特性：每次行动，会攻击2次"
      ],
-     "art": "assets/fabao_kuilei/official/320101.png"
+     "art": "assets/fabao_kuilei/official/320101.webp"
     },
     {
      "id": 320102,
@@ -3586,7 +3712,7 @@
      "hidden": [
       "双刀特性：每次行动，会攻击2次"
      ],
-     "art": "assets/fabao_kuilei/official/320102.png"
+     "art": "assets/fabao_kuilei/official/320102.webp"
     },
     {
      "id": 320103,
@@ -3608,7 +3734,7 @@
      "hidden": [
       "双刀特性：每次行动，会攻击2次"
      ],
-     "art": "assets/fabao_kuilei/official/320102.png"
+     "art": "assets/fabao_kuilei/official/320102.webp"
     },
     {
      "id": 320104,
@@ -3630,7 +3756,7 @@
      "hidden": [
       "双刀特性：每次行动，会攻击2次"
      ],
-     "art": "assets/fabao_kuilei/official/320103.png"
+     "art": "assets/fabao_kuilei/official/320103.webp"
     },
     {
      "id": 320105,
@@ -3652,7 +3778,7 @@
      "hidden": [
       "双刀特性：每次行动，会攻击2次"
      ],
-     "art": "assets/fabao_kuilei/official/320103.png"
+     "art": "assets/fabao_kuilei/official/320103.webp"
     }
    ]
   },
@@ -3684,7 +3810,7 @@
      "hidden": [
       "双刀特性：每次行动，会攻击2次"
      ],
-     "art": "assets/fabao_kuilei/official/320201.png"
+     "art": "assets/fabao_kuilei/official/320201.webp"
     },
     {
      "id": 320202,
@@ -3706,7 +3832,7 @@
      "hidden": [
       "双刀特性：每次行动，会攻击2次"
      ],
-     "art": "assets/fabao_kuilei/official/320202.png"
+     "art": "assets/fabao_kuilei/official/320202.webp"
     },
     {
      "id": 320203,
@@ -3728,7 +3854,7 @@
      "hidden": [
       "双刀特性：每次行动，会攻击2次"
      ],
-     "art": "assets/fabao_kuilei/official/320202.png"
+     "art": "assets/fabao_kuilei/official/320202.webp"
     },
     {
      "id": 320204,
@@ -3750,7 +3876,7 @@
      "hidden": [
       "双刀特性：每次行动，会攻击2次"
      ],
-     "art": "assets/fabao_kuilei/official/320203.png"
+     "art": "assets/fabao_kuilei/official/320203.webp"
     },
     {
      "id": 320205,
@@ -3772,7 +3898,7 @@
      "hidden": [
       "双刀特性：每次行动，会攻击2次"
      ],
-     "art": "assets/fabao_kuilei/official/320203.png"
+     "art": "assets/fabao_kuilei/official/320203.webp"
     }
    ]
   },
@@ -3803,7 +3929,7 @@
      "hidden": [
       "双刀特性：每次行动，会攻击2次"
      ],
-     "art": "assets/fabao_kuilei/official/320302.png"
+     "art": "assets/fabao_kuilei/official/320302.webp"
     },
     {
      "id": 320302,
@@ -3825,7 +3951,7 @@
      "hidden": [
       "双刀特性：每次行动，会攻击2次"
      ],
-     "art": "assets/fabao_kuilei/official/320302.png"
+     "art": "assets/fabao_kuilei/official/320302.webp"
     },
     {
      "id": 320303,
@@ -3847,7 +3973,7 @@
      "hidden": [
       "双刀特性：每次行动，会攻击2次"
      ],
-     "art": "assets/fabao_kuilei/official/320302.png"
+     "art": "assets/fabao_kuilei/official/320302.webp"
     },
     {
      "id": 320304,
@@ -3869,7 +3995,7 @@
      "hidden": [
       "双刀特性：每次行动，会攻击2次"
      ],
-     "art": "assets/fabao_kuilei/official/320303.png"
+     "art": "assets/fabao_kuilei/official/320303.webp"
     },
     {
      "id": 320305,
@@ -3891,7 +4017,7 @@
      "hidden": [
       "双刀特性：每次行动，会攻击2次"
      ],
-     "art": "assets/fabao_kuilei/official/320304.png"
+     "art": "assets/fabao_kuilei/official/320304.webp"
     }
    ]
   },
@@ -3922,7 +4048,7 @@
      "hidden": [
       "双刀特性：每次行动，会攻击2次"
      ],
-     "art": "assets/fabao_kuilei/official/320402.png"
+     "art": "assets/fabao_kuilei/official/320402.webp"
     },
     {
      "id": 320403,
@@ -3944,7 +4070,7 @@
      "hidden": [
       "双刀特性：每次行动，会攻击2次"
      ],
-     "art": "assets/fabao_kuilei/official/320402.png"
+     "art": "assets/fabao_kuilei/official/320402.webp"
     },
     {
      "id": 320404,
@@ -3966,7 +4092,7 @@
      "hidden": [
       "双刀特性：每次行动，会攻击2次"
      ],
-     "art": "assets/fabao_kuilei/official/320402.png"
+     "art": "assets/fabao_kuilei/official/320402.webp"
     },
     {
      "id": 320405,
@@ -3988,7 +4114,7 @@
      "hidden": [
       "双刀特性：每次行动，会攻击2次"
      ],
-     "art": "assets/fabao_kuilei/official/320402.png"
+     "art": "assets/fabao_kuilei/official/320402.webp"
     }
    ]
   },
@@ -4020,7 +4146,7 @@
       "双刀特性：每次行动，会攻击2次",
       "造成真实伤害"
      ],
-     "art": "assets/fabao_kuilei/official/320501.png"
+     "art": "assets/fabao_kuilei/official/320501.webp"
     },
     {
      "id": 320502,
@@ -4043,7 +4169,7 @@
       "双刀特性：每次行动，会攻击2次",
       "造成真实伤害"
      ],
-     "art": "assets/fabao_kuilei/official/320501.png"
+     "art": "assets/fabao_kuilei/official/320501.webp"
     },
     {
      "id": 320503,
@@ -4066,7 +4192,7 @@
       "双刀特性：每次行动，会攻击2次",
       "造成真实伤害"
      ],
-     "art": "assets/fabao_kuilei/official/320501.png"
+     "art": "assets/fabao_kuilei/official/320501.webp"
     },
     {
      "id": 320504,
@@ -4089,7 +4215,7 @@
       "双刀特性：每次行动，会攻击2次",
       "造成真实伤害"
      ],
-     "art": "assets/fabao_kuilei/official/320501.png"
+     "art": "assets/fabao_kuilei/official/320501.webp"
     },
     {
      "id": 320505,
@@ -4112,7 +4238,7 @@
       "双刀特性：每次行动，会攻击2次",
       "造成真实伤害"
      ],
-     "art": "assets/fabao_kuilei/official/320501.png"
+     "art": "assets/fabao_kuilei/official/320501.webp"
     }
    ]
   },
@@ -4143,7 +4269,7 @@
      "hidden": [
       "双刀特性：每次行动，会攻击2次"
      ],
-     "art": "assets/fabao_kuilei/official/320601.png"
+     "art": "assets/fabao_kuilei/official/320601.webp"
     },
     {
      "id": 320602,
@@ -4165,7 +4291,7 @@
      "hidden": [
       "双刀特性：每次行动，会攻击2次"
      ],
-     "art": "assets/fabao_kuilei/official/320601.png"
+     "art": "assets/fabao_kuilei/official/320601.webp"
     },
     {
      "id": 320603,
@@ -4187,7 +4313,7 @@
      "hidden": [
       "双刀特性：每次行动，会攻击2次"
      ],
-     "art": "assets/fabao_kuilei/official/320601.png"
+     "art": "assets/fabao_kuilei/official/320601.webp"
     },
     {
      "id": 320604,
@@ -4209,7 +4335,7 @@
      "hidden": [
       "双刀特性：每次行动，会攻击2次"
      ],
-     "art": "assets/fabao_kuilei/official/320601.png"
+     "art": "assets/fabao_kuilei/official/320601.webp"
     },
     {
      "id": 320605,
@@ -4231,7 +4357,7 @@
      "hidden": [
       "双刀特性：每次行动，会攻击2次"
      ],
-     "art": "assets/fabao_kuilei/official/320601.png"
+     "art": "assets/fabao_kuilei/official/320601.webp"
     }
    ]
   },
@@ -4264,7 +4390,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330102.png"
+     "art": "assets/fabao_kuilei/official/330102.webp"
     },
     {
      "id": 330102,
@@ -4288,7 +4414,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330102.png"
+     "art": "assets/fabao_kuilei/official/330102.webp"
     },
     {
      "id": 330103,
@@ -4312,7 +4438,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330103.png"
+     "art": "assets/fabao_kuilei/official/330103.webp"
     },
     {
      "id": 330104,
@@ -4336,7 +4462,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330103.png"
+     "art": "assets/fabao_kuilei/official/330103.webp"
     },
     {
      "id": 330105,
@@ -4360,7 +4486,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330104.png"
+     "art": "assets/fabao_kuilei/official/330104.webp"
     }
    ]
   },
@@ -4394,7 +4520,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330201.png"
+     "art": "assets/fabao_kuilei/official/330201.webp"
     },
     {
      "id": 330202,
@@ -4418,7 +4544,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330202.png"
+     "art": "assets/fabao_kuilei/official/330202.webp"
     },
     {
      "id": 330203,
@@ -4442,7 +4568,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330202.png"
+     "art": "assets/fabao_kuilei/official/330202.webp"
     },
     {
      "id": 330204,
@@ -4466,7 +4592,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330203.png"
+     "art": "assets/fabao_kuilei/official/330203.webp"
     },
     {
      "id": 330205,
@@ -4490,7 +4616,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330203.png"
+     "art": "assets/fabao_kuilei/official/330203.webp"
     },
     {
      "id": 330206,
@@ -4514,7 +4640,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330203.png"
+     "art": "assets/fabao_kuilei/official/330203.webp"
     },
     {
      "id": 330207,
@@ -4538,7 +4664,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330203.png"
+     "art": "assets/fabao_kuilei/official/330203.webp"
     }
    ]
   },
@@ -4572,7 +4698,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330301.png"
+     "art": "assets/fabao_kuilei/official/330301.webp"
     },
     {
      "id": 330302,
@@ -4596,7 +4722,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330302.png"
+     "art": "assets/fabao_kuilei/official/330302.webp"
     },
     {
      "id": 330303,
@@ -4620,7 +4746,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330302.png"
+     "art": "assets/fabao_kuilei/official/330302.webp"
     },
     {
      "id": 330304,
@@ -4644,7 +4770,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330303.png"
+     "art": "assets/fabao_kuilei/official/330303.webp"
     },
     {
      "id": 330305,
@@ -4668,7 +4794,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330303.png"
+     "art": "assets/fabao_kuilei/official/330303.webp"
     }
    ]
   },
@@ -4701,7 +4827,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330401.png"
+     "art": "assets/fabao_kuilei/official/330401.webp"
     },
     {
      "id": 330402,
@@ -4725,7 +4851,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330401.png"
+     "art": "assets/fabao_kuilei/official/330401.webp"
     },
     {
      "id": 330403,
@@ -4749,7 +4875,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330401.png"
+     "art": "assets/fabao_kuilei/official/330401.webp"
     },
     {
      "id": 330404,
@@ -4773,7 +4899,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330401.png"
+     "art": "assets/fabao_kuilei/official/330401.webp"
     },
     {
      "id": 330405,
@@ -4797,7 +4923,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330401.png"
+     "art": "assets/fabao_kuilei/official/330401.webp"
     }
    ]
   },
@@ -4830,7 +4956,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330501.png"
+     "art": "assets/fabao_kuilei/official/330501.webp"
     },
     {
      "id": 330502,
@@ -4854,7 +4980,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330501.png"
+     "art": "assets/fabao_kuilei/official/330501.webp"
     },
     {
      "id": 330503,
@@ -4878,7 +5004,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330501.png"
+     "art": "assets/fabao_kuilei/official/330501.webp"
     },
     {
      "id": 330504,
@@ -4902,7 +5028,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330501.png"
+     "art": "assets/fabao_kuilei/official/330501.webp"
     },
     {
      "id": 330505,
@@ -4926,7 +5052,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/330501.png"
+     "art": "assets/fabao_kuilei/official/330501.webp"
     }
    ]
   },
@@ -4960,7 +5086,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/340101.png"
+     "art": "assets/fabao_kuilei/official/340101.webp"
     },
     {
      "id": 340102,
@@ -4984,7 +5110,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/340102.png"
+     "art": "assets/fabao_kuilei/official/340102.webp"
     },
     {
      "id": 340103,
@@ -5008,7 +5134,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/340102.png"
+     "art": "assets/fabao_kuilei/official/340102.webp"
     },
     {
      "id": 340104,
@@ -5032,7 +5158,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/340103.png"
+     "art": "assets/fabao_kuilei/official/340103.webp"
     },
     {
      "id": 340105,
@@ -5056,7 +5182,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/340103.png"
+     "art": "assets/fabao_kuilei/official/340103.webp"
     }
    ]
   },
@@ -5090,7 +5216,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/340201.png"
+     "art": "assets/fabao_kuilei/official/340201.webp"
     },
     {
      "id": 340202,
@@ -5114,7 +5240,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/340202.png"
+     "art": "assets/fabao_kuilei/official/340202.webp"
     },
     {
      "id": 340203,
@@ -5138,7 +5264,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/340202.png"
+     "art": "assets/fabao_kuilei/official/340202.webp"
     },
     {
      "id": 340204,
@@ -5162,7 +5288,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/340203.png"
+     "art": "assets/fabao_kuilei/official/340203.webp"
     },
     {
      "id": 340205,
@@ -5186,7 +5312,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/340203.png"
+     "art": "assets/fabao_kuilei/official/340203.webp"
     }
    ]
   },
@@ -5224,7 +5350,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/340301.png"
+     "art": "assets/fabao_kuilei/official/340301.webp"
     },
     {
      "id": 340302,
@@ -5252,7 +5378,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/340302.png"
+     "art": "assets/fabao_kuilei/official/340302.webp"
     },
     {
      "id": 340303,
@@ -5280,7 +5406,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/340302.png"
+     "art": "assets/fabao_kuilei/official/340302.webp"
     },
     {
      "id": 340304,
@@ -5308,7 +5434,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/340303.png"
+     "art": "assets/fabao_kuilei/official/340303.webp"
     },
     {
      "id": 340305,
@@ -5336,7 +5462,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/340303.png"
+     "art": "assets/fabao_kuilei/official/340303.webp"
     }
    ]
   },
@@ -5369,7 +5495,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/340402.png"
+     "art": "assets/fabao_kuilei/official/340402.webp"
     },
     {
      "id": 340403,
@@ -5393,7 +5519,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/340402.png"
+     "art": "assets/fabao_kuilei/official/340402.webp"
     },
     {
      "id": 340404,
@@ -5417,7 +5543,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/340402.png"
+     "art": "assets/fabao_kuilei/official/340402.webp"
     },
     {
      "id": 340405,
@@ -5441,7 +5567,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/340402.png"
+     "art": "assets/fabao_kuilei/official/340402.webp"
     }
    ]
   },
@@ -5474,7 +5600,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/340501.png"
+     "art": "assets/fabao_kuilei/official/340501.webp"
     },
     {
      "id": 340502,
@@ -5498,7 +5624,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/340501.png"
+     "art": "assets/fabao_kuilei/official/340501.webp"
     },
     {
      "id": 340503,
@@ -5522,7 +5648,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/340501.png"
+     "art": "assets/fabao_kuilei/official/340501.webp"
     },
     {
      "id": 340504,
@@ -5546,7 +5672,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/340501.png"
+     "art": "assets/fabao_kuilei/official/340501.webp"
     },
     {
      "id": 340505,
@@ -5570,7 +5696,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/340501.png"
+     "art": "assets/fabao_kuilei/official/340501.webp"
     }
    ]
   },
@@ -5604,7 +5730,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/350101.png"
+     "art": "assets/fabao_kuilei/official/350101.webp"
     },
     {
      "id": 350102,
@@ -5628,7 +5754,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/350102.png"
+     "art": "assets/fabao_kuilei/official/350102.webp"
     },
     {
      "id": 350103,
@@ -5652,7 +5778,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/350102.png"
+     "art": "assets/fabao_kuilei/official/350102.webp"
     },
     {
      "id": 350104,
@@ -5676,7 +5802,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/350103.png"
+     "art": "assets/fabao_kuilei/official/350103.webp"
     },
     {
      "id": 350105,
@@ -5700,7 +5826,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/350103.png"
+     "art": "assets/fabao_kuilei/official/350103.webp"
     }
    ]
   },
@@ -5733,7 +5859,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/350202.png"
+     "art": "assets/fabao_kuilei/official/350202.webp"
     },
     {
      "id": 350203,
@@ -5757,7 +5883,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/350202.png"
+     "art": "assets/fabao_kuilei/official/350202.webp"
     },
     {
      "id": 350204,
@@ -5781,7 +5907,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/350203.png"
+     "art": "assets/fabao_kuilei/official/350203.webp"
     },
     {
      "id": 350205,
@@ -5805,7 +5931,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/350204.png"
+     "art": "assets/fabao_kuilei/official/350204.webp"
     }
    ]
   },
@@ -5838,7 +5964,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/350302.png"
+     "art": "assets/fabao_kuilei/official/350302.webp"
     },
     {
      "id": 350302,
@@ -5862,7 +5988,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/350302.png"
+     "art": "assets/fabao_kuilei/official/350302.webp"
     },
     {
      "id": 350303,
@@ -5886,7 +6012,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/350303.png"
+     "art": "assets/fabao_kuilei/official/350303.webp"
     },
     {
      "id": 350304,
@@ -5910,7 +6036,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/350303.png"
+     "art": "assets/fabao_kuilei/official/350303.webp"
     },
     {
      "id": 350305,
@@ -5934,7 +6060,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/350304.png"
+     "art": "assets/fabao_kuilei/official/350304.webp"
     }
    ]
   },
@@ -5967,7 +6093,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/350401.png"
+     "art": "assets/fabao_kuilei/official/350401.webp"
     },
     {
      "id": 350402,
@@ -5991,7 +6117,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/350401.png"
+     "art": "assets/fabao_kuilei/official/350401.webp"
     },
     {
      "id": 350403,
@@ -6015,7 +6141,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/350401.png"
+     "art": "assets/fabao_kuilei/official/350401.webp"
     },
     {
      "id": 350404,
@@ -6039,7 +6165,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/350401.png"
+     "art": "assets/fabao_kuilei/official/350401.webp"
     },
     {
      "id": 350405,
@@ -6063,7 +6189,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/350401.png"
+     "art": "assets/fabao_kuilei/official/350401.webp"
     }
    ]
   },
@@ -6099,7 +6225,7 @@
      "hidden": [
       "瓶子特性：回合开始时，清除一名随机友军的负面效果"
      ],
-     "art": "assets/fabao_kuilei/official/360101.png"
+     "art": "assets/fabao_kuilei/official/360101.webp"
     },
     {
      "id": 360102,
@@ -6125,7 +6251,7 @@
      "hidden": [
       "瓶子特性：回合开始时，清除一名随机友军的负面效果"
      ],
-     "art": "assets/fabao_kuilei/official/360102.png"
+     "art": "assets/fabao_kuilei/official/360102.webp"
     },
     {
      "id": 360103,
@@ -6151,7 +6277,7 @@
      "hidden": [
       "瓶子特性：回合开始时，清除一名随机友军的负面效果"
      ],
-     "art": "assets/fabao_kuilei/official/360102.png"
+     "art": "assets/fabao_kuilei/official/360102.webp"
     },
     {
      "id": 360104,
@@ -6177,7 +6303,7 @@
      "hidden": [
       "瓶子特性：回合开始时，清除一名随机友军的负面效果"
      ],
-     "art": "assets/fabao_kuilei/official/360103.png"
+     "art": "assets/fabao_kuilei/official/360103.webp"
     },
     {
      "id": 360105,
@@ -6203,7 +6329,7 @@
      "hidden": [
       "瓶子特性：回合开始时，清除一名随机友军的负面效果"
      ],
-     "art": "assets/fabao_kuilei/official/360103.png"
+     "art": "assets/fabao_kuilei/official/360103.webp"
     }
    ]
   },
@@ -6238,7 +6364,7 @@
      "hidden": [
       "瓶子特性：回合开始时，清除一名随机友军的负面效果"
      ],
-     "art": "assets/fabao_kuilei/official/360202.png"
+     "art": "assets/fabao_kuilei/official/360202.webp"
     },
     {
      "id": 360202,
@@ -6264,7 +6390,7 @@
      "hidden": [
       "瓶子特性：回合开始时，清除一名随机友军的负面效果"
      ],
-     "art": "assets/fabao_kuilei/official/360202.png"
+     "art": "assets/fabao_kuilei/official/360202.webp"
     },
     {
      "id": 360203,
@@ -6290,7 +6416,7 @@
      "hidden": [
       "瓶子特性：回合开始时，清除一名随机友军的负面效果"
      ],
-     "art": "assets/fabao_kuilei/official/360203.png"
+     "art": "assets/fabao_kuilei/official/360203.webp"
     },
     {
      "id": 360204,
@@ -6316,7 +6442,7 @@
      "hidden": [
       "瓶子特性：回合开始时，清除一名随机友军的负面效果"
      ],
-     "art": "assets/fabao_kuilei/official/360204.png"
+     "art": "assets/fabao_kuilei/official/360204.webp"
     },
     {
      "id": 360205,
@@ -6342,7 +6468,7 @@
      "hidden": [
       "瓶子特性：回合开始时，清除一名随机友军的负面效果"
      ],
-     "art": "assets/fabao_kuilei/official/360204.png"
+     "art": "assets/fabao_kuilei/official/360204.webp"
     }
    ]
   },
@@ -6378,7 +6504,7 @@
      "hidden": [
       "瓶子特性：回合开始时，清除一名随机友军的负面效果"
      ],
-     "art": "assets/fabao_kuilei/official/360301.png"
+     "art": "assets/fabao_kuilei/official/360301.webp"
     },
     {
      "id": 360302,
@@ -6404,7 +6530,7 @@
      "hidden": [
       "瓶子特性：回合开始时，清除一名随机友军的负面效果"
      ],
-     "art": "assets/fabao_kuilei/official/360302.png"
+     "art": "assets/fabao_kuilei/official/360302.webp"
     },
     {
      "id": 360303,
@@ -6430,7 +6556,7 @@
      "hidden": [
       "瓶子特性：回合开始时，清除一名随机友军的负面效果"
      ],
-     "art": "assets/fabao_kuilei/official/360302.png"
+     "art": "assets/fabao_kuilei/official/360302.webp"
     },
     {
      "id": 360304,
@@ -6456,7 +6582,7 @@
      "hidden": [
       "瓶子特性：回合开始时，清除一名随机友军的负面效果"
      ],
-     "art": "assets/fabao_kuilei/official/360303.png"
+     "art": "assets/fabao_kuilei/official/360303.webp"
     },
     {
      "id": 360305,
@@ -6482,7 +6608,7 @@
      "hidden": [
       "瓶子特性：回合开始时，清除一名随机友军的负面效果"
      ],
-     "art": "assets/fabao_kuilei/official/360303.png"
+     "art": "assets/fabao_kuilei/official/360303.webp"
     }
    ]
   },
@@ -6517,7 +6643,7 @@
      "hidden": [
       "瓶子特性：回合开始时，清除一名随机友军的负面效果"
      ],
-     "art": "assets/fabao_kuilei/official/360402.png"
+     "art": "assets/fabao_kuilei/official/360402.webp"
     },
     {
      "id": 360402,
@@ -6543,7 +6669,7 @@
      "hidden": [
       "瓶子特性：回合开始时，清除一名随机友军的负面效果"
      ],
-     "art": "assets/fabao_kuilei/official/360402.png"
+     "art": "assets/fabao_kuilei/official/360402.webp"
     },
     {
      "id": 360403,
@@ -6569,7 +6695,7 @@
      "hidden": [
       "瓶子特性：回合开始时，清除一名随机友军的负面效果"
      ],
-     "art": "assets/fabao_kuilei/official/360402.png"
+     "art": "assets/fabao_kuilei/official/360402.webp"
     },
     {
      "id": 360404,
@@ -6595,7 +6721,7 @@
      "hidden": [
       "瓶子特性：回合开始时，清除一名随机友军的负面效果"
      ],
-     "art": "assets/fabao_kuilei/official/360403.png"
+     "art": "assets/fabao_kuilei/official/360403.webp"
     },
     {
      "id": 360405,
@@ -6621,7 +6747,7 @@
      "hidden": [
       "瓶子特性：回合开始时，清除一名随机友军的负面效果"
      ],
-     "art": "assets/fabao_kuilei/official/360404.png"
+     "art": "assets/fabao_kuilei/official/360404.webp"
     }
    ]
   },
@@ -6656,7 +6782,7 @@
      "hidden": [
       "瓶子特性：回合开始时，清除一名随机友军的负面效果"
      ],
-     "art": "assets/fabao_kuilei/official/360501.png"
+     "art": "assets/fabao_kuilei/official/360501.webp"
     },
     {
      "id": 360502,
@@ -6682,7 +6808,7 @@
      "hidden": [
       "瓶子特性：回合开始时，清除一名随机友军的负面效果"
      ],
-     "art": "assets/fabao_kuilei/official/360501.png"
+     "art": "assets/fabao_kuilei/official/360501.webp"
     },
     {
      "id": 360503,
@@ -6708,7 +6834,7 @@
      "hidden": [
       "瓶子特性：回合开始时，清除一名随机友军的负面效果"
      ],
-     "art": "assets/fabao_kuilei/official/360501.png"
+     "art": "assets/fabao_kuilei/official/360501.webp"
     },
     {
      "id": 360504,
@@ -6734,7 +6860,7 @@
      "hidden": [
       "瓶子特性：回合开始时，清除一名随机友军的负面效果"
      ],
-     "art": "assets/fabao_kuilei/official/360501.png"
+     "art": "assets/fabao_kuilei/official/360501.webp"
     },
     {
      "id": 360505,
@@ -6760,7 +6886,7 @@
      "hidden": [
       "瓶子特性：回合开始时，清除一名随机友军的负面效果"
      ],
-     "art": "assets/fabao_kuilei/official/360501.png"
+     "art": "assets/fabao_kuilei/official/360501.webp"
     }
    ]
   },
@@ -6796,7 +6922,7 @@
      "hidden": [
       "扇子特性：加入战场后，会先执行一次攻击"
      ],
-     "art": "assets/fabao_kuilei/official/370101.png"
+     "art": "assets/fabao_kuilei/official/370101.webp"
     },
     {
      "id": 370102,
@@ -6822,7 +6948,7 @@
      "hidden": [
       "扇子特性：加入战场后，会先执行一次攻击"
      ],
-     "art": "assets/fabao_kuilei/official/370102.png"
+     "art": "assets/fabao_kuilei/official/370102.webp"
     },
     {
      "id": 370103,
@@ -6848,7 +6974,7 @@
      "hidden": [
       "扇子特性：加入战场后，会先执行一次攻击"
      ],
-     "art": "assets/fabao_kuilei/official/370102.png"
+     "art": "assets/fabao_kuilei/official/370102.webp"
     },
     {
      "id": 370104,
@@ -6874,7 +7000,7 @@
      "hidden": [
       "扇子特性：加入战场后，会先执行一次攻击"
      ],
-     "art": "assets/fabao_kuilei/official/370103.png"
+     "art": "assets/fabao_kuilei/official/370103.webp"
     },
     {
      "id": 370105,
@@ -6900,7 +7026,7 @@
      "hidden": [
       "扇子特性：加入战场后，会先执行一次攻击"
      ],
-     "art": "assets/fabao_kuilei/official/370103.png"
+     "art": "assets/fabao_kuilei/official/370103.webp"
     }
    ]
   },
@@ -6935,7 +7061,7 @@
      "hidden": [
       "扇子特性：加入战场后，会先执行一次攻击"
      ],
-     "art": "assets/fabao_kuilei/official/370202.png"
+     "art": "assets/fabao_kuilei/official/370202.webp"
     },
     {
      "id": 370202,
@@ -6961,7 +7087,7 @@
      "hidden": [
       "扇子特性：加入战场后，会先执行一次攻击"
      ],
-     "art": "assets/fabao_kuilei/official/370202.png"
+     "art": "assets/fabao_kuilei/official/370202.webp"
     },
     {
      "id": 370203,
@@ -6987,7 +7113,7 @@
      "hidden": [
       "扇子特性：加入战场后，会先执行一次攻击"
      ],
-     "art": "assets/fabao_kuilei/official/370203.png"
+     "art": "assets/fabao_kuilei/official/370203.webp"
     },
     {
      "id": 370204,
@@ -7013,7 +7139,7 @@
      "hidden": [
       "扇子特性：加入战场后，会先执行一次攻击"
      ],
-     "art": "assets/fabao_kuilei/official/370203.png"
+     "art": "assets/fabao_kuilei/official/370203.webp"
     },
     {
      "id": 370205,
@@ -7039,7 +7165,7 @@
      "hidden": [
       "扇子特性：加入战场后，会先执行一次攻击"
      ],
-     "art": "assets/fabao_kuilei/official/370204.png"
+     "art": "assets/fabao_kuilei/official/370204.webp"
     }
    ]
   },
@@ -7075,7 +7201,7 @@
      "hidden": [
       "扇子特性：加入战场后，会先执行一次攻击"
      ],
-     "art": "assets/fabao_kuilei/official/370301.png"
+     "art": "assets/fabao_kuilei/official/370301.webp"
     },
     {
      "id": 370302,
@@ -7101,7 +7227,7 @@
      "hidden": [
       "扇子特性：加入战场后，会先执行一次攻击"
      ],
-     "art": "assets/fabao_kuilei/official/370302.png"
+     "art": "assets/fabao_kuilei/official/370302.webp"
     },
     {
      "id": 370303,
@@ -7127,7 +7253,7 @@
      "hidden": [
       "扇子特性：加入战场后，会先执行一次攻击"
      ],
-     "art": "assets/fabao_kuilei/official/370302.png"
+     "art": "assets/fabao_kuilei/official/370302.webp"
     },
     {
      "id": 370304,
@@ -7153,7 +7279,7 @@
      "hidden": [
       "扇子特性：加入战场后，会先执行一次攻击"
      ],
-     "art": "assets/fabao_kuilei/official/370303.png"
+     "art": "assets/fabao_kuilei/official/370303.webp"
     },
     {
      "id": 370305,
@@ -7179,7 +7305,7 @@
      "hidden": [
       "扇子特性：加入战场后，会先执行一次攻击"
      ],
-     "art": "assets/fabao_kuilei/official/370303.png"
+     "art": "assets/fabao_kuilei/official/370303.webp"
     }
    ]
   },
@@ -7214,7 +7340,7 @@
      "hidden": [
       "扇子特性：加入战场后，会先执行一次攻击"
      ],
-     "art": "assets/fabao_kuilei/official/370401.png"
+     "art": "assets/fabao_kuilei/official/370401.webp"
     },
     {
      "id": 370402,
@@ -7240,7 +7366,7 @@
      "hidden": [
       "扇子特性：加入战场后，会先执行一次攻击"
      ],
-     "art": "assets/fabao_kuilei/official/370401.png"
+     "art": "assets/fabao_kuilei/official/370401.webp"
     },
     {
      "id": 370403,
@@ -7266,7 +7392,7 @@
      "hidden": [
       "扇子特性：加入战场后，会先执行一次攻击"
      ],
-     "art": "assets/fabao_kuilei/official/370401.png"
+     "art": "assets/fabao_kuilei/official/370401.webp"
     },
     {
      "id": 370404,
@@ -7292,7 +7418,7 @@
      "hidden": [
       "扇子特性：加入战场后，会先执行一次攻击"
      ],
-     "art": "assets/fabao_kuilei/official/370401.png"
+     "art": "assets/fabao_kuilei/official/370401.webp"
     },
     {
      "id": 370405,
@@ -7318,7 +7444,7 @@
      "hidden": [
       "扇子特性：加入战场后，会先执行一次攻击"
      ],
-     "art": "assets/fabao_kuilei/official/370401.png"
+     "art": "assets/fabao_kuilei/official/370401.webp"
     }
    ]
   },
@@ -7353,7 +7479,7 @@
      "hidden": [
       "扇子特性：加入战场后，会先执行一次攻击"
      ],
-     "art": "assets/fabao_kuilei/official/370501.png"
+     "art": "assets/fabao_kuilei/official/370501.webp"
     },
     {
      "id": 370502,
@@ -7379,7 +7505,7 @@
      "hidden": [
       "扇子特性：加入战场后，会先执行一次攻击"
      ],
-     "art": "assets/fabao_kuilei/official/370501.png"
+     "art": "assets/fabao_kuilei/official/370501.webp"
     },
     {
      "id": 370503,
@@ -7405,7 +7531,7 @@
      "hidden": [
       "扇子特性：加入战场后，会先执行一次攻击"
      ],
-     "art": "assets/fabao_kuilei/official/370501.png"
+     "art": "assets/fabao_kuilei/official/370501.webp"
     },
     {
      "id": 370504,
@@ -7431,7 +7557,7 @@
      "hidden": [
       "扇子特性：加入战场后，会先执行一次攻击"
      ],
-     "art": "assets/fabao_kuilei/official/370501.png"
+     "art": "assets/fabao_kuilei/official/370501.webp"
     },
     {
      "id": 370505,
@@ -7457,7 +7583,7 @@
      "hidden": [
       "扇子特性：加入战场后，会先执行一次攻击"
      ],
-     "art": "assets/fabao_kuilei/official/370501.png"
+     "art": "assets/fabao_kuilei/official/370501.webp"
     }
    ]
   },
@@ -7492,7 +7618,7 @@
      "hidden": [
       "袋子特性：加入战斗时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/380101.png"
+     "art": "assets/fabao_kuilei/official/380101.webp"
     },
     {
      "id": 380102,
@@ -7518,7 +7644,7 @@
      "hidden": [
       "袋子特性：加入战斗时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/380102.png"
+     "art": "assets/fabao_kuilei/official/380102.webp"
     },
     {
      "id": 380103,
@@ -7544,7 +7670,7 @@
      "hidden": [
       "袋子特性：加入战斗时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/380102.png"
+     "art": "assets/fabao_kuilei/official/380102.webp"
     },
     {
      "id": 380104,
@@ -7570,7 +7696,7 @@
      "hidden": [
       "袋子特性：加入战斗时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/380103.png"
+     "art": "assets/fabao_kuilei/official/380103.webp"
     },
     {
      "id": 380105,
@@ -7596,7 +7722,7 @@
      "hidden": [
       "袋子特性：加入战斗时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/380103.png"
+     "art": "assets/fabao_kuilei/official/380103.webp"
     }
    ]
   },
@@ -7632,7 +7758,7 @@
      "hidden": [
       "袋子特性：加入战斗时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/380201.png"
+     "art": "assets/fabao_kuilei/official/380201.webp"
     },
     {
      "id": 380202,
@@ -7658,7 +7784,7 @@
      "hidden": [
       "袋子特性：加入战斗时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/380202.png"
+     "art": "assets/fabao_kuilei/official/380202.webp"
     },
     {
      "id": 380203,
@@ -7684,7 +7810,7 @@
      "hidden": [
       "袋子特性：加入战斗时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/380202.png"
+     "art": "assets/fabao_kuilei/official/380202.webp"
     },
     {
      "id": 380204,
@@ -7710,7 +7836,7 @@
      "hidden": [
       "袋子特性：加入战斗时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/380203.png"
+     "art": "assets/fabao_kuilei/official/380203.webp"
     },
     {
      "id": 380205,
@@ -7736,7 +7862,7 @@
      "hidden": [
       "袋子特性：加入战斗时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/380203.png"
+     "art": "assets/fabao_kuilei/official/380203.webp"
     }
    ]
   },
@@ -7772,7 +7898,7 @@
      "hidden": [
       "袋子特性：加入战斗时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/380301.png"
+     "art": "assets/fabao_kuilei/official/380301.webp"
     },
     {
      "id": 380302,
@@ -7798,7 +7924,7 @@
      "hidden": [
       "袋子特性：加入战斗时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/380302.png"
+     "art": "assets/fabao_kuilei/official/380302.webp"
     },
     {
      "id": 380303,
@@ -7824,7 +7950,7 @@
      "hidden": [
       "袋子特性：加入战斗时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/380302.png"
+     "art": "assets/fabao_kuilei/official/380302.webp"
     },
     {
      "id": 380304,
@@ -7850,7 +7976,7 @@
      "hidden": [
       "袋子特性：加入战斗时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/380303.png"
+     "art": "assets/fabao_kuilei/official/380303.webp"
     },
     {
      "id": 380305,
@@ -7876,7 +8002,7 @@
      "hidden": [
       "袋子特性：加入战斗时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/380303.png"
+     "art": "assets/fabao_kuilei/official/380303.webp"
     }
    ]
   },
@@ -7911,7 +8037,7 @@
      "hidden": [
       "袋子特性：加入战斗时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/380401.png"
+     "art": "assets/fabao_kuilei/official/380401.webp"
     },
     {
      "id": 380402,
@@ -7937,7 +8063,7 @@
      "hidden": [
       "袋子特性：加入战斗时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/380401.png"
+     "art": "assets/fabao_kuilei/official/380401.webp"
     },
     {
      "id": 380403,
@@ -7963,7 +8089,7 @@
      "hidden": [
       "袋子特性：加入战斗时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/380401.png"
+     "art": "assets/fabao_kuilei/official/380401.webp"
     },
     {
      "id": 380404,
@@ -7989,7 +8115,7 @@
      "hidden": [
       "袋子特性：加入战斗时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/380401.png"
+     "art": "assets/fabao_kuilei/official/380401.webp"
     },
     {
      "id": 380405,
@@ -8015,7 +8141,7 @@
      "hidden": [
       "袋子特性：加入战斗时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/380401.png"
+     "art": "assets/fabao_kuilei/official/380401.webp"
     }
    ]
   },
@@ -8050,7 +8176,7 @@
      "hidden": [
       "袋子特性：加入战斗时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/380501.png"
+     "art": "assets/fabao_kuilei/official/380501.webp"
     },
     {
      "id": 380502,
@@ -8076,7 +8202,7 @@
      "hidden": [
       "袋子特性：加入战斗时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/380501.png"
+     "art": "assets/fabao_kuilei/official/380501.webp"
     },
     {
      "id": 380503,
@@ -8102,7 +8228,7 @@
      "hidden": [
       "袋子特性：加入战斗时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/380501.png"
+     "art": "assets/fabao_kuilei/official/380501.webp"
     },
     {
      "id": 380504,
@@ -8128,7 +8254,7 @@
      "hidden": [
       "袋子特性：加入战斗时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/380501.png"
+     "art": "assets/fabao_kuilei/official/380501.webp"
     },
     {
      "id": 380505,
@@ -8154,7 +8280,7 @@
      "hidden": [
       "袋子特性：加入战斗时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/380501.png"
+     "art": "assets/fabao_kuilei/official/380501.webp"
     }
    ]
   },
@@ -8186,7 +8312,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390101.png"
+     "art": "assets/fabao_kuilei/official/390101.webp"
     },
     {
      "id": 390102,
@@ -8208,7 +8334,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390102.png"
+     "art": "assets/fabao_kuilei/official/390102.webp"
     },
     {
      "id": 390103,
@@ -8230,7 +8356,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390102.png"
+     "art": "assets/fabao_kuilei/official/390102.webp"
     },
     {
      "id": 390104,
@@ -8252,7 +8378,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390103.png"
+     "art": "assets/fabao_kuilei/official/390103.webp"
     },
     {
      "id": 390105,
@@ -8274,7 +8400,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390103.png"
+     "art": "assets/fabao_kuilei/official/390103.webp"
     }
    ]
   },
@@ -8309,7 +8435,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390202.png"
+     "art": "assets/fabao_kuilei/official/390202.webp"
     },
     {
      "id": 390202,
@@ -8335,7 +8461,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390202.png"
+     "art": "assets/fabao_kuilei/official/390202.webp"
     },
     {
      "id": 390203,
@@ -8361,7 +8487,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390203.png"
+     "art": "assets/fabao_kuilei/official/390203.webp"
     },
     {
      "id": 390204,
@@ -8387,7 +8513,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390203.png"
+     "art": "assets/fabao_kuilei/official/390203.webp"
     },
     {
      "id": 390205,
@@ -8413,7 +8539,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390204.png"
+     "art": "assets/fabao_kuilei/official/390204.webp"
     }
    ]
   },
@@ -8444,7 +8570,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390302.png"
+     "art": "assets/fabao_kuilei/official/390302.webp"
     },
     {
      "id": 390302,
@@ -8466,7 +8592,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390302.png"
+     "art": "assets/fabao_kuilei/official/390302.webp"
     },
     {
      "id": 390303,
@@ -8488,7 +8614,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390303.png"
+     "art": "assets/fabao_kuilei/official/390303.webp"
     },
     {
      "id": 390304,
@@ -8510,7 +8636,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390303.png"
+     "art": "assets/fabao_kuilei/official/390303.webp"
     },
     {
      "id": 390305,
@@ -8532,7 +8658,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390304.png"
+     "art": "assets/fabao_kuilei/official/390304.webp"
     }
    ]
   },
@@ -8563,7 +8689,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390401.png"
+     "art": "assets/fabao_kuilei/official/390401.webp"
     },
     {
      "id": 390402,
@@ -8585,7 +8711,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390401.png"
+     "art": "assets/fabao_kuilei/official/390401.webp"
     },
     {
      "id": 390403,
@@ -8607,7 +8733,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390401.png"
+     "art": "assets/fabao_kuilei/official/390401.webp"
     },
     {
      "id": 390404,
@@ -8629,7 +8755,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390401.png"
+     "art": "assets/fabao_kuilei/official/390401.webp"
     },
     {
      "id": 390405,
@@ -8651,7 +8777,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390401.png"
+     "art": "assets/fabao_kuilei/official/390401.webp"
     }
    ]
   },
@@ -8682,7 +8808,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390501.png"
+     "art": "assets/fabao_kuilei/official/390501.webp"
     },
     {
      "id": 390502,
@@ -8704,7 +8830,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390501.png"
+     "art": "assets/fabao_kuilei/official/390501.webp"
     },
     {
      "id": 390503,
@@ -8726,7 +8852,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390501.png"
+     "art": "assets/fabao_kuilei/official/390501.webp"
     },
     {
      "id": 390504,
@@ -8748,7 +8874,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390501.png"
+     "art": "assets/fabao_kuilei/official/390501.webp"
     },
     {
      "id": 390505,
@@ -8770,7 +8896,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390501.png"
+     "art": "assets/fabao_kuilei/official/390501.webp"
     }
    ]
   },
@@ -8801,7 +8927,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390601.png"
+     "art": "assets/fabao_kuilei/official/390601.webp"
     },
     {
      "id": 390602,
@@ -8823,7 +8949,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390601.png"
+     "art": "assets/fabao_kuilei/official/390601.webp"
     },
     {
      "id": 390603,
@@ -8845,7 +8971,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390601.png"
+     "art": "assets/fabao_kuilei/official/390601.webp"
     },
     {
      "id": 390604,
@@ -8867,7 +8993,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390601.png"
+     "art": "assets/fabao_kuilei/official/390601.webp"
     },
     {
      "id": 390605,
@@ -8889,7 +9015,7 @@
      "hidden": [
       "当主角卡受到伤害时，自己增加攻击力"
      ],
-     "art": "assets/fabao_kuilei/official/390601.png"
+     "art": "assets/fabao_kuilei/official/390601.webp"
     }
    ]
   },
@@ -8924,7 +9050,7 @@
      "hidden": [
       "灯特性：对木属性伤害翻倍"
      ],
-     "art": "assets/fabao_kuilei/official/400102.png"
+     "art": "assets/fabao_kuilei/official/400102.webp"
     },
     {
      "id": 400102,
@@ -8950,7 +9076,7 @@
      "hidden": [
       "灯特性：对木属性伤害翻倍"
      ],
-     "art": "assets/fabao_kuilei/official/400102.png"
+     "art": "assets/fabao_kuilei/official/400102.webp"
     },
     {
      "id": 400103,
@@ -8976,7 +9102,7 @@
      "hidden": [
       "灯特性：对木属性伤害翻倍"
      ],
-     "art": "assets/fabao_kuilei/official/400103.png"
+     "art": "assets/fabao_kuilei/official/400103.webp"
     },
     {
      "id": 400104,
@@ -9002,7 +9128,7 @@
      "hidden": [
       "灯特性：对木属性伤害翻倍"
      ],
-     "art": "assets/fabao_kuilei/official/400104.png"
+     "art": "assets/fabao_kuilei/official/400104.webp"
     },
     {
      "id": 400105,
@@ -9028,7 +9154,7 @@
      "hidden": [
       "灯特性：对木属性伤害翻倍"
      ],
-     "art": "assets/fabao_kuilei/official/400104.png"
+     "art": "assets/fabao_kuilei/official/400104.webp"
     }
    ]
   },
@@ -9063,7 +9189,7 @@
      "hidden": [
       "灯特性：对木属性伤害翻倍"
      ],
-     "art": "assets/fabao_kuilei/official/400201.png"
+     "art": "assets/fabao_kuilei/official/400201.webp"
     },
     {
      "id": 400202,
@@ -9089,7 +9215,7 @@
      "hidden": [
       "灯特性：对木属性伤害翻倍"
      ],
-     "art": "assets/fabao_kuilei/official/400201.png"
+     "art": "assets/fabao_kuilei/official/400201.webp"
     },
     {
      "id": 400203,
@@ -9115,7 +9241,7 @@
      "hidden": [
       "灯特性：对木属性伤害翻倍"
      ],
-     "art": "assets/fabao_kuilei/official/400201.png"
+     "art": "assets/fabao_kuilei/official/400201.webp"
     },
     {
      "id": 400204,
@@ -9141,7 +9267,7 @@
      "hidden": [
       "灯特性：对木属性伤害翻倍"
      ],
-     "art": "assets/fabao_kuilei/official/400201.png"
+     "art": "assets/fabao_kuilei/official/400201.webp"
     },
     {
      "id": 400205,
@@ -9167,7 +9293,7 @@
      "hidden": [
       "灯特性：对木属性伤害翻倍"
      ],
-     "art": "assets/fabao_kuilei/official/400201.png"
+     "art": "assets/fabao_kuilei/official/400201.webp"
     }
    ]
   },
@@ -9202,7 +9328,7 @@
      "hidden": [
       "灯特性：对木属性伤害翻倍"
      ],
-     "art": "assets/fabao_kuilei/official/400301.png"
+     "art": "assets/fabao_kuilei/official/400301.webp"
     },
     {
      "id": 400302,
@@ -9228,7 +9354,7 @@
      "hidden": [
       "灯特性：对木属性伤害翻倍"
      ],
-     "art": "assets/fabao_kuilei/official/400301.png"
+     "art": "assets/fabao_kuilei/official/400301.webp"
     },
     {
      "id": 400303,
@@ -9254,7 +9380,7 @@
      "hidden": [
       "灯特性：对木属性伤害翻倍"
      ],
-     "art": "assets/fabao_kuilei/official/400301.png"
+     "art": "assets/fabao_kuilei/official/400301.webp"
     },
     {
      "id": 400304,
@@ -9280,7 +9406,7 @@
      "hidden": [
       "灯特性：对木属性伤害翻倍"
      ],
-     "art": "assets/fabao_kuilei/official/400301.png"
+     "art": "assets/fabao_kuilei/official/400301.webp"
     },
     {
      "id": 400305,
@@ -9306,7 +9432,7 @@
      "hidden": [
       "灯特性：对木属性伤害翻倍"
      ],
-     "art": "assets/fabao_kuilei/official/400301.png"
+     "art": "assets/fabao_kuilei/official/400301.webp"
     }
    ]
   },
@@ -9341,7 +9467,7 @@
      "hidden": [
       "镜子特性：受到攻击时，会反击攻击者"
      ],
-     "art": "assets/fabao_kuilei/official/410102.png"
+     "art": "assets/fabao_kuilei/official/410102.webp"
     },
     {
      "id": 410102,
@@ -9367,7 +9493,7 @@
      "hidden": [
       "镜子特性：受到攻击时，会反击攻击者"
      ],
-     "art": "assets/fabao_kuilei/official/410102.png"
+     "art": "assets/fabao_kuilei/official/410102.webp"
     },
     {
      "id": 410103,
@@ -9393,7 +9519,7 @@
      "hidden": [
       "镜子特性：受到攻击时，会反击攻击者"
      ],
-     "art": "assets/fabao_kuilei/official/410103.png"
+     "art": "assets/fabao_kuilei/official/410103.webp"
     },
     {
      "id": 410104,
@@ -9419,7 +9545,7 @@
      "hidden": [
       "镜子特性：受到攻击时，会反击攻击者"
      ],
-     "art": "assets/fabao_kuilei/official/410104.png"
+     "art": "assets/fabao_kuilei/official/410104.webp"
     },
     {
      "id": 410105,
@@ -9445,7 +9571,7 @@
      "hidden": [
       "镜子特性：受到攻击时，会反击攻击者"
      ],
-     "art": "assets/fabao_kuilei/official/410104.png"
+     "art": "assets/fabao_kuilei/official/410104.webp"
     }
    ]
   },
@@ -9480,7 +9606,7 @@
      "hidden": [
       "镜子特性：受到攻击时，会反击攻击者"
      ],
-     "art": "assets/fabao_kuilei/official/410201.png"
+     "art": "assets/fabao_kuilei/official/410201.webp"
     },
     {
      "id": 410202,
@@ -9506,7 +9632,7 @@
      "hidden": [
       "镜子特性：受到攻击时，会反击攻击者"
      ],
-     "art": "assets/fabao_kuilei/official/410201.png"
+     "art": "assets/fabao_kuilei/official/410201.webp"
     },
     {
      "id": 410203,
@@ -9532,7 +9658,7 @@
      "hidden": [
       "镜子特性：受到攻击时，会反击攻击者"
      ],
-     "art": "assets/fabao_kuilei/official/410201.png"
+     "art": "assets/fabao_kuilei/official/410201.webp"
     },
     {
      "id": 410204,
@@ -9558,7 +9684,7 @@
      "hidden": [
       "镜子特性：受到攻击时，会反击攻击者"
      ],
-     "art": "assets/fabao_kuilei/official/410201.png"
+     "art": "assets/fabao_kuilei/official/410201.webp"
     },
     {
      "id": 410205,
@@ -9584,7 +9710,7 @@
      "hidden": [
       "镜子特性：受到攻击时，会反击攻击者"
      ],
-     "art": "assets/fabao_kuilei/official/410201.png"
+     "art": "assets/fabao_kuilei/official/410201.webp"
     }
    ]
   },
@@ -9619,7 +9745,7 @@
      "hidden": [
       "镜子特性：受到攻击时，会反击攻击者"
      ],
-     "art": "assets/fabao_kuilei/official/410301.png"
+     "art": "assets/fabao_kuilei/official/410301.webp"
     },
     {
      "id": 410302,
@@ -9645,7 +9771,7 @@
      "hidden": [
       "镜子特性：受到攻击时，会反击攻击者"
      ],
-     "art": "assets/fabao_kuilei/official/410301.png"
+     "art": "assets/fabao_kuilei/official/410301.webp"
     },
     {
      "id": 410303,
@@ -9671,7 +9797,7 @@
      "hidden": [
       "镜子特性：受到攻击时，会反击攻击者"
      ],
-     "art": "assets/fabao_kuilei/official/410301.png"
+     "art": "assets/fabao_kuilei/official/410301.webp"
     },
     {
      "id": 410304,
@@ -9697,7 +9823,7 @@
      "hidden": [
       "镜子特性：受到攻击时，会反击攻击者"
      ],
-     "art": "assets/fabao_kuilei/official/410301.png"
+     "art": "assets/fabao_kuilei/official/410301.webp"
     },
     {
      "id": 410305,
@@ -9723,7 +9849,7 @@
      "hidden": [
       "镜子特性：受到攻击时，会反击攻击者"
      ],
-     "art": "assets/fabao_kuilei/official/410301.png"
+     "art": "assets/fabao_kuilei/official/410301.webp"
     }
    ]
   },
@@ -9758,7 +9884,7 @@
      "hidden": [
       "镜子特性：受到攻击时，会反击攻击者"
      ],
-     "art": "assets/fabao_kuilei/official/410401.png"
+     "art": "assets/fabao_kuilei/official/410401.webp"
     },
     {
      "id": 410402,
@@ -9784,7 +9910,7 @@
      "hidden": [
       "镜子特性：受到攻击时，会反击攻击者"
      ],
-     "art": "assets/fabao_kuilei/official/410401.png"
+     "art": "assets/fabao_kuilei/official/410401.webp"
     },
     {
      "id": 410403,
@@ -9810,7 +9936,7 @@
      "hidden": [
       "镜子特性：受到攻击时，会反击攻击者"
      ],
-     "art": "assets/fabao_kuilei/official/410401.png"
+     "art": "assets/fabao_kuilei/official/410401.webp"
     },
     {
      "id": 410404,
@@ -9836,7 +9962,7 @@
      "hidden": [
       "镜子特性：受到攻击时，会反击攻击者"
      ],
-     "art": "assets/fabao_kuilei/official/410401.png"
+     "art": "assets/fabao_kuilei/official/410401.webp"
     },
     {
      "id": 410405,
@@ -9862,7 +9988,7 @@
      "hidden": [
       "镜子特性：受到攻击时，会反击攻击者"
      ],
-     "art": "assets/fabao_kuilei/official/410401.png"
+     "art": "assets/fabao_kuilei/official/410401.webp"
     }
    ]
   },
@@ -9895,7 +10021,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/420102.png"
+     "art": "assets/fabao_kuilei/official/420102.webp"
     },
     {
      "id": 420102,
@@ -9919,7 +10045,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/420102.png"
+     "art": "assets/fabao_kuilei/official/420102.webp"
     },
     {
      "id": 420103,
@@ -9943,7 +10069,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/420103.png"
+     "art": "assets/fabao_kuilei/official/420103.webp"
     },
     {
      "id": 420104,
@@ -9967,7 +10093,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/420104.png"
+     "art": "assets/fabao_kuilei/official/420104.webp"
     },
     {
      "id": 420105,
@@ -9991,7 +10117,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/420104.png"
+     "art": "assets/fabao_kuilei/official/420104.webp"
     }
    ]
   },
@@ -10024,7 +10150,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/420201.png"
+     "art": "assets/fabao_kuilei/official/420201.webp"
     },
     {
      "id": 420202,
@@ -10048,7 +10174,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/420201.png"
+     "art": "assets/fabao_kuilei/official/420201.webp"
     },
     {
      "id": 420203,
@@ -10072,7 +10198,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/420201.png"
+     "art": "assets/fabao_kuilei/official/420201.webp"
     },
     {
      "id": 420204,
@@ -10096,7 +10222,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/420201.png"
+     "art": "assets/fabao_kuilei/official/420201.webp"
     },
     {
      "id": 420205,
@@ -10120,7 +10246,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/420201.png"
+     "art": "assets/fabao_kuilei/official/420201.webp"
     }
    ]
   },
@@ -10153,7 +10279,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/420301.png"
+     "art": "assets/fabao_kuilei/official/420301.webp"
     },
     {
      "id": 420302,
@@ -10177,7 +10303,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/420301.png"
+     "art": "assets/fabao_kuilei/official/420301.webp"
     },
     {
      "id": 420303,
@@ -10201,7 +10327,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/420301.png"
+     "art": "assets/fabao_kuilei/official/420301.webp"
     },
     {
      "id": 420304,
@@ -10225,7 +10351,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/420301.png"
+     "art": "assets/fabao_kuilei/official/420301.webp"
     },
     {
      "id": 420305,
@@ -10249,7 +10375,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/420301.png"
+     "art": "assets/fabao_kuilei/official/420301.webp"
     }
    ]
   },
@@ -10284,7 +10410,7 @@
      "hidden": [
       "伞特性：免疫水属性卡牌的伤害"
      ],
-     "art": "assets/fabao_kuilei/official/430102.png"
+     "art": "assets/fabao_kuilei/official/430102.webp"
     },
     {
      "id": 430102,
@@ -10310,7 +10436,7 @@
      "hidden": [
       "伞特性：免疫水属性卡牌的伤害"
      ],
-     "art": "assets/fabao_kuilei/official/430102.png"
+     "art": "assets/fabao_kuilei/official/430102.webp"
     },
     {
      "id": 430103,
@@ -10336,7 +10462,7 @@
      "hidden": [
       "伞特性：免疫水属性卡牌的伤害"
      ],
-     "art": "assets/fabao_kuilei/official/430103.png"
+     "art": "assets/fabao_kuilei/official/430103.webp"
     },
     {
      "id": 430104,
@@ -10362,7 +10488,7 @@
      "hidden": [
       "伞特性：免疫水属性卡牌的伤害"
      ],
-     "art": "assets/fabao_kuilei/official/430104.png"
+     "art": "assets/fabao_kuilei/official/430104.webp"
     },
     {
      "id": 430105,
@@ -10388,7 +10514,7 @@
      "hidden": [
       "伞特性：免疫水属性卡牌的伤害"
      ],
-     "art": "assets/fabao_kuilei/official/430104.png"
+     "art": "assets/fabao_kuilei/official/430104.webp"
     }
    ]
   },
@@ -10419,7 +10545,7 @@
      "hidden": [
       "伞特性：免疫水属性卡牌的伤害"
      ],
-     "art": "assets/fabao_kuilei/official/430202.png"
+     "art": "assets/fabao_kuilei/official/430202.webp"
     },
     {
      "id": 430203,
@@ -10441,7 +10567,7 @@
      "hidden": [
       "伞特性：免疫水属性卡牌的伤害"
      ],
-     "art": "assets/fabao_kuilei/official/430202.png"
+     "art": "assets/fabao_kuilei/official/430202.webp"
     },
     {
      "id": 430204,
@@ -10463,7 +10589,7 @@
      "hidden": [
       "伞特性：免疫水属性卡牌的伤害"
      ],
-     "art": "assets/fabao_kuilei/official/430202.png"
+     "art": "assets/fabao_kuilei/official/430202.webp"
     },
     {
      "id": 430205,
@@ -10485,7 +10611,7 @@
      "hidden": [
       "伞特性：免疫水属性卡牌的伤害"
      ],
-     "art": "assets/fabao_kuilei/official/430202.png"
+     "art": "assets/fabao_kuilei/official/430202.webp"
     }
    ]
   },
@@ -10520,7 +10646,7 @@
      "hidden": [
       "伞特性：免疫水属性卡牌的伤害"
      ],
-     "art": "assets/fabao_kuilei/official/430301.png"
+     "art": "assets/fabao_kuilei/official/430301.webp"
     },
     {
      "id": 430302,
@@ -10546,7 +10672,7 @@
      "hidden": [
       "伞特性：免疫水属性卡牌的伤害"
      ],
-     "art": "assets/fabao_kuilei/official/430301.png"
+     "art": "assets/fabao_kuilei/official/430301.webp"
     },
     {
      "id": 430303,
@@ -10572,7 +10698,7 @@
      "hidden": [
       "伞特性：免疫水属性卡牌的伤害"
      ],
-     "art": "assets/fabao_kuilei/official/430301.png"
+     "art": "assets/fabao_kuilei/official/430301.webp"
     },
     {
      "id": 430304,
@@ -10598,7 +10724,7 @@
      "hidden": [
       "伞特性：免疫水属性卡牌的伤害"
      ],
-     "art": "assets/fabao_kuilei/official/430301.png"
+     "art": "assets/fabao_kuilei/official/430301.webp"
     },
     {
      "id": 430305,
@@ -10624,7 +10750,7 @@
      "hidden": [
       "伞特性：免疫水属性卡牌的伤害"
      ],
-     "art": "assets/fabao_kuilei/official/430301.png"
+     "art": "assets/fabao_kuilei/official/430301.webp"
     }
    ]
   },
@@ -10655,7 +10781,7 @@
      "hidden": [
       "伞特性：免疫水属性卡牌的伤害"
      ],
-     "art": "assets/fabao_kuilei/official/430401.png"
+     "art": "assets/fabao_kuilei/official/430401.webp"
     },
     {
      "id": 430402,
@@ -10677,7 +10803,7 @@
      "hidden": [
       "伞特性：免疫水属性卡牌的伤害"
      ],
-     "art": "assets/fabao_kuilei/official/430401.png"
+     "art": "assets/fabao_kuilei/official/430401.webp"
     },
     {
      "id": 430403,
@@ -10699,7 +10825,7 @@
      "hidden": [
       "伞特性：免疫水属性卡牌的伤害"
      ],
-     "art": "assets/fabao_kuilei/official/430401.png"
+     "art": "assets/fabao_kuilei/official/430401.webp"
     },
     {
      "id": 430404,
@@ -10721,7 +10847,7 @@
      "hidden": [
       "伞特性：免疫水属性卡牌的伤害"
      ],
-     "art": "assets/fabao_kuilei/official/430401.png"
+     "art": "assets/fabao_kuilei/official/430401.webp"
     },
     {
      "id": 430405,
@@ -10743,7 +10869,7 @@
      "hidden": [
       "伞特性：免疫水属性卡牌的伤害"
      ],
-     "art": "assets/fabao_kuilei/official/430401.png"
+     "art": "assets/fabao_kuilei/official/430401.webp"
     }
    ]
   },
@@ -10774,7 +10900,7 @@
      "hidden": [
       "伞特性：免疫水属性卡牌的伤害"
      ],
-     "art": "assets/fabao_kuilei/official/430501.png"
+     "art": "assets/fabao_kuilei/official/430501.webp"
     },
     {
      "id": 430502,
@@ -10796,7 +10922,7 @@
      "hidden": [
       "伞特性：免疫水属性卡牌的伤害"
      ],
-     "art": "assets/fabao_kuilei/official/430501.png"
+     "art": "assets/fabao_kuilei/official/430501.webp"
     },
     {
      "id": 430503,
@@ -10818,7 +10944,7 @@
      "hidden": [
       "伞特性：免疫水属性卡牌的伤害"
      ],
-     "art": "assets/fabao_kuilei/official/430501.png"
+     "art": "assets/fabao_kuilei/official/430501.webp"
     },
     {
      "id": 430504,
@@ -10840,7 +10966,7 @@
      "hidden": [
       "伞特性：免疫水属性卡牌的伤害"
      ],
-     "art": "assets/fabao_kuilei/official/430501.png"
+     "art": "assets/fabao_kuilei/official/430501.webp"
     },
     {
      "id": 430505,
@@ -10862,7 +10988,7 @@
      "hidden": [
       "伞特性：免疫水属性卡牌的伤害"
      ],
-     "art": "assets/fabao_kuilei/official/430501.png"
+     "art": "assets/fabao_kuilei/official/430501.webp"
     }
    ]
   },
@@ -10893,7 +11019,7 @@
      "hidden": [
       "印特性：对妖兽的伤害为1.5"
      ],
-     "art": "assets/fabao_kuilei/official/440102.png"
+     "art": "assets/fabao_kuilei/official/440102.webp"
     },
     {
      "id": 440102,
@@ -10915,7 +11041,7 @@
      "hidden": [
       "印特性：对妖兽的伤害为1.5"
      ],
-     "art": "assets/fabao_kuilei/official/440102.png"
+     "art": "assets/fabao_kuilei/official/440102.webp"
     },
     {
      "id": 440103,
@@ -10937,7 +11063,7 @@
      "hidden": [
       "印特性：对妖兽的伤害为1.5"
      ],
-     "art": "assets/fabao_kuilei/official/440103.png"
+     "art": "assets/fabao_kuilei/official/440103.webp"
     },
     {
      "id": 440104,
@@ -10959,7 +11085,7 @@
      "hidden": [
       "印特性：对妖兽的伤害为1.5"
      ],
-     "art": "assets/fabao_kuilei/official/440104.png"
+     "art": "assets/fabao_kuilei/official/440104.webp"
     },
     {
      "id": 440105,
@@ -10981,7 +11107,7 @@
      "hidden": [
       "印特性：对妖兽的伤害为1.5"
      ],
-     "art": "assets/fabao_kuilei/official/440104.png"
+     "art": "assets/fabao_kuilei/official/440104.webp"
     }
    ]
   },
@@ -11012,7 +11138,7 @@
      "hidden": [
       "印特性：对妖兽的伤害为1.5"
      ],
-     "art": "assets/fabao_kuilei/official/440201.png"
+     "art": "assets/fabao_kuilei/official/440201.webp"
     },
     {
      "id": 440202,
@@ -11034,7 +11160,7 @@
      "hidden": [
       "印特性：对妖兽的伤害为1.5"
      ],
-     "art": "assets/fabao_kuilei/official/440201.png"
+     "art": "assets/fabao_kuilei/official/440201.webp"
     },
     {
      "id": 440203,
@@ -11056,7 +11182,7 @@
      "hidden": [
       "印特性：对妖兽的伤害为1.5"
      ],
-     "art": "assets/fabao_kuilei/official/440201.png"
+     "art": "assets/fabao_kuilei/official/440201.webp"
     },
     {
      "id": 440204,
@@ -11078,7 +11204,7 @@
      "hidden": [
       "印特性：对妖兽的伤害为1.5"
      ],
-     "art": "assets/fabao_kuilei/official/440201.png"
+     "art": "assets/fabao_kuilei/official/440201.webp"
     },
     {
      "id": 440205,
@@ -11100,7 +11226,7 @@
      "hidden": [
       "印特性：对妖兽的伤害为1.5"
      ],
-     "art": "assets/fabao_kuilei/official/440201.png"
+     "art": "assets/fabao_kuilei/official/440201.webp"
     }
    ]
   },
@@ -11131,7 +11257,7 @@
      "hidden": [
       "印特性：对妖兽的伤害为1.5"
      ],
-     "art": "assets/fabao_kuilei/official/440301.png"
+     "art": "assets/fabao_kuilei/official/440301.webp"
     },
     {
      "id": 440302,
@@ -11153,7 +11279,7 @@
      "hidden": [
       "印特性：对妖兽的伤害为1.5"
      ],
-     "art": "assets/fabao_kuilei/official/440301.png"
+     "art": "assets/fabao_kuilei/official/440301.webp"
     },
     {
      "id": 440303,
@@ -11175,7 +11301,7 @@
      "hidden": [
       "印特性：对妖兽的伤害为1.5"
      ],
-     "art": "assets/fabao_kuilei/official/440301.png"
+     "art": "assets/fabao_kuilei/official/440301.webp"
     },
     {
      "id": 440304,
@@ -11197,7 +11323,7 @@
      "hidden": [
       "印特性：对妖兽的伤害为1.5"
      ],
-     "art": "assets/fabao_kuilei/official/440301.png"
+     "art": "assets/fabao_kuilei/official/440301.webp"
     },
     {
      "id": 440305,
@@ -11219,7 +11345,7 @@
      "hidden": [
       "印特性：对妖兽的伤害为1.5"
      ],
-     "art": "assets/fabao_kuilei/official/440301.png"
+     "art": "assets/fabao_kuilei/official/440301.webp"
     }
    ]
   },
@@ -11250,7 +11376,7 @@
      "hidden": [
       "绳索特性：第一回合，自己和随机敌人无法行动"
      ],
-     "art": "assets/fabao_kuilei/official/450102.png"
+     "art": "assets/fabao_kuilei/official/450102.webp"
     },
     {
      "id": 450103,
@@ -11272,7 +11398,7 @@
      "hidden": [
       "绳索特性：第一回合，自己和随机敌人无法行动"
      ],
-     "art": "assets/fabao_kuilei/official/450102.png"
+     "art": "assets/fabao_kuilei/official/450102.webp"
     },
     {
      "id": 450104,
@@ -11294,7 +11420,7 @@
      "hidden": [
       "绳索特性：第一回合，自己和随机敌人无法行动"
      ],
-     "art": "assets/fabao_kuilei/official/450102.png"
+     "art": "assets/fabao_kuilei/official/450102.webp"
     },
     {
      "id": 450105,
@@ -11316,7 +11442,7 @@
      "hidden": [
       "绳索特性：第一回合，自己和随机敌人无法行动"
      ],
-     "art": "assets/fabao_kuilei/official/450102.png"
+     "art": "assets/fabao_kuilei/official/450102.webp"
     }
    ]
   },
@@ -11347,7 +11473,7 @@
      "hidden": [
       "绳索特性：第一回合，自己和随机敌人无法行动"
      ],
-     "art": "assets/fabao_kuilei/official/450201.png"
+     "art": "assets/fabao_kuilei/official/450201.webp"
     },
     {
      "id": 450202,
@@ -11369,7 +11495,7 @@
      "hidden": [
       "绳索特性：第一回合，自己和随机敌人无法行动"
      ],
-     "art": "assets/fabao_kuilei/official/450201.png"
+     "art": "assets/fabao_kuilei/official/450201.webp"
     },
     {
      "id": 450203,
@@ -11391,7 +11517,7 @@
      "hidden": [
       "绳索特性：第一回合，自己和随机敌人无法行动"
      ],
-     "art": "assets/fabao_kuilei/official/450201.png"
+     "art": "assets/fabao_kuilei/official/450201.webp"
     },
     {
      "id": 450204,
@@ -11413,7 +11539,7 @@
      "hidden": [
       "绳索特性：第一回合，自己和随机敌人无法行动"
      ],
-     "art": "assets/fabao_kuilei/official/450201.png"
+     "art": "assets/fabao_kuilei/official/450201.webp"
     },
     {
      "id": 450205,
@@ -11435,7 +11561,7 @@
      "hidden": [
       "绳索特性：第一回合，自己和随机敌人无法行动"
      ],
-     "art": "assets/fabao_kuilei/official/450201.png"
+     "art": "assets/fabao_kuilei/official/450201.webp"
     }
    ]
   },
@@ -11470,7 +11596,7 @@
      "hidden": [
       "绳索特性：第一回合，自己和随机敌人无法行动"
      ],
-     "art": "assets/fabao_kuilei/official/450301.png"
+     "art": "assets/fabao_kuilei/official/450301.webp"
     },
     {
      "id": 450302,
@@ -11496,7 +11622,7 @@
      "hidden": [
       "绳索特性：第一回合，自己和随机敌人无法行动"
      ],
-     "art": "assets/fabao_kuilei/official/450301.png"
+     "art": "assets/fabao_kuilei/official/450301.webp"
     },
     {
      "id": 450303,
@@ -11522,7 +11648,7 @@
      "hidden": [
       "绳索特性：第一回合，自己和随机敌人无法行动"
      ],
-     "art": "assets/fabao_kuilei/official/450301.png"
+     "art": "assets/fabao_kuilei/official/450301.webp"
     },
     {
      "id": 450304,
@@ -11548,7 +11674,7 @@
      "hidden": [
       "绳索特性：第一回合，自己和随机敌人无法行动"
      ],
-     "art": "assets/fabao_kuilei/official/450301.png"
+     "art": "assets/fabao_kuilei/official/450301.webp"
     },
     {
      "id": 450305,
@@ -11574,7 +11700,7 @@
      "hidden": [
       "绳索特性：第一回合，自己和随机敌人无法行动"
      ],
-     "art": "assets/fabao_kuilei/official/450301.png"
+     "art": "assets/fabao_kuilei/official/450301.webp"
     }
    ]
   },
@@ -11605,7 +11731,7 @@
      "hidden": [
       "绳索特性：第一回合，自己和随机敌人无法行动"
      ],
-     "art": "assets/fabao_kuilei/official/450401.png"
+     "art": "assets/fabao_kuilei/official/450401.webp"
     },
     {
      "id": 450402,
@@ -11627,7 +11753,7 @@
      "hidden": [
       "绳索特性：第一回合，自己和随机敌人无法行动"
      ],
-     "art": "assets/fabao_kuilei/official/450401.png"
+     "art": "assets/fabao_kuilei/official/450401.webp"
     },
     {
      "id": 450403,
@@ -11649,7 +11775,7 @@
      "hidden": [
       "绳索特性：第一回合，自己和随机敌人无法行动"
      ],
-     "art": "assets/fabao_kuilei/official/450401.png"
+     "art": "assets/fabao_kuilei/official/450401.webp"
     },
     {
      "id": 450404,
@@ -11671,7 +11797,7 @@
      "hidden": [
       "绳索特性：第一回合，自己和随机敌人无法行动"
      ],
-     "art": "assets/fabao_kuilei/official/450401.png"
+     "art": "assets/fabao_kuilei/official/450401.webp"
     },
     {
      "id": 450405,
@@ -11693,7 +11819,7 @@
      "hidden": [
       "绳索特性：第一回合，自己和随机敌人无法行动"
      ],
-     "art": "assets/fabao_kuilei/official/450401.png"
+     "art": "assets/fabao_kuilei/official/450401.webp"
     }
    ]
   },
@@ -11726,7 +11852,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/460101.png"
+     "art": "assets/fabao_kuilei/official/460101.webp"
     },
     {
      "id": 460102,
@@ -11750,7 +11876,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/460101.png"
+     "art": "assets/fabao_kuilei/official/460101.webp"
     },
     {
      "id": 460103,
@@ -11774,7 +11900,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/460101.png"
+     "art": "assets/fabao_kuilei/official/460101.webp"
     },
     {
      "id": 460104,
@@ -11798,7 +11924,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/460101.png"
+     "art": "assets/fabao_kuilei/official/460101.webp"
     },
     {
      "id": 460105,
@@ -11822,7 +11948,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/460101.png"
+     "art": "assets/fabao_kuilei/official/460101.webp"
     }
    ]
   },
@@ -11855,7 +11981,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/460201.png"
+     "art": "assets/fabao_kuilei/official/460201.webp"
     },
     {
      "id": 460202,
@@ -11879,7 +12005,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/460201.png"
+     "art": "assets/fabao_kuilei/official/460201.webp"
     },
     {
      "id": 460203,
@@ -11903,7 +12029,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/460201.png"
+     "art": "assets/fabao_kuilei/official/460201.webp"
     },
     {
      "id": 460204,
@@ -11927,7 +12053,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/460201.png"
+     "art": "assets/fabao_kuilei/official/460201.webp"
     },
     {
      "id": 460205,
@@ -11951,7 +12077,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/460201.png"
+     "art": "assets/fabao_kuilei/official/460201.webp"
     }
    ]
   },
@@ -11984,7 +12110,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/460301.png"
+     "art": "assets/fabao_kuilei/official/460301.webp"
     },
     {
      "id": 460302,
@@ -12008,7 +12134,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/460301.png"
+     "art": "assets/fabao_kuilei/official/460301.webp"
     },
     {
      "id": 460303,
@@ -12032,7 +12158,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/460301.png"
+     "art": "assets/fabao_kuilei/official/460301.webp"
     },
     {
      "id": 460304,
@@ -12056,7 +12182,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/460301.png"
+     "art": "assets/fabao_kuilei/official/460301.webp"
     },
     {
      "id": 460305,
@@ -12080,7 +12206,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/460301.png"
+     "art": "assets/fabao_kuilei/official/460301.webp"
     }
    ]
   },
@@ -12113,7 +12239,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/460501.png"
+     "art": "assets/fabao_kuilei/official/460501.webp"
     },
     {
      "id": 460502,
@@ -12137,7 +12263,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/460501.png"
+     "art": "assets/fabao_kuilei/official/460501.webp"
     },
     {
      "id": 460503,
@@ -12161,7 +12287,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/460501.png"
+     "art": "assets/fabao_kuilei/official/460501.webp"
     },
     {
      "id": 460504,
@@ -12185,7 +12311,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/460501.png"
+     "art": "assets/fabao_kuilei/official/460501.webp"
     },
     {
      "id": 460505,
@@ -12209,7 +12335,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/460501.png"
+     "art": "assets/fabao_kuilei/official/460501.webp"
     }
    ]
   },
@@ -12242,7 +12368,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/460601.png"
+     "art": "assets/fabao_kuilei/official/460601.webp"
     },
     {
      "id": 460602,
@@ -12266,7 +12392,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/460601.png"
+     "art": "assets/fabao_kuilei/official/460601.webp"
     },
     {
      "id": 460603,
@@ -12290,7 +12416,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/460601.png"
+     "art": "assets/fabao_kuilei/official/460601.webp"
     },
     {
      "id": 460604,
@@ -12314,7 +12440,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/460601.png"
+     "art": "assets/fabao_kuilei/official/460601.webp"
     },
     {
      "id": 460605,
@@ -12338,7 +12464,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/460601.png"
+     "art": "assets/fabao_kuilei/official/460601.webp"
     }
    ]
   },
@@ -12369,7 +12495,7 @@
      "hidden": [
       "珠子特性：受到远程攻击时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/470101.png"
+     "art": "assets/fabao_kuilei/official/470101.webp"
     },
     {
      "id": 470102,
@@ -12391,7 +12517,7 @@
      "hidden": [
       "珠子特性：受到远程攻击时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/470101.png"
+     "art": "assets/fabao_kuilei/official/470101.webp"
     },
     {
      "id": 470103,
@@ -12413,7 +12539,7 @@
      "hidden": [
       "珠子特性：受到远程攻击时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/470101.png"
+     "art": "assets/fabao_kuilei/official/470101.webp"
     },
     {
      "id": 470104,
@@ -12435,7 +12561,7 @@
      "hidden": [
       "珠子特性：受到远程攻击时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/470101.png"
+     "art": "assets/fabao_kuilei/official/470101.webp"
     },
     {
      "id": 470105,
@@ -12457,7 +12583,7 @@
      "hidden": [
       "珠子特性：受到远程攻击时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/470101.png"
+     "art": "assets/fabao_kuilei/official/470101.webp"
     }
    ]
   },
@@ -12488,7 +12614,7 @@
      "hidden": [
       "珠子特性：受到远程攻击时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/470201.png"
+     "art": "assets/fabao_kuilei/official/470201.webp"
     },
     {
      "id": 470202,
@@ -12510,7 +12636,7 @@
      "hidden": [
       "珠子特性：受到远程攻击时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/470201.png"
+     "art": "assets/fabao_kuilei/official/470201.webp"
     },
     {
      "id": 470203,
@@ -12532,7 +12658,7 @@
      "hidden": [
       "珠子特性：受到远程攻击时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/470201.png"
+     "art": "assets/fabao_kuilei/official/470201.webp"
     },
     {
      "id": 470204,
@@ -12554,7 +12680,7 @@
      "hidden": [
       "珠子特性：受到远程攻击时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/470201.png"
+     "art": "assets/fabao_kuilei/official/470201.webp"
     },
     {
      "id": 470205,
@@ -12576,7 +12702,7 @@
      "hidden": [
       "珠子特性：受到远程攻击时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/470201.png"
+     "art": "assets/fabao_kuilei/official/470201.webp"
     }
    ]
   },
@@ -12607,7 +12733,7 @@
      "hidden": [
       "珠子特性：受到远程攻击时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/470301.png"
+     "art": "assets/fabao_kuilei/official/470301.webp"
     },
     {
      "id": 470302,
@@ -12629,7 +12755,7 @@
      "hidden": [
       "珠子特性：受到远程攻击时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/470301.png"
+     "art": "assets/fabao_kuilei/official/470301.webp"
     },
     {
      "id": 470303,
@@ -12651,7 +12777,7 @@
      "hidden": [
       "珠子特性：受到远程攻击时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/470301.png"
+     "art": "assets/fabao_kuilei/official/470301.webp"
     },
     {
      "id": 470304,
@@ -12673,7 +12799,7 @@
      "hidden": [
       "珠子特性：受到远程攻击时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/470301.png"
+     "art": "assets/fabao_kuilei/official/470301.webp"
     },
     {
      "id": 470305,
@@ -12695,7 +12821,7 @@
      "hidden": [
       "珠子特性：受到远程攻击时，获得一次性减伤"
      ],
-     "art": "assets/fabao_kuilei/official/470301.png"
+     "art": "assets/fabao_kuilei/official/470301.webp"
     }
    ]
   },
@@ -12727,7 +12853,7 @@
       "造成真实伤害",
       "只会攻击血量最少目标"
      ],
-     "art": "assets/fabao_kuilei/official/480101.png"
+     "art": "assets/fabao_kuilei/official/480101.webp"
     },
     {
      "id": 480102,
@@ -12750,7 +12876,7 @@
       "造成真实伤害",
       "只会攻击血量最少目标"
      ],
-     "art": "assets/fabao_kuilei/official/480101.png"
+     "art": "assets/fabao_kuilei/official/480101.webp"
     },
     {
      "id": 480103,
@@ -12773,7 +12899,7 @@
       "造成真实伤害",
       "只会攻击血量最少目标"
      ],
-     "art": "assets/fabao_kuilei/official/480101.png"
+     "art": "assets/fabao_kuilei/official/480101.webp"
     },
     {
      "id": 480104,
@@ -12796,7 +12922,7 @@
       "造成真实伤害",
       "只会攻击血量最少目标"
      ],
-     "art": "assets/fabao_kuilei/official/480101.png"
+     "art": "assets/fabao_kuilei/official/480101.webp"
     },
     {
      "id": 480105,
@@ -12819,7 +12945,7 @@
       "造成真实伤害",
       "只会攻击血量最少目标"
      ],
-     "art": "assets/fabao_kuilei/official/480101.png"
+     "art": "assets/fabao_kuilei/official/480101.webp"
     }
    ]
   },
@@ -12850,7 +12976,7 @@
      "hidden": [
       "造成真实伤害"
      ],
-     "art": "assets/fabao_kuilei/official/480201.png"
+     "art": "assets/fabao_kuilei/official/480201.webp"
     },
     {
      "id": 480202,
@@ -12872,7 +12998,7 @@
      "hidden": [
       "造成真实伤害"
      ],
-     "art": "assets/fabao_kuilei/official/480201.png"
+     "art": "assets/fabao_kuilei/official/480201.webp"
     },
     {
      "id": 480203,
@@ -12894,7 +13020,7 @@
      "hidden": [
       "造成真实伤害"
      ],
-     "art": "assets/fabao_kuilei/official/480201.png"
+     "art": "assets/fabao_kuilei/official/480201.webp"
     },
     {
      "id": 480204,
@@ -12916,7 +13042,7 @@
      "hidden": [
       "造成真实伤害"
      ],
-     "art": "assets/fabao_kuilei/official/480201.png"
+     "art": "assets/fabao_kuilei/official/480201.webp"
     },
     {
      "id": 480205,
@@ -12938,7 +13064,7 @@
      "hidden": [
       "造成真实伤害"
      ],
-     "art": "assets/fabao_kuilei/official/480201.png"
+     "art": "assets/fabao_kuilei/official/480201.webp"
     }
    ]
   },
@@ -12967,7 +13093,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/490101.png"
+     "art": "assets/fabao_kuilei/official/490101.webp"
     },
     {
      "id": 490102,
@@ -12987,7 +13113,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/490101.png"
+     "art": "assets/fabao_kuilei/official/490101.webp"
     },
     {
      "id": 490103,
@@ -13007,7 +13133,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/490101.png"
+     "art": "assets/fabao_kuilei/official/490101.webp"
     },
     {
      "id": 490104,
@@ -13027,7 +13153,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/490101.png"
+     "art": "assets/fabao_kuilei/official/490101.webp"
     },
     {
      "id": 490105,
@@ -13047,7 +13173,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/490101.png"
+     "art": "assets/fabao_kuilei/official/490101.webp"
     }
    ]
   },
@@ -13078,7 +13204,7 @@
      "hidden": [
       "枪特性：造成真实伤害"
      ],
-     "art": "assets/fabao_kuilei/official/510101.png"
+     "art": "assets/fabao_kuilei/official/510101.webp"
     },
     {
      "id": 510102,
@@ -13100,7 +13226,7 @@
      "hidden": [
       "枪特性：造成真实伤害"
      ],
-     "art": "assets/fabao_kuilei/official/510101.png"
+     "art": "assets/fabao_kuilei/official/510101.webp"
     },
     {
      "id": 510103,
@@ -13122,7 +13248,7 @@
      "hidden": [
       "枪特性：造成真实伤害"
      ],
-     "art": "assets/fabao_kuilei/official/510101.png"
+     "art": "assets/fabao_kuilei/official/510101.webp"
     },
     {
      "id": 510104,
@@ -13144,7 +13270,7 @@
      "hidden": [
       "枪特性：造成真实伤害"
      ],
-     "art": "assets/fabao_kuilei/official/510101.png"
+     "art": "assets/fabao_kuilei/official/510101.webp"
     },
     {
      "id": 510105,
@@ -13166,7 +13292,7 @@
      "hidden": [
       "枪特性：造成真实伤害"
      ],
-     "art": "assets/fabao_kuilei/official/510101.png"
+     "art": "assets/fabao_kuilei/official/510101.webp"
     }
    ]
   },
@@ -13199,7 +13325,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/520101.png"
+     "art": "assets/fabao_kuilei/official/520101.webp"
     },
     {
      "id": 520102,
@@ -13223,7 +13349,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/520101.png"
+     "art": "assets/fabao_kuilei/official/520101.webp"
     },
     {
      "id": 520103,
@@ -13247,7 +13373,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/520101.png"
+     "art": "assets/fabao_kuilei/official/520101.webp"
     },
     {
      "id": 520104,
@@ -13271,7 +13397,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/520101.png"
+     "art": "assets/fabao_kuilei/official/520101.webp"
     },
     {
      "id": 520105,
@@ -13295,7 +13421,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/520101.png"
+     "art": "assets/fabao_kuilei/official/520101.webp"
     }
    ]
   },
@@ -13328,7 +13454,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/520201.png"
+     "art": "assets/fabao_kuilei/official/520201.webp"
     },
     {
      "id": 520202,
@@ -13352,7 +13478,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/520201.png"
+     "art": "assets/fabao_kuilei/official/520201.webp"
     },
     {
      "id": 520203,
@@ -13376,7 +13502,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/520201.png"
+     "art": "assets/fabao_kuilei/official/520201.webp"
     },
     {
      "id": 520204,
@@ -13400,7 +13526,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/520201.png"
+     "art": "assets/fabao_kuilei/official/520201.webp"
     },
     {
      "id": 520205,
@@ -13424,7 +13550,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/520201.png"
+     "art": "assets/fabao_kuilei/official/520201.webp"
     }
    ]
   },
@@ -13457,7 +13583,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/520301.png"
+     "art": "assets/fabao_kuilei/official/520301.webp"
     },
     {
      "id": 520302,
@@ -13481,7 +13607,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/520301.png"
+     "art": "assets/fabao_kuilei/official/520301.webp"
     },
     {
      "id": 520303,
@@ -13505,7 +13631,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/520301.png"
+     "art": "assets/fabao_kuilei/official/520301.webp"
     },
     {
      "id": 520304,
@@ -13529,7 +13655,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/520301.png"
+     "art": "assets/fabao_kuilei/official/520301.webp"
     },
     {
      "id": 520305,
@@ -13553,7 +13679,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/520301.png"
+     "art": "assets/fabao_kuilei/official/520301.webp"
     }
    ]
   },
@@ -13594,7 +13720,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/530201.png"
+     "art": "assets/fabao_kuilei/official/530201.webp"
     },
     {
      "id": 530202,
@@ -13626,7 +13752,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/530201.png"
+     "art": "assets/fabao_kuilei/official/530201.webp"
     },
     {
      "id": 530203,
@@ -13658,7 +13784,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/530201.png"
+     "art": "assets/fabao_kuilei/official/530201.webp"
     },
     {
      "id": 530204,
@@ -13690,7 +13816,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/530201.png"
+     "art": "assets/fabao_kuilei/official/530201.webp"
     },
     {
      "id": 530205,
@@ -13722,7 +13848,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/530201.png"
+     "art": "assets/fabao_kuilei/official/530201.webp"
     }
    ]
   },
@@ -13759,7 +13885,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/530401.png"
+     "art": "assets/fabao_kuilei/official/530401.webp"
     },
     {
      "id": 530402,
@@ -13787,7 +13913,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/530401.png"
+     "art": "assets/fabao_kuilei/official/530401.webp"
     },
     {
      "id": 530403,
@@ -13815,7 +13941,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/530401.png"
+     "art": "assets/fabao_kuilei/official/530401.webp"
     },
     {
      "id": 530404,
@@ -13843,7 +13969,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/530401.png"
+     "art": "assets/fabao_kuilei/official/530401.webp"
     },
     {
      "id": 530405,
@@ -13871,7 +13997,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/530401.png"
+     "art": "assets/fabao_kuilei/official/530401.webp"
     }
    ]
   },
@@ -13900,7 +14026,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/620011.png"
+     "art": "assets/fabao_kuilei/official/620011.webp"
     },
     {
      "id": 620012,
@@ -13920,7 +14046,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/620011.png"
+     "art": "assets/fabao_kuilei/official/620011.webp"
     },
     {
      "id": 620013,
@@ -13940,7 +14066,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/620011.png"
+     "art": "assets/fabao_kuilei/official/620011.webp"
     },
     {
      "id": 620014,
@@ -13960,7 +14086,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/620011.png"
+     "art": "assets/fabao_kuilei/official/620011.webp"
     },
     {
      "id": 620015,
@@ -13980,7 +14106,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/620011.png"
+     "art": "assets/fabao_kuilei/official/620011.webp"
     }
    ]
   },
@@ -14009,7 +14135,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/620021.png"
+     "art": "assets/fabao_kuilei/official/620021.webp"
     },
     {
      "id": 620022,
@@ -14029,7 +14155,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/620021.png"
+     "art": "assets/fabao_kuilei/official/620021.webp"
     },
     {
      "id": 620023,
@@ -14049,7 +14175,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/620021.png"
+     "art": "assets/fabao_kuilei/official/620021.webp"
     },
     {
      "id": 620024,
@@ -14069,7 +14195,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/620021.png"
+     "art": "assets/fabao_kuilei/official/620021.webp"
     },
     {
      "id": 620025,
@@ -14089,7 +14215,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/620021.png"
+     "art": "assets/fabao_kuilei/official/620021.webp"
     }
    ]
   },
@@ -14122,7 +14248,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/620043.png"
+     "art": "assets/fabao_kuilei/official/620043.webp"
     },
     {
      "id": 620044,
@@ -14146,7 +14272,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/620043.png"
+     "art": "assets/fabao_kuilei/official/620043.webp"
     },
     {
      "id": 620045,
@@ -14170,7 +14296,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/620043.png"
+     "art": "assets/fabao_kuilei/official/620043.webp"
     }
    ]
   },
@@ -14199,7 +14325,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/620051.png"
+     "art": "assets/fabao_kuilei/official/620051.webp"
     },
     {
      "id": 620052,
@@ -14219,7 +14345,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/620051.png"
+     "art": "assets/fabao_kuilei/official/620051.webp"
     },
     {
      "id": 620053,
@@ -14239,7 +14365,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/620051.png"
+     "art": "assets/fabao_kuilei/official/620051.webp"
     },
     {
      "id": 620054,
@@ -14259,7 +14385,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/620051.png"
+     "art": "assets/fabao_kuilei/official/620051.webp"
     },
     {
      "id": 620055,
@@ -14279,7 +14405,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/620051.png"
+     "art": "assets/fabao_kuilei/official/620051.webp"
     }
    ]
   },
@@ -14312,7 +14438,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/620061.png"
+     "art": "assets/fabao_kuilei/official/620061.webp"
     },
     {
      "id": 620062,
@@ -14336,7 +14462,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/620061.png"
+     "art": "assets/fabao_kuilei/official/620061.webp"
     },
     {
      "id": 620063,
@@ -14360,7 +14486,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/620061.png"
+     "art": "assets/fabao_kuilei/official/620061.webp"
     },
     {
      "id": 620064,
@@ -14384,7 +14510,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/620061.png"
+     "art": "assets/fabao_kuilei/official/620061.webp"
     },
     {
      "id": 620065,
@@ -14408,7 +14534,7 @@
       }
      ],
      "hidden": [],
-     "art": "assets/fabao_kuilei/official/620061.png"
+     "art": "assets/fabao_kuilei/official/620061.webp"
     }
    ]
   }
