@@ -1,0 +1,714 @@
+{
+  "slug": "renwu",
+  "category": "人物",
+  "full_category": "人物",
+  "layout": "fabao",
+  "items": [
+    {
+      "index": 0,
+      "name": "赵子义",
+      "kind": "renwu",
+      "stages": [
+        {
+          "stage": 1,
+          "name": "赵子义",
+          "skills": [],
+          "desc": [
+            "身份：玄剑阁弟子；",
+            "初见地：无名村庄",
+            "主要活动范围：金陵城，雁荡城，玄剑阁；",
+            "背景故事：因师兄失踪而前往无名村庄调查，得知师兄命丧妖兽巢穴后，发誓继承师兄志向：清除世间的妖王；",
+            "（赵子义的支线从无名村庄开始）"
+          ],
+          "realm": "",
+          "element": "",
+          "attack": null,
+          "health": null,
+          "hidden": [],
+          "art_image": "assets/renwu/official/Role_60.webp",
+          "art_official": true,
+          "official_id": 1,
+          "locked": false
+        }
+      ],
+      "element": "",
+      "type": "",
+      "locked": false,
+      "unlocked_count": 1,
+      "status": "已获得",
+      "card_image": "assets/renwu/official/Role_60.webp",
+      "icon_image": "assets/renwu/official/Role_60.webp",
+      "official": true,
+      "intro_paragraphs": [],
+      "sections": [
+        {
+          "title": "第1阶 · 赵子义",
+          "paragraphs": [
+            "身份：玄剑阁弟子；",
+            "初见地：无名村庄",
+            "主要活动范围：金陵城，雁荡城，玄剑阁；",
+            "背景故事：因师兄失踪而前往无名村庄调查，得知师兄命丧妖兽巢穴后，发誓继承师兄志向：清除世间的妖王；",
+            "（赵子义的支线从无名村庄开始）"
+          ]
+        }
+      ],
+      "full_text": "【第1阶 · 赵子义】\n身份：玄剑阁弟子；\n初见地：无名村庄\n主要活动范围：金陵城，雁荡城，玄剑阁；\n背景故事：因师兄失踪而前往无名村庄调查，得知师兄命丧妖兽巢穴后，发誓继承师兄志向：清除世间的妖王；\n（赵子义的支线从无名村庄开始）"
+    },
+    {
+      "index": 1,
+      "name": "悦萱儿",
+      "kind": "renwu",
+      "stages": [
+        {
+          "stage": 1,
+          "name": "悦萱儿",
+          "skills": [],
+          "desc": [
+            "身份：湖月城城主之女；",
+            "初见地：灵兽谷",
+            "主要活动范围：湖月城；",
+            "背景故事：作为湖月城未来城主，因湖月城的实力日渐衰落，而踏上寻找圣兽修炼之路，却在灵兽谷误触禁制被变成小灵狐",
+            "（悦宣儿的支线从湖月城/灵兽谷开始）"
+          ],
+          "realm": "",
+          "element": "",
+          "attack": null,
+          "health": null,
+          "hidden": [],
+          "art_image": "assets/renwu/official/Role_70.webp",
+          "art_official": true,
+          "official_id": 2,
+          "locked": false
+        }
+      ],
+      "element": "",
+      "type": "",
+      "locked": false,
+      "unlocked_count": 1,
+      "status": "已获得",
+      "card_image": "assets/renwu/official/Role_70.webp",
+      "icon_image": "assets/renwu/official/Role_70.webp",
+      "official": true,
+      "intro_paragraphs": [],
+      "sections": [
+        {
+          "title": "第1阶 · 悦萱儿",
+          "paragraphs": [
+            "身份：湖月城城主之女；",
+            "初见地：灵兽谷",
+            "主要活动范围：湖月城；",
+            "背景故事：作为湖月城未来城主，因湖月城的实力日渐衰落，而踏上寻找圣兽修炼之路，却在灵兽谷误触禁制被变成小灵狐",
+            "（悦宣儿的支线从湖月城/灵兽谷开始）"
+          ]
+        }
+      ],
+      "full_text": "【第1阶 · 悦萱儿】\n身份：湖月城城主之女；\n初见地：灵兽谷\n主要活动范围：湖月城；\n背景故事：作为湖月城未来城主，因湖月城的实力日渐衰落，而踏上寻找圣兽修炼之路，却在灵兽谷误触禁制被变成小灵狐\n（悦宣儿的支线从湖月城/灵兽谷开始）"
+    },
+    {
+      "index": 2,
+      "name": "慕容绛璃",
+      "kind": "renwu",
+      "stages": [
+        {
+          "stage": 1,
+          "name": "慕容绛璃",
+          "skills": [],
+          "desc": [
+            "身份：清虚谷掌门关门弟子；",
+            "初见地：金陵城或湖月城；",
+            "主要活动范围：金陵城，湖月城，雁荡城；",
+            "背景故事：身为清虚谷的关门弟子，但因常年在谷内不外出而性格胆小，此次下山是受师傅的秘托：寻找枯木道人",
+            "（慕容绛璃的支线从湖月城/古木幽森开始）"
+          ],
+          "realm": "",
+          "element": "",
+          "attack": null,
+          "health": null,
+          "hidden": [],
+          "art_image": "assets/renwu/official/Role_80.webp",
+          "art_official": true,
+          "official_id": 3,
+          "locked": false
+        }
+      ],
+      "element": "",
+      "type": "",
+      "locked": false,
+      "unlocked_count": 1,
+      "status": "已获得",
+      "card_image": "assets/renwu/official/Role_80.webp",
+      "icon_image": "assets/renwu/official/Role_80.webp",
+      "official": true,
+      "intro_paragraphs": [],
+      "sections": [
+        {
+          "title": "第1阶 · 慕容绛璃",
+          "paragraphs": [
+            "身份：清虚谷掌门关门弟子；",
+            "初见地：金陵城或湖月城；",
+            "主要活动范围：金陵城，湖月城，雁荡城；",
+            "背景故事：身为清虚谷的关门弟子，但因常年在谷内不外出而性格胆小，此次下山是受师傅的秘托：寻找枯木道人",
+            "（慕容绛璃的支线从湖月城/古木幽森开始）"
+          ]
+        }
+      ],
+      "full_text": "【第1阶 · 慕容绛璃】\n身份：清虚谷掌门关门弟子；\n初见地：金陵城或湖月城；\n主要活动范围：金陵城，湖月城，雁荡城；\n背景故事：身为清虚谷的关门弟子，但因常年在谷内不外出而性格胆小，此次下山是受师傅的秘托：寻找枯木道人\n（慕容绛璃的支线从湖月城/古木幽森开始）"
+    },
+    {
+      "index": 3,
+      "name": "武破岳",
+      "kind": "renwu",
+      "stages": [
+        {
+          "stage": 1,
+          "name": "武破岳",
+          "skills": [],
+          "desc": [
+            "身份：武极门弟子；",
+            "初见地：金陵城或雁荡城；",
+            "主要活动范围：金陵城，雁荡城；",
+            "背景故事：只是一名普通的武极门弟子，但对肉身成圣十分执着，为人憨厚且常与各位道友切磋；",
+            "（武破岳的支线从金陵城/地火深洞开始）"
+          ],
+          "realm": "",
+          "element": "",
+          "attack": null,
+          "health": null,
+          "hidden": [],
+          "art_image": "assets/renwu/official/Role_260.webp",
+          "art_official": true,
+          "official_id": 4,
+          "locked": false
+        }
+      ],
+      "element": "",
+      "type": "",
+      "locked": false,
+      "unlocked_count": 1,
+      "status": "已获得",
+      "card_image": "assets/renwu/official/Role_260.webp",
+      "icon_image": "assets/renwu/official/Role_260.webp",
+      "official": true,
+      "intro_paragraphs": [],
+      "sections": [
+        {
+          "title": "第1阶 · 武破岳",
+          "paragraphs": [
+            "身份：武极门弟子；",
+            "初见地：金陵城或雁荡城；",
+            "主要活动范围：金陵城，雁荡城；",
+            "背景故事：只是一名普通的武极门弟子，但对肉身成圣十分执着，为人憨厚且常与各位道友切磋；",
+            "（武破岳的支线从金陵城/地火深洞开始）"
+          ]
+        }
+      ],
+      "full_text": "【第1阶 · 武破岳】\n身份：武极门弟子；\n初见地：金陵城或雁荡城；\n主要活动范围：金陵城，雁荡城；\n背景故事：只是一名普通的武极门弟子，但对肉身成圣十分执着，为人憨厚且常与各位道友切磋；\n（武破岳的支线从金陵城/地火深洞开始）"
+    },
+    {
+      "index": 4,
+      "name": "金不换",
+      "kind": "renwu",
+      "stages": [
+        {
+          "stage": 1,
+          "name": "金不换",
+          "skills": [],
+          "desc": [
+            "身份：？？？",
+            "初见地：坊市",
+            "主要活动范围：坊市，醉仙阁，无字玉璧；",
+            "背景故事：不知来历的一名散修，实力达到强悍的结丹期，在坊市里以逗低阶修士为乐趣，但有时却在醉仙阁醉酒。",
+            "（金不换的支线从坊市/醉仙阁开始）"
+          ],
+          "realm": "",
+          "element": "",
+          "attack": null,
+          "health": null,
+          "hidden": [],
+          "art_image": "assets/renwu/official/Role_280.webp",
+          "art_official": true,
+          "official_id": 5,
+          "locked": false
+        }
+      ],
+      "element": "",
+      "type": "",
+      "locked": false,
+      "unlocked_count": 1,
+      "status": "已获得",
+      "card_image": "assets/renwu/official/Role_280.webp",
+      "icon_image": "assets/renwu/official/Role_280.webp",
+      "official": true,
+      "intro_paragraphs": [],
+      "sections": [
+        {
+          "title": "第1阶 · 金不换",
+          "paragraphs": [
+            "身份：？？？",
+            "初见地：坊市",
+            "主要活动范围：坊市，醉仙阁，无字玉璧；",
+            "背景故事：不知来历的一名散修，实力达到强悍的结丹期，在坊市里以逗低阶修士为乐趣，但有时却在醉仙阁醉酒。",
+            "（金不换的支线从坊市/醉仙阁开始）"
+          ]
+        }
+      ],
+      "full_text": "【第1阶 · 金不换】\n身份：？？？\n初见地：坊市\n主要活动范围：坊市，醉仙阁，无字玉璧；\n背景故事：不知来历的一名散修，实力达到强悍的结丹期，在坊市里以逗低阶修士为乐趣，但有时却在醉仙阁醉酒。\n（金不换的支线从坊市/醉仙阁开始）"
+    },
+    {
+      "index": 5,
+      "name": "敖月",
+      "kind": "renwu",
+      "stages": [
+        {
+          "stage": 1,
+          "name": "敖月",
+          "skills": [],
+          "desc": [
+            "身份：上古血脉之女",
+            "初见地：聚水漩涡；",
+            "主要活动范围：聚水漩涡",
+            "背景故事：是上古龙族与人帝混血的后代，因有龙血在身，提前化形而遭到各修士的捕猎，所以藏于漩涡，对闯入漩涡之人都怀有强烈的敌意；",
+            "（敖月的支线从聚水漩涡开始）"
+          ],
+          "realm": "",
+          "element": "",
+          "attack": null,
+          "health": null,
+          "hidden": [],
+          "art_image": "assets/renwu/official/Role_160.webp",
+          "art_official": true,
+          "official_id": 6,
+          "locked": false
+        }
+      ],
+      "element": "",
+      "type": "",
+      "locked": false,
+      "unlocked_count": 1,
+      "status": "已获得",
+      "card_image": "assets/renwu/official/Role_160.webp",
+      "icon_image": "assets/renwu/official/Role_160.webp",
+      "official": true,
+      "intro_paragraphs": [],
+      "sections": [
+        {
+          "title": "第1阶 · 敖月",
+          "paragraphs": [
+            "身份：上古血脉之女",
+            "初见地：聚水漩涡；",
+            "主要活动范围：聚水漩涡",
+            "背景故事：是上古龙族与人帝混血的后代，因有龙血在身，提前化形而遭到各修士的捕猎，所以藏于漩涡，对闯入漩涡之人都怀有强烈的敌意；",
+            "（敖月的支线从聚水漩涡开始）"
+          ]
+        }
+      ],
+      "full_text": "【第1阶 · 敖月】\n身份：上古血脉之女\n初见地：聚水漩涡；\n主要活动范围：聚水漩涡\n背景故事：是上古龙族与人帝混血的后代，因有龙血在身，提前化形而遭到各修士的捕猎，所以藏于漩涡，对闯入漩涡之人都怀有强烈的敌意；\n（敖月的支线从聚水漩涡开始）"
+    },
+    {
+      "index": 6,
+      "name": "李长歌",
+      "kind": "renwu",
+      "stages": [
+        {
+          "stage": 1,
+          "name": "李长歌",
+          "skills": [],
+          "desc": [
+            "身份：玄剑阁弟子；",
+            "初见地：碧潭瀑布。",
+            "主要活动范围：玄剑阁，雁荡城；",
+            "背景故事：是保管玄剑阁秘钥的守护人之一，但被其师弟暗算而失去秘钥，而重伤与碧潭瀑布；",
+            "（李长歌的支线从碧潭瀑布开始）"
+          ],
+          "realm": "",
+          "element": "",
+          "attack": null,
+          "health": null,
+          "hidden": [],
+          "art_image": "assets/renwu/official/Role_110.webp",
+          "art_official": true,
+          "official_id": 7,
+          "locked": false
+        }
+      ],
+      "element": "",
+      "type": "",
+      "locked": false,
+      "unlocked_count": 1,
+      "status": "已获得",
+      "card_image": "assets/renwu/official/Role_110.webp",
+      "icon_image": "assets/renwu/official/Role_110.webp",
+      "official": true,
+      "intro_paragraphs": [],
+      "sections": [
+        {
+          "title": "第1阶 · 李长歌",
+          "paragraphs": [
+            "身份：玄剑阁弟子；",
+            "初见地：碧潭瀑布。",
+            "主要活动范围：玄剑阁，雁荡城；",
+            "背景故事：是保管玄剑阁秘钥的守护人之一，但被其师弟暗算而失去秘钥，而重伤与碧潭瀑布；",
+            "（李长歌的支线从碧潭瀑布开始）"
+          ]
+        }
+      ],
+      "full_text": "【第1阶 · 李长歌】\n身份：玄剑阁弟子；\n初见地：碧潭瀑布。\n主要活动范围：玄剑阁，雁荡城；\n背景故事：是保管玄剑阁秘钥的守护人之一，但被其师弟暗算而失去秘钥，而重伤与碧潭瀑布；\n（李长歌的支线从碧潭瀑布开始）"
+    },
+    {
+      "index": 7,
+      "name": "执黑",
+      "kind": "renwu",
+      "stages": [
+        {
+          "stage": 1,
+          "name": "执黑",
+          "skills": [],
+          "desc": [
+            "身份：雪隐宗弟子；",
+            "初见地：天机棋盘。",
+            "主要活动范围：天机棋盘，雁荡城；",
+            "背景故事：执黑乃师门一脉中的年纪最小者，但却被师傅授予的秘传：刺杀术，引得师兄师姐一路追杀，最后藏身于天机棋盘；",
+            "（执黑的支线从天机棋盘开始）"
+          ],
+          "realm": "",
+          "element": "",
+          "attack": null,
+          "health": null,
+          "hidden": [],
+          "art_image": "assets/renwu/official/Role_390.webp",
+          "art_official": true,
+          "official_id": 8,
+          "locked": false
+        }
+      ],
+      "element": "",
+      "type": "",
+      "locked": false,
+      "unlocked_count": 1,
+      "status": "已获得",
+      "card_image": "assets/renwu/official/Role_390.webp",
+      "icon_image": "assets/renwu/official/Role_390.webp",
+      "official": true,
+      "intro_paragraphs": [],
+      "sections": [
+        {
+          "title": "第1阶 · 执黑",
+          "paragraphs": [
+            "身份：雪隐宗弟子；",
+            "初见地：天机棋盘。",
+            "主要活动范围：天机棋盘，雁荡城；",
+            "背景故事：执黑乃师门一脉中的年纪最小者，但却被师傅授予的秘传：刺杀术，引得师兄师姐一路追杀，最后藏身于天机棋盘；",
+            "（执黑的支线从天机棋盘开始）"
+          ]
+        }
+      ],
+      "full_text": "【第1阶 · 执黑】\n身份：雪隐宗弟子；\n初见地：天机棋盘。\n主要活动范围：天机棋盘，雁荡城；\n背景故事：执黑乃师门一脉中的年纪最小者，但却被师傅授予的秘传：刺杀术，引得师兄师姐一路追杀，最后藏身于天机棋盘；\n（执黑的支线从天机棋盘开始）"
+    },
+    {
+      "index": 8,
+      "name": "柳昭昭",
+      "kind": "renwu",
+      "stages": [
+        {
+          "stage": 1,
+          "name": "柳昭昭",
+          "skills": [],
+          "desc": [
+            "身份：醉仙阁歌女；",
+            "初见地：醉仙阁。",
+            "主要活动范围：醉仙阁",
+            "背景故事：原是富家豪门的小姐，但家道中落而沦为歌女，但意外的有极高的修仙资质。",
+            "（柳昭昭的支线从醉仙阁开始）"
+          ],
+          "realm": "",
+          "element": "",
+          "attack": null,
+          "health": null,
+          "hidden": [],
+          "art_image": "assets/renwu/official/Role_380.webp",
+          "art_official": true,
+          "official_id": 9,
+          "locked": false
+        }
+      ],
+      "element": "",
+      "type": "",
+      "locked": false,
+      "unlocked_count": 1,
+      "status": "已获得",
+      "card_image": "assets/renwu/official/Role_380.webp",
+      "icon_image": "assets/renwu/official/Role_380.webp",
+      "official": true,
+      "intro_paragraphs": [],
+      "sections": [
+        {
+          "title": "第1阶 · 柳昭昭",
+          "paragraphs": [
+            "身份：醉仙阁歌女；",
+            "初见地：醉仙阁。",
+            "主要活动范围：醉仙阁",
+            "背景故事：原是富家豪门的小姐，但家道中落而沦为歌女，但意外的有极高的修仙资质。",
+            "（柳昭昭的支线从醉仙阁开始）"
+          ]
+        }
+      ],
+      "full_text": "【第1阶 · 柳昭昭】\n身份：醉仙阁歌女；\n初见地：醉仙阁。\n主要活动范围：醉仙阁\n背景故事：原是富家豪门的小姐，但家道中落而沦为歌女，但意外的有极高的修仙资质。\n（柳昭昭的支线从醉仙阁开始）"
+    },
+    {
+      "index": 9,
+      "name": "苏软软",
+      "kind": "renwu",
+      "stages": [
+        {
+          "stage": 1,
+          "name": "苏软软",
+          "skills": [],
+          "desc": [
+            "身份：兽王府弟子；",
+            "初见地：金陵城。",
+            "主要活动范围：金陵城；",
+            "背景故事：兽王府的普通弟子，因喜爱灵兽所以游历世界，目标是找到全世界的所有灵兽；",
+            "（苏软软的支线从金陵城开始）"
+          ],
+          "realm": "",
+          "element": "",
+          "attack": null,
+          "health": null,
+          "hidden": [],
+          "art_image": "assets/renwu/official/Role_270.webp",
+          "art_official": true,
+          "official_id": 10,
+          "locked": false
+        }
+      ],
+      "element": "",
+      "type": "",
+      "locked": false,
+      "unlocked_count": 1,
+      "status": "已获得",
+      "card_image": "assets/renwu/official/Role_270.webp",
+      "icon_image": "assets/renwu/official/Role_270.webp",
+      "official": true,
+      "intro_paragraphs": [],
+      "sections": [
+        {
+          "title": "第1阶 · 苏软软",
+          "paragraphs": [
+            "身份：兽王府弟子；",
+            "初见地：金陵城。",
+            "主要活动范围：金陵城；",
+            "背景故事：兽王府的普通弟子，因喜爱灵兽所以游历世界，目标是找到全世界的所有灵兽；",
+            "（苏软软的支线从金陵城开始）"
+          ]
+        }
+      ],
+      "full_text": "【第1阶 · 苏软软】\n身份：兽王府弟子；\n初见地：金陵城。\n主要活动范围：金陵城；\n背景故事：兽王府的普通弟子，因喜爱灵兽所以游历世界，目标是找到全世界的所有灵兽；\n（苏软软的支线从金陵城开始）"
+    },
+    {
+      "index": 10,
+      "name": "神秘高手",
+      "kind": "renwu",
+      "stages": [
+        {
+          "stage": 1,
+          "name": "神秘高手",
+          "skills": [],
+          "desc": [
+            "身份：散修；",
+            "初见地：醉仙阁或地火深洞；",
+            "主要活动范围：醉仙阁，地火深洞；",
+            "背景故事：一名在地火深洞修炼的武修修士，嗜酒如命，而他的真实姓名，似乎很少人知道；",
+            "（神秘高手的支线从地火深洞开始）"
+          ],
+          "realm": "",
+          "element": "",
+          "attack": null,
+          "health": null,
+          "hidden": [],
+          "art_image": "assets/renwu/official/Role_300.webp",
+          "art_official": true,
+          "official_id": 15,
+          "locked": false
+        }
+      ],
+      "element": "",
+      "type": "",
+      "locked": false,
+      "unlocked_count": 1,
+      "status": "已获得",
+      "card_image": "assets/renwu/official/Role_300.webp",
+      "icon_image": "assets/renwu/official/Role_300.webp",
+      "official": true,
+      "intro_paragraphs": [],
+      "sections": [
+        {
+          "title": "第1阶 · 神秘高手",
+          "paragraphs": [
+            "身份：散修；",
+            "初见地：醉仙阁或地火深洞；",
+            "主要活动范围：醉仙阁，地火深洞；",
+            "背景故事：一名在地火深洞修炼的武修修士，嗜酒如命，而他的真实姓名，似乎很少人知道；",
+            "（神秘高手的支线从地火深洞开始）"
+          ]
+        }
+      ],
+      "full_text": "【第1阶 · 神秘高手】\n身份：散修；\n初见地：醉仙阁或地火深洞；\n主要活动范围：醉仙阁，地火深洞；\n背景故事：一名在地火深洞修炼的武修修士，嗜酒如命，而他的真实姓名，似乎很少人知道；\n（神秘高手的支线从地火深洞开始）"
+    },
+    {
+      "index": 11,
+      "name": "白璎",
+      "kind": "renwu",
+      "stages": [
+        {
+          "stage": 1,
+          "name": "白璎",
+          "skills": [],
+          "desc": [
+            "身份：曦和白猁化形；",
+            "初见地：金陵城上方的妖兽巢穴（兽态）",
+            "主要活动范围：整片大洲；",
+            "背景故事：虽然是元婴期的妖王，但实力较弱，又因是阳属性妖王，经常被追杀；",
+            "（白璎的支线从金陵城上方的妖兽巢穴开始）"
+          ],
+          "realm": "",
+          "element": "",
+          "attack": null,
+          "health": null,
+          "hidden": [],
+          "art_image": "assets/renwu/official/Role_70126.webp",
+          "art_official": true,
+          "official_id": 101,
+          "locked": false
+        }
+      ],
+      "element": "",
+      "type": "",
+      "locked": false,
+      "unlocked_count": 1,
+      "status": "已获得",
+      "card_image": "assets/renwu/official/Role_70126.webp",
+      "icon_image": "assets/renwu/official/Role_70126.webp",
+      "official": true,
+      "intro_paragraphs": [],
+      "sections": [
+        {
+          "title": "第1阶 · 白璎",
+          "paragraphs": [
+            "身份：曦和白猁化形；",
+            "初见地：金陵城上方的妖兽巢穴（兽态）",
+            "主要活动范围：整片大洲；",
+            "背景故事：虽然是元婴期的妖王，但实力较弱，又因是阳属性妖王，经常被追杀；",
+            "（白璎的支线从金陵城上方的妖兽巢穴开始）"
+          ]
+        }
+      ],
+      "full_text": "【第1阶 · 白璎】\n身份：曦和白猁化形；\n初见地：金陵城上方的妖兽巢穴（兽态）\n主要活动范围：整片大洲；\n背景故事：虽然是元婴期的妖王，但实力较弱，又因是阳属性妖王，经常被追杀；\n（白璎的支线从金陵城上方的妖兽巢穴开始）"
+    },
+    {
+      "index": 12,
+      "name": "收藏家",
+      "kind": "renwu",
+      "stages": [
+        {
+          "stage": 1,
+          "name": "收藏家",
+          "skills": [],
+          "desc": [
+            "身份：？？？；",
+            "初见地：鬼市",
+            "主要活动范围：？？？；",
+            "背景故事：？？？"
+          ],
+          "realm": "",
+          "element": "",
+          "attack": null,
+          "health": null,
+          "hidden": [],
+          "art_image": "assets/renwu/official/Role_70105.webp",
+          "art_official": true,
+          "official_id": 102,
+          "locked": false
+        }
+      ],
+      "element": "",
+      "type": "",
+      "locked": false,
+      "unlocked_count": 1,
+      "status": "已获得",
+      "card_image": "assets/renwu/official/Role_70105.webp",
+      "icon_image": "assets/renwu/official/Role_70105.webp",
+      "official": true,
+      "intro_paragraphs": [],
+      "sections": [
+        {
+          "title": "第1阶 · 收藏家",
+          "paragraphs": [
+            "身份：？？？；",
+            "初见地：鬼市",
+            "主要活动范围：？？？；",
+            "背景故事：？？？"
+          ]
+        }
+      ],
+      "full_text": "【第1阶 · 收藏家】\n身份：？？？；\n初见地：鬼市\n主要活动范围：？？？；\n背景故事：？？？"
+    },
+    {
+      "index": 13,
+      "name": "霜螭",
+      "kind": "renwu",
+      "stages": [
+        {
+          "stage": 1,
+          "name": "霜螭",
+          "skills": [],
+          "desc": [
+            "身份：？？？；",
+            "初见地：无名村庄（筑基期后）",
+            "主要活动范围：？？？；",
+            "背景故事：？？？"
+          ],
+          "realm": "",
+          "element": "",
+          "attack": null,
+          "health": null,
+          "hidden": [],
+          "art_image": "assets/renwu/official/Role_70101.webp",
+          "art_official": true,
+          "official_id": 103,
+          "locked": false
+        }
+      ],
+      "element": "",
+      "type": "",
+      "locked": false,
+      "unlocked_count": 1,
+      "status": "已获得",
+      "card_image": "assets/renwu/official/Role_70101.webp",
+      "icon_image": "assets/renwu/official/Role_70101.webp",
+      "official": true,
+      "intro_paragraphs": [],
+      "sections": [
+        {
+          "title": "第1阶 · 霜螭",
+          "paragraphs": [
+            "身份：？？？；",
+            "初见地：无名村庄（筑基期后）",
+            "主要活动范围：？？？；",
+            "背景故事：？？？"
+          ]
+        }
+      ],
+      "full_text": "【第1阶 · 霜螭】\n身份：？？？；\n初见地：无名村庄（筑基期后）\n主要活动范围：？？？；\n背景故事：？？？"
+    }
+  ],
+  "updated_at": "2026-11-18 06:45",
+  "data_source": "官方数据（游戏本地数据表）",
+  "official_generated_at": "2026-11-18 06:45:35",
+  "difficulty": [
+    "体验",
+    "正常",
+    "挑战",
+    "真仙"
+  ],
+  "game_version": "2.3.0.15_beta"
+}

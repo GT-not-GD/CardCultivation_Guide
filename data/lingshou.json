@@ -15408,5 +15408,6 @@
         "skill": true
       }
     ]
-  }
+  },
+  "game_version": "2.3.0.15_beta"
 }
