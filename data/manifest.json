@@ -1,20 +1,20 @@
 {
   "title": "卡牌修仙传 · 图鉴攻略",
-  "generated_at": "2026-11-18 12:04",
+  "generated_at": "2026-11-18 13:05",
   "categories": [
     {
       "slug": "kapai_cailiao",
       "category": "材料",
       "full_category": "卡牌 / 材料",
       "file_name": "kapai_cailiao.json",
-      "count": 167
+      "count": 184
     },
     {
       "slug": "kapai_lingcao_danyao",
       "category": "灵草&丹药",
       "full_category": "卡牌 / 灵草&丹药",
       "file_name": "kapai_lingcao_danyao.json",
-      "count": 85
+      "count": 97
     },
     {
       "slug": "kapai_ganwu_xinfa",
@@ -28,14 +28,14 @@
       "category": "技能&口诀",
       "full_category": "卡牌 / 技能&口诀",
       "file_name": "kapai_jineng_koujue.json",
-      "count": 175
+      "count": 229
     },
     {
       "slug": "kapai_daoju_chuanwen",
       "category": "道具&传闻",
       "full_category": "卡牌 / 道具&传闻",
       "file_name": "kapai_daoju_chuanwen.json",
-      "count": 50
+      "count": 68
     },
     {
       "slug": "kapai_zhidianka",
