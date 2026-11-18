@@ -1,6 +1,6 @@
 {
   "title": "卡牌修仙传 · 图鉴攻略",
-  "generated_at": "2026-11-18 14:00",
+  "generated_at": "2026-11-18 14:28",
   "categories": [
     {
       "slug": "kapai_cailiao",
@@ -64,6 +64,13 @@
       "full_category": "法宝&傀儡",
       "file_name": "fabao_kuilei.json",
       "count": 115
+    },
+    {
+      "slug": "lingshou",
+      "category": "灵兽",
+      "full_category": "灵兽",
+      "file_name": "lingshou.json",
+      "count": 39
     }
   ]
 }
