@@ -1,6 +1,6 @@
 {
   "title": "卡牌修仙传 · 图鉴攻略",
-  "generated_at": "2026-11-19 01:07",
+  "generated_at": "2026-11-19 15:52",
   "categories": [
     {
       "slug": "kapai_ganwu_xinfa",
@@ -147,7 +147,7 @@
       "category": "地点",
       "full_category": "地点",
       "file_name": "didian.json",
-      "count": 23
+      "count": 25
     },
     {
       "slug": "renwu_task",
@@ -155,6 +155,20 @@
       "full_category": "任务",
       "file_name": "renwu_task.json",
       "count": 21
+    },
+    {
+      "slug": "renwu_daoju",
+      "category": "任务道具",
+      "full_category": "任务道具",
+      "file_name": "renwu_daoju.json",
+      "count": 85
+    },
+    {
+      "slug": "wanfa",
+      "category": "玩法机制",
+      "full_category": "玩法机制",
+      "file_name": "wanfa.json",
+      "count": 10
     }
   ]
 }
