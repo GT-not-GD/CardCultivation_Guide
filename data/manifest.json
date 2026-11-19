@@ -1,6 +1,6 @@
 {
   "title": "卡牌修仙传 · 图鉴攻略",
-  "generated_at": "2026-11-19 19:12",
+  "generated_at": "2026-11-20 02:33",
   "categories": [
     {
       "slug": "kapai_ganwu_xinfa",
@@ -42,7 +42,7 @@
       "category": "材料",
       "full_category": "卡牌 / 材料",
       "file_name": "kapai_cailiao.json",
-      "count": 93
+      "count": 94
     },
     {
       "slug": "kapai_lingcao_danyao",
@@ -108,6 +108,13 @@
       "count": 21
     },
     {
+      "slug": "kapai_hunti",
+      "category": "魂体",
+      "full_category": "卡牌 / 魂体",
+      "file_name": "kapai_hunti.json",
+      "count": 25
+    },
+    {
       "slug": "yaoshou",
       "category": "妖兽",
       "full_category": "妖兽",
@@ -133,7 +140,7 @@
       "category": "人物",
       "full_category": "人物",
       "file_name": "renwu.json",
-      "count": 14
+      "count": 15
     },
     {
       "slug": "mijing",
@@ -147,7 +154,7 @@
       "category": "地点",
       "full_category": "地点",
       "file_name": "didian.json",
-      "count": 25
+      "count": 27
     },
     {
       "slug": "renwu_task",
@@ -168,7 +175,7 @@
       "category": "玩法机制",
       "full_category": "玩法机制",
       "file_name": "wanfa.json",
-      "count": 10
+      "count": 9
     }
   ]
 }
