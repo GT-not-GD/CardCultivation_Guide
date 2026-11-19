@@ -4,8 +4,8 @@
  "full_category": "卡牌 / 道具&传闻",
  "layout": "card",
  "data_source": "官方数据（游戏本地数据表）",
- "official_generated_at": "2026-11-19 07:45:26",
- "updated_at": "2026-11-19 07:45",
+ "official_generated_at": "2026-11-19 11:04:26",
+ "updated_at": "2026-11-19 11:04",
  "items": [
   {
    "index": 0,
@@ -1259,7 +1259,10 @@
    ],
    "skills": [],
    "obtain": [
-    "通过筑基丹图纸炼制"
+    "第 1 步：突破「练气后期」时得到回忆剧情卡「初窥筑基」，点「完成事件」 → 师傅送你〈筑基丹图纸〉",
+    "第 2 步：准备材料：〈静心草〉1 株（无名村庄附近的山顶每年刷新一株；救助无名村庄的农夫后，也能用内丹和他换一株）、任意一颗绝品内丹、任意一张灵气（混沌灵气或五行灵气）",
+    "第 3 步：把〈筑基丹图纸〉放进炼制工作台「炼制筑基丹」，再放入上面三样 → 炼成〈筑基丹〉（炼制时间很长，要提前准备）",
+    "用法：练气期修为满后突破「筑基！」时，把〈神识〉和〈筑基丹〉一起放进突破工作台"
    ],
    "variants": [
     {
@@ -1276,11 +1279,14 @@
     {
      "title": "获取途径",
      "paragraphs": [
-      "通过筑基丹图纸炼制"
+      "第 1 步：突破「练气后期」时得到回忆剧情卡「初窥筑基」，点「完成事件」 → 师傅送你〈筑基丹图纸〉",
+      "第 2 步：准备材料：〈静心草〉1 株（无名村庄附近的山顶每年刷新一株；救助无名村庄的农夫后，也能用内丹和他换一株）、任意一颗绝品内丹、任意一张灵气（混沌灵气或五行灵气）",
+      "第 3 步：把〈筑基丹图纸〉放进炼制工作台「炼制筑基丹」，再放入上面三样 → 炼成〈筑基丹〉（炼制时间很长，要提前准备）",
+      "用法：练气期修为满后突破「筑基！」时，把〈神识〉和〈筑基丹〉一起放进突破工作台"
      ]
     }
    ],
-   "full_text": "突破境界时方可服用\n\n【获取途径】\n通过筑基丹图纸炼制"
+   "full_text": "突破境界时方可服用\n\n【获取途径】\n第 1 步：突破「练气后期」时得到回忆剧情卡「初窥筑基」，点「完成事件」 → 师傅送你〈筑基丹图纸〉\n第 2 步：准备材料：〈静心草〉1 株（无名村庄附近的山顶每年刷新一株；救助无名村庄的农夫后，也能用内丹和他换一株）、任意一颗绝品内丹、任意一张灵气（混沌灵气或五行灵气）\n第 3 步：把〈筑基丹图纸〉放进炼制工作台「炼制筑基丹」，再放入上面三样 → 炼成〈筑基丹〉（炼制时间很长，要提前准备）\n用法：练气期修为满后突破「筑基！」时，把〈神识〉和〈筑基丹〉一起放进突破工作台"
   },
   {
    "index": 29,
@@ -2181,6 +2187,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "can_get": true,
    "extra": true,
    "sections": [
     {
@@ -2220,6 +2227,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "can_get": true,
    "extra": true,
    "sections": [
     {
@@ -2259,6 +2267,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "can_get": true,
    "extra": true,
    "sections": [
     {
@@ -2298,6 +2307,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "can_get": true,
    "extra": true,
    "sections": [
     {
@@ -2337,6 +2347,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "can_get": true,
    "extra": true,
    "sections": [
     {
@@ -2376,6 +2387,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "can_get": true,
    "extra": true,
    "sections": [
     {
@@ -2415,6 +2427,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "can_get": true,
    "extra": true,
    "sections": [
     {
@@ -2454,6 +2467,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "can_get": true,
    "extra": true,
    "sections": [
     {
@@ -2493,6 +2507,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "can_get": true,
    "extra": true,
    "sections": [
     {
@@ -2532,6 +2547,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "can_get": true,
    "extra": true,
    "sections": [
     {
@@ -2571,6 +2587,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "can_get": true,
    "extra": true,
    "sections": [
     {
@@ -2610,6 +2627,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "can_get": true,
    "extra": true,
    "sections": [
     {
@@ -2649,6 +2667,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "can_get": true,
    "extra": true,
    "sections": [
     {
@@ -2688,6 +2707,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "can_get": true,
    "extra": true,
    "sections": [
     {
@@ -2727,6 +2747,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "can_get": true,
    "extra": true,
    "sections": [
     {
@@ -2766,6 +2787,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "can_get": true,
    "extra": true,
    "sections": [
     {
@@ -2805,6 +2827,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "can_get": true,
    "extra": true,
    "sections": [
     {
@@ -2844,6 +2867,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "can_get": true,
    "extra": true,
    "sections": [
     {
