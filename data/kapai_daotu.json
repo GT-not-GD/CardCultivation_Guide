@@ -4,8 +4,8 @@
  "full_category": "卡牌 / 道途&金丹",
  "layout": "card",
  "data_source": "官方数据（游戏本地数据表）",
- "official_generated_at": "2026-11-20 06:49:01",
- "updated_at": "2026-11-20 06:49",
+ "official_generated_at": "2026-11-20 15:04:03",
+ "updated_at": "2026-11-20 15:04",
  "items": [
   {
    "index": 0,
@@ -66,6 +66,7 @@
      ]
     }
    ],
+   "ctype": "道途",
    "sections": [
     {
      "title": "结丹流程",
@@ -361,6 +362,7 @@
      ]
     }
    ],
+   "ctype": "道",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -692,6 +694,7 @@
      ]
     }
    ],
+   "ctype": "道",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -1070,6 +1073,7 @@
      ]
     }
    ],
+   "ctype": "道",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -1444,6 +1448,7 @@
      ]
     }
    ],
+   "ctype": "道",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -1822,6 +1827,7 @@
      ]
     }
    ],
+   "ctype": "道",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -2137,6 +2143,7 @@
      ]
     }
    ],
+   "ctype": "金丹",
    "sections": [
     {
      "title": "培养金丹（指点）",

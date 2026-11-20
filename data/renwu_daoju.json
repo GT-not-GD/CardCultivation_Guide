@@ -4,8 +4,8 @@
  "full_category": "任务道具",
  "layout": "card",
  "data_source": "官方数据（游戏本地数据表）",
- "official_generated_at": "2026-11-20 06:49:01",
- "updated_at": "2026-11-20 06:49",
+ "official_generated_at": "2026-11-20 15:04:03",
+ "updated_at": "2026-11-20 15:04",
  "items": [
   {
    "index": 0,
@@ -957,8 +957,57 @@
   },
   {
    "index": 18,
-   "name": "正",
+   "name": "大块灵石",
    "collect_id": 9110018,
+   "card_image": "",
+   "icon_image": "",
+   "qua": "",
+   "realm": "",
+   "element": [],
+   "intro_paragraphs": [
+    "一大块灵石，但品质一般",
+    "商人无法收购大型灵石，村长告诉我只能到金陵城的玄机阁掌柜处出售此灵石。",
+    "咦,怎么有一大块灵石矿在房子里？；卖给城市里的商店，应该有不少钱！",
+    "在金芒矿发现了一大块的灵石矿；卖给城市里的商店，应该有不少钱！",
+    "类型：任务卡"
+   ],
+   "skills": [],
+   "obtain": [],
+   "variants": [],
+   "main_eff": [],
+   "sub_eff": [],
+   "locked": false,
+   "status": "已获得",
+   "official": true,
+   "notes": [
+    {
+     "title": "获取途径 / 用途",
+     "paras": [],
+     "srows": [
+      {
+       "k": "怎么来",
+       "v": "把〈村长的请求〉 + 〈坟蛊鸪的头颅〉给「村长」（在「无名村庄」）",
+       "cond": "",
+       "sub": ""
+      }
+     ]
+    }
+   ],
+   "aliases": [],
+   "sections": [
+    {
+     "title": "获取途径 / 用途",
+     "paragraphs": [
+      "怎么来：把〈村长的请求〉 + 〈坟蛊鸪的头颅〉给「村长」（在「无名村庄」）"
+     ]
+    }
+   ],
+   "full_text": "一大块灵石，但品质一般\n商人无法收购大型灵石，村长告诉我只能到金陵城的玄机阁掌柜处出售此灵石。\n咦,怎么有一大块灵石矿在房子里？；卖给城市里的商店，应该有不少钱！\n在金芒矿发现了一大块的灵石矿；卖给城市里的商店，应该有不少钱！\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：把〈村长的请求〉 + 〈坟蛊鸪的头颅〉给「村长」（在「无名村庄」）"
+  },
+  {
+   "index": 19,
+   "name": "正",
+   "collect_id": 9110019,
    "card_image": "assets/kapai/official/Items_2102204.webp",
    "icon_image": "assets/kapai/official/Items_2102204.webp",
    "qua": "人品",
@@ -1009,9 +1058,9 @@
    "full_text": "我认为蒙面人为了大多数的生灵着想，是正义之举\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：和「蒙面人」对话（在「金陵城」）\n用在哪：交给「蒙面人」可以听到相关的对话（没有奖励）"
   },
   {
-   "index": 19,
+   "index": 20,
    "name": "住处位置",
-   "collect_id": 9110019,
+   "collect_id": 9110020,
    "card_image": "assets/kapai/official/Items_90020.webp",
    "icon_image": "assets/kapai/official/Items_90020.webp",
    "qua": "",
@@ -1063,9 +1112,9 @@
    "full_text": "神秘人告诉我，他的住处在雁荡城左侧柱子下的山洞里，找到他的住处也是一次考验。\n找到雁荡城的房子后，把此卡牌交还给蒙面人以获得奖励。\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：和「蒙面人」对话（在「金陵城」）\n用在哪：交给「蒙面人」，换来 〈秘钥〉"
   },
   {
-   "index": 20,
+   "index": 21,
    "name": "半截黑伞",
-   "collect_id": 9110020,
+   "collect_id": 9110021,
    "card_image": "assets/kapai/official/Items_2102210.webp",
    "icon_image": "assets/kapai/official/Items_2102210.webp",
    "qua": "人品",
@@ -1118,9 +1167,9 @@
    "full_text": "醉仙阁里遗留的半截黑伞，仍有少量灵气萦绕。也许我该找到黑伞的主人，TA应该离此地不远\n伞柄上刻着字迹：顾杳杳法宝初作。\n此卡牌由内测玩家：月老设计\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：和「半截黑伞」对话（在「醉仙阁」），获得\n用在哪：交给「庄兰台」，换来 〈一把黑伞〉"
   },
   {
-   "index": 21,
+   "index": 22,
    "name": "一把黑伞",
-   "collect_id": 9110021,
+   "collect_id": 9110022,
    "card_image": "assets/kapai/official/Weapon_430202.webp",
    "icon_image": "assets/kapai/official/Weapon_430202.webp",
    "qua": "人品",
@@ -1164,9 +1213,9 @@
    "full_text": "庄兰台消失后留下的黑伞，我可以去哪里打听黑伞的来源呢？\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：把〈半截黑伞〉给「庄兰台」（在「金陵城」）"
   },
   {
-   "index": 22,
+   "index": 23,
    "name": "应",
-   "collect_id": 9110022,
+   "collect_id": 9110023,
    "card_image": "assets/kapai/official/Items_2102220.webp",
    "icon_image": "assets/kapai/official/Items_2102220.webp",
    "qua": "人品",
@@ -1218,9 +1267,9 @@
    "full_text": "答应赵子义的邀请。\n(答应后，赵子义不再出现直到完成任务)\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：和「赵子义」对话\n用在哪：交给「赵子义」，完成任务【赵子义】「\"应\"赵子义的邀请(北海巨妖)」，换来 〈赵子义的邀请〉"
   },
   {
-   "index": 23,
+   "index": 24,
    "name": "辞",
-   "collect_id": 9110023,
+   "collect_id": 9110024,
    "card_image": "assets/kapai/official/Items_2102221.webp",
    "icon_image": "assets/kapai/official/Items_2102221.webp",
    "qua": "绝品",
@@ -1272,9 +1321,9 @@
    "full_text": "推辞赵子义的邀请。\n(暂时推辞赵子义的邀请，不会影响任务进度，也不会影响好感度)\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：和「赵子义」对话\n用在哪：交给「赵子义」可以听到相关的对话（没有奖励）"
   },
   {
-   "index": 24,
+   "index": 25,
    "name": "赵子义的邀请",
-   "collect_id": 9110024,
+   "collect_id": 9110025,
    "card_image": "assets/kapai/official/Items_104210.webp",
    "icon_image": "assets/kapai/official/Items_104210.webp",
    "qua": "绝品",
@@ -1333,9 +1382,9 @@
    "full_text": "赵子义留下的信号，我需要在铁骨熊消失前赶往十万大山。\n十万大山位于州原的西北方上。\n把此任务卡和主角卡堆叠在一起，进入十万大山，将会进入任务场景！\n完成后把此卡交还给赵子义，获得好感。\n赵子义留下的信号，我需要在海上找到地点：龙卷水或聚水漩涡。\n龙卷水或聚水漩涡属于奇遇地点，在海上御剑飞行时有概率遇见。\n把此任务卡和主角卡堆叠在一起进入地点，将会进入任务场景！\n赵子义留下的信号，我需要前往金陵城北边的妖兽巢穴\n把此任务卡和主角卡堆叠在一起，进入妖兽巢穴，将会进入任务场景！\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：把〈应〉给「赵子义」\n用在哪：交给「赵子义」（会被收走）"
   },
   {
-   "index": 25,
+   "index": 26,
    "name": "沾血的信",
-   "collect_id": 9110025,
+   "collect_id": 9110026,
    "card_image": "assets/kapai/official/Items_15010.webp",
    "icon_image": "assets/kapai/official/Items_15010.webp",
    "qua": "绝品",
@@ -1388,9 +1437,9 @@
    "full_text": "血字：在下李长歌，因师弟觊觎我保管的藏经阁秘钥，伙同魔教中人将我击晕并抢走秘钥；时间紧迫，我只能独自追踪希望能夺回秘钥，以回宗门请罪\n无论你是谁，如果你看到这封信，证明我已身亡，请将此信转达玄剑阁长老\n李长歌绝笔。\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：和「李长歌（死亡）」对话（把主角拖到TA身上）\n用在哪：交给「玄剑阁长老」，完成任务【李长歌】「把李长歌的绝笔信交给玄剑阁长老」、【李长歌】「李长歌的秘钥(完成)」，换来 〈灵脉之躯{绝品}〉"
   },
   {
-   "index": 26,
+   "index": 27,
    "name": "无名灵兽崽",
-   "collect_id": 9110026,
+   "collect_id": 9110027,
    "card_image": "assets/kapai/official/SpiritBeastPuppet_607031.webp",
    "icon_image": "assets/kapai/official/SpiritBeastPuppet_607031.webp",
    "qua": "",
@@ -1456,9 +1505,9 @@
    "full_text": "把灵兽崽带回给苏软软，这只灵兽有点怪，我应该单独问问她。\n把灵兽崽带回给苏软软\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：击败「无名灵兽崽」（出现在「金陵城」/「月照之地」）\n怎么来：完成「无名灵兽崽」（在「金陵城」）的心愿：交给TA 〈翠茸仙糕〉（和「后厨小孩」对话（在「醉仙阁」），花 50 灵石）\n怎么来：完成「无名灵兽崽」（在「月照之地」）的心愿\n用在哪：交给「苏软软」，完成任务【苏软软】「帮助苏软软找到丢失的灵兽崽(位于金陵城内)」、【苏软软】「发现苏软软的所有幼崽(一共3只)」，换来 〈妖王内丹〉"
   },
   {
-   "index": 27,
+   "index": 28,
    "name": "清云猞猁",
-   "collect_id": 9110027,
+   "collect_id": 9110028,
    "card_image": "assets/kapai/official/SpiritBeastPuppet_607031.webp",
    "icon_image": "assets/kapai/official/SpiritBeastPuppet_607031.webp",
    "qua": "",
@@ -1509,9 +1558,9 @@
    "full_text": "把灵兽崽交还给哭泣的无名妖王！\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：把〈苏软软〉给「哭泣的无名妖王」（在「妖兽巢穴」）\n用在哪：交给「哭泣的无名妖王」，完成任务【苏软软】「把清云猞猁交给哭泣的妖王」、【苏软软】「\"捡来\"的灵兽崽(完成)」，换来 〈本源兽魄〉、〈碧潭瀑布传闻〉"
   },
   {
-   "index": 28,
+   "index": 29,
    "name": "照顾灵草",
-   "collect_id": 9110028,
+   "collect_id": 9110029,
    "card_image": "assets/kapai/official/Items_2104201.webp",
    "icon_image": "assets/kapai/official/Items_2104201.webp",
    "qua": "神品",
@@ -1564,9 +1613,9 @@
    "full_text": "由于我帮慕容绛璃收集到一本心法，她愿意帮我照顾灵草(灵田工作台)\n把此卡牌拖给慕容绛璃，她将会变成可以帮我照顾灵药的卡牌\n(当慕容绛璃照顾灵草时，将无法在其他地方刷新，直到把灵草收集)\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：和「慕容绛璃」对话\n用在哪：交给「慕容绛璃」，换来 〈慕容绛璃〉"
   },
   {
-   "index": 29,
+   "index": 30,
    "name": "慕容绛璃",
-   "collect_id": 9110029,
+   "collect_id": 9110030,
    "card_image": "assets/kapai/official/Role_80.webp",
    "icon_image": "assets/kapai/official/Role_80.webp",
    "qua": "",
@@ -1610,9 +1659,9 @@
    "full_text": "(此卡牌只能帮忙照顾灵田，无法战斗，卡牌消失后可重新召唤)\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：带着〈照顾灵草〉和「慕容绛璃」对话，获得"
   },
   {
-   "index": 30,
+   "index": 31,
    "name": "沾染白龙气息的发带",
-   "collect_id": 9110030,
+   "collect_id": 9110031,
    "card_image": "assets/kapai/official/Items_2101102.webp",
    "icon_image": "assets/kapai/official/Items_2101102.webp",
    "qua": "",
@@ -1663,9 +1712,9 @@
    "full_text": "发带上沾染了圣兽：白龙的气息，我需要把发带交还给湖月城的悦萱儿\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：把〈悦萱儿的发带〉给「白龙的分身」（在「十万大山深处」）\n用在哪：交给「悦萱儿」，完成任务【悦萱儿】「把沾染白龙气息的发带交还给悦萱儿」，换来 〈悦萱儿的发带〉"
   },
   {
-   "index": 31,
+   "index": 32,
    "name": "沾染鲲气息的发带",
-   "collect_id": 9110031,
+   "collect_id": 9110032,
    "card_image": "assets/kapai/official/Items_2101102.webp",
    "icon_image": "assets/kapai/official/Items_2101102.webp",
    "qua": "",
@@ -1716,9 +1765,9 @@
    "full_text": "发带上沾染了圣兽：鲲的气息，我需要把发带交还给湖月城的悦萱儿\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：把〈悦萱儿的发带〉给「鲲的分身」（在「圣兽：鲲」）\n用在哪：交给「悦萱儿」，完成任务【悦萱儿】「把沾染鲲气息的发带交还给悦萱儿」，换来 〈悦萱儿的发带〉"
   },
   {
-   "index": 32,
+   "index": 33,
    "name": "沾染凶蛟气息的发带",
-   "collect_id": 9110032,
+   "collect_id": 9110033,
    "card_image": "assets/kapai/official/Items_2101102.webp",
    "icon_image": "assets/kapai/official/Items_2101102.webp",
    "qua": "",
@@ -1769,9 +1818,9 @@
    "full_text": "发带上沾染了圣兽：三头凶蛟的气息，我需要把发带交还给湖月城的悦萱儿\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：把〈悦萱儿的发带〉给「三头凶蛟的分身」（在「凶兽：三头凶蛟」）\n用在哪：交给「悦萱儿」，完成任务【悦萱儿】「把沾染凶蛟气息的发带交还给悦萱儿」，换来 〈悦萱儿的发带〉"
   },
   {
-   "index": 33,
+   "index": 34,
    "name": "奇怪的信",
-   "collect_id": 9110033,
+   "collect_id": 9110034,
    "card_image": "assets/kapai/official/Items_15010.webp",
    "icon_image": "assets/kapai/official/Items_15010.webp",
    "qua": "",
@@ -1823,9 +1872,9 @@
    "full_text": "奇怪的人掉的信竟然还用法力封印了；只有元婴期的修士才能解开\n我应该拿给悦家家主看\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：击败「奇怪的人」（出现在「湖月城」）\n用在哪：交给「悦家家主」，完成任务【悦萱儿】「接受悦家家主的请求」"
   },
   {
-   "index": 34,
+   "index": 35,
    "name": "切磋",
-   "collect_id": 9110034,
+   "collect_id": 9110035,
    "card_image": "assets/kapai/official/Items_2105201.webp",
    "icon_image": "assets/kapai/official/Items_2105201.webp",
    "qua": "人品",
@@ -1877,9 +1926,9 @@
    "full_text": "武破岳邀请我切磋。\n(答应后，武破岳会暂时变成敌对卡牌，战胜后恢复)\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：和「武破岳」对话\n用在哪：交给「武破岳」可以听到相关的对话（没有奖励）"
   },
   {
-   "index": 35,
+   "index": 36,
    "name": "跟我走",
-   "collect_id": 9110035,
+   "collect_id": 9110036,
    "card_image": "assets/kapai/official/Items_2105202.webp",
    "icon_image": "assets/kapai/official/Items_2105202.webp",
    "qua": "绝品",
@@ -1931,9 +1980,9 @@
    "full_text": "找到可锻体的〔火〕秘境，邀请武破岳跟自己前往。\n(此卡牌给武破岳后，武破岳会暂时变成可控)\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：和「武破岳」对话\n用在哪：交给「武破岳」可以听到相关的对话（没有奖励）"
   },
   {
-   "index": 36,
+   "index": 37,
    "name": "问剑！",
-   "collect_id": 9110036,
+   "collect_id": 9110037,
    "card_image": "assets/kapai/official/Items_2150001.webp",
    "icon_image": "assets/kapai/official/Items_2150001.webp",
    "qua": "",
@@ -1987,9 +2036,9 @@
    "full_text": "问剑\n问剑是玄剑阁独有的选拔弟子的仪式，当完成3层问战挑战后，将可以加入玄剑阁！\n每层都有一名守关的玄剑阁弟子，战胜TA便能继续往上挑战！\n如果你找到玄剑阁的推荐信，那也可以跳过问剑流程！\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：和「玄剑阁弟子」对话（在「问剑之路」）\n用在哪：交给「玄剑阁弟子」可以听到相关的对话（没有奖励）"
   },
   {
-   "index": 37,
+   "index": 38,
    "name": "加入玄剑阁",
-   "collect_id": 9110037,
+   "collect_id": 9110038,
    "card_image": "assets/kapai/official/Items_2150004.webp",
    "icon_image": "assets/kapai/official/Items_2150004.webp",
    "qua": "",
@@ -2040,9 +2089,9 @@
    "full_text": "把此卡牌交给华夫人，从此便加入了玄剑阁\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：和「华夫人」对话（在「玄剑阁」）\n用在哪：拖到〈华夫人〉上，换来 〈玄剑阁〉"
   },
   {
-   "index": 38,
+   "index": 39,
    "name": "宗门叛徒",
-   "collect_id": 9110038,
+   "collect_id": 9110039,
    "card_image": "assets/kapai/official/Items_2000101.webp",
    "icon_image": "assets/kapai/official/Items_2000101.webp",
    "qua": "",
@@ -2086,9 +2135,9 @@
    "full_text": "我得知了叛徒的相貌，把此卡牌放入调查工作台即可找到此人。\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：和「宗门叛徒」对话（在「玄剑阁」），获得"
   },
   {
-   "index": 39,
+   "index": 40,
    "name": "大量骸骨",
-   "collect_id": 9110039,
+   "collect_id": 9110040,
    "card_image": "assets/kapai/official/Items_2206101.webp",
    "icon_image": "assets/kapai/official/Items_2206101.webp",
    "qua": "绝品",
@@ -2139,9 +2188,9 @@
    "full_text": "在灵土堆附近发现了一处大量骸骨的地方；这应该是有一只极为凶残的妖兽造成的。\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：在「凝土墟(小)」「探索凝土墟」、在「凝土墟(小)」「派出灵兽」 等 3 种\n怎么来：在「凝土墟」「探索凝土墟」、在「凝土墟」「派出灵兽」 等 3 种"
   },
   {
-   "index": 40,
+   "index": 41,
    "name": "血衣",
-   "collect_id": 9110040,
+   "collect_id": 9110041,
    "card_image": "assets/kapai/official/Items_2215201.webp",
    "icon_image": "assets/kapai/official/Items_2215201.webp",
    "qua": "绝品",
@@ -2201,9 +2250,9 @@
    "full_text": "在战场发现一件物品，在它的表面上残留着强大的怨念。\n放入调查工作台调查背后故事\n受亡人所托，带去给他的父亲。\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：在「修士战场」「探索战场」放入 〈机缘〉或〈善缘〉、在「修士战场」「探索战场」\n怎么来：和「无名灵体」对话\n用在哪：交给「老人」，换来 〈思绪〉"
   },
   {
-   "index": 41,
+   "index": 42,
    "name": "断剑（下）",
-   "collect_id": 9110041,
+   "collect_id": 9110042,
    "card_image": "assets/kapai/official/Items_2300101.webp",
    "icon_image": "assets/kapai/official/Items_2300101.webp",
    "qua": "绝品",
@@ -2264,9 +2313,9 @@
    "full_text": "一把断剑，从剑身处断裂。但剑身依然保存有一定的灵力，我应该调查此剑？\n一把断剑，从剑身处断裂，剑尖上面刻有玄剑阁三个字。\n(主角携带此卡进入妖兽巢穴，可直接发现鬼面蛛)\n剑上抽离出怒意，我应该调查怒意，方能更深入了解此剑。\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：在「妖兽巢穴」地图上直接出现（点它 / 和它互动就能拿到）\n用在哪：交给「无名灵体」，完成任务【赵子义】「把\"断剑\"给无名灵体」，换来 〈断剑（下）〉\n用在哪：交给「赵子义」，完成任务【赵子义】「调查\"断剑\"」、【赵子义】「把\"断剑\"给赵子义查看(可选做)」，换来 〈断剑（下）〉、〈一股怒意〉"
   },
   {
-   "index": 42,
+   "index": 43,
    "name": "断剑（上）",
-   "collect_id": 9110042,
+   "collect_id": 9110043,
    "card_image": "assets/kapai/official/Items_2300104.webp",
    "icon_image": "assets/kapai/official/Items_2300104.webp",
    "qua": "绝品",
@@ -2318,9 +2367,9 @@
    "full_text": "无名灵体生前的佩剑，但只剩下剑柄端了！\n把断剑上和断剑下堆叠后，交给村庄里的赵子义吧！\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：把〈鬼面蛛的脑袋〉给「无名灵体」\n用在哪：交给「赵子义」，完成任务【赵子义】「子义寻兄(完成)」、【赵子义】「结交赵子义」，换来 〈赵子义的神念〉"
   },
   {
-   "index": 43,
+   "index": 44,
    "name": "鬼面蛛的脑袋",
-   "collect_id": 9110043,
+   "collect_id": 9110044,
    "card_image": "assets/kapai/official/Items_2300105.webp",
    "icon_image": "assets/kapai/official/Items_2300105.webp",
    "qua": "绝品",
@@ -2371,9 +2420,9 @@
    "full_text": "鬼面蛛的脑袋，将其交给无名灵体。\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：击败「鬼面蛛」（出现在「妖王聚集地」）\n用在哪：交给「无名灵体」，完成任务【赵子义】「把头颅交给\"无名灵体\"」，换来 〈断剑（上）〉"
   },
   {
-   "index": 44,
+   "index": 45,
    "name": "一股怒意",
-   "collect_id": 9110044,
+   "collect_id": 9110045,
    "card_image": "assets/kapai/official/Items_2300106.webp",
    "icon_image": "assets/kapai/official/Items_2300106.webp",
    "qua": "绝品",
@@ -2424,9 +2473,9 @@
    "full_text": "当断剑接触到兽血的一瞬间，剑身颤抖不已，一股怒意从中迸发而出，随后消散往远处的墓碑聚拢而去。\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：把〈断剑（下）〉给「赵子义」\n怎么来：在线索卡「断剑（下）」里放入 〈兽血{地品}〉"
   },
   {
-   "index": 45,
+   "index": 46,
    "name": "鱼",
-   "collect_id": 9110045,
+   "collect_id": 9110046,
    "card_image": "assets/kapai/official/SpiritBeastPuppet_608011.webp",
    "icon_image": "assets/kapai/official/SpiritBeastPuppet_608011.webp",
    "qua": "人品",
@@ -2486,9 +2535,9 @@
    "full_text": "生活在极寒潭底的鱼，实在是奇怪\n此卡牌由内测玩家：王宁心设计\n竟然生活在火山的熔岩里的鱼，实在是奇怪\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：在「潭底」地图上直接出现（点它 / 和它互动就能拿到）\n怎么来：在「天地熔炉」地图上直接出现（点它 / 和它互动就能拿到）\n用在哪：放进培养工作台「鱼?」"
   },
   {
-   "index": 46,
+   "index": 47,
    "name": "李长歌的密信",
-   "collect_id": 9110046,
+   "collect_id": 9110047,
    "card_image": "assets/kapai/official/Items_15010.webp",
    "icon_image": "assets/kapai/official/Items_15010.webp",
    "qua": "人品",
@@ -2534,9 +2583,9 @@
    "full_text": "信中潦草的写着：他们接头的房子在金陵城。\n(主角携带此卡牌进入金陵城，触发李长歌任务)\n(注意：本任务只有一次进入机会)\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：和「李长歌（受伤）」对话"
   },
   {
-   "index": 47,
+   "index": 48,
    "name": "傲月的请求",
-   "collect_id": 9110047,
+   "collect_id": 9110048,
    "card_image": "assets/kapai/official/Items_2101101.webp",
    "icon_image": "assets/kapai/official/Items_2101101.webp",
    "qua": "",
@@ -2588,9 +2637,9 @@
    "full_text": "位于聚水漩涡的傲月请求我赠予她一个珠子法宝：定海。\n完成任务后，把此请求交还给傲月以获取奖励。\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：和「敖月」对话\n用在哪：交给「敖月」，换来 〈寒冰咒〉"
   },
   {
-   "index": 48,
+   "index": 49,
    "name": "悦萱儿的发带",
-   "collect_id": 9110048,
+   "collect_id": 9110049,
    "card_image": "assets/kapai/official/Items_2101102.webp",
    "icon_image": "assets/kapai/official/Items_2101102.webp",
    "qua": "神品",
@@ -2666,9 +2715,9 @@
    "full_text": "悦萱儿给的发带，需要在遇到以下圣兽时:\n十万大山的白龙\n海上的鲲\n行踪不定的三头巨蛟\n当遇到圣兽后，用发带触碰圣兽收集位置信息，回湖月城告诉悦萱儿。\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：和「悦萱儿」对话\n怎么来：把〈沾染白龙气息的发带〉，或〈沾染鲲气息的发带〉，或〈沾染凶蛟气息的发带〉给「悦萱儿」\n用在哪：交给「鲲的分身」（会被收走），完成任务【悦萱儿】「找到位于海上的鲲」，换来 〈沾染鲲气息的发带〉\n用在哪：交给「白龙的分身」（会被收走），完成任务【悦萱儿】「找到位于十万大山的白龙」，换来 〈沾染白龙气息的发带〉\n用在哪：交给「三头凶蛟的分身」（会被收走），完成任务【悦萱儿】「找到位于镇妖塔附近的三头凶蛟(结丹期方能完成)」，换来 〈沾染凶蛟气息的发带〉、〈三头凶蛟的分身{神品}〉"
   },
   {
-   "index": 49,
+   "index": 50,
    "name": "你会说话?",
-   "collect_id": 9110049,
+   "collect_id": 9110050,
    "card_image": "assets/kapai/official/Items_91000.webp",
    "icon_image": "assets/kapai/official/Items_91000.webp",
    "qua": "人品",
@@ -2720,9 +2769,9 @@
    "full_text": "虽然天狐的实力很恐怖，但他竟然能说话！？？\n可以把此卡牌于天狐碰撞进行下一步的交流。\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：和「九尾天狐的分身」对话（在「灵兽谷深处」）\n用在哪：交给「九尾天狐的分身」，换来 〈询问飞升〉"
   },
   {
-   "index": 50,
+   "index": 51,
    "name": "连忙道歉",
-   "collect_id": 9110050,
+   "collect_id": 9110051,
    "card_image": "assets/kapai/official/Items_91000.webp",
    "icon_image": "assets/kapai/official/Items_91000.webp",
    "qua": "人品",
@@ -2774,9 +2823,9 @@
    "full_text": "天狐的实力远高于我，在这里认输并不是一件坏事。\n可以把此卡牌于天狐碰撞进行下一步的交流。\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：和「九尾天狐的分身」对话（在「灵兽谷深处」）\n用在哪：交给「九尾天狐的分身」可以听到相关的对话（没有奖励）"
   },
   {
-   "index": 51,
+   "index": 52,
    "name": "询问飞升",
-   "collect_id": 9110051,
+   "collect_id": 9110052,
    "card_image": "assets/kapai/official/Items_91000.webp",
    "icon_image": "assets/kapai/official/Items_91000.webp",
    "qua": "人品",
@@ -2827,9 +2876,9 @@
    "full_text": "天狐已修练至合体期，距离飞升已不远，或许可从天狐口中一窥天道？\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：把〈你会说话?〉给「九尾天狐的分身」（在「灵兽谷深处」）\n用在哪：交给「九尾天狐的分身」，换来 〈询问修炼〉、〈天关魁？〉"
   },
   {
-   "index": 52,
+   "index": 53,
    "name": "询问修炼",
-   "collect_id": 9110052,
+   "collect_id": 9110053,
    "card_image": "assets/kapai/official/Items_91000.webp",
    "icon_image": "assets/kapai/official/Items_91000.webp",
    "qua": "人品",
@@ -2880,9 +2929,9 @@
    "full_text": "修仙世界，实力为尊。有幸遇到合体期的前辈，无论是人是妖，请教一番总是没错的。\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：把〈询问飞升〉给「九尾天狐的分身」（在「灵兽谷深处」）\n用在哪：交给「九尾天狐的分身」可以听到相关的对话（没有奖励）"
   },
   {
-   "index": 53,
+   "index": 54,
    "name": "如何寻回记忆",
-   "collect_id": 9110053,
+   "collect_id": 9110054,
    "card_image": "assets/kapai/official/Items_91000.webp",
    "icon_image": "assets/kapai/official/Items_91000.webp",
    "qua": "人品",
@@ -2933,9 +2982,9 @@
    "full_text": "元婴期的修士已经可以翻山填海，说不定天狐的实力能帮我找回记忆。\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：把〈天关魁？〉给「九尾天狐的分身」（在「灵兽谷深处」）\n用在哪：交给「九尾天狐的分身」可以听到相关的对话（没有奖励）"
   },
   {
-   "index": 54,
+   "index": 55,
    "name": "天关魁？",
-   "collect_id": 9110054,
+   "collect_id": 9110055,
    "card_image": "assets/kapai/official/Items_91000.webp",
    "icon_image": "assets/kapai/official/Items_91000.webp",
    "qua": "人品",
@@ -2986,9 +3035,9 @@
    "full_text": "（游戏里没有简介）\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：把〈询问飞升〉给「九尾天狐的分身」（在「灵兽谷深处」）\n用在哪：交给「九尾天狐的分身」，换来 〈如何寻回记忆〉"
   },
   {
-   "index": 55,
+   "index": 56,
    "name": "天魂",
-   "collect_id": 9110055,
+   "collect_id": 9110056,
    "card_image": "assets/kapai/official/Items_2311702.webp",
    "icon_image": "assets/kapai/official/Items_2311702.webp",
    "qua": "神品",
@@ -3033,9 +3082,9 @@
    "full_text": "代表先天良知与灵性本源，不生不灭，承载所有轮回记忆。\n魂魄极易消散，我应该先回去塔底将其归位！(魂魄消失会导致本次任务无法完成)\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：通关「镇妖塔七层」的奖励"
   },
   {
-   "index": 56,
+   "index": 57,
    "name": "地魂",
-   "collect_id": 9110056,
+   "collect_id": 9110057,
    "card_image": "assets/kapai/official/Items_2311703.webp",
    "icon_image": "assets/kapai/official/Items_2311703.webp",
    "qua": "神品",
@@ -3080,9 +3129,9 @@
    "full_text": "记录善恶业力与因果报应，属阴性能量。\n魂魄极易消散，我应该先回去塔底将其归位！(魂魄消失会导致本次任务无法完成)\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：通关「镇妖塔五层」的奖励"
   },
   {
-   "index": 57,
+   "index": 58,
    "name": "人魂",
-   "collect_id": 9110057,
+   "collect_id": 9110058,
    "card_image": "assets/kapai/official/Items_2311704.webp",
    "icon_image": "assets/kapai/official/Items_2311704.webp",
    "qua": "神品",
@@ -3127,9 +3176,9 @@
    "full_text": "与肉身和血脉相连，掌管七情六欲及现世记忆。\n魂魄极易消散，我应该先回去塔底将其归位！(魂魄消失会导致本次任务无法完成)\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：通关「镇妖塔三层」的奖励"
   },
   {
-   "index": 58,
+   "index": 59,
    "name": "虚弱的赵子义",
-   "collect_id": 9110058,
+   "collect_id": 9110059,
    "card_image": "assets/kapai/official/Role_61.webp",
    "icon_image": "assets/kapai/official/Role_61.webp",
    "qua": "",
@@ -3182,9 +3231,9 @@
    "full_text": "赵子义受的伤太重了，普通丹药对他无效\n我应该将赵子义带回金陵城，交给玄剑阁的长老(位于某个房子的屋顶)。\n(如果此赵子义卡牌消失，则赵子义永久死亡)\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：奇遇「重伤的赵子义」\n用在哪：交给「玄剑阁长老」，完成任务【赵子义】「把赵子义带回金陵城玄剑阁长老处！」"
   },
   {
-   "index": 59,
+   "index": 60,
    "name": "易容中",
-   "collect_id": 9110059,
+   "collect_id": 9110060,
    "card_image": "assets/kapai/official/Items_2321000.webp",
    "icon_image": "assets/kapai/official/Items_2321000.webp",
    "qua": "",
@@ -3236,9 +3285,9 @@
    "full_text": "我换了个模样，现在可以正常的进入各城市\n当卡牌消失后，便恢复原来身份！(把此卡牌拖动给主角，可立即解除易容)\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：把〈面具〉拖到主角身上\n用在哪：拖到主角身上，可以看到主角的想法"
   },
   {
-   "index": 60,
+   "index": 61,
    "name": "奇怪的符号",
-   "collect_id": 9110060,
+   "collect_id": 9110061,
    "card_image": "assets/kapai/official/Items_100072.webp",
    "icon_image": "assets/kapai/official/Items_100072.webp",
    "qua": "",
@@ -3292,9 +3341,9 @@
    "full_text": "在我修炼了刺杀术之后，身上竟然多了一个奇怪的符号！\n如果我再次遇到执黑，我应该要问清楚！\n这是执黑设下的追踪符，在遭遇执黑师兄前来夺取心法时，执黑才能及时赶到\n把执黑大师兄也击败后，再以此与执黑领取奖励。\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：在修炼工作台「修炼」放入 〈刺杀术〉\n用在哪：交给「执黑」 / 「重伤的执黑」，完成任务【执黑】「被追杀的执黑(完成)」、【执黑】「找到执黑，质问符号」，换来 〈一个黑棋〉、〈天机棋盘传闻〉"
   },
   {
-   "index": 61,
+   "index": 62,
    "name": "需200寿元",
-   "collect_id": 9110061,
+   "collect_id": 9110062,
    "card_image": "assets/kapai/official/Items_2346400.webp",
    "icon_image": "assets/kapai/official/Items_2346400.webp",
    "qua": "",
@@ -3360,9 +3409,9 @@
    "full_text": "把此卡牌拖动到房间的藏品里，可以拿走它！\n注意：拿走藏品将花费200年寿元，如果寿元不足则主角会立刻死亡\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：和「扶溟」对话（在「鬼市」）\n怎么来：和「收藏家」对话（在「鬼市」）\n用在哪：拖到〈聪慧绝伦〉 / 〈准：口诀〉 / 〈准：技能〉 / 〈准：炼丹〉 / 〈准：炼法宝〉 等 11 个上，换来 〈修改天道〉\n用在哪：拖到〈吞天〉 / 〈玄霄神气〉 / 〈天眷福泽〉 / 〈一瞬明悟〉上，就能拿走它"
   },
   {
-   "index": 62,
+   "index": 63,
    "name": "走失的小女孩",
-   "collect_id": 9110062,
+   "collect_id": 9110063,
    "card_image": "assets/kapai/official/Role_50005.webp",
    "icon_image": "assets/kapai/official/Role_50005.webp",
    "qua": "人品",
@@ -3415,9 +3464,9 @@
    "full_text": "小女孩相信了我，我可以带她回到村子里。\n(把小女孩堆叠在主角卡上进入村庄)\n(我需要在限定时间里把小女孩送回去)\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：在「山脚下」「寻找小女孩」放入 主角 + 〈神识〉\n用在哪：交给「着急的大妈」，完成任务【请求】「完成\"无名村庄\"大妈的请求」，换来 〈大妈的首饰〉、〈金陵城〉、〈善缘{神品}〉"
   },
   {
-   "index": 63,
+   "index": 64,
    "name": "重伤的冷无峰",
-   "collect_id": 9110063,
+   "collect_id": 9110064,
    "card_image": "assets/kapai/official/Role_30.webp",
    "icon_image": "assets/kapai/official/Role_30.webp",
    "qua": "",
@@ -3461,9 +3510,9 @@
    "full_text": "（游戏里没有简介）\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：击败「冷无峰」"
   },
   {
-   "index": 64,
+   "index": 65,
    "name": "重伤的陆逸尘",
-   "collect_id": 9110064,
+   "collect_id": 9110065,
    "card_image": "assets/kapai/official/Role_51.webp",
    "icon_image": "assets/kapai/official/Role_51.webp",
    "qua": "",
@@ -3507,9 +3556,9 @@
    "full_text": "（游戏里没有简介）\n类型：任务卡\n\n【获取途径 / 用途】\n怎么来：击败「陆逸尘」"
   },
   {
-   "index": 65,
+   "index": 66,
    "name": "\"乱灵阵\"",
-   "collect_id": 9110065,
+   "collect_id": 9110066,
    "card_image": "assets/kapai/official/Items_30103.webp",
    "icon_image": "assets/kapai/official/Items_30103.webp",
    "qua": "",
@@ -3561,9 +3610,9 @@
    "full_text": "乱灵阵：一种阵法，利用法宝将某个区域的灵气扰乱，形成\"浓雾\"把人困住。\n施法者越强大，\"浓雾\"的范围越广。\n类型：线索\n\n【获取途径 / 用途】\n怎么来：剧情卡「\"乱灵阵\"」集齐线索后点「唤醒记忆」\n用在哪：调查「奇怪的\"雾\"」时放入"
   },
   {
-   "index": 66,
+   "index": 67,
    "name": "师弟：冷无峰",
-   "collect_id": 9110066,
+   "collect_id": 9110067,
    "card_image": "assets/kapai/official/Items_30105.webp",
    "icon_image": "assets/kapai/official/Items_30105.webp",
    "qua": "",
@@ -3622,9 +3671,9 @@
    "full_text": "我的师弟冷无峰，也曾来过金陵城，也许会有其他人见过他\n可以拿师弟的画像询问城里的修士，说不定会有所收获\n类型：线索\n\n【获取途径 / 用途】\n怎么来：剧情卡「初至金陵」集齐线索后点「唤醒记忆」\n用在哪：交给「紫霄殿精英」 / 「玄剑阁长老」 / 「袁白」 / 「神秘高手」（会被收走），完成任务【支线】「调查出师弟的下落」，换来 〈查清事实！〉\n用在哪：交给「杨巅峰」、「庄兰台」、「玄剑阁执事」、「陆逸尘」 等 7 人可以听到相关的对话（没有奖励）"
   },
   {
-   "index": 67,
+   "index": 68,
    "name": "抽干血的尸体",
-   "collect_id": 9110067,
+   "collect_id": 9110068,
    "card_image": "assets/kapai/official/Items_30106.webp",
    "icon_image": "assets/kapai/official/Items_30106.webp",
    "qua": "",
@@ -3682,9 +3731,9 @@
    "full_text": "失踪的修士都是被一击毙命，而且抽干了血液\n类型：线索\n\n【获取途径 / 用途】\n怎么来：剧情卡「调查金陵城」集齐线索后点「唤醒记忆」\n用在哪：拖到主角身上，可以看到主角的想法\n用在哪：调查「她的身份」时放入"
   },
   {
-   "index": 68,
+   "index": 69,
    "name": "似曾相识",
-   "collect_id": 9110068,
+   "collect_id": 9110069,
    "card_image": "assets/kapai/official/Items_30107.webp",
    "icon_image": "assets/kapai/official/Items_30107.webp",
    "qua": "",
@@ -3742,9 +3791,9 @@
    "full_text": "在踏入比武台的一刹那，我感觉我曾经来过这里，虽然建筑已经老化了不少，但我似乎认识这里的布局，想去哪里，脚步自然就迈开了。\n类型：线索\n\n【获取途径 / 用途】\n怎么来：在「比武大会报名处」地图上直接出现（点它 / 和它互动就能拿到）\n用在哪：拖到主角身上，可以看到主角的想法\n用在哪：调查「参加比武」时放入"
   },
   {
-   "index": 69,
+   "index": 70,
    "name": "紫衣女子",
-   "collect_id": 9110069,
+   "collect_id": 9110070,
    "card_image": "assets/kapai/official/Items_30108.webp",
    "icon_image": "assets/kapai/official/Items_30108.webp",
    "qua": "",
@@ -3803,9 +3852,9 @@
    "full_text": "紫衣女子多次在我的回忆里出现，我需要知道她是谁！起码想记起她的名字。\n我可以在金陵城向谁打听此女子呢？\n类型：线索\n\n【获取途径 / 用途】\n怎么来：剧情卡「回忆：比武」集齐线索后点「唤醒记忆」\n用在哪：交给「醉仙阁掌柜」（会被收走），完成任务【主线】「回想起紫衣女子的名字」\n用在哪：交给「杨巅峰」、「庄兰台」、「玄剑阁执事」、「紫霄殿精英」 等 9 人可以听到相关的对话（没有奖励）"
   },
   {
-   "index": 70,
+   "index": 71,
    "name": "年轻的陆逸尘",
-   "collect_id": 9110070,
+   "collect_id": 9110071,
    "card_image": "assets/kapai/official/Items_30109.webp",
    "icon_image": "assets/kapai/official/Items_30109.webp",
    "qua": "",
@@ -3872,9 +3921,9 @@
    "full_text": "回忆里和比赛的陆逸尘，怎么和算命先生长得如此像？\n我应该前去询问算命先生，他就在金陵城的某个地方。\n在清芜夫人的证明下，算命先生就是我所认识的陆逸尘。这次，我已经有足够的证据去质问他！\n类型：线索\n\n【获取途径 / 用途】\n怎么来：剧情卡「回忆：比武」集齐线索后点「唤醒记忆」\n用在哪：交给「陆逸尘」，完成任务【支线】「与陆逸尘？第一次相认」\n用在哪：交给「慕容绛璃」（会被收走），换来 〈隐世老祖〉\n用在哪：交给「杨巅峰」、「庄兰台」、「玄剑阁执事」、「紫霄殿精英」 等 6 人可以听到相关的对话（没有奖励）"
   },
   {
-   "index": 71,
+   "index": 72,
    "name": "隐世老祖",
-   "collect_id": 9110071,
+   "collect_id": 9110072,
    "card_image": "assets/kapai/official/Items_30112.webp",
    "icon_image": "assets/kapai/official/Items_30112.webp",
    "qua": "",
@@ -3925,9 +3974,9 @@
    "full_text": "陆逸尘是清虚谷的隐世人物，据说在离开清虚谷的时候，境界已经达到了合体期\n类型：线索\n\n【获取途径 / 用途】\n怎么来：把〈年轻的陆逸尘〉给「慕容绛璃」\n用在哪：交给「陆逸尘」（会被收走），完成任务【支线】「与陆逸尘？第一次相认」，换来 〈证明身份〉"
   },
   {
-   "index": 72,
+   "index": 73,
    "name": "无相殿",
-   "collect_id": 9110072,
+   "collect_id": 9110073,
    "card_image": "assets/kapai/official/Items_30113.webp",
    "icon_image": "assets/kapai/official/Items_30113.webp",
    "qua": "",
@@ -3993,9 +4042,9 @@
    "full_text": "在比武的兽潮事件后，无相殿被认作\"魔教\"\n前殿主名:苏惊雨，有一女：苏怜烟\n类型：线索\n\n【获取途径 / 用途】\n怎么来：剧情卡「回忆：兽潮」集齐线索后点「唤醒记忆」\n用在哪：拖到主角身上，可以看到主角的想法\n用在哪：调查「查清事实！」时放入\n用在哪：调查「她的身份」时放入"
   },
   {
-   "index": 73,
+   "index": 74,
    "name": "凶手苏怜烟？",
-   "collect_id": 9110073,
+   "collect_id": 9110074,
    "card_image": "assets/kapai/official/Items_30114.webp",
    "icon_image": "assets/kapai/official/Items_30114.webp",
    "qua": "",
@@ -4053,9 +4102,9 @@
    "full_text": "苏怜烟，是无相殿前殿主之女，目前被指控为杀害金陵城失踪修士的凶手\n类型：线索\n\n【获取途径 / 用途】\n怎么来：剧情卡「她的身份」集齐线索后点「唤醒记忆」\n用在哪：拖到主角身上，可以看到主角的想法\n用在哪：调查「师傅的安排」时放入"
   },
   {
-   "index": 74,
+   "index": 75,
    "name": "雁荡城战场",
-   "collect_id": 9110074,
+   "collect_id": 9110075,
    "card_image": "assets/kapai/official/Items_30115.webp",
    "icon_image": "assets/kapai/official/Items_30115.webp",
    "qua": "",
@@ -4113,9 +4162,9 @@
    "full_text": "雁荡城是守护十万大山的屏障，也是十分适合隐匿的地方。\n类型：线索\n\n【获取途径 / 用途】\n怎么来：在「雁荡城」地图上直接出现（点它 / 和它互动就能拿到）\n用在哪：拖到主角身上，可以看到主角的想法\n用在哪：调查「追踪魔教」时放入"
   },
   {
-   "index": 75,
+   "index": 76,
    "name": "阴脉",
-   "collect_id": 9110075,
+   "collect_id": 9110076,
    "card_image": "assets/kapai/official/Items_30117.webp",
    "icon_image": "assets/kapai/official/Items_30117.webp",
    "qua": "",
@@ -4173,9 +4222,9 @@
    "full_text": "苏怜烟天生患有的阴脉，发作时全身冷如冰窖，身体覆盖冰霜；但曼珠沙华却能把冰霜吸收。\n类型：线索\n\n【获取途径 / 用途】\n怎么来：剧情卡「绝境求生」集齐线索后点「唤醒记忆」\n用在哪：拖到主角身上，可以看到主角的想法\n用在哪：调查「凶手？」时放入"
   },
   {
-   "index": 76,
+   "index": 77,
    "name": "送走的玩伴",
-   "collect_id": 9110076,
+   "collect_id": 9110077,
    "card_image": "assets/kapai/official/Items_30118.webp",
    "icon_image": "assets/kapai/official/Items_30118.webp",
    "qua": "",
@@ -4227,9 +4276,9 @@
    "full_text": "在清溪村，我的有一个玩伴叫陆逸尘，后来他被送到清虚谷。\n如果可以，我需要找一个人来证明这件事。\n类型：线索\n\n【获取途径 / 用途】\n怎么来：剧情卡「村子惨剧」集齐线索后点「唤醒记忆」\n用在哪：交给「清芜夫人」 / 「无名骸骨」（会被收走），换来 〈小陆逸尘〉"
   },
   {
-   "index": 77,
+   "index": 78,
    "name": "静心草？",
-   "collect_id": 9110077,
+   "collect_id": 9110078,
    "card_image": "assets/kapai/official/Items_15001.webp",
    "icon_image": "assets/kapai/official/Items_15001.webp",
    "qua": "",
@@ -4281,9 +4330,9 @@
    "full_text": "静心草这味药似乎并不像其他的灵药一般，我该如何寻找静心草呢？或者可以找找一些人询问\n把此卡牌与其他卡牌交互，即可询问线索！\n类型：线索\n\n【获取途径 / 用途】\n怎么来：剧情卡「初窥筑基」集齐线索后点「完成事件」\n用在哪：交给「贪玩的年轻人」、「年迈的老人」、「勤劳的农夫」、「玄剑阁弟子」 等 15 人可以听到相关的对话（没有奖励）"
   },
   {
-   "index": 78,
+   "index": 79,
    "name": "沈砚秋",
-   "collect_id": 9110078,
+   "collect_id": 9110079,
    "card_image": "assets/kapai/official/Items_30302.webp",
    "icon_image": "assets/kapai/official/Items_30302.webp",
    "qua": "",
@@ -4341,9 +4390,9 @@
    "full_text": "在我的记忆里，他是玄剑阁的修士，也许可以询问玄剑阁的人获得他的消息。\n类型：线索\n\n【获取途径 / 用途】\n怎么来：剧情卡「森林对立」集齐线索后点「唤醒记忆」\n怎么来：击败「沈砚秋」\n用在哪：交给「玄剑阁长老」，换来 〈瀑布之战〉"
   },
   {
-   "index": 79,
+   "index": 80,
    "name": "小六子",
-   "collect_id": 9110079,
+   "collect_id": 9110080,
    "card_image": "assets/kapai/official/Items_30303.webp",
    "icon_image": "assets/kapai/official/Items_30303.webp",
    "qua": "",
@@ -4394,9 +4443,9 @@
    "full_text": "苏怜烟给当时的六尾灵狐取的名字。不知道我还能遇见它吗？也许它还记得我\n类型：线索\n\n【获取途径 / 用途】\n怎么来：剧情卡「被追杀的灵狐」集齐线索后点「唤醒记忆」\n用在哪：交给「九尾天狐的分身」（会被收走），完成任务【支线】「与九尾妖狐相认」，换来 〈瀑布之战〉"
   },
   {
-   "index": 80,
+   "index": 81,
    "name": "同党是我？",
-   "collect_id": 9110080,
+   "collect_id": 9110081,
    "card_image": "assets/kapai/official/Items_30304.webp",
    "icon_image": "assets/kapai/official/Items_30304.webp",
    "qua": "",
@@ -4461,9 +4510,9 @@
    "full_text": "在一些回忆碎片里，我都和苏怜烟站在同一阵线.....莫非？\n类型：线索\n\n【获取途径 / 用途】\n怎么来：剧情卡「对立」集齐线索后点「唤醒记忆」\n怎么来：剧情卡「误会大了」集齐线索后点「唤醒记忆」\n用在哪：拖到主角身上，可以看到主角的想法\n用在哪：调查「同党？」时放入"
   },
   {
-   "index": 81,
+   "index": 82,
    "name": "瀑布之战",
-   "collect_id": 9110081,
+   "collect_id": 9110082,
    "card_image": "assets/kapai/official/Items_30305.webp",
    "icon_image": "assets/kapai/official/Items_30305.webp",
    "qua": "",
@@ -4535,9 +4584,9 @@
    "full_text": "师弟与沈砚秋都是在碧潭瀑布里阵亡的.....当时我也在场吗？\n类型：线索\n\n【获取途径 / 用途】\n怎么来：把〈沈砚秋〉给「玄剑阁长老」（在「金陵城」）\n怎么来：把〈小六子〉给「九尾天狐的分身」（在「灵兽谷深处」）\n怎么来：剧情卡「恢复伤口」集齐线索后点「唤醒记忆」\n用在哪：拖到主角身上，可以看到主角的想法\n用在哪：调查「何处遭遇？」时放入"
   },
   {
-   "index": 82,
+   "index": 83,
    "name": "小陆逸尘",
-   "collect_id": 9110082,
+   "collect_id": 9110083,
    "card_image": "assets/kapai/official/Items_30306.webp",
    "icon_image": "assets/kapai/official/Items_30306.webp",
    "qua": "",
@@ -4595,9 +4644,9 @@
    "full_text": "清芜长老向我证明了，清虚谷的陆逸尘，便是当年村里的玩伴！！！\n类型：线索\n\n【获取途径 / 用途】\n怎么来：把〈送走的玩伴〉给「清芜夫人」\n怎么来：把〈送走的玩伴〉给「无名骸骨」（在「冥狱地下十层」）\n用在哪：交给「陆逸尘」（会被收走），完成任务【支线】「与陆逸尘？第一次相认」、【主线】「与陆逸尘第二次相认」"
   },
   {
-   "index": 83,
+   "index": 84,
    "name": "第二朵花",
-   "collect_id": 9110083,
+   "collect_id": 9110084,
    "card_image": "assets/kapai/official/Items_30307.webp",
    "icon_image": "assets/kapai/official/Items_30307.webp",
    "qua": "",
@@ -4655,9 +4704,9 @@
    "full_text": "师弟告诉我，师傅拥有另一朵花！这是在清溪村获得的。\n类型：线索\n\n【获取途径 / 用途】\n怎么来：剧情卡「瀑布激战」集齐线索后点「唤醒记忆」\n用在哪：拖到主角身上，可以看到主角的想法\n用在哪：调查「另有其人」时放入"
   },
   {
-   "index": 84,
+   "index": 85,
    "name": "花的真正效果",
-   "collect_id": 9110084,
+   "collect_id": 9110085,
    "card_image": "assets/kapai/official/Items_30308.webp",
    "icon_image": "assets/kapai/official/Items_30308.webp",
    "qua": "",
@@ -4722,9 +4771,9 @@
    "full_text": "师傅曾向清芜长老请教曼珠沙华的事情。师傅已经知晓曼珠沙华的真正功效。\n类型：线索\n\n【获取途径 / 用途】\n怎么来：把〈枯萎的曼珠沙华〉给「清芜夫人」\n怎么来：把〈枯萎的曼珠沙华〉给「无名骸骨」（在「冥狱地下十层」）\n用在哪：拖到主角身上，可以看到主角的想法\n用在哪：调查「另有其人」时放入"
   },
   {
-   "index": 85,
+   "index": 86,
    "name": "\"死因\"",
-   "collect_id": 9110085,
+   "collect_id": 9110086,
    "card_image": "",
    "icon_image": "",
    "qua": "",
@@ -4782,9 +4831,9 @@
    "full_text": "失踪的修士已经死亡，伤口不规则，并非常见利器所为\n类型：线索\n\n【获取途径 / 用途】\n怎么来：带着〈尸体〉和「武极门高手」对话，有概率获得\n怎么来：把〈玄剑阁高手〉交给「尸体」，有概率获得\n怎么来：带着〈萧枕墨〉和「尸体」对话，有概率获得"
   },
   {
-   "index": 86,
+   "index": 87,
    "name": "\"死状\"",
-   "collect_id": 9110086,
+   "collect_id": 9110087,
    "card_image": "",
    "icon_image": "",
    "qua": "",

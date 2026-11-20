@@ -4,8 +4,8 @@
  "full_category": "卡牌 / 图纸",
  "layout": "card",
  "data_source": "官方数据（游戏本地数据表）",
- "official_generated_at": "2026-11-20 06:49:01",
- "updated_at": "2026-11-20 06:49",
+ "official_generated_at": "2026-11-20 15:04:03",
+ "updated_at": "2026-11-20 15:04",
  "items": [
   {
    "index": 0,
@@ -41,6 +41,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "ctype": "图纸",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -85,6 +86,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "ctype": "图纸",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -134,6 +136,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "ctype": "图纸",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -294,6 +297,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "ctype": "图纸",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -344,6 +348,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "ctype": "图纸",
    "sections": [],
    "full_text": "在战场发现的一件法宝，但已损坏得看不出原状，但仍残留部分灵气，也许我可以将其重新[炼制]"
   },
@@ -385,6 +390,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "ctype": "图纸",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -433,6 +439,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "ctype": "图纸",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -497,6 +504,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "ctype": "图纸",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -564,6 +572,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "ctype": "图纸",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -629,6 +638,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "ctype": "图纸",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -671,6 +681,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "ctype": "图纸",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",

@@ -4,8 +4,8 @@
  "full_category": "卡牌 / 召唤物",
  "layout": "card",
  "data_source": "官方数据（游戏本地数据表）",
- "official_generated_at": "2026-11-20 06:49:01",
- "updated_at": "2026-11-20 06:49",
+ "official_generated_at": "2026-11-20 15:04:03",
+ "updated_at": "2026-11-20 15:04",
  "items": [
   {
    "index": 0,
@@ -164,6 +164,7 @@
      "who": "敌方修士的灵兽〈清珩〉、〈玉角鹿〉、〈虬枝鹿〉、〈青鹿〉召唤出来时是这组数值"
     }
    ],
+   "ctype": "召唤卡",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -276,6 +277,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "ctype": "召唤卡",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -382,6 +384,7 @@
      "who": "敌人召唤出来时是这组数值（游戏数据里没找到具体是谁召唤）"
     }
    ],
+   "ctype": "召唤卡",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -483,6 +486,7 @@
      "who": "敌人召唤出来时是这组数值（游戏数据里没找到具体是谁召唤）"
     }
    ],
+   "ctype": "召唤卡",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -648,6 +652,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "ctype": "召唤卡",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -1255,6 +1260,7 @@
      "who": "敌方修士的灵兽〈紫微大帝〉、〈紫极麒麟〉召唤出来时是这组数值（这些召唤者有两种版本，这是数值较高的那种召唤的）"
     }
    ],
+   "ctype": "召唤卡",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -1467,6 +1473,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "ctype": "召唤卡",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -1569,6 +1576,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "ctype": "召唤卡",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -1644,6 +1652,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "ctype": "召唤卡",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -1718,6 +1727,7 @@
      "who": "敌方修士的灵兽〈壤生〉、〈神蛰蚁〉、〈裂地蚁〉召唤出来时是这组数值"
     }
    ],
+   "ctype": "召唤卡",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -1797,6 +1807,7 @@
      "who": "敌方修士的灵兽〈壤生〉、〈神蛰蚁〉、〈裂地蚁〉召唤出来时是这组数值（这些召唤者有两种版本，这是数值较高的那种召唤的）"
     }
    ],
+   "ctype": "召唤卡",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -1894,6 +1905,7 @@
      "who": "敌方修士的灵兽〈壤生〉、〈神蛰蚁〉、〈裂地蚁〉召唤出来时是这组数值（这些召唤者有两种版本，这是数值较高的那种召唤的）"
     }
    ],
+   "ctype": "召唤卡",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -2097,6 +2109,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "ctype": "召唤卡",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -2385,6 +2398,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "ctype": "召唤卡",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -2557,6 +2571,7 @@
      "who": "妖兽〈化蛇〉、〈鬼脸飞蛇〉、〈长蛇〉、〈青蛇〉召唤出来时是这组数值"
     }
    ],
+   "ctype": "召唤卡",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -2804,6 +2819,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "ctype": "召唤卡",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -2966,6 +2982,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "ctype": "召唤卡",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -3039,6 +3056,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "ctype": "召唤卡",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -3249,6 +3267,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "ctype": "召唤卡",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -3411,6 +3430,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "ctype": "召唤卡",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",
@@ -3472,6 +3492,7 @@
    "locked": false,
    "status": "已获得",
    "official": true,
+   "ctype": "召唤卡",
    "sections": [
     {
      "title": "各版本（境界 / 品质）",

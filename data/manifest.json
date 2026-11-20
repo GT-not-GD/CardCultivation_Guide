@@ -1,6 +1,6 @@
 {
   "title": "卡牌修仙传 · 图鉴攻略",
-  "generated_at": "2026-11-20 14:54",
+  "generated_at": "2026-11-20 23:16",
   "categories": [
     {
       "slug": "kapai_ganwu_xinfa",
@@ -35,7 +35,7 @@
       "category": "指点卡",
       "full_category": "卡牌 / 指点卡",
       "file_name": "kapai_zhidianka.json",
-      "count": 116
+      "count": 150
     },
     {
       "slug": "kapai_cailiao",
@@ -140,7 +140,7 @@
       "category": "人物",
       "full_category": "人物",
       "file_name": "renwu.json",
-      "count": 18
+      "count": 20
     },
     {
       "slug": "mijing",
@@ -168,14 +168,21 @@
       "category": "任务道具",
       "full_category": "任务道具",
       "file_name": "renwu_daoju.json",
-      "count": 87
+      "count": 88
+    },
+    {
+      "slug": "weitoufang",
+      "category": "未投放",
+      "full_category": "未投放",
+      "file_name": "weitoufang.json",
+      "count": 8
     },
     {
       "slug": "wanfa",
       "category": "玩法机制",
       "full_category": "玩法机制",
       "file_name": "wanfa.json",
-      "count": 9
+      "count": 11
     }
   ]
 }
