@@ -1,6 +1,6 @@
 {
   "title": "卡牌修仙传 · 图鉴攻略",
-  "generated_at": "2026-11-20 02:33",
+  "generated_at": "2026-11-20 14:54",
   "categories": [
     {
       "slug": "kapai_ganwu_xinfa",
@@ -42,7 +42,7 @@
       "category": "材料",
       "full_category": "卡牌 / 材料",
       "file_name": "kapai_cailiao.json",
-      "count": 94
+      "count": 87
     },
     {
       "slug": "kapai_lingcao_danyao",
@@ -70,7 +70,7 @@
       "category": "道具&传闻",
       "full_category": "卡牌 / 道具&传闻",
       "file_name": "kapai_daoju_chuanwen.json",
-      "count": 68
+      "count": 64
     },
     {
       "slug": "kapai_qita",
@@ -140,7 +140,7 @@
       "category": "人物",
       "full_category": "人物",
       "file_name": "renwu.json",
-      "count": 15
+      "count": 18
     },
     {
       "slug": "mijing",
@@ -154,7 +154,7 @@
       "category": "地点",
       "full_category": "地点",
       "file_name": "didian.json",
-      "count": 27
+      "count": 28
     },
     {
       "slug": "renwu_task",
